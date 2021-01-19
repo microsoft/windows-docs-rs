@@ -12,7 +12,7 @@ https://microsoft.github.io/windows-docs-rs/
 
 It can be manually generated as follows:
 
-C:\git\windows-docs-rs\crates\bindings>cargo doc --target-dir ..\..\docs
+`C:\git\windows-docs-rs\crates\bindings>cargo doc --target-dir ..\..\docs`
 
 It needs to be generated in this folder so that GitHub Pages will publish it.
 
