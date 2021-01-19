@@ -1,4 +1,6 @@
-# windows-rs
+# Windows API documentation for Rust
+
+This is an experimental documentation generator for Rust.
 
 The `modules` crate generates the list of module paths to use in the bindings crate.
 
@@ -6,11 +8,11 @@ The `bindings` crate generates the documentation for the Windows API.
 
 The documentation is published using GitHub Pages:
 
-https://kennykerr.github.io/windows-rs/
+https://microsoft.github.io/windows-docs-rs/
 
 It can be manually generated as follows:
 
-C:\git\windows-rs\crates\bindings>cargo doc --target-dir ..\..\docs
+C:\git\windows-docs-rs\crates\bindings>cargo doc --target-dir ..\..\docs
 
 It needs to be generated in this folder so that GitHub Pages will publish it.
 
