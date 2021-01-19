@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IInstalledDesktopApp",""],["IInstalledDesktopAppStatics",""],["InstalledDesktopApp",""]]});

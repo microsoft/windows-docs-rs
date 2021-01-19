@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["INamedPolicyData",""],["INamedPolicyStatics",""],["NamedPolicy",""],["NamedPolicyData",""],["NamedPolicyKind",""]]});

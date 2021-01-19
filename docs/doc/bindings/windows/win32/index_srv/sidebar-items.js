@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["BindIFilterFromStorage",""],["BindIFilterFromStream",""],["LoadIFilter",""],["LoadIFilterEx",""]],"struct":[["CHUNKSTATE",""],["CHUNK_BREAKTYPE",""],["CI_STATE",""],["FILTERREGION",""],["FULLPROPSPEC",""],["IFILTER_FLAGS",""],["IFILTER_INIT",""],["IFilter",""],["IFilter_abi",""],["STAT_CHUNK",""]]});

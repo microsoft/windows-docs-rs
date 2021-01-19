@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["core",""],["provider",""]],"struct":[["IWebAuthenticationBrokerStatics",""],["IWebAuthenticationBrokerStatics2",""],["IWebAuthenticationResult",""],["TokenBindingKeyType",""],["WebAuthenticationBroker",""],["WebAuthenticationOptions",""],["WebAuthenticationResult",""],["WebAuthenticationStatus",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IRequestingFocusOnKeyboardInputEventArgs",""],["ISearchSuggestion",""],["ISearchSuggestionManager",""],["ISearchSuggestionsRequestedEventArgs",""],["RequestingFocusOnKeyboardInputEventArgs",""],["SearchSuggestion",""],["SearchSuggestionKind",""],["SearchSuggestionManager",""],["SearchSuggestionsRequestedEventArgs",""]]});

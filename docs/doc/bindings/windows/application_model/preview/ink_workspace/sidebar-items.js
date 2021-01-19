@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IInkWorkspaceHostedAppManager",""],["IInkWorkspaceHostedAppManagerStatics",""],["InkWorkspaceHostedAppManager",""]]});

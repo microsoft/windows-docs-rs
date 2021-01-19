@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Battery",""],["BatteryReport",""],["IBattery",""],["IBatteryReport",""],["IBatteryStatics",""]]});

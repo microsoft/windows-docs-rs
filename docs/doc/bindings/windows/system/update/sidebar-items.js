@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ISystemUpdateItem",""],["ISystemUpdateLastErrorInfo",""],["ISystemUpdateManagerStatics",""],["SystemUpdateAttentionRequiredReason",""],["SystemUpdateItem",""],["SystemUpdateItemState",""],["SystemUpdateLastErrorInfo",""],["SystemUpdateManager",""],["SystemUpdateManagerState",""],["SystemUpdateStartInstallAction",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Contact",""],["ContactManager",""],["IContact",""],["IContactCollection",""],["IContactCollection_abi",""],["IContactManager",""],["IContactManager_abi",""],["IContactProperties",""],["IContactProperties_abi",""],["IContactPropertyCollection",""],["IContactPropertyCollection_abi",""],["IContact_abi",""]]});

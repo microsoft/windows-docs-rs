@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["foreground",""]],"struct":[["ExtendedExecutionReason",""],["ExtendedExecutionResult",""],["ExtendedExecutionRevokedEventArgs",""],["ExtendedExecutionRevokedReason",""],["ExtendedExecutionSession",""],["IExtendedExecutionRevokedEventArgs",""],["IExtendedExecutionSession",""]]});

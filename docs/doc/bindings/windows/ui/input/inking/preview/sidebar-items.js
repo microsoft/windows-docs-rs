@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IPalmRejectionDelayZonePreview",""],["IPalmRejectionDelayZonePreviewStatics",""],["PalmRejectionDelayZonePreview",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["capture",""],["directx",""],["display",""],["effects",""],["holographic",""],["imaging",""],["printing",""],["printing3d",""]],"struct":[["DisplayAdapterId",""],["IGeometrySource2D",""],["PointInt32",""],["RectInt32",""],["SizeInt32",""]]});

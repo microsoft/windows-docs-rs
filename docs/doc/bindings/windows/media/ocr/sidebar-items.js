@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IOcrEngine",""],["IOcrEngineStatics",""],["IOcrLine",""],["IOcrResult",""],["IOcrWord",""],["OcrEngine",""],["OcrLine",""],["OcrResult",""],["OcrWord",""]]});

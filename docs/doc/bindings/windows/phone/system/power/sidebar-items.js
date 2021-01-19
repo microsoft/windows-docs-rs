@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IPowerManagerStatics",""],["IPowerManagerStatics2",""],["PowerManager",""],["PowerSavingMode",""]]});

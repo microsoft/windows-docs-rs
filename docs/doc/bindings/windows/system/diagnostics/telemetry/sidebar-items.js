@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IPlatformTelemetryClientStatics",""],["IPlatformTelemetryRegistrationResult",""],["IPlatformTelemetryRegistrationSettings",""],["PlatformTelemetryClient",""],["PlatformTelemetryRegistrationResult",""],["PlatformTelemetryRegistrationSettings",""],["PlatformTelemetryRegistrationStatus",""]]});

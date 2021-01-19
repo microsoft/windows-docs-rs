@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ISocialDashboardItemUpdater",""],["ISocialFeedUpdater",""],["ISocialInfoProviderManagerStatics",""],["SocialDashboardItemUpdater",""],["SocialFeedUpdater",""],["SocialInfoProviderManager",""]]});

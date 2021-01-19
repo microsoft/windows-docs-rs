@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IPaymentAppCanMakePaymentTriggerDetails",""],["IPaymentAppManager",""],["IPaymentAppManagerStatics",""],["IPaymentTransaction",""],["IPaymentTransactionAcceptResult",""],["IPaymentTransactionStatics",""],["PaymentAppCanMakePaymentTriggerDetails",""],["PaymentAppManager",""],["PaymentTransaction",""],["PaymentTransactionAcceptResult",""]]});

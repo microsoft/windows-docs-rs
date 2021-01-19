@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["HdmiDisplayColorSpace",""],["HdmiDisplayHdr2086Metadata",""],["HdmiDisplayHdrOption",""],["HdmiDisplayInformation",""],["HdmiDisplayMode",""],["HdmiDisplayPixelEncoding",""],["IHdmiDisplayInformation",""],["IHdmiDisplayInformationStatics",""],["IHdmiDisplayMode",""],["IHdmiDisplayMode2",""]]});

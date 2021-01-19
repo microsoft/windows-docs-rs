@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IXamlDirect",""],["IXamlDirectObject",""],["IXamlDirectStatics",""],["XamlDirect",""],["XamlEventIndex",""],["XamlPropertyIndex",""],["XamlTypeIndex",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IPreallocatedWorkItem",""],["IPreallocatedWorkItemFactory",""],["ISignalNotifier",""],["ISignalNotifierStatics",""],["PreallocatedWorkItem",""],["SignalHandler",""],["SignalNotifier",""]]});
