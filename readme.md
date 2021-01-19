@@ -1,6 +1,8 @@
 # Windows API documentation for Rust
 
-This is an experimental documentation generator for Rust.
+This is an experimental documentation generator for Rust. The documentation is published here:
+
+https://microsoft.github.io/windows-docs-rs/
 
 The `modules` crate generates the list of module paths to use in the bindings crate.
 
