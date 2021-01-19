@@ -1,0 +1,11 @@
+[package]
+name = "bindings"
+version = "0.1.0"
+authors = ["Microsoft"]
+edition = "2018"
+
+[dependencies]
+winrt = { git = "https://github.com/microsoft/windows-rs" }
+
+[build-dependencies]
+winrt = { git = "https://github.com/microsoft/windows-rs" }

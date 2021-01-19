@@ -1,0 +1,9 @@
+[package]
+name = "modules"
+version = "0.1.0"
+authors = ["Microsoft"]
+edition = "2018"
+
+[dependencies]
+windows_winmd = { git = "https://github.com/microsoft/windows-rs" }
+windows_gen = { git = "https://github.com/microsoft/windows-rs" }
