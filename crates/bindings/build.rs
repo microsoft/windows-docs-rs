@@ -401,7 +401,6 @@ fn main() {
         windows::win32::ics::*
         windows::win32::ifsk::*
         windows::win32::index_srv::*
-        windows::win32::input_dev::*
         windows::win32::input_ink::*
         windows::win32::input_int_context::*
         windows::win32::input_radial::*

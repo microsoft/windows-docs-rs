@@ -5,7 +5,7 @@ authors = ["Microsoft"]
 edition = "2018"
 
 [dependencies]
-winrt = { git = "https://github.com/microsoft/windows-rs" }
+windows = { git = "https://github.com/microsoft/windows-rs" }
 
 [build-dependencies]
-winrt = { git = "https://github.com/microsoft/windows-rs" }
+windows = { git = "https://github.com/microsoft/windows-rs" }
