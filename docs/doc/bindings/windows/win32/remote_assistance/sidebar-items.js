@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["DRendezvousSessionEvents",""],["DRendezvousSessionEvents_abi",""],["IRendezvousApplication",""],["IRendezvousApplication_abi",""],["IRendezvousSession",""],["IRendezvousSession_abi",""],["RENDEZVOUS_SESSION_FLAGS",""],["RENDEZVOUS_SESSION_STATE",""],["RendezvousApplication",""]]});

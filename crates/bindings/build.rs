@@ -338,191 +338,207 @@ fn main() {
         windows::web::syndication::*
         windows::web::ui::*
         windows::web::ui::interop::*
-        windows::win32::ad::*
-        windows::win32::adsi::*
+        windows::win32::active_directory::*
         windows::win32::all_joyn::*
-        windows::win32::amsi::*
-        windows::win32::appx_pkg::*
+        windows::win32::antimalware::*
+        windows::win32::application_installation_and_servicing::*
+        windows::win32::appx_packaging::*
         windows::win32::audio::*
         windows::win32::automation::*
-        windows::win32::backup::*
-        windows::win32::base::*
-        windows::win32::bits::*
+        windows::win32::background_intelligent_transfer_service::*
         windows::win32::bluetooth::*
-        windows::win32::buses::*
-        windows::win32::cloudapi::*
-        windows::win32::cmp_api::*
+        windows::win32::cloud_filters::*
         windows::win32::com::*
+        windows::win32::component_services::*
+        windows::win32::compression::*
         windows::win32::controls::*
         windows::win32::core_audio::*
-        windows::win32::cos::*
-        windows::win32::dshow::*
-        windows::win32::data_xchg::*
+        windows::win32::data_deduplication::*
+        windows::win32::data_exchange::*
         windows::win32::debug::*
-        windows::win32::dedup::*
-        windows::win32::dev_inst::*
-        windows::win32::dev_lic::*
+        windows::win32::developer_licensing::*
         windows::win32::device_access::*
-        windows::win32::dfs::*
+        windows::win32::device_and_driver_installation::*
         windows::win32::dhcp::*
         windows::win32::direct2d::*
         windows::win32::direct3d10::*
         windows::win32::direct3d11::*
         windows::win32::direct3d12::*
         windows::win32::direct3d9::*
-        windows::win32::direct3d_dxgi::*
         windows::win32::direct3d_hlsl::*
-        windows::win32::direct_comp::*
+        windows::win32::direct_composition::*
         windows::win32::direct_draw::*
-        windows::win32::direct_manipulation::*
         windows::win32::direct_ml::*
+        windows::win32::direct_manipulation::*
+        windows::win32::direct_show::*
         windows::win32::direct_write::*
-        windows::win32::dlg_box::*
+        windows::win32::display_devices::*
+        windows::win32::distributed_file_system::*
         windows::win32::dns::*
         windows::win32::dwm::*
-        windows::win32::eap::*
-        windows::win32::eap_host::*
-        windows::win32::edp::*
-        windows::win32::enstor::*
+        windows::win32::dxgi::*
+        windows::win32::enhanced_storage::*
         windows::win32::etw::*
+        windows::win32::extensible_authentication_protocol::*
         windows::win32::fax::*
-        windows::win32::fs::*
-        windows::win32::fsrm::*
-        windows::win32::fwp::*
+        windows::win32::file_sever_resource_manager::*
+        windows::win32::file_system::*
         windows::win32::game_mode::*
-        windows::win32::gaming_dvc_info::*
+        windows::win32::gaming_device_info::*
         windows::win32::gdi::*
-        windows::win32::gpmc::*
+        windows::win32::group_policy_management_console::*
+        windows::win32::hardware_counter_profiling::*
+        windows::win32::hi_dpi::*
         windows::win32::hid::*
         windows::win32::html_help::*
         windows::win32::http::*
         windows::win32::imapi::*
         windows::win32::iscsi_disc::*
-        windows::win32::ics::*
-        windows::win32::ifsk::*
-        windows::win32::index_srv::*
-        windows::win32::input_ink::*
-        windows::win32::input_int_context::*
-        windows::win32::input_radial::*
+        windows::win32::index_server::*
+        windows::win32::ink_input::*
+        windows::win32::installable_file_systems::*
+        windows::win32::interaction_context::*
         windows::win32::intl::*
-        windows::win32::ip_hlp::*
-        windows::win32::ixhr2::*
+        windows::win32::ip_helper::*
+        windows::win32::ipc::*
         windows::win32::js::*
         windows::win32::kernel::*
+        windows::win32::keyboard_and_mouse_input::*
         windows::win32::ldap::*
-        windows::win32::lwef::*
+        windows::win32::legacy_windows_environment_features::*
+        windows::win32::location::*
         windows::win32::machine_learning::*
-        windows::win32::mad_cap::*
-        windows::win32::mag_api::*
+        windows::win32::magnification::*
         windows::win32::mapi::*
         windows::win32::mbn::*
-        windows::win32::mdm_reg::*
+        windows::win32::media_foundation::*
         windows::win32::media_transport::*
-        windows::win32::menu_rc::*
-        windows::win32::mf::*
+        windows::win32::menus_and_resources::*
+        windows::win32::mib::*
         windows::win32::mixed_reality::*
         windows::win32::mmc::*
+        windows::win32::mobile_broadband::*
+        windows::win32::mobile_device_management_registration::*
         windows::win32::monitor::*
-        windows::win32::ms_chap::*
-        windows::win32::ms_cs::*
-        windows::win32::ms_tv::*
+        windows::win32::multicast::*
         windows::win32::multimedia::*
-        windows::win32::nwifi::*
-        windows::win32::ncd::*
-        windows::win32::ndf::*
+        windows::win32::native_wi_fi::*
         windows::win32::net_bios::*
-        windows::win32::net_mgmt::*
+        windows::win32::net_management::*
         windows::win32::net_shell::*
-        windows::win32::nla::*
-        windows::win32::nps::*
-        windows::win32::of::*
-        windows::win32::opc::*
+        windows::win32::network_diagnostics_framework::*
+        windows::win32::network_drivers::*
+        windows::win32::network_list_manager::*
+        windows::win32::network_policy_server::*
+        windows::win32::offline_files::*
+        windows::win32::open_gl::*
+        windows::win32::operation_recorder::*
+        windows::win32::other_device_technologies::*
         windows::win32::p2p::*
-        windows::win32::parcon::*
+        windows::win32::packaging::*
+        windows::win32::parental_controls::*
+        windows::win32::password_management::*
         windows::win32::perf::*
-        windows::win32::pic_acq::*
-        windows::win32::pla::*
+        windows::win32::performance_log_and_alerts::*
+        windows::win32::photo_acquire::*
+        windows::win32::pointer_input::*
         windows::win32::policy::*
-        windows::win32::proc_snap::*
-        windows::win32::proj_fs::*
-        windows::win32::properties::*
-        windows::win32::ps_api::*
-        windows::win32::qos::*
-        windows::win32::rras::*
-        windows::win32::rdc::*
-        windows::win32::rdp::*
-        windows::win32::remote_assist::*
-        windows::win32::rm::*
+        windows::win32::power::*
+        windows::win32::print_docs::*
+        windows::win32::process_snapshotting::*
+        windows::win32::process_status::*
+        windows::win32::projected_file_system::*
+        windows::win32::quality_of_service::*
+        windows::win32::radial_input::*
+        windows::win32::recovery::*
+        windows::win32::remote_assistance::*
+        windows::win32::remote_desktop_services::*
+        windows::win32::remote_differential_compression::*
+        windows::win32::restart_manager::*
+        windows::win32::rights_management::*
+        windows::win32::routing_and_remote_access_service::*
         windows::win32::rpc::*
-        windows::win32::rst_mgr::*
         windows::win32::search::*
-        windows::win32::sec_bitomet::*
         windows::win32::security::*
-        windows::win32::sens::*
-        windows::win32::ser_ports::*
-        windows::win32::setup::*
+        windows::win32::sensors::*
+        windows::win32::serial_controller::*
+        windows::win32::services::*
+        windows::win32::settings_management_infrastructure::*
         windows::win32::shell::*
-        windows::win32::smi::*
         windows::win32::snmp::*
-        windows::win32::sr::*
-        windows::win32::stg::*
-        windows::win32::sw_device::*
-        windows::win32::tablet::*
-        windows::win32::tapi3::*
-        windows::win32::task_schd::*
-        windows::win32::tbs::*
-        windows::win32::tcui::*
-        windows::win32::term_serv::*
+        windows::win32::software_device::*
+        windows::win32::streaming_media::*
+        windows::win32::structured_storage::*
+        windows::win32::sync::*
+        windows::win32::system_event_notification_service::*
+        windows::win32::system_restore::*
+        windows::win32::system_services::*
+        windows::win32::tablet_pc::*
+        windows::win32::tapi::*
+        windows::win32::task_scheduler::*
+        windows::win32::text_services::*
+        windows::win32::tiles_badges_notifications::*
+        windows::win32::title_callable_ui::*
         windows::win32::tool_help::*
-        windows::win32::tsf::*
-        windows::win32::ual::*
+        windows::win32::touch_input::*
+        windows::win32::tpm_base_services::*
         windows::win32::ui_animation::*
         windows::win32::upnp::*
-        windows::win32::vstor::*
-        windows::win32::wab::*
-        windows::win32::wcm::*
-        windows::win32::wcn::*
-        windows::win32::wcs::*
-        windows::win32::wds::*
+        windows::win32::ual::*
+        windows::win32::usb_drivers::*
+        windows::win32::user_access_logging::*
+        windows::win32::virtual_storage::*
         windows::win32::web_dav::*
         windows::win32::web_sock::*
-        windows::win32::wec::*
-        windows::win32::wer::*
-        windows::win32::wes::*
         windows::win32::wia::*
-        windows::win32::wibe::*
-        windows::win32::wic::*
-        windows::win32::win32_tile_badge_notif::*
-        windows::win32::win_auto::*
-        windows::win32::win_contacts::*
         windows::win32::win_inet::*
-        windows::win32::win_location::*
-        windows::win32::win_prog::*
         windows::win32::winrt::*
-        windows::win32::win_rm::*
-        windows::win32::win_sat::*
-        windows::win32::win_sensors::*
         windows::win32::win_sock::*
-        windows::win32::win_sync::*
-        windows::win32::win_touch::*
+        windows::win32::windows_accessibility::*
+        windows::win32::windows_address_book::*
+        windows::win32::windows_and_messaging::*
+        windows::win32::windows_biometric_framework::*
+        windows::win32::windows_clustering::*
+        windows::win32::windows_color_system::*
+        windows::win32::windows_connect_now::*
+        windows::win32::windows_connection_manager::*
+        windows::win32::windows_contacts::*
+        windows::win32::windows_deployment_services::*
+        windows::win32::windows_desktop_sharing::*
+        windows::win32::windows_error_reporting::*
+        windows::win32::windows_event_collector::*
+        windows::win32::windows_event_log::*
+        windows::win32::windows_filtering::*
+        windows::win32::windows_firewall::*
+        windows::win32::windows_imaging_component::*
+        windows::win32::windows_information_protection::*
+        windows::win32::windows_media_device_manager::*
+        windows::win32::windows_media_format::*
+        windows::win32::windows_media_library_sharing_services::*
+        windows::win32::windows_media_player::*
+        windows::win32::windows_network_virtualization::*
+        windows::win32::windows_networking::*
+        windows::win32::windows_portable_devices::*
+        windows::win32::windows_programming::*
+        windows::win32::windows_properties_system::*
+        windows::win32::windows_remote_management::*
         windows::win32::windows_ribbon::*
+        windows::win32::windows_server_backup::*
         windows::win32::windows_setup_and_migration::*
-        windows::win32::wm_format::*
-        windows::win32::wmdm::*
+        windows::win32::windows_stations_and_desktops::*
+        windows::win32::windows_subsystem_for_linux::*
+        windows::win32::windows_sync::*
+        windows::win32::windows_system_assessment_tool::*
+        windows::win32::windows_update_agent::*
+        windows::win32::windows_web_services::*
         windows::win32::wmi::*
-        windows::win32::wmlss::*
-        windows::win32::wmp::*
-        windows::win32::wnet::*
-        windows::win32::wnv::*
-        windows::win32::wpd_sdk::*
-        windows::win32::wsb::*
-        windows::win32::wsl::*
-        windows::win32::wsw::*
-        windows::win32::wua::*
+        windows::win32::wpf_bitmap_effects::*
         windows::win32::xaudio2::*
         windows::win32::xinput::*
+        windows::win32::xaml_diagnostics::*
         windows::win32::xaml_diganostics::*
         windows::win32::xblidp::*
+        windows::win32::xml_http_extended_request::*
         windows::win32::xps::*
     );
 }

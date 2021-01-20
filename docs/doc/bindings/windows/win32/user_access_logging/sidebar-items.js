@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["DoMsCtfMonitor",""],["UalInstrument",""],["UalRegisterProduct",""],["UalStart",""],["UalStop",""]],"struct":[["IEnumSpeechCommands",""],["IEnumSpeechCommands_abi",""],["ISpeechCommandProvider",""],["ISpeechCommandProvider_abi",""],["ITfFnCustomSpeechCommand",""],["ITfFnCustomSpeechCommand_abi",""],["UAL_DATA_BLOB",""]]});

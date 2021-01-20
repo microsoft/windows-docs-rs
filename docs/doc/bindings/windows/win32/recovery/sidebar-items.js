@@ -1,0 +1,1 @@
+initSidebarItems({"fn":[["ApplicationRecoveryFinished",""],["ApplicationRecoveryInProgress",""],["GetApplicationRecoveryCallback",""],["GetApplicationRestartSettings",""],["RegisterApplicationRecoveryCallback",""],["RegisterApplicationRestart",""],["UnregisterApplicationRecoveryCallback",""],["UnregisterApplicationRestart",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["IInertiaProcessor",""],["IInertiaProcessor_abi",""],["IManipulationProcessor",""],["IManipulationProcessor_abi",""],["InertiaProcessor",""],["MANIPULATION_PROCESSOR_MANIPULATIONS",""],["ManipulationProcessor",""],["_IManipulationEvents",""],["_IManipulationEvents_abi",""]]});
