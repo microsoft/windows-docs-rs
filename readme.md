@@ -1,6 +1,6 @@
 # Windows API documentation for Rust
 
-This is an experimental documentation generator for Rust. The documentation is published here:
+This is an experimental documentation generator for the [Rust for Windows](https://github.com/microsoft/windows-rs) project. The documentation is published here:
 
 https://microsoft.github.io/windows-docs-rs/
 
