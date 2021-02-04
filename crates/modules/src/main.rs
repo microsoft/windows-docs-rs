@@ -12,6 +12,6 @@ fn main() {
             print!("{}::", windows_gen::to_snake(namespace));
         }
 
-        println!("*");
+        println!("*,");
     }
 }
