@@ -1,5 +1,6 @@
-target
-debug
-Cargo.lock
-.vs
 /docs/.rustc_info.json
+/.vs
+/crates/bindings/target
+/crates/modules/target
+/docs/debug
+Cargo.lock
