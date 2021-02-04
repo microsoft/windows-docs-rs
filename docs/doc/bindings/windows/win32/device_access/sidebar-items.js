@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["CreateDeviceAccessInstance",""]],"struct":[["ICreateDeviceAccessAsync",""],["ICreateDeviceAccessAsync_abi",""],["IDeviceIoControl",""],["IDeviceIoControl_abi",""],["IDeviceRequestCompletionCallback",""],["IDeviceRequestCompletionCallback_abi",""]]});
+initSidebarItems({"fn":[["CreateDeviceAccessInstance",""]],"struct":[["Apis",""],["ICreateDeviceAccessAsync",""],["ICreateDeviceAccessAsync_abi",""],["IDeviceIoControl",""],["IDeviceIoControl_abi",""],["IDeviceRequestCompletionCallback",""],["IDeviceRequestCompletionCallback_abi",""]]});

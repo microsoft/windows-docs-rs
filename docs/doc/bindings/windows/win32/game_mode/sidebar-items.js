@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["GetExpandedResourceExclusiveCpuCount",""],["HasExpandedResources",""],["ReleaseExclusiveCpuSets",""]]});
+initSidebarItems({"fn":[["GetExpandedResourceExclusiveCpuCount",""],["HasExpandedResources",""],["ReleaseExclusiveCpuSets",""]],"struct":[["Apis",""]]});

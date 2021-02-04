@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["ComDBClaimNextFreePort",""],["ComDBClaimPort",""],["ComDBClose",""],["ComDBGetCurrentPortUsage",""],["ComDBOpen",""],["ComDBReleasePort",""],["ComDBResizeDatabase",""]],"struct":[["HCOMDB__",""]]});
+initSidebarItems({"fn":[["ComDBClaimNextFreePort",""],["ComDBClaimPort",""],["ComDBClose",""],["ComDBGetCurrentPortUsage",""],["ComDBOpen",""],["ComDBReleasePort",""],["ComDBResizeDatabase",""]],"struct":[["Apis",""],["HCOMDB__",""]]});

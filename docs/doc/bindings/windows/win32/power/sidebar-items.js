@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["PowerReadACDefaultIndex",""],["PowerReadACValueIndex",""],["PowerReadDCDefaultIndex",""],["PowerReadDCValueIndex",""],["PowerWriteACDefaultIndex",""],["PowerWriteACValueIndex",""],["PowerWriteDCDefaultIndex",""],["PowerWriteDCValueIndex",""]]});
+initSidebarItems({"fn":[["PowerReadACDefaultIndex",""],["PowerReadACValueIndex",""],["PowerReadDCDefaultIndex",""],["PowerReadDCValueIndex",""],["PowerWriteACDefaultIndex",""],["PowerWriteACValueIndex",""],["PowerWriteDCDefaultIndex",""],["PowerWriteDCValueIndex",""]],"struct":[["Apis",""]]});

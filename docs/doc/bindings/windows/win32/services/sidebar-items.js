@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["ChangeServiceConfigA",""],["ChangeServiceConfigW",""],["CreateServiceA",""],["CreateServiceW",""]]});
+initSidebarItems({"fn":[["ChangeServiceConfigA",""],["ChangeServiceConfigW",""],["CreateServiceA",""],["CreateServiceW",""]],"struct":[["Apis",""]]});

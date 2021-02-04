@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["SRSetRestorePointA",""],["SRSetRestorePointW",""]],"struct":[["RESTOREPOINTINFOA",""],["RESTOREPOINTINFOW",""],["STATEMGRSTATUS",""],["_RESTOREPTINFOEX",""]]});
+initSidebarItems({"fn":[["SRSetRestorePointA",""],["SRSetRestorePointW",""]],"struct":[["Apis",""],["RESTOREPOINTINFOA",""],["RESTOREPOINTINFOW",""],["STATEMGRSTATUS",""],["_RESTOREPTINFOEX",""]]});

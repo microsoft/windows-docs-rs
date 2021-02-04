@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["CreateNamedPipeA",""],["WaitNamedPipeA",""]]});
+initSidebarItems({"fn":[["CreateNamedPipeA",""],["WaitNamedPipeA",""]],"struct":[["Apis",""]]});

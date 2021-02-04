@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["CreatePrivateNamespaceA",""],["EnterCriticalSection",""],["OpenPrivateNamespaceA",""]]});
+initSidebarItems({"fn":[["CreatePrivateNamespaceA",""],["EnterCriticalSection",""],["OpenPrivateNamespaceA",""]],"struct":[["Apis",""]]});
