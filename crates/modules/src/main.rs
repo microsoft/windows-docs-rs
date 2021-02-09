@@ -1,5 +1,5 @@
 fn main() {
-    let reader = windows_winmd::TypeReader::get();
+    let reader = gen::winmd::TypeReader::get();
 
     for namespace in reader.namespaces() {
         if !namespace.starts_with("Windows.") {
@@ -9,7 +9,7 @@ fn main() {
         print!("        ");
 
         for namespace in namespace.split('.') {
-            print!("{}::", windows_gen::to_snake(namespace));
+            print!("{}::", gen::to_snake(namespace));
         }
 
         println!("*,");
