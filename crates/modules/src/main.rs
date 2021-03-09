@@ -1,5 +1,5 @@
 fn main() {
-    let reader = gen::winmd::TypeReader::get();
+    let reader = gen::TypeReader::get();
 
     for namespace in reader.namespaces() {
         if !namespace.starts_with("Windows.") {
