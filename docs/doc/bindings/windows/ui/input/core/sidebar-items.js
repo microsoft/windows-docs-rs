@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IRadialControllerIndependentInputSource",""],["IRadialControllerIndependentInputSource2",""],["IRadialControllerIndependentInputSourceStatics",""],["RadialControllerIndependentInputSource",""]]});
+initSidebarItems({"struct":[["RadialControllerIndependentInputSource",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HtmlUtilities",""],["IHtmlUtilities",""]]});
+initSidebarItems({"struct":[["HtmlUtilities",""]]});

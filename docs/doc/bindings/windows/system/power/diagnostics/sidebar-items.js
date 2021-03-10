@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BackgroundEnergyDiagnostics",""],["ForegroundEnergyDiagnostics",""],["IBackgroundEnergyDiagnosticsStatics",""],["IForegroundEnergyDiagnosticsStatics",""]]});
+initSidebarItems({"struct":[["BackgroundEnergyDiagnostics",""],["ForegroundEnergyDiagnostics",""]]});

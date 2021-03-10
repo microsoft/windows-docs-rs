@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IXsltProcessor",""],["IXsltProcessor2",""],["IXsltProcessorFactory",""],["XsltProcessor",""]]});
+initSidebarItems({"struct":[["XsltProcessor",""]]});

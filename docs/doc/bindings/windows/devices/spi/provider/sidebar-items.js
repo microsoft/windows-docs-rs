@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IProviderSpiConnectionSettings",""],["IProviderSpiConnectionSettingsFactory",""],["ISpiControllerProvider",""],["ISpiDeviceProvider",""],["ISpiProvider",""],["ProviderSpiConnectionSettings",""],["ProviderSpiMode",""],["ProviderSpiSharingMode",""]]});
+initSidebarItems({"struct":[["ISpiControllerProvider",""],["ISpiDeviceProvider",""],["ISpiProvider",""],["ProviderSpiConnectionSettings",""],["ProviderSpiMode",""],["ProviderSpiSharingMode",""]]});

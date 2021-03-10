@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IWindowManagementPreview",""],["IWindowManagementPreviewStatics",""],["WindowManagementPreview",""]]});
+initSidebarItems({"struct":[["WindowManagementPreview",""]]});

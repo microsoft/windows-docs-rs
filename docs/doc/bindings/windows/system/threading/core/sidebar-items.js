@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IPreallocatedWorkItem",""],["IPreallocatedWorkItemFactory",""],["ISignalNotifier",""],["ISignalNotifierStatics",""],["PreallocatedWorkItem",""],["SignalHandler",""],["SignalNotifier",""]]});
+initSidebarItems({"struct":[["PreallocatedWorkItem",""],["SignalHandler",""],["SignalNotifier",""]]});

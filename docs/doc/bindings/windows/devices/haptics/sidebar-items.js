@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IKnownSimpleHapticsControllerWaveformsStatics",""],["ISimpleHapticsController",""],["ISimpleHapticsControllerFeedback",""],["IVibrationDevice",""],["IVibrationDeviceStatics",""],["KnownSimpleHapticsControllerWaveforms",""],["SimpleHapticsController",""],["SimpleHapticsControllerFeedback",""],["VibrationAccessStatus",""],["VibrationDevice",""]]});
+initSidebarItems({"struct":[["KnownSimpleHapticsControllerWaveforms",""],["SimpleHapticsController",""],["SimpleHapticsControllerFeedback",""],["VibrationAccessStatus",""],["VibrationDevice",""]]});

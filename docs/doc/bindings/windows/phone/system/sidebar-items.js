@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["power",""],["profile",""],["user_profile",""]],"struct":[["ISystemProtectionStatics",""],["ISystemProtectionUnlockStatics",""],["SystemProtection",""]]});
+initSidebarItems({"mod":[["power",""],["profile",""],["user_profile",""]],"struct":[["SystemProtection",""]]});

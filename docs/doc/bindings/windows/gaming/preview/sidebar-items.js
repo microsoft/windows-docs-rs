@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["games_enumeration",""]]});
+initSidebarItems({"mod":[["games_enumeration",""]],"struct":[["GamesEnumerationContract",""]]});

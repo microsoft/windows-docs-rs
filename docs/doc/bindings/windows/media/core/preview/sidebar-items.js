@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ISoundLevelBrokerStatics",""],["SoundLevelBroker",""]]});
+initSidebarItems({"struct":[["SoundLevelBroker",""]]});

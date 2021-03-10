@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BackPressedEventArgs",""],["CameraEventArgs",""],["HardwareButtons",""],["IBackPressedEventArgs",""],["ICameraEventArgs",""],["IHardwareButtonsStatics",""],["IHardwareButtonsStatics2",""]]});
+initSidebarItems({"struct":[["BackPressedEventArgs",""],["CameraEventArgs",""],["HardwareButtons",""]]});

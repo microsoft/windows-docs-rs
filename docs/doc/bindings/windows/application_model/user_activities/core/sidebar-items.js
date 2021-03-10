@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CoreUserActivityManager",""],["ICoreUserActivityManagerStatics",""]]});
+initSidebarItems({"struct":[["CoreUserActivityManager",""]]});

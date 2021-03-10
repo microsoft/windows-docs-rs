@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["effects",""]],"struct":[["ILamp",""],["ILampArray",""],["ILampArrayStatics",""],["ILampAvailabilityChangedEventArgs",""],["ILampInfo",""],["ILampStatics",""],["Lamp",""],["LampArray",""],["LampArrayKind",""],["LampAvailabilityChangedEventArgs",""],["LampInfo",""],["LampPurposes",""]]});
+initSidebarItems({"mod":[["effects",""]],"struct":[["Lamp",""],["LampArray",""],["LampArrayKind",""],["LampAvailabilityChangedEventArgs",""],["LampInfo",""],["LampPurposes",""]]});

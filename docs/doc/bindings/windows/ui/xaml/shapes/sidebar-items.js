@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Ellipse",""],["IEllipse",""],["ILine",""],["ILineStatics",""],["IPath",""],["IPathFactory",""],["IPathStatics",""],["IPolygon",""],["IPolygonStatics",""],["IPolyline",""],["IPolylineStatics",""],["IRectangle",""],["IRectangleStatics",""],["IShape",""],["IShape2",""],["IShapeFactory",""],["IShapeStatics",""],["Line",""],["Path",""],["Polygon",""],["Polyline",""],["Rectangle",""],["Shape",""]]});
+initSidebarItems({"struct":[["Ellipse",""],["Line",""],["Path",""],["Polygon",""],["Polyline",""],["Rectangle",""],["Shape",""]]});

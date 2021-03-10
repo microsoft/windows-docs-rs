@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AppBroadcastingMonitor",""],["AppBroadcastingStatus",""],["AppBroadcastingStatusDetails",""],["AppBroadcastingUI",""],["IAppBroadcastingMonitor",""],["IAppBroadcastingStatus",""],["IAppBroadcastingStatusDetails",""],["IAppBroadcastingUI",""],["IAppBroadcastingUIStatics",""]]});
+initSidebarItems({"struct":[["AppBroadcastingContract",""],["AppBroadcastingMonitor",""],["AppBroadcastingStatus",""],["AppBroadcastingStatusDetails",""],["AppBroadcastingUI",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CommunicationBlockingAccessManager",""],["CommunicationBlockingAppManager",""],["ICommunicationBlockingAccessManagerStatics",""],["ICommunicationBlockingAppManagerStatics",""],["ICommunicationBlockingAppManagerStatics2",""]]});
+initSidebarItems({"struct":[["CommunicationBlockingAccessManager",""],["CommunicationBlockingAppManager",""],["CommunicationBlockingContract",""]]});

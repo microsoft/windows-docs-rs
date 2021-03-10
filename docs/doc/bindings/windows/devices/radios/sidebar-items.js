@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IRadio",""],["IRadioStatics",""],["Radio",""],["RadioAccessStatus",""],["RadioKind",""],["RadioState",""]]});
+initSidebarItems({"struct":[["Radio",""],["RadioAccessStatus",""],["RadioKind",""],["RadioState",""]]});

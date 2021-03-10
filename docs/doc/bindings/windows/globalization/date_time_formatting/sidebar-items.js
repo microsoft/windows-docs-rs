@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DateTimeFormatter",""],["DayFormat",""],["DayOfWeekFormat",""],["HourFormat",""],["IDateTimeFormatter",""],["IDateTimeFormatter2",""],["IDateTimeFormatterFactory",""],["IDateTimeFormatterStatics",""],["MinuteFormat",""],["MonthFormat",""],["SecondFormat",""],["YearFormat",""]]});
+initSidebarItems({"struct":[["DateTimeFormatter",""],["DayFormat",""],["DayOfWeekFormat",""],["HourFormat",""],["MinuteFormat",""],["MonthFormat",""],["SecondFormat",""],["YearFormat",""]]});

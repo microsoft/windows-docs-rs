@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ContentAccessRestrictionLevel",""],["ContentRestrictionsBrowsePolicy",""],["IContentRestrictionsBrowsePolicy",""],["IRatedContentDescription",""],["IRatedContentDescriptionFactory",""],["IRatedContentRestrictions",""],["IRatedContentRestrictionsFactory",""],["RatedContentCategory",""],["RatedContentDescription",""],["RatedContentRestrictions",""]]});
+initSidebarItems({"struct":[["ContentAccessRestrictionLevel",""],["ContentRestrictionsBrowsePolicy",""],["RatedContentCategory",""],["RatedContentDescription",""],["RatedContentRestrictions",""]]});

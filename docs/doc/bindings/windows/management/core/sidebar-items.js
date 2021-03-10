@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ApplicationDataManager",""],["IApplicationDataManager",""],["IApplicationDataManagerStatics",""]]});
+initSidebarItems({"struct":[["ApplicationDataManager",""]]});

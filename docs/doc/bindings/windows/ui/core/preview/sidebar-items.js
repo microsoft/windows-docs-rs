@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CoreAppWindowPreview",""],["ICoreAppWindowPreview",""],["ICoreAppWindowPreviewStatics",""],["ISystemNavigationCloseRequestedPreviewEventArgs",""],["ISystemNavigationManagerPreview",""],["ISystemNavigationManagerPreviewStatics",""],["SystemNavigationCloseRequestedPreviewEventArgs",""],["SystemNavigationManagerPreview",""]]});
+initSidebarItems({"struct":[["CoreAppWindowPreview",""],["SystemNavigationCloseRequestedPreviewEventArgs",""],["SystemNavigationManagerPreview",""]]});

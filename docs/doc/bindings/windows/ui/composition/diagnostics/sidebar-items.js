@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CompositionDebugHeatMaps",""],["CompositionDebugOverdrawContentKinds",""],["CompositionDebugSettings",""],["ICompositionDebugHeatMaps",""],["ICompositionDebugSettings",""],["ICompositionDebugSettingsStatics",""]]});
+initSidebarItems({"struct":[["CompositionDebugHeatMaps",""],["CompositionDebugOverdrawContentKinds",""],["CompositionDebugSettings",""]]});

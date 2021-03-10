@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IOemSupportInfo",""],["ISmbiosInformationStatics",""],["ISystemSupportDeviceInfo",""],["ISystemSupportInfoStatics",""],["ISystemSupportInfoStatics2",""],["OemSupportInfo",""],["SmbiosInformation",""],["SystemSupportDeviceInfo",""],["SystemSupportInfo",""]]});
+initSidebarItems({"struct":[["OemSupportInfo",""],["SmbiosInformation",""],["SystemManufacturersContract",""],["SystemSupportDeviceInfo",""],["SystemSupportInfo",""]]});

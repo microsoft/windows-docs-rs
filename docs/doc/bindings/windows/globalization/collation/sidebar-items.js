@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CharacterGrouping",""],["CharacterGroupings",""],["ICharacterGrouping",""],["ICharacterGroupings",""],["ICharacterGroupingsFactory",""]]});
+initSidebarItems({"struct":[["CharacterGrouping",""],["CharacterGroupings",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ContactPartnerProvisioningManager",""],["IContactPartnerProvisioningManagerStatics",""],["IContactPartnerProvisioningManagerStatics2",""],["IMessagePartnerProvisioningManagerStatics",""],["MessagePartnerProvisioningManager",""]]});
+initSidebarItems({"struct":[["ContactPartnerProvisioningManager",""],["MessagePartnerProvisioningManager",""]]});

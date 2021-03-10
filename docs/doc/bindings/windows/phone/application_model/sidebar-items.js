@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ApplicationProfile",""],["ApplicationProfileModes",""],["IApplicationProfileStatics",""]]});
+initSidebarItems({"struct":[["ApplicationProfile",""],["ApplicationProfileModes",""]]});

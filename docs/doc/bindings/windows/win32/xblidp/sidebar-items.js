@@ -1,1 +1,1 @@
-initSidebarItems({"constant":[["XblIdpAuthManager",""],["XblIdpAuthTokenResult",""]],"struct":[["Apis",""],["IXblIdpAuthManager",""],["IXblIdpAuthManager_abi",""],["IXblIdpAuthTokenResult",""],["IXblIdpAuthTokenResult2",""],["IXblIdpAuthTokenResult2_abi",""],["IXblIdpAuthTokenResult_abi",""],["XBL_IDP_AUTH_TOKEN_STATUS",""]]});
+initSidebarItems({"constant":[["XblIdpAuthManager",""],["XblIdpAuthTokenResult",""]],"struct":[["Apis",""],["IXblIdpAuthManager",""],["IXblIdpAuthTokenResult",""],["IXblIdpAuthTokenResult2",""],["XBL_IDP_AUTH_TOKEN_STATUS",""]]});

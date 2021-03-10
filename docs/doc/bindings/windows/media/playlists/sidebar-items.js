@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IPlaylist",""],["IPlaylistStatics",""],["Playlist",""],["PlaylistFormat",""]]});
+initSidebarItems({"struct":[["Playlist",""],["PlaylistFormat",""],["PlaylistsContract",""]]});

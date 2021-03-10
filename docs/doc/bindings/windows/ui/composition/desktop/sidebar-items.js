@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DesktopWindowTarget",""],["IDesktopWindowTarget",""]]});
+initSidebarItems({"struct":[["DesktopWindowTarget",""]]});

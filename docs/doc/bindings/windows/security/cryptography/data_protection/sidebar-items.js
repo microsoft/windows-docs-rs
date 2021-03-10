@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DataProtectionProvider",""],["IDataProtectionProvider",""],["IDataProtectionProviderFactory",""]]});
+initSidebarItems({"struct":[["DataProtectionProvider",""]]});

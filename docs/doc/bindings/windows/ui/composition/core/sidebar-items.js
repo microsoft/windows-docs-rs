@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CompositorController",""],["ICompositorController",""]]});
+initSidebarItems({"struct":[["CompositorController",""]]});

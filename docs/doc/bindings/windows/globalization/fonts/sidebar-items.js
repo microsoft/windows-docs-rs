@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ILanguageFont",""],["ILanguageFontGroup",""],["ILanguageFontGroupFactory",""],["LanguageFont",""],["LanguageFontGroup",""]]});
+initSidebarItems({"struct":[["LanguageFont",""],["LanguageFontGroup",""]]});

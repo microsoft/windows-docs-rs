@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IMdmAllowPolicyStatics",""],["IMdmPolicyStatics2",""],["IWorkplaceSettingsStatics",""],["MdmPolicy",""],["MessagingSyncPolicy",""],["WorkplaceSettings",""]]});
+initSidebarItems({"struct":[["MdmPolicy",""],["MessagingSyncPolicy",""],["WorkplaceSettings",""],["WorkplaceSettingsContract",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ILockApplicationHost",""],["ILockApplicationHostStatics",""],["ILockScreenBadge",""],["ILockScreenInfo",""],["ILockScreenUnlockingDeferral",""],["ILockScreenUnlockingEventArgs",""],["LockApplicationHost",""],["LockScreenBadge",""],["LockScreenInfo",""],["LockScreenUnlockingDeferral",""],["LockScreenUnlockingEventArgs",""]]});
+initSidebarItems({"struct":[["LockApplicationHost",""],["LockScreenBadge",""],["LockScreenInfo",""],["LockScreenUnlockingDeferral",""],["LockScreenUnlockingEventArgs",""]]});

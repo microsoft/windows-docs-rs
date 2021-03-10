@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IPreviewBuildsManager",""],["IPreviewBuildsManagerStatics",""],["IPreviewBuildsState",""],["PreviewBuildsManager",""],["PreviewBuildsState",""]]});
+initSidebarItems({"struct":[["PreviewBuildsManager",""],["PreviewBuildsState",""]]});

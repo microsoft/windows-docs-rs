@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["provider",""]],"struct":[["ISpiBusInfo",""],["ISpiConnectionSettings",""],["ISpiConnectionSettingsFactory",""],["ISpiController",""],["ISpiControllerStatics",""],["ISpiDevice",""],["ISpiDeviceStatics",""],["SpiBusInfo",""],["SpiConnectionSettings",""],["SpiController",""],["SpiDevice",""],["SpiMode",""],["SpiSharingMode",""]]});
+initSidebarItems({"mod":[["provider",""]],"struct":[["ISpiDeviceStatics",""],["SpiBusInfo",""],["SpiConnectionSettings",""],["SpiController",""],["SpiDevice",""],["SpiMode",""],["SpiSharingMode",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AddAppointmentOperation",""],["AppointmentsProviderLaunchActionVerbs",""],["IAddAppointmentOperation",""],["IAppointmentsProviderLaunchActionVerbsStatics",""],["IAppointmentsProviderLaunchActionVerbsStatics2",""],["IRemoveAppointmentOperation",""],["IReplaceAppointmentOperation",""],["RemoveAppointmentOperation",""],["ReplaceAppointmentOperation",""]]});
+initSidebarItems({"struct":[["AddAppointmentOperation",""],["AppointmentsProviderLaunchActionVerbs",""],["RemoveAppointmentOperation",""],["ReplaceAppointmentOperation",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IScreenReaderPositionChangedEventArgs",""],["IScreenReaderService",""],["ScreenReaderPositionChangedEventArgs",""],["ScreenReaderService",""]]});
+initSidebarItems({"struct":[["ScreenReaderPositionChangedEventArgs",""],["ScreenReaderService",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IPnpObject",""],["IPnpObjectStatics",""],["IPnpObjectUpdate",""],["IPnpObjectWatcher",""],["PnpObject",""],["PnpObjectCollection",""],["PnpObjectType",""],["PnpObjectUpdate",""],["PnpObjectWatcher",""]]});
+initSidebarItems({"struct":[["PnpObject",""],["PnpObjectCollection",""],["PnpObjectType",""],["PnpObjectUpdate",""],["PnpObjectWatcher",""]]});

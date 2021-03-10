@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IPhoneNumberFormatter",""],["IPhoneNumberFormatterStatics",""],["IPhoneNumberInfo",""],["IPhoneNumberInfoFactory",""],["IPhoneNumberInfoStatics",""],["PhoneNumberFormat",""],["PhoneNumberFormatter",""],["PhoneNumberInfo",""],["PhoneNumberMatchResult",""],["PhoneNumberParseResult",""],["PredictedPhoneNumberKind",""]]});
+initSidebarItems({"struct":[["PhoneNumberFormat",""],["PhoneNumberFormatter",""],["PhoneNumberInfo",""],["PhoneNumberMatchResult",""],["PhoneNumberParseResult",""],["PredictedPhoneNumberKind",""]]});

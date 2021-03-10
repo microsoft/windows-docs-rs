@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CompressAlgorithm",""],["Compressor",""],["Decompressor",""],["ICompressor",""],["ICompressorFactory",""],["IDecompressor",""],["IDecompressorFactory",""]]});
+initSidebarItems({"struct":[["CompressAlgorithm",""],["Compressor",""],["Decompressor",""]]});

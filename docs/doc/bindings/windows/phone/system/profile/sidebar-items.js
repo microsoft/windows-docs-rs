@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IRetailModeStatics",""],["RetailMode",""]]});
+initSidebarItems({"struct":[["RetailMode",""]]});

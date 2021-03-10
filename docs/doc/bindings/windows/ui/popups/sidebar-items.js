@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IMessageDialog",""],["IMessageDialogFactory",""],["IPopupMenu",""],["IUICommand",""],["IUICommandFactory",""],["MessageDialog",""],["MessageDialogOptions",""],["Placement",""],["PopupMenu",""],["UICommand",""],["UICommandInvokedHandler",""],["UICommandSeparator",""]]});
+initSidebarItems({"struct":[["IUICommand",""],["MessageDialog",""],["MessageDialogOptions",""],["Placement",""],["PopupMenu",""],["UICommand",""],["UICommandInvokedHandler",""],["UICommandSeparator",""]]});

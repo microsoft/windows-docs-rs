@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["automation",""],["people",""],["spatial",""]],"struct":[["IPerceptionTimestamp",""],["IPerceptionTimestamp2",""],["IPerceptionTimestampHelperStatics",""],["IPerceptionTimestampHelperStatics2",""],["PerceptionTimestamp",""],["PerceptionTimestampHelper",""]]});
+initSidebarItems({"mod":[["automation",""],["people",""],["spatial",""]],"struct":[["PerceptionTimestamp",""],["PerceptionTimestampHelper",""]]});

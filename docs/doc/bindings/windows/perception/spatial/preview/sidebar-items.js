@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ISpatialGraphInteropFrameOfReferencePreview",""],["ISpatialGraphInteropPreviewStatics",""],["ISpatialGraphInteropPreviewStatics2",""],["SpatialGraphInteropFrameOfReferencePreview",""],["SpatialGraphInteropPreview",""]]});
+initSidebarItems({"struct":[["SpatialGraphInteropFrameOfReferencePreview",""],["SpatialGraphInteropPreview",""]]});

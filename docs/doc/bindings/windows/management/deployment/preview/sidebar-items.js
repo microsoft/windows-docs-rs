@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ClassicAppManager",""],["IClassicAppManagerStatics",""],["IInstalledClassicAppInfo",""],["InstalledClassicAppInfo",""]]});
+initSidebarItems({"struct":[["ClassicAppManager",""],["DeploymentPreviewContract",""],["InstalledClassicAppInfo",""]]});

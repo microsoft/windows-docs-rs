@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CustomSensor",""],["CustomSensorReading",""],["CustomSensorReadingChangedEventArgs",""],["ICustomSensor",""],["ICustomSensor2",""],["ICustomSensorReading",""],["ICustomSensorReading2",""],["ICustomSensorReadingChangedEventArgs",""],["ICustomSensorStatics",""]]});
+initSidebarItems({"struct":[["CustomSensor",""],["CustomSensorReading",""],["CustomSensorReadingChangedEventArgs",""]]});

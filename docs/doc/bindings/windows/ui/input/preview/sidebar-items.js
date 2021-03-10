@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["injection",""]],"struct":[["IInputActivationListenerPreviewStatics",""],["InputActivationListenerPreview",""]]});
+initSidebarItems({"mod":[["injection",""]],"struct":[["InputActivationListenerPreview",""]]});

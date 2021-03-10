@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IUserNotificationListener",""],["IUserNotificationListenerStatics",""],["UserNotificationListener",""],["UserNotificationListenerAccessStatus",""]]});
+initSidebarItems({"struct":[["UserNotificationListener",""],["UserNotificationListenerAccessStatus",""]]});

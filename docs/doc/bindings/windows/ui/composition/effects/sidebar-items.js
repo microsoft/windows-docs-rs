@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ISceneLightingEffect",""],["ISceneLightingEffect2",""],["SceneLightingEffect",""],["SceneLightingEffectReflectanceModel",""]]});
+initSidebarItems({"struct":[["SceneLightingEffect",""],["SceneLightingEffectReflectanceModel",""]]});

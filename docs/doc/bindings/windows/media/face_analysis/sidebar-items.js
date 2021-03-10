@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DetectedFace",""],["FaceDetector",""],["FaceTracker",""],["IDetectedFace",""],["IFaceDetector",""],["IFaceDetectorStatics",""],["IFaceTracker",""],["IFaceTrackerStatics",""]]});
+initSidebarItems({"struct":[["DetectedFace",""],["FaceDetector",""],["FaceTracker",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IInteractiveSessionStatics",""],["InteractiveSession",""]]});
+initSidebarItems({"struct":[["InteractiveSession",""]]});

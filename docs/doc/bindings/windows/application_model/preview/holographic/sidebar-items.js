@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HolographicApplicationPreview",""],["HolographicKeyboardPlacementOverridePreview",""],["IHolographicApplicationPreviewStatics",""],["IHolographicKeyboardPlacementOverridePreview",""],["IHolographicKeyboardPlacementOverridePreviewStatics",""]]});
+initSidebarItems({"struct":[["HolographicApplicationPreview",""],["HolographicKeyboardPlacementOverridePreview",""]]});

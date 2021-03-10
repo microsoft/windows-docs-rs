@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["extensions",""]],"struct":[["IPrint3DDevice",""],["IPrint3DDeviceStatics",""],["IPrintSchema",""],["Print3DDevice",""],["PrintSchema",""]]});
+initSidebarItems({"mod":[["extensions",""]],"struct":[["Print3DDevice",""],["PrintSchema",""],["PrintersContract",""]]});

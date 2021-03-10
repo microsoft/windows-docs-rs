@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Apis",""],["IRadialControllerConfigurationInterop",""],["IRadialControllerConfigurationInterop_abi",""],["IRadialControllerIndependentInputSourceInterop",""],["IRadialControllerIndependentInputSourceInterop_abi",""],["IRadialControllerInterop",""],["IRadialControllerInterop_abi",""]]});
+initSidebarItems({"struct":[["Apis",""],["IRadialControllerConfigurationInterop",""],["IRadialControllerIndependentInputSourceInterop",""],["IRadialControllerInterop",""]]});

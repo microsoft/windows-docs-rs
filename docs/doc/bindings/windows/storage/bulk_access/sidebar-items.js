@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["FileInformation",""],["FileInformationFactory",""],["FolderInformation",""],["IFileInformationFactory",""],["IFileInformationFactoryFactory",""],["IStorageItemInformation",""]]});
+initSidebarItems({"struct":[["FileInformation",""],["FileInformationFactory",""],["FolderInformation",""],["IStorageItemInformation",""]]});

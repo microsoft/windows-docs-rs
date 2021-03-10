@@ -1,1 +1,1 @@
-initSidebarItems({"constant":[["RendezvousApplication",""]],"struct":[["Apis",""],["DRendezvousSessionEvents",""],["DRendezvousSessionEvents_abi",""],["IRendezvousApplication",""],["IRendezvousApplication_abi",""],["IRendezvousSession",""],["IRendezvousSession_abi",""],["RENDEZVOUS_SESSION_FLAGS",""],["RENDEZVOUS_SESSION_STATE",""]]});
+initSidebarItems({"constant":[["RendezvousApplication",""]],"struct":[["Apis",""],["DRendezvousSessionEvents",""],["IRendezvousApplication",""],["IRendezvousSession",""],["RENDEZVOUS_SESSION_FLAGS",""],["RENDEZVOUS_SESSION_STATE",""]]});

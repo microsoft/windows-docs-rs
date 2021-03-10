@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IVibrationDevice",""],["IVibrationDeviceStatics",""],["VibrationDevice",""]]});
+initSidebarItems({"struct":[["VibrationDevice",""]]});

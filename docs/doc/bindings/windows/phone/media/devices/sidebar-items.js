@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AudioRoutingEndpoint",""],["AudioRoutingManager",""],["AvailableAudioRoutingEndpoints",""],["IAudioRoutingManager",""],["IAudioRoutingManagerStatics",""]]});
+initSidebarItems({"struct":[["AudioRoutingEndpoint",""],["AudioRoutingManager",""],["AvailableAudioRoutingEndpoints",""]]});

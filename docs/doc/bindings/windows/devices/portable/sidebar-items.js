@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IServiceDeviceStatics",""],["IStorageDeviceStatics",""],["ServiceDevice",""],["ServiceDeviceType",""],["StorageDevice",""]]});
+initSidebarItems({"struct":[["PortableDeviceContract",""],["ServiceDevice",""],["ServiceDeviceType",""],["StorageDevice",""]]});

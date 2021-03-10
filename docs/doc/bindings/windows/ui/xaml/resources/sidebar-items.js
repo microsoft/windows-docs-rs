@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CustomXamlResourceLoader",""],["ICustomXamlResourceLoader",""],["ICustomXamlResourceLoaderFactory",""],["ICustomXamlResourceLoaderOverrides",""],["ICustomXamlResourceLoaderStatics",""]]});
+initSidebarItems({"struct":[["CustomXamlResourceLoader",""]]});

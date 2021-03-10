@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ILicenseManagerStatics",""],["ILicenseManagerStatics2",""],["ILicenseSatisfactionInfo",""],["ILicenseSatisfactionResult",""],["LicenseManager",""],["LicenseRefreshOption",""],["LicenseSatisfactionInfo",""],["LicenseSatisfactionResult",""]]});
+initSidebarItems({"struct":[["LicenseManager",""],["LicenseRefreshOption",""],["LicenseSatisfactionInfo",""],["LicenseSatisfactionResult",""]]});

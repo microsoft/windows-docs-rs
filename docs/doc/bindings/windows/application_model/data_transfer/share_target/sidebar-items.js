@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IQuickLink",""],["IShareOperation",""],["IShareOperation2",""],["IShareOperation3",""],["QuickLink",""],["ShareOperation",""]]});
+initSidebarItems({"struct":[["QuickLink",""],["ShareOperation",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["GameService",""],["GameServiceGameOutcome",""],["GameServicePropertyCollection",""],["GameServiceScoreKind",""],["IGameService",""],["IGameService2",""],["IGameServicePropertyCollection",""]]});
+initSidebarItems({"struct":[["GameService",""],["GameServiceGameOutcome",""],["GameServicePropertyCollection",""],["GameServiceScoreKind",""]]});

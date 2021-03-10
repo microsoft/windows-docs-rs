@@ -1,1 +1,1 @@
-initSidebarItems({"constant":[["DedupBackupSupport",""]],"struct":[["Apis",""],["DDP_FILE_EXTENT",""],["DEDUP_BACKUP_SUPPORT_PARAM_TYPE",""],["DEDUP_CONTAINER_EXTENT",""],["IDedupBackupSupport",""],["IDedupBackupSupport_abi",""],["IDedupReadFileCallback",""],["IDedupReadFileCallback_abi",""]]});
+initSidebarItems({"constant":[["DedupBackupSupport",""]],"struct":[["Apis",""],["DDP_FILE_EXTENT",""],["DEDUP_BACKUP_SUPPORT_PARAM_TYPE",""],["DEDUP_CONTAINER_EXTENT",""],["IDedupBackupSupport",""],["IDedupReadFileCallback",""]]});

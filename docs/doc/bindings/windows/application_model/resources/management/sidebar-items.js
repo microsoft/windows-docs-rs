@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IIndexedResourceCandidate",""],["IIndexedResourceQualifier",""],["IResourceIndexer",""],["IResourceIndexerFactory",""],["IResourceIndexerFactory2",""],["IndexedResourceCandidate",""],["IndexedResourceQualifier",""],["IndexedResourceType",""],["ResourceIndexer",""]]});
+initSidebarItems({"struct":[["IndexedResourceCandidate",""],["IndexedResourceQualifier",""],["IndexedResourceType",""],["ResourceIndexer",""],["ResourceIndexerContract",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DeviceServicingDetails",""],["DeviceUseDetails",""],["IDeviceServicingDetails",""],["IDeviceUseDetails",""]]});
+initSidebarItems({"struct":[["DeviceServicingDetails",""],["DeviceUseDetails",""]]});

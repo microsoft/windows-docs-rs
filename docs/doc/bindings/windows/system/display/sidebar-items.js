@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DisplayRequest",""],["IDisplayRequest",""]]});
+initSidebarItems({"struct":[["DisplayRequest",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["certificates",""],["core",""],["data_protection",""]],"struct":[["BinaryStringEncoding",""],["CryptographicBuffer",""],["ICryptographicBufferStatics",""]]});
+initSidebarItems({"mod":[["certificates",""],["core",""],["data_protection",""]],"struct":[["BinaryStringEncoding",""],["CryptographicBuffer",""]]});

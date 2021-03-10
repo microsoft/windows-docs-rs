@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IWalletItemSystemStore",""],["IWalletItemSystemStore2",""],["IWalletManagerSystemStatics",""],["WalletItemAppAssociation",""],["WalletItemSystemStore",""],["WalletManagerSystem",""]]});
+initSidebarItems({"struct":[["WalletItemAppAssociation",""],["WalletItemSystemStore",""],["WalletManagerSystem",""]]});

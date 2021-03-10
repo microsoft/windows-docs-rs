@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IMediaTranscoder",""],["IMediaTranscoder2",""],["IPrepareTranscodeResult",""],["MediaTranscoder",""],["MediaVideoProcessingAlgorithm",""],["PrepareTranscodeResult",""],["TranscodeFailureReason",""]]});
+initSidebarItems({"struct":[["MediaTranscoder",""],["MediaVideoProcessingAlgorithm",""],["PrepareTranscodeResult",""],["TranscodeFailureReason",""]]});

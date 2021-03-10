@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ErrorReceivedEventArgs",""],["IErrorReceivedEventArgs",""],["IPinChangedEventArgs",""],["ISerialDevice",""],["ISerialDeviceStatics",""],["PinChangedEventArgs",""],["SerialDevice",""],["SerialError",""],["SerialHandshake",""],["SerialParity",""],["SerialPinChange",""],["SerialStopBitCount",""]]});
+initSidebarItems({"struct":[["ErrorReceivedEventArgs",""],["PinChangedEventArgs",""],["SerialDevice",""],["SerialError",""],["SerialHandshake",""],["SerialParity",""],["SerialPinChange",""],["SerialStopBitCount",""]]});

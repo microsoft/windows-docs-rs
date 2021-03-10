@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DeviceLockdownProfile",""],["DeviceLockdownProfileInformation",""],["IDeviceLockdownProfileInformation",""],["IDeviceLockdownProfileStatics",""]]});
+initSidebarItems({"struct":[["DeviceLockdownContract",""],["DeviceLockdownProfile",""],["DeviceLockdownProfileInformation",""]]});

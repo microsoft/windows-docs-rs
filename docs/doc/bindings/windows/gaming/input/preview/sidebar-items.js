@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["GameControllerProviderInfo",""],["IGameControllerProviderInfoStatics",""]]});
+initSidebarItems({"struct":[["GameControllerProviderInfo",""]]});
