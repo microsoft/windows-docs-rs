@@ -2,10 +2,6 @@ fn main() {
     let reader = gen::TypeReader::get();
 
     for namespace in reader.namespaces() {
-        if !namespace.starts_with("Windows.") {
-            continue;
-        }
-
         print!("        ");
 
         for namespace in namespace.split('.') {
