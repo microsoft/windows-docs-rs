@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CustomDevice",""],["CustomDeviceContract",""],["DeviceAccessMode",""],["DeviceSharingMode",""],["IIOControlCode",""],["IOControlAccessMode",""],["IOControlBufferingMethod",""],["IOControlCode",""],["KnownDeviceTypes",""]]});

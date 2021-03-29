@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CoreIncrementalInkStroke",""],["CoreInkIndependentInputSource",""],["CoreInkPresenterHost",""],["CoreWetStrokeDisposition",""],["CoreWetStrokeUpdateEventArgs",""],["CoreWetStrokeUpdateSource",""]]});

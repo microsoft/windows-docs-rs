@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AppRecordingContract",""],["AppRecordingManager",""],["AppRecordingResult",""],["AppRecordingSaveScreenshotOption",""],["AppRecordingSaveScreenshotResult",""],["AppRecordingSavedScreenshotInfo",""],["AppRecordingStatus",""],["AppRecordingStatusDetails",""]]});

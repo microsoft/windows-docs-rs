@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ExtendedExecutionForegroundReason",""],["ExtendedExecutionForegroundResult",""],["ExtendedExecutionForegroundRevokedEventArgs",""],["ExtendedExecutionForegroundRevokedReason",""],["ExtendedExecutionForegroundSession",""]]});

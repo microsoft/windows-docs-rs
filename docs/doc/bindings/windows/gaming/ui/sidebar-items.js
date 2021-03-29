@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["GameBar",""],["GameChatMessageOrigin",""],["GameChatMessageReceivedEventArgs",""],["GameChatOverlay",""],["GameChatOverlayContract",""],["GameChatOverlayMessageSource",""],["GameChatOverlayPosition",""],["GameUIProviderActivatedEventArgs",""],["GamingUIProviderContract",""]]});

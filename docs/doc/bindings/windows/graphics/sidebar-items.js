@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["Capture",""],["DirectX",""],["Display",""],["Effects",""],["Holographic",""],["Imaging",""],["Printing",""],["Printing3D",""]],"struct":[["DisplayAdapterId",""],["IGeometrySource2D",""],["PointInt32",""],["RectInt32",""],["SizeInt32",""]]});

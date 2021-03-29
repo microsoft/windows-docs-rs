@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["DevicePortalConnection",""],["DevicePortalConnectionClosedEventArgs",""],["DevicePortalConnectionClosedReason",""],["DevicePortalConnectionRequestReceivedEventArgs",""]]});

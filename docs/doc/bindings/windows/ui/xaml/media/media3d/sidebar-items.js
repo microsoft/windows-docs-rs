@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CompositeTransform3D",""],["Matrix3D",""],["Matrix3DHelper",""],["PerspectiveTransform3D",""],["Transform3D",""]]});

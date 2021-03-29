@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["NotePlacementChangedPreviewEventArgs",""],["NoteVisibilityChangedPreviewEventArgs",""],["NotesWindowManagerPreview",""],["NotesWindowManagerPreviewShowNoteOptions",""],["PreviewNotesContract",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Direct3DBindings",""],["Direct3DMultisampleDescription",""],["Direct3DSurfaceDescription",""],["Direct3DUsage",""],["IDirect3DDevice",""],["IDirect3DSurface",""]]});

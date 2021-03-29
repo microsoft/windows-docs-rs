@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["Direct3D11",""]],"struct":[["DirectXAlphaMode",""],["DirectXColorSpace",""],["DirectXPixelFormat",""],["DirectXPrimitiveTopology",""]]});

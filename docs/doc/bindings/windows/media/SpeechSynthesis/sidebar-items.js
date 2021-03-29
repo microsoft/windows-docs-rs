@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["SpeechAppendedSilence",""],["SpeechPunctuationSilence",""],["SpeechSynthesisStream",""],["SpeechSynthesizer",""],["SpeechSynthesizerOptions",""],["VoiceGender",""],["VoiceInformation",""]]});

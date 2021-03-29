@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["IUICommand",""],["MessageDialog",""],["MessageDialogOptions",""],["Placement",""],["PopupMenu",""],["UICommand",""],["UICommandInvokedHandler",""],["UICommandSeparator",""]]});

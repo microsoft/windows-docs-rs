@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["WebViewControl",""],["WebViewControlAcceleratorKeyPressedEventArgs",""],["WebViewControlAcceleratorKeyRoutingStage",""],["WebViewControlMoveFocusReason",""],["WebViewControlMoveFocusRequestedEventArgs",""],["WebViewControlProcess",""],["WebViewControlProcessCapabilityState",""],["WebViewControlProcessOptions",""]]});

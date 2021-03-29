@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AdaptiveCardBuilder",""],["IAdaptiveCard",""],["IAdaptiveCardBuilderStatics",""],["SecurityAppKind",""],["SecurityAppManager",""],["SecurityAppManagerContract",""],["SecurityAppState",""],["SecurityAppSubstatus",""],["TaskbarManager",""]]});

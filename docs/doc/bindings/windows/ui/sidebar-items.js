@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["Accessibility",""],["ApplicationSettings",""],["Composition",""],["Core",""],["Input",""],["Notifications",""],["Popups",""],["Shell",""],["StartScreen",""],["Text",""],["ViewManagement",""],["WebUI",""],["WindowManagement",""],["Xaml",""]],"struct":[["Color",""],["ColorHelper",""],["Colors",""],["UIContentRoot",""],["UIContext",""]]});

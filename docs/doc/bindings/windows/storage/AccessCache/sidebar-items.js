@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AccessCacheOptions",""],["AccessListEntry",""],["AccessListEntryView",""],["IStorageItemAccessList",""],["ItemRemovedEventArgs",""],["RecentStorageItemVisibility",""],["StorageApplicationPermissions",""],["StorageItemAccessList",""],["StorageItemMostRecentlyUsedList",""]]});

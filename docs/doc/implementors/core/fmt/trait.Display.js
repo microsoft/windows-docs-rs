@@ -1,3 +1,0 @@
-(function() {var implementors = {};
-implementors["bindings"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"bindings/Windows/Win32/Automation/struct.BSTR.html\" title=\"struct bindings::Windows::Win32::Automation::BSTR\">BSTR</a>","synthetic":false,"types":["bindings::Windows::Win32::Automation::BSTR"]}];
-if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

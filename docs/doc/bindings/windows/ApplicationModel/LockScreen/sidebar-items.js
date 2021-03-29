@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["LockApplicationHost",""],["LockScreenBadge",""],["LockScreenInfo",""],["LockScreenUnlockingDeferral",""],["LockScreenUnlockingEventArgs",""]]});

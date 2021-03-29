@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["LicenseManager",""],["LicenseRefreshOption",""],["LicenseSatisfactionInfo",""],["LicenseSatisfactionResult",""]]});

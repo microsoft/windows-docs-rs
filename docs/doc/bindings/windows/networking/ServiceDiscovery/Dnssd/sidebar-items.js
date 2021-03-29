@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["DnssdRegistrationResult",""],["DnssdRegistrationStatus",""],["DnssdServiceInstance",""],["DnssdServiceInstanceCollection",""],["DnssdServiceWatcher",""],["DnssdServiceWatcherStatus",""]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["DateTimeFormatter",""],["DayFormat",""],["DayOfWeekFormat",""],["HourFormat",""],["MinuteFormat",""],["MonthFormat",""],["SecondFormat",""],["YearFormat",""]]});

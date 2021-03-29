@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["IXamlDirectObject",""],["XamlDirect",""],["XamlDirectContract",""],["XamlEventIndex",""],["XamlPropertyIndex",""],["XamlTypeIndex",""]]});

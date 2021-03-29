@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["IGraphicsEffect",""],["IGraphicsEffectSource",""]]});

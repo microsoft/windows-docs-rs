@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["KnownSimpleHapticsControllerWaveforms",""],["SimpleHapticsController",""],["SimpleHapticsControllerFeedback",""],["VibrationAccessStatus",""],["VibrationDevice",""]]});

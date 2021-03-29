@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AddContactResult",""],["ContactPickerUI",""],["ContactRemovedEventArgs",""]]});
