@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["II2cControllerProvider",""],["II2cDeviceProvider",""],["II2cProvider",""],["ProviderI2cBusSpeed",""],["ProviderI2cConnectionSettings",""],["ProviderI2cSharingMode",""],["ProviderI2cTransferResult",""],["ProviderI2cTransferStatus",""]]});

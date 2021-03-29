@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["InkD2DRenderer",""],["InkDesktopHost",""]],"struct":[["Apis",""],["IInkCommitRequestHandler",""],["IInkD2DRenderer",""],["IInkD2DRenderer2",""],["IInkDesktopHost",""],["IInkHostWorkItem",""],["IInkPresenterDesktop",""],["INK_HIGH_CONTRAST_ADJUSTMENT",""]]});

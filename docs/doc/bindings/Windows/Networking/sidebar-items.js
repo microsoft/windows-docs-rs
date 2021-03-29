@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["BackgroundTransfer",""],["Connectivity",""],["NetworkOperators",""],["Proximity",""],["PushNotifications",""],["ServiceDiscovery",""],["Sockets",""],["Vpn",""],["XboxLive",""]],"struct":[["DomainNameType",""],["EndpointPair",""],["HostName",""],["HostNameSortOptions",""],["HostNameType",""]]});

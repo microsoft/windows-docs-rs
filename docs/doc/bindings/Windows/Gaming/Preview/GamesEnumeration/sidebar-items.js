@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["GameList",""],["GameListCategory",""],["GameListChangedEventHandler",""],["GameListEntry",""],["GameListEntryLaunchableState",""],["GameListRemovedEventHandler",""],["GameModeConfiguration",""],["GameModeUserConfiguration",""],["IGameListEntry",""]]});

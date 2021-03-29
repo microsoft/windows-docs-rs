@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AppInstallItem",""],["AppInstallManager",""],["AppInstallManagerItemEventArgs",""],["AppInstallOptions",""],["AppInstallState",""],["AppInstallStatus",""],["AppInstallType",""],["AppInstallationToastNotificationMode",""],["AppUpdateOptions",""],["AutoUpdateSetting",""],["GetEntitlementResult",""],["GetEntitlementStatus",""]]});

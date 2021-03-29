@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["ApplicationModel",""],["Devices",""],["Management",""],["Media",""],["Notification",""],["PersonalInformation",""],["Speech",""],["System",""],["UI",""]],"struct":[["PhoneContract",""]]});

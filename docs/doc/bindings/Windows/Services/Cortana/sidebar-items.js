@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CortanaActionableInsights",""],["CortanaActionableInsightsOptions",""],["CortanaPermission",""],["CortanaPermissionsChangeResult",""],["CortanaPermissionsManager",""],["CortanaSettings",""]]});

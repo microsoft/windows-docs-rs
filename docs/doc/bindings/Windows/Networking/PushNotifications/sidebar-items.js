@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PushNotificationChannel",""],["PushNotificationChannelManager",""],["PushNotificationChannelManagerForUser",""],["PushNotificationChannelsRevokedEventArgs",""],["PushNotificationReceivedEventArgs",""],["PushNotificationType",""],["RawNotification",""]]});

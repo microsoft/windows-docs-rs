@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["OcrEngine",""],["OcrLine",""],["OcrResult",""],["OcrWord",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["BackgroundAudioTrack",""],["EmbeddedAudioTrack",""],["MediaClip",""],["MediaComposition",""],["MediaOverlay",""],["MediaOverlayLayer",""],["MediaTrimmingPreference",""],["VideoFramePrecision",""]]});

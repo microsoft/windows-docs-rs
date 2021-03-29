@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["XblIdpAuthManager",""],["XblIdpAuthTokenResult",""]],"struct":[["Apis",""],["IXblIdpAuthManager",""],["IXblIdpAuthTokenResult",""],["IXblIdpAuthTokenResult2",""],["XBL_IDP_AUTH_TOKEN_STATUS",""]]});

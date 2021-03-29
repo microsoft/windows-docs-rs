@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AppListEntry",""],["AppRestartFailureReason",""],["CoreApplication",""],["CoreApplicationView",""],["CoreApplicationViewTitleBar",""],["HostedViewClosingEventArgs",""],["ICoreApplicationUnhandledError",""],["IFrameworkView",""],["IFrameworkViewSource",""],["UnhandledError",""],["UnhandledErrorDetectedEventArgs",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"mod":[["Core",""],["Deployment",""],["Policies",""],["Update",""],["Workplace",""]],"struct":[["MdmAlert",""],["MdmAlertDataType",""],["MdmAlertMark",""],["MdmSession",""],["MdmSessionManager",""],["MdmSessionState",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["CGD_ARRAY_NODE",""],["CGD_BINARY_PROPERTY",""],["CGD_DATE_PROPERTY",""],["CGD_DEFAULT",""],["CGD_STRING_PROPERTY",""],["CGD_UNKNOWN_PROPERTY",""],["Contact",""],["ContactManager",""]],"struct":[["Apis",""],["IContact",""],["IContactCollection",""],["IContactManager",""],["IContactProperties",""],["IContactPropertyCollection",""]]});

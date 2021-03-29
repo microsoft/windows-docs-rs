@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VariablePhotoCapturedEventArgs",""],["VariablePhotoSequenceCapture",""]]});

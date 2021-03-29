@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AtomPubClient",""],["ResourceCollection",""],["ServiceDocument",""],["Workspace",""]]});

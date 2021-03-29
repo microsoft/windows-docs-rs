@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PaymentAppCanMakePaymentTriggerDetails",""],["PaymentAppManager",""],["PaymentTransaction",""],["PaymentTransactionAcceptResult",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["CDB_REPORT_BITS",""],["CDB_REPORT_BYTES",""],["COMDB_MAX_PORTS_ARBITRATED",""],["COMDB_MIN_PORTS_ARBITRATED",""]],"fn":[["ComDBClaimNextFreePort",""],["ComDBClaimPort",""],["ComDBClose",""],["ComDBGetCurrentPortUsage",""],["ComDBOpen",""],["ComDBReleasePort",""],["ComDBResizeDatabase",""]],"struct":[["Apis",""],["HCOMDB",""]]});
