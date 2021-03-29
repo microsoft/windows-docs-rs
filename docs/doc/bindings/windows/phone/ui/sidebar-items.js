@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["input",""]]});
+initSidebarItems({"mod":[["Input",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["atom_pub",""],["http",""],["syndication",""],["ui",""]],"struct":[["IUriToStreamResolver",""],["WebError",""],["WebErrorStatus",""]]});
+initSidebarItems({"mod":[["AtomPub",""],["Http",""],["Syndication",""],["UI",""]],"struct":[["IUriToStreamResolver",""],["WebError",""],["WebErrorStatus",""]]});

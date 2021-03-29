@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["deployment",""]]});
+initSidebarItems({"mod":[["Deployment",""]]});

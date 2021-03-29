@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["core",""],["provider",""]],"struct":[["TokenBindingKeyType",""],["WebAuthenticationBroker",""],["WebAuthenticationOptions",""],["WebAuthenticationResult",""],["WebAuthenticationStatus",""]]});
+initSidebarItems({"mod":[["Core",""],["Provider",""]],"struct":[["TokenBindingKeyType",""],["WebAuthenticationBroker",""],["WebAuthenticationOptions",""],["WebAuthenticationResult",""],["WebAuthenticationStatus",""]]});

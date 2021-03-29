@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["recognition",""]]});
+initSidebarItems({"mod":[["Recognition",""]]});

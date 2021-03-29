@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["capture",""],["directx",""],["display",""],["effects",""],["holographic",""],["imaging",""],["printing",""],["printing3d",""]],"struct":[["DisplayAdapterId",""],["IGeometrySource2D",""],["PointInt32",""],["RectInt32",""],["SizeInt32",""]]});
+initSidebarItems({"mod":[["Capture",""],["DirectX",""],["Display",""],["Effects",""],["Holographic",""],["Imaging",""],["Printing",""],["Printing3D",""]],"struct":[["DisplayAdapterId",""],["IGeometrySource2D",""],["PointInt32",""],["RectInt32",""],["SizeInt32",""]]});

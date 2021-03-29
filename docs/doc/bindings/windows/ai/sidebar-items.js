@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["machine_learning",""]]});
+initSidebarItems({"mod":[["MachineLearning",""]]});

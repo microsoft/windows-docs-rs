@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["cortana",""],["maps",""],["store",""],["targeted_content",""]]});
+initSidebarItems({"mod":[["Cortana",""],["Maps",""],["Store",""],["TargetedContent",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["adaptive",""]]});
+initSidebarItems({"mod":[["Adaptive",""]]});

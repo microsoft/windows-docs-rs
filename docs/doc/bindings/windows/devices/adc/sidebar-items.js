@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["provider",""]],"struct":[["AdcChannel",""],["AdcChannelMode",""],["AdcController",""]]});
+initSidebarItems({"mod":[["Provider",""]],"struct":[["AdcChannel",""],["AdcChannelMode",""],["AdcController",""]]});

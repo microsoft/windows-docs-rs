@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["direct",""]]});
+initSidebarItems({"mod":[["Direct",""]]});

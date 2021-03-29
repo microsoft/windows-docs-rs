@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["input",""],["preview",""],["ui",""],["xbox_live",""]]});
+initSidebarItems({"mod":[["Input",""],["Preview",""],["UI",""],["XboxLive",""]]});

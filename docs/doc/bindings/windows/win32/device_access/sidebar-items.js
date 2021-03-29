@@ -1,1 +1,0 @@
-initSidebarItems({"fn":[["CreateDeviceAccessInstance",""]],"struct":[["Apis",""],["ICreateDeviceAccessAsync",""],["IDeviceIoControl",""],["IDeviceRequestCompletionCallback",""]]});

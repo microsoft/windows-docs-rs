@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["provider",""]],"struct":[["FileExtensionVector",""],["FileOpenPicker",""],["FilePickerFileTypesOrderedMap",""],["FilePickerSelectedFilesArray",""],["FileSavePicker",""],["FolderPicker",""],["PickerLocationId",""],["PickerViewMode",""]]});
+initSidebarItems({"mod":[["Provider",""]],"struct":[["FileExtensionVector",""],["FileOpenPicker",""],["FilePickerFileTypesOrderedMap",""],["FilePickerSelectedFilesArray",""],["FileSavePicker",""],["FolderPicker",""],["PickerLocationId",""],["PickerViewMode",""]]});

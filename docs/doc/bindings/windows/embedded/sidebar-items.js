@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["device_lockdown",""]]});
+initSidebarItems({"mod":[["DeviceLockdown",""]]});

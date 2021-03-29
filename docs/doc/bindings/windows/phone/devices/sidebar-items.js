@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["notification",""],["power",""]]});
+initSidebarItems({"mod":[["Notification",""],["Power",""]]});

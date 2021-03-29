@@ -5,7 +5,7 @@ fn main() {
         print!("        ");
 
         for namespace in namespace.split('.') {
-            print!("{}::", gen::to_snake(namespace));
+            print!("{}::", namespace);
         }
 
         println!("*,");

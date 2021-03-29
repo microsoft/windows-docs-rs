@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["dom",""],["xsl",""]]});
+initSidebarItems({"mod":[["Dom",""],["Xsl",""]]});

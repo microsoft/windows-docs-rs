@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["core",""]],"struct":[["DisplayMonitor",""],["DisplayMonitorConnectionKind",""],["DisplayMonitorDescriptorKind",""],["DisplayMonitorPhysicalConnectorKind",""],["DisplayMonitorUsageKind",""]]});
+initSidebarItems({"mod":[["Core",""]],"struct":[["DisplayMonitor",""],["DisplayMonitorConnectionKind",""],["DisplayMonitorDescriptorKind",""],["DisplayMonitorPhysicalConnectorKind",""],["DisplayMonitorUsageKind",""]]});

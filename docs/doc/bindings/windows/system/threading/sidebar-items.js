@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["core",""]],"struct":[["ThreadPool",""],["ThreadPoolTimer",""],["TimerDestroyedHandler",""],["TimerElapsedHandler",""],["WorkItemHandler",""],["WorkItemOptions",""],["WorkItemPriority",""]]});
+initSidebarItems({"mod":[["Core",""]],"struct":[["ThreadPool",""],["ThreadPoolTimer",""],["TimerDestroyedHandler",""],["TimerElapsedHandler",""],["WorkItemHandler",""],["WorkItemOptions",""],["WorkItemPriority",""]]});

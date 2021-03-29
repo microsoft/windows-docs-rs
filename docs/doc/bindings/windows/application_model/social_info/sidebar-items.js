@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["provider",""]],"struct":[["SocialFeedChildItem",""],["SocialFeedContent",""],["SocialFeedItem",""],["SocialFeedItemStyle",""],["SocialFeedKind",""],["SocialFeedSharedItem",""],["SocialFeedUpdateMode",""],["SocialInfoContract",""],["SocialItemBadgeStyle",""],["SocialItemThumbnail",""],["SocialUserInfo",""]]});

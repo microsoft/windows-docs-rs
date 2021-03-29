@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["windows",""]]});
+initSidebarItems({"mod":[["Windows",""]]});

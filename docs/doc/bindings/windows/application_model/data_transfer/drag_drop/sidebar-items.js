@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["core",""]],"struct":[["DragDropModifiers",""]]});

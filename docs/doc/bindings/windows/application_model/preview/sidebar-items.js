@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["holographic",""],["ink_workspace",""],["notes",""]]});

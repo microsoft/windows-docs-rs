@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["devices",""]]});
+initSidebarItems({"mod":[["Devices",""]]});

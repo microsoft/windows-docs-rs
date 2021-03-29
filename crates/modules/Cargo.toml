@@ -5,4 +5,4 @@ authors = ["Microsoft"]
 edition = "2018"
 
 [dependencies]
-gen = { package = "windows_gen", git = "https://github.com/microsoft/windows-rs" }
+gen = { package = "windows_gen", path = "/git/windows-rs/crates/gen" }

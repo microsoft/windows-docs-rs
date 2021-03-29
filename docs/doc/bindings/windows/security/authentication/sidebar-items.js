@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["identity",""],["online_id",""],["web",""]]});
+initSidebarItems({"mod":[["Identity",""],["OnlineId",""],["Web",""]]});

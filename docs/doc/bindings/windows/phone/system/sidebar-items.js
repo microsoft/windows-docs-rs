@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["power",""],["profile",""],["user_profile",""]],"struct":[["SystemProtection",""]]});
+initSidebarItems({"mod":[["Power",""],["Profile",""],["UserProfile",""]],"struct":[["SystemProtection",""]]});

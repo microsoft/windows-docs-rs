@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["app_capability_access",""]]});
+initSidebarItems({"mod":[["AppCapabilityAccess",""]]});

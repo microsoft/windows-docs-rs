@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["html",""],["json",""],["pdf",""],["text",""],["xml",""]]});
+initSidebarItems({"mod":[["Html",""],["Json",""],["Pdf",""],["Text",""],["Xml",""]]});

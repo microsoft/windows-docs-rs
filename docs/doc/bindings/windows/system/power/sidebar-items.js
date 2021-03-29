@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["diagnostics",""]],"struct":[["BackgroundEnergyManager",""],["BatteryStatus",""],["EnergySaverStatus",""],["ForegroundEnergyManager",""],["PowerManager",""],["PowerSupplyStatus",""]]});
+initSidebarItems({"mod":[["Diagnostics",""]],"struct":[["BackgroundEnergyManager",""],["BatteryStatus",""],["EnergySaverStatus",""],["ForegroundEnergyManager",""],["PowerManager",""],["PowerSupplyStatus",""]]});

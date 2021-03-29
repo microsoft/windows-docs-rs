@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["core",""],["provider",""]],"struct":[["EnterpriseKeyCredentialRegistrationInfo",""],["EnterpriseKeyCredentialRegistrationManager",""]]});
+initSidebarItems({"mod":[["Core",""],["Provider",""]],"struct":[["EnterpriseKeyCredentialRegistrationInfo",""],["EnterpriseKeyCredentialRegistrationManager",""]]});

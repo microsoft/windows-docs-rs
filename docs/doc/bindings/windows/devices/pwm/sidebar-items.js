@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["provider",""]],"struct":[["PwmController",""],["PwmPin",""],["PwmPulsePolarity",""]]});
+initSidebarItems({"mod":[["Provider",""]],"struct":[["PwmController",""],["PwmPin",""],["PwmPulsePolarity",""]]});
