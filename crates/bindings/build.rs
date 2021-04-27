@@ -399,6 +399,7 @@ fn main() {
         Windows::Win32::InkInput::*,
         Windows::Win32::InstallableFileSystems::*,
         Windows::Win32::InteractionContext::*,
+        Windows::Win32::InternetExplorer::*,
         Windows::Win32::Intl::*,
         Windows::Win32::IpHelper::*,
         Windows::Win32::Js::*,
