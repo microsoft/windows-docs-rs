@@ -1,3 +1,3 @@
 time /t
-cargo doc --no-deps --target-dir ..\..\docs
+cargo doc --no-deps -p windows -p bindings --target-dir ..\..\docs
 time /t
