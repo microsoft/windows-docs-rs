@@ -1,1 +1,1 @@
-window.ALL_CRATES = ["bindings"];
+window.ALL_CRATES = ["bindings","windows"];

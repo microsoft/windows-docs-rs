@@ -1,1 +1,0 @@
-initSidebarItems({"fn":[["OperationEnd",""],["OperationStart",""]],"struct":[["Apis",""],["OPERATION_END_PARAMETERS",""],["OPERATION_END_PARAMETERS_FLAGS",""],["OPERATION_START_FLAGS",""],["OPERATION_START_PARAMETERS",""]]});

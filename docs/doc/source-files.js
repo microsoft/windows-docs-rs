@@ -1,0 +1,3 @@
+var N = null;var sourcesIndex = {};
+sourcesIndex["windows"] = {"name":"","dirs":[{"name":"interfaces","files":["activation_factory.rs","inspectable.rs","mod.rs","unknown.rs"]},{"name":"result","files":["error.rs","error_code.rs","mod.rs"]},{"name":"runtime","files":["array.rs","com.rs","delay_load.rs","factory_cache.rs","guid.rs","heap.rs","hstring.rs","mod.rs","param.rs","ref_count.rs","waiter.rs","weak.rs","weak_ref_count.rs"]},{"name":"traits","files":["abi.rs","interface.rs","into_param.rs","mod.rs","runtime_name.rs","runtime_type.rs"]}],"files":["bindings.rs","lib.rs","macros.rs"]};
+createSourceSidebar();

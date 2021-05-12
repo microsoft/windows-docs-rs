@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["MaxHardwareCounterType",""],["PMCCounter",""]],"fn":[["DisableThreadProfiling",""],["EnableThreadProfiling",""],["QueryThreadProfiling",""],["ReadThreadProfilingData",""]],"struct":[["Apis",""],["HARDWARE_COUNTER_DATA",""],["HARDWARE_COUNTER_TYPE",""],["PERFORMANCE_DATA",""]]});

@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["windows"] = [{"text":"impl&lt;T:&nbsp;<a class=\"trait\" href=\"windows/trait.RuntimeType.html\" title=\"trait windows::RuntimeType\">RuntimeType</a>&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/ops/deref/trait.DerefMut.html\" title=\"trait core::ops::deref::DerefMut\">DerefMut</a> for <a class=\"struct\" href=\"windows/struct.Array.html\" title=\"struct windows::Array\">Array</a>&lt;T&gt;","synthetic":false,"types":["windows::runtime::array::Array"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

@@ -1,1 +1,0 @@
-initSidebarItems({"constant":[["MbnConnectionManager",""],["MbnConnectionProfileManager",""],["MbnDeviceServicesManager",""],["MbnInterfaceManager",""]],"struct":[["Apis",""],["IDummyMBNUCMExt",""],["IMbnDeviceServiceStateEvents",""],["MBN_DEVICE_SERVICE_SESSIONS_STATE",""],["__DummyPinType__",""],["__mbnapi_ReferenceRemainingTypes__",""]]});
