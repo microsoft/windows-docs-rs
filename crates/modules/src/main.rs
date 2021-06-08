@@ -1,7 +1,9 @@
 fn main() {
     let reader = gen::TypeReader::get();
+    let mut namespaces: Vec::<&'static str> = reader.namespaces().collect();
+    namespaces.sort();
 
-    for namespace in reader.namespaces() {
+    for namespace in namespaces {
         print!("        ");
 
         for namespace in namespace.split('.') {
