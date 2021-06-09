@@ -1,1 +1,1 @@
-initSidebarItems({"constant":[["CYPHER_BLOCK_LENGTH",""]],"fn":[["MSChapSrvChangePassword",""],["MSChapSrvChangePassword2",""]],"struct":[["Apis",""],["CYPHER_BLOCK",""],["ENCRYPTED_LM_OWF_PASSWORD",""],["LM_OWF_PASSWORD",""],["SAMPR_ENCRYPTED_USER_PASSWORD",""]]});
+initSidebarItems({"fn":[["MSChapSrvChangePassword",""],["MSChapSrvChangePassword2",""]],"struct":[["Apis",""],["CYPHER_BLOCK",""],["ENCRYPTED_LM_OWF_PASSWORD",""],["LM_OWF_PASSWORD",""],["SAMPR_ENCRYPTED_USER_PASSWORD",""]]});

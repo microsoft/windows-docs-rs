@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["HtmlHelp",""],["RightsManagement",""]]});
+initSidebarItems({"mod":[["HtmlHelp",""],["RightsManagement",""],["Xml",""]]});

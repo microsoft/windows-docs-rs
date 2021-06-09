@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["IsolatedAppLauncher",""]],"fn":[["GetAppContainerNamedObjectPath",""],["IsProcessInIsolatedContainer",""],["IsProcessInWDAGContainer",""]],"struct":[["Apis",""],["IIsolatedAppLauncher",""],["IsolatedAppLauncherTelemetryParameters",""]]});
