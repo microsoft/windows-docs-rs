@@ -1,7 +1,4 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `C:\git\windows-rs\src\runtime\weak_ref_count.rs`."><meta name="keywords" content="rust, rustlang, rust-lang"><title>weak_ref_count.rs - source</title><link rel="stylesheet" type="text/css" href="../../../normalize.css"><link rel="stylesheet" type="text/css" href="../../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../../../light.css"  id="themeStyle"><link rel="stylesheet" type="text/css" href="../../../dark.css" disabled ><link rel="stylesheet" type="text/css" href="../../../ayu.css" disabled ><script id="default-settings"></script><script src="../../../storage.js"></script><script src="../../../crates.js"></script><noscript><link rel="stylesheet" href="../../../noscript.css"></noscript><link rel="icon" type="image/svg+xml" href="../../../favicon.svg">
-<link rel="alternate icon" type="image/png" href="../../../favicon-16x16.png">
-<link rel="alternate icon" type="image/png" href="../../../favicon-32x32.png"><style type="text/css">#crate-search{background-image:url("../../../down-arrow.svg");}</style></head><body class="rustdoc source"><!--[if lte IE 8]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="sidebar-menu" role="button">&#9776;</div><a href='../../../windows/index.html'><div class='logo-container rust-logo'><img src='../../../rust-logo.png' alt='logo'></div></a></nav><div class="theme-picker"><button id="theme-picker" aria-label="Pick another theme!" aria-haspopup="menu"><img src="../../../brush.svg" width="18" height="18" alt="Pick another theme!"></button><div id="theme-choices" role="menu"></div></div><script src="../../../theme.js"></script><nav class="sub"><form class="search-form"><div class="search-container"><div><select id="crate-search"><option value="All crates">All crates</option></select><input class="search-input" name="search" disabled autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"></div><button type="button" class="help-button">?</button>
-                <a id="settings-menu" href="../../../settings.html"><img src="../../../wheel.svg" width="18" height="18" alt="Change settings"></a></div></form></nav><section id="main" class="content"><pre class="line-numbers"><span id="1">  1</span>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Source of the Rust file `C:\git\windows-rs\src\runtime\weak_ref_count.rs`."><meta name="keywords" content="rust, rustlang, rust-lang"><title>weak_ref_count.rs - source</title><link rel="stylesheet" type="text/css" href="../../../normalize.css"><link rel="stylesheet" type="text/css" href="../../../rustdoc.css" id="mainThemeStyle"><link rel="stylesheet" type="text/css" href="../../../light.css"  id="themeStyle"><link rel="stylesheet" type="text/css" href="../../../dark.css" disabled ><link rel="stylesheet" type="text/css" href="../../../ayu.css" disabled ><script id="default-settings" ></script><script src="../../../storage.js"></script><script src="../../../crates.js"></script><noscript><link rel="stylesheet" href="../../../noscript.css"></noscript><link rel="icon" type="image/svg+xml" href="../../../favicon.svg"><link rel="alternate icon" type="image/png" href="../../../favicon-16x16.png"><link rel="alternate icon" type="image/png" href="../../../favicon-32x32.png"><style type="text/css">#crate-search{background-image:url("../../../down-arrow.svg");}</style></head><body class="rustdoc source"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="sidebar"><div class="sidebar-menu" role="button">&#9776;</div><a href='../../../windows/index.html'><div class='logo-container rust-logo'><img src='../../../rust-logo.png' alt='logo'></div></a></nav><div class="theme-picker"><button id="theme-picker" aria-label="Pick another theme!" aria-haspopup="menu" title="themes"><img width="18" height="18" alt="Pick another theme!" src="../../../brush.svg"></button><div id="theme-choices" role="menu"></div></div><nav class="sub"><form class="search-form"><div class="search-container"><div><select id="crate-search"><option value="All crates">All crates</option></select><input class="search-input"name="search" disabled autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"></div><button type="button" id="help-button" title="help">?</button><a id="settings-menu" href="../../../settings.html" title="settings"><img width="18" height="18" alt="Change settings" src="../../../wheel.svg"></a></div></form></nav><section id="main" class="content"><div class="example-wrap"><pre class="line-numbers"><span id="1">  1</span>
 <span id="2">  2</span>
 <span id="3">  3</span>
 <span id="4">  4</span>
@@ -316,7 +313,10 @@
 <span id="313">313</span>
 <span id="314">314</span>
 <span id="315">315</span>
-</pre><div class="example-wrap"><pre class="rust ">
+<span id="316">316</span>
+<span id="317">317</span>
+<span id="318">318</span>
+</pre><pre class="rust">
 <span class="attribute">#![<span class="ident">allow</span>(
     <span class="ident">non_upper_case_globals</span>,
     <span class="ident">non_snake_case</span>,
@@ -326,10 +326,13 @@
 )]</span>
 
 <span class="kw">use</span> <span class="kw">crate</span>::<span class="kw-2">*</span>;
-<span class="kw">use</span> <span class="ident">bindings</span>::<span class="ident">Windows</span>::<span class="ident">Win32</span>::<span class="ident">System</span>::<span class="ident">WinRT</span>::{
-    <span class="ident">IWeakReference</span>, <span class="ident">IWeakReferenceSource</span>, <span class="ident">IWeakReferenceSource_abi</span>, <span class="ident">IWeakReference_abi</span>,
+<span class="kw">use</span> <span class="ident">bindings::Windows::Win32</span>::{
+    <span class="ident">Foundation::E_NOINTERFACE</span>,
+    <span class="ident">System::WinRT</span>::{
+        <span class="ident">IWeakReference</span>, <span class="ident">IWeakReferenceSource</span>, <span class="ident">IWeakReferenceSource_abi</span>, <span class="ident">IWeakReference_abi</span>,
+    },
 };
-<span class="kw">use</span> <span class="ident">std</span>::<span class="ident">sync</span>::<span class="ident">atomic</span>::{<span class="ident">AtomicIsize</span>, <span class="ident">Ordering</span>};
+<span class="kw">use</span> <span class="ident">std::sync::atomic</span>::{<span class="ident">AtomicIsize</span>, <span class="ident">Ordering</span>};
 
 <span class="doccomment">/// A thread-safe reference count for use with COM weak reference implementations.</span>
 <span class="attribute">#[<span class="ident">repr</span>(<span class="ident">transparent</span>)]</span>
@@ -338,16 +341,16 @@
 
 <span class="kw">impl</span> <span class="ident">WeakRefCount</span> {
     <span class="kw">pub</span> <span class="kw">fn</span> <span class="ident">new</span>() <span class="op">-</span><span class="op">&gt;</span> <span class="self">Self</span> {
-        <span class="self">Self</span>(<span class="ident">AtomicIsize</span>::<span class="ident">new</span>(<span class="number">1</span>))
+        <span class="self">Self</span>(<span class="ident">AtomicIsize::new</span>(<span class="number">1</span>))
     }
 
     <span class="kw">pub</span> <span class="kw">fn</span> <span class="ident">add_ref</span>(<span class="kw-2">&amp;</span><span class="self">self</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
-        <span class="kw">let</span> <span class="ident">count_or_pointer</span> <span class="op">=</span> <span class="self">self</span>.<span class="number">0</span>.<span class="ident">load</span>(<span class="ident">Ordering</span>::<span class="ident">Relaxed</span>);
+        <span class="kw">let</span> <span class="ident">count_or_pointer</span> <span class="op">=</span> <span class="self">self</span>.<span class="number">0</span>.<span class="ident">load</span>(<span class="ident">Ordering::Relaxed</span>);
 
         <span class="kw">loop</span> {
             <span class="kw">if</span> <span class="ident">is_weak_ref</span>(<span class="ident">count_or_pointer</span>) {
                 <span class="kw">unsafe</span> {
-                    <span class="kw">return</span> <span class="ident">TearOff</span>::<span class="ident">decode</span>(<span class="ident">count_or_pointer</span>).<span class="ident">strong_count</span>.<span class="ident">add_ref</span>();
+                    <span class="kw">return</span> <span class="ident">TearOff::decode</span>(<span class="ident">count_or_pointer</span>).<span class="ident">strong_count</span>.<span class="ident">add_ref</span>();
                 }
             }
 
@@ -356,8 +359,8 @@
                 .<span class="ident">compare_exchange_weak</span>(
                     <span class="ident">count_or_pointer</span>,
                     <span class="ident">count_or_pointer</span> <span class="op">+</span> <span class="number">1</span>,
-                    <span class="ident">Ordering</span>::<span class="ident">Relaxed</span>,
-                    <span class="ident">Ordering</span>::<span class="ident">Relaxed</span>,
+                    <span class="ident">Ordering::Relaxed</span>,
+                    <span class="ident">Ordering::Relaxed</span>,
                 )
                 .<span class="ident">is_ok</span>()
             {
@@ -367,18 +370,18 @@
     }
 
     <span class="kw">pub</span> <span class="kw">fn</span> <span class="ident">release</span>(<span class="kw-2">&amp;</span><span class="self">self</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
-        <span class="kw">let</span> <span class="ident">count_or_pointer</span> <span class="op">=</span> <span class="self">self</span>.<span class="number">0</span>.<span class="ident">load</span>(<span class="ident">Ordering</span>::<span class="ident">Relaxed</span>);
+        <span class="kw">let</span> <span class="ident">count_or_pointer</span> <span class="op">=</span> <span class="self">self</span>.<span class="number">0</span>.<span class="ident">load</span>(<span class="ident">Ordering::Relaxed</span>);
 
         <span class="kw">loop</span> {
             <span class="kw">if</span> <span class="ident">is_weak_ref</span>(<span class="ident">count_or_pointer</span>) {
                 <span class="kw">unsafe</span> {
-                    <span class="kw">let</span> <span class="ident">tear_off</span> <span class="op">=</span> <span class="ident">TearOff</span>::<span class="ident">decode</span>(<span class="ident">count_or_pointer</span>);
+                    <span class="kw">let</span> <span class="ident">tear_off</span> <span class="op">=</span> <span class="ident">TearOff::decode</span>(<span class="ident">count_or_pointer</span>);
                     <span class="kw">let</span> <span class="ident">remaining</span> <span class="op">=</span> <span class="ident">tear_off</span>.<span class="ident">strong_count</span>.<span class="ident">release</span>();
 
                     <span class="comment">// If this is the last strong reference, we can release the weak reference implied by the strong reference.</span>
                     <span class="comment">// There may still be weak references, so the WeakRelease is called to handle such possibilities.</span>
                     <span class="kw">if</span> <span class="ident">remaining</span> <span class="op">=</span><span class="op">=</span> <span class="number">0</span> {
-                        <span class="ident">TearOff</span>::<span class="ident">WeakRelease</span>(<span class="kw-2">&amp;</span><span class="kw-2">mut</span> <span class="ident">tear_off</span>.<span class="ident">weak_vtable</span> <span class="kw">as</span> <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="kw">_</span> <span class="kw">as</span> <span class="kw">_</span>);
+                        <span class="ident">TearOff::WeakRelease</span>(<span class="kw-2">&amp;</span><span class="kw-2">mut</span> <span class="ident">tear_off</span>.<span class="ident">weak_vtable</span> <span class="kw">as</span> <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="kw">_</span> <span class="kw">as</span> <span class="kw">_</span>);
                     }
 
                     <span class="kw">return</span> <span class="ident">remaining</span>;
@@ -390,8 +393,8 @@
                 .<span class="ident">compare_exchange_weak</span>(
                     <span class="ident">count_or_pointer</span>,
                     <span class="ident">count_or_pointer</span> <span class="op">-</span> <span class="number">1</span>,
-                    <span class="ident">Ordering</span>::<span class="ident">Release</span>,
-                    <span class="ident">Ordering</span>::<span class="ident">Relaxed</span>,
+                    <span class="ident">Ordering::Release</span>,
+                    <span class="ident">Ordering::Relaxed</span>,
                 )
                 .<span class="ident">is_ok</span>()
             {
@@ -400,20 +403,20 @@
         }
     }
 
-    <span class="kw">pub</span> <span class="kw">unsafe</span> <span class="kw">fn</span> <span class="ident">query</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="ident">iid</span>: <span class="kw-2">&amp;</span>::<span class="ident">windows</span>::<span class="ident">Guid</span>, <span class="ident">object</span>: <span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">RawPtr</span> {
-        <span class="kw">if</span> <span class="ident">iid</span> <span class="op">!</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IWeakReferenceSource</span>::<span class="ident">IID</span> {
-            <span class="kw">return</span> <span class="ident">std</span>::<span class="ident">ptr</span>::<span class="ident">null_mut</span>();
+    <span class="kw">pub</span> <span class="kw">unsafe</span> <span class="kw">fn</span> <span class="ident">query</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="ident">iid</span>: <span class="kw-2">&amp;</span><span class="ident">::windows::Guid</span>, <span class="ident">object</span>: <span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">RawPtr</span> {
+        <span class="kw">if</span> <span class="ident">iid</span> <span class="op">!</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IWeakReferenceSource::IID</span> {
+            <span class="kw">return</span> <span class="ident">std::ptr::null_mut</span>();
         }
 
-        <span class="kw">let</span> <span class="ident">count_or_pointer</span> <span class="op">=</span> <span class="self">self</span>.<span class="number">0</span>.<span class="ident">load</span>(<span class="ident">Ordering</span>::<span class="ident">Relaxed</span>);
+        <span class="kw">let</span> <span class="ident">count_or_pointer</span> <span class="op">=</span> <span class="self">self</span>.<span class="number">0</span>.<span class="ident">load</span>(<span class="ident">Ordering::Relaxed</span>);
 
         <span class="kw">if</span> <span class="ident">is_weak_ref</span>(<span class="ident">count_or_pointer</span>) {
-            <span class="kw">return</span> <span class="ident">TearOff</span>::<span class="ident">from_encoding</span>(<span class="ident">count_or_pointer</span>);
+            <span class="kw">return</span> <span class="ident">TearOff::from_encoding</span>(<span class="ident">count_or_pointer</span>);
         }
 
-        <span class="kw">let</span> <span class="ident">tear_off</span> <span class="op">=</span> <span class="ident">TearOff</span>::<span class="ident">new</span>(<span class="ident">object</span>, <span class="ident">count_or_pointer</span> <span class="kw">as</span> <span class="kw">_</span>);
+        <span class="kw">let</span> <span class="ident">tear_off</span> <span class="op">=</span> <span class="ident">TearOff::new</span>(<span class="ident">object</span>, <span class="ident">count_or_pointer</span> <span class="kw">as</span> <span class="kw">_</span>);
         <span class="kw">let</span> <span class="ident">encoding</span>: <span class="ident">usize</span> <span class="op">=</span>
-            ((<span class="ident">tear_off</span>.<span class="ident">abi</span>() <span class="kw">as</span> <span class="ident">usize</span>) <span class="op">&gt;</span><span class="op">&gt;</span> <span class="number">1</span>) <span class="op">|</span> (<span class="number">1</span> <span class="op">&lt;</span><span class="op">&lt;</span> (<span class="ident">std</span>::<span class="ident">mem</span>::<span class="ident">size_of</span>::<span class="op">&lt;</span><span class="ident">usize</span><span class="op">&gt;</span>() <span class="op">*</span> <span class="number">8</span> <span class="op">-</span> <span class="number">1</span>));
+            ((<span class="ident">tear_off</span>.<span class="ident">abi</span>() <span class="kw">as</span> <span class="ident">usize</span>) <span class="op">&gt;</span><span class="op">&gt;</span> <span class="number">1</span>) <span class="op">|</span> (<span class="number">1</span> <span class="op">&lt;</span><span class="op">&lt;</span> (<span class="ident">std::mem::size_of</span>::<span class="op">&lt;</span><span class="ident">usize</span><span class="op">&gt;</span>() <span class="op">*</span> <span class="number">8</span> <span class="op">-</span> <span class="number">1</span>));
 
         <span class="kw">loop</span> {
             <span class="kw">if</span> <span class="self">self</span>
@@ -421,24 +424,24 @@
                 .<span class="ident">compare_exchange_weak</span>(
                     <span class="ident">count_or_pointer</span>,
                     <span class="ident">encoding</span> <span class="kw">as</span> <span class="kw">_</span>,
-                    <span class="ident">Ordering</span>::<span class="ident">AcqRel</span>,
-                    <span class="ident">Ordering</span>::<span class="ident">Relaxed</span>,
+                    <span class="ident">Ordering::AcqRel</span>,
+                    <span class="ident">Ordering::Relaxed</span>,
                 )
                 .<span class="ident">is_ok</span>()
             {
-                <span class="kw">let</span> <span class="ident">result</span>: <span class="ident">RawPtr</span> <span class="op">=</span> <span class="ident">std</span>::<span class="ident">mem</span>::<span class="ident">transmute</span>(<span class="ident">tear_off</span>);
-                <span class="ident">TearOff</span>::<span class="ident">from_strong_ptr</span>(<span class="ident">result</span>).<span class="ident">strong_count</span>.<span class="ident">add_ref</span>();
+                <span class="kw">let</span> <span class="ident">result</span>: <span class="ident">RawPtr</span> <span class="op">=</span> <span class="ident">std::mem::transmute</span>(<span class="ident">tear_off</span>);
+                <span class="ident">TearOff::from_strong_ptr</span>(<span class="ident">result</span>).<span class="ident">strong_count</span>.<span class="ident">add_ref</span>();
                 <span class="kw">return</span> <span class="ident">result</span>;
             }
 
             <span class="kw">if</span> <span class="ident">is_weak_ref</span>(<span class="ident">count_or_pointer</span>) {
-                <span class="kw">return</span> <span class="ident">TearOff</span>::<span class="ident">from_encoding</span>(<span class="ident">count_or_pointer</span>);
+                <span class="kw">return</span> <span class="ident">TearOff::from_encoding</span>(<span class="ident">count_or_pointer</span>);
             }
 
-            <span class="ident">TearOff</span>::<span class="ident">from_strong_ptr</span>(<span class="ident">tear_off</span>.<span class="ident">abi</span>())
+            <span class="ident">TearOff::from_strong_ptr</span>(<span class="ident">tear_off</span>.<span class="ident">abi</span>())
                 .<span class="ident">strong_count</span>
                 .<span class="number">0</span>
-                .<span class="ident">store</span>(<span class="ident">count_or_pointer</span> <span class="kw">as</span> <span class="kw">_</span>, <span class="ident">Ordering</span>::<span class="ident">SeqCst</span>);
+                .<span class="ident">store</span>(<span class="ident">count_or_pointer</span> <span class="kw">as</span> <span class="kw">_</span>, <span class="ident">Ordering::SeqCst</span>);
         }
     }
 }
@@ -458,33 +461,33 @@
 
 <span class="kw">impl</span> <span class="ident">TearOff</span> {
     <span class="kw">unsafe</span> <span class="kw">fn</span> <span class="ident">new</span>(<span class="ident">object</span>: <span class="ident">RawPtr</span>, <span class="ident">strong_count</span>: <span class="ident">u32</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">IWeakReferenceSource</span> {
-        <span class="ident">std</span>::<span class="ident">mem</span>::<span class="ident">transmute</span>(<span class="ident">Box</span>::<span class="ident">new</span>(<span class="ident">TearOff</span> {
-            <span class="ident">strong_vtable</span>: <span class="kw-2">&amp;</span><span class="self">Self</span>::<span class="ident">STRONG_VTABLE</span>,
-            <span class="ident">weak_vtable</span>: <span class="kw-2">&amp;</span><span class="self">Self</span>::<span class="ident">WEAK_VTABLE</span>,
+        <span class="ident">std::mem::transmute</span>(<span class="ident">Box::new</span>(<span class="ident">TearOff</span> {
+            <span class="ident">strong_vtable</span>: <span class="kw-2">&amp;</span><span class="self">Self</span><span class="ident">::STRONG_VTABLE</span>,
+            <span class="ident">weak_vtable</span>: <span class="kw-2">&amp;</span><span class="self">Self</span><span class="ident">::WEAK_VTABLE</span>,
             <span class="ident">object</span>,
-            <span class="ident">strong_count</span>: <span class="ident">RefCount</span>::<span class="ident">new</span>(<span class="ident">strong_count</span>),
-            <span class="ident">weak_count</span>: <span class="ident">RefCount</span>::<span class="ident">new</span>(<span class="number">1</span>),
+            <span class="ident">strong_count</span>: <span class="ident">RefCount::new</span>(<span class="ident">strong_count</span>),
+            <span class="ident">weak_count</span>: <span class="ident">RefCount::new</span>(<span class="number">1</span>),
         }))
     }
 
     <span class="kw">unsafe</span> <span class="kw">fn</span> <span class="ident">from_encoding</span>(<span class="ident">encoding</span>: <span class="ident">isize</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">RawPtr</span> {
-        <span class="kw">let</span> <span class="ident">tear_off</span> <span class="op">=</span> <span class="ident">TearOff</span>::<span class="ident">decode</span>(<span class="ident">encoding</span>);
+        <span class="kw">let</span> <span class="ident">tear_off</span> <span class="op">=</span> <span class="ident">TearOff::decode</span>(<span class="ident">encoding</span>);
         <span class="ident">tear_off</span>.<span class="ident">strong_count</span>.<span class="ident">add_ref</span>();
-        <span class="ident">std</span>::<span class="ident">mem</span>::<span class="ident">transmute</span>(<span class="ident">tear_off</span>)
+        <span class="ident">std::mem::transmute</span>(<span class="ident">tear_off</span>)
     }
 
     <span class="kw">const</span> <span class="ident">STRONG_VTABLE</span>: <span class="ident">IWeakReferenceSource_abi</span> <span class="op">=</span> <span class="ident">IWeakReferenceSource_abi</span>(
-        <span class="self">Self</span>::<span class="ident">StrongQueryInterface</span>,
-        <span class="self">Self</span>::<span class="ident">StrongAddRef</span>,
-        <span class="self">Self</span>::<span class="ident">StrongRelease</span>,
-        <span class="self">Self</span>::<span class="ident">StrongDowngrade</span>,
+        <span class="self">Self</span><span class="ident">::StrongQueryInterface</span>,
+        <span class="self">Self</span><span class="ident">::StrongAddRef</span>,
+        <span class="self">Self</span><span class="ident">::StrongRelease</span>,
+        <span class="self">Self</span><span class="ident">::StrongDowngrade</span>,
     );
 
     <span class="kw">const</span> <span class="ident">WEAK_VTABLE</span>: <span class="ident">IWeakReference_abi</span> <span class="op">=</span> <span class="ident">IWeakReference_abi</span>(
-        <span class="self">Self</span>::<span class="ident">WeakQueryInterface</span>,
-        <span class="self">Self</span>::<span class="ident">WeakAddRef</span>,
-        <span class="self">Self</span>::<span class="ident">WeakRelease</span>,
-        <span class="self">Self</span>::<span class="ident">WeakUpgrade</span>,
+        <span class="self">Self</span><span class="ident">::WeakQueryInterface</span>,
+        <span class="self">Self</span><span class="ident">::WeakAddRef</span>,
+        <span class="self">Self</span><span class="ident">::WeakRelease</span>,
+        <span class="self">Self</span><span class="ident">::WeakUpgrade</span>,
     );
 
     <span class="kw">unsafe</span> <span class="kw">fn</span> <span class="ident">from_strong_ptr</span><span class="op">&lt;</span><span class="lifetime">&#39;a</span><span class="op">&gt;</span>(<span class="ident">this</span>: <span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="kw-2">&amp;</span><span class="lifetime">&#39;a</span> <span class="kw-2">mut</span> <span class="self">Self</span> {
@@ -496,7 +499,7 @@
     }
 
     <span class="kw">unsafe</span> <span class="kw">fn</span> <span class="ident">decode</span><span class="op">&lt;</span><span class="lifetime">&#39;a</span><span class="op">&gt;</span>(<span class="ident">value</span>: <span class="ident">isize</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="kw-2">&amp;</span><span class="lifetime">&#39;a</span> <span class="kw-2">mut</span> <span class="self">Self</span> {
-        <span class="ident">std</span>::<span class="ident">mem</span>::<span class="ident">transmute</span>(<span class="ident">value</span> <span class="op">&lt;</span><span class="op">&lt;</span> <span class="number">1</span>)
+        <span class="ident">std::mem::transmute</span>(<span class="ident">value</span> <span class="op">&lt;</span><span class="op">&lt;</span> <span class="number">1</span>)
     }
 
     <span class="kw">unsafe</span> <span class="kw">fn</span> <span class="ident">query_interface</span>(<span class="kw-2">&amp;</span><span class="self">self</span>, <span class="ident">iid</span>: <span class="kw-2">*</span><span class="kw">const</span> <span class="ident">Guid</span>, <span class="ident">interface</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">HRESULT</span> {
@@ -508,11 +511,11 @@
         <span class="ident">iid</span>: <span class="kw-2">&amp;</span><span class="ident">Guid</span>,
         <span class="ident">interface</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">RawPtr</span>,
     ) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">HRESULT</span> {
-        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span>::<span class="ident">from_strong_ptr</span>(<span class="ident">ptr</span>);
+        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span><span class="ident">::from_strong_ptr</span>(<span class="ident">ptr</span>);
 
         <span class="comment">// Only directly respond to queries for the the tear-off&#39;s strong interface. This is</span>
         <span class="comment">// effectively a self-query.</span>
-        <span class="kw">if</span> <span class="ident">iid</span> <span class="op">=</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IWeakReferenceSource</span>::<span class="ident">IID</span> {
+        <span class="kw">if</span> <span class="ident">iid</span> <span class="op">=</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IWeakReferenceSource::IID</span> {
             <span class="kw-2">*</span><span class="ident">interface</span> <span class="op">=</span> <span class="ident">ptr</span>;
             <span class="ident">this</span>.<span class="ident">strong_count</span>.<span class="ident">add_ref</span>();
             <span class="kw">return</span> <span class="ident">HRESULT</span>(<span class="number">0</span>);
@@ -528,53 +531,53 @@
         <span class="ident">iid</span>: <span class="kw-2">&amp;</span><span class="ident">Guid</span>,
         <span class="ident">interface</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">RawPtr</span>,
     ) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">HRESULT</span> {
-        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span>::<span class="ident">from_weak_ptr</span>(<span class="ident">ptr</span>);
+        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span><span class="ident">::from_weak_ptr</span>(<span class="ident">ptr</span>);
 
         <span class="comment">// While the weak vtable is packed into the same allocation as the strong vtable and</span>
         <span class="comment">// tear-off, it represents a distinct COM identity and thus does not share or delegate to</span>
         <span class="comment">// the object.</span>
 
         <span class="kw-2">*</span><span class="ident">interface</span> <span class="op">=</span>
-            <span class="kw">if</span> <span class="ident">iid</span> <span class="op">=</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IWeakReference</span>::<span class="ident">IID</span> <span class="op">|</span><span class="op">|</span> <span class="ident">iid</span> <span class="op">=</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IUnknown</span>::<span class="ident">IID</span> <span class="op">|</span><span class="op">|</span> <span class="ident">iid</span> <span class="op">=</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IAgileObject</span>::<span class="ident">IID</span> {
+            <span class="kw">if</span> <span class="ident">iid</span> <span class="op">=</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IWeakReference::IID</span> <span class="op">|</span><span class="op">|</span> <span class="ident">iid</span> <span class="op">=</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IUnknown::IID</span> <span class="op">|</span><span class="op">|</span> <span class="ident">iid</span> <span class="op">=</span><span class="op">=</span> <span class="kw-2">&amp;</span><span class="ident">IAgileObject::IID</span> {
                 <span class="ident">ptr</span>
             } <span class="kw">else</span> {
-                <span class="ident">std</span>::<span class="ident">ptr</span>::<span class="ident">null_mut</span>()
+                <span class="ident">std::ptr::null_mut</span>()
             };
 
         <span class="comment">// TODO: implement IMarshal</span>
 
         <span class="kw">if</span> (<span class="kw-2">*</span><span class="ident">interface</span>).<span class="ident">is_null</span>() {
-            <span class="ident">HRESULT</span>(<span class="number">0x8000_4002</span>) <span class="comment">// E_NOINTERFACE</span>
+            <span class="ident">E_NOINTERFACE</span>
         } <span class="kw">else</span> {
             <span class="ident">this</span>.<span class="ident">weak_count</span>.<span class="ident">add_ref</span>();
             <span class="ident">HRESULT</span>(<span class="number">0</span>)
         }
     }
 
-    <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">StrongAddRef</span>(<span class="ident">ptr</span>: ::<span class="ident">windows</span>::<span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
-        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span>::<span class="ident">from_strong_ptr</span>(<span class="ident">ptr</span>);
+    <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">StrongAddRef</span>(<span class="ident">ptr</span>: <span class="ident">::windows::RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
+        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span><span class="ident">::from_strong_ptr</span>(<span class="ident">ptr</span>);
 
         <span class="comment">// Implement `AddRef` directly as we own the strong reference.</span>
         <span class="ident">this</span>.<span class="ident">strong_count</span>.<span class="ident">add_ref</span>()
     }
 
-    <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">WeakAddRef</span>(<span class="ident">ptr</span>: ::<span class="ident">windows</span>::<span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
-        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span>::<span class="ident">from_weak_ptr</span>(<span class="ident">ptr</span>);
+    <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">WeakAddRef</span>(<span class="ident">ptr</span>: <span class="ident">::windows::RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
+        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span><span class="ident">::from_weak_ptr</span>(<span class="ident">ptr</span>);
 
         <span class="comment">// Implement `AddRef` directly as we own the weak reference.</span>
         <span class="ident">this</span>.<span class="ident">weak_count</span>.<span class="ident">add_ref</span>()
     }
 
-    <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">StrongRelease</span>(<span class="ident">ptr</span>: ::<span class="ident">windows</span>::<span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
-        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span>::<span class="ident">from_strong_ptr</span>(<span class="ident">ptr</span>);
+    <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">StrongRelease</span>(<span class="ident">ptr</span>: <span class="ident">::windows::RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
+        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span><span class="ident">::from_strong_ptr</span>(<span class="ident">ptr</span>);
 
         <span class="comment">// Forward strong `Release` to the object so that it can destroy itself. It will then</span>
         <span class="comment">// decrement its weak reference and allow the tear-off to be released as needd.</span>
         ((<span class="kw-2">*</span>(<span class="kw-2">*</span>(<span class="ident">this</span>.<span class="ident">object</span> <span class="kw">as</span> <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="kw">_</span>) <span class="kw">as</span> <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">IUnknown_abi</span>)).<span class="number">2</span>)((<span class="kw-2">*</span><span class="ident">this</span>).<span class="ident">object</span>)
     }
 
-    <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">WeakRelease</span>(<span class="ident">ptr</span>: ::<span class="ident">windows</span>::<span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
-        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span>::<span class="ident">from_weak_ptr</span>(<span class="ident">ptr</span>);
+    <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">WeakRelease</span>(<span class="ident">ptr</span>: <span class="ident">::windows::RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">u32</span> {
+        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span><span class="ident">::from_weak_ptr</span>(<span class="ident">ptr</span>);
 
         <span class="comment">// Implement `Release` directly as we own the weak reference.</span>
         <span class="kw">let</span> <span class="ident">remaining</span> <span class="op">=</span> (<span class="kw-2">*</span><span class="ident">this</span>).<span class="ident">weak_count</span>.<span class="ident">release</span>();
@@ -582,14 +585,14 @@
         <span class="comment">// If there are no remaining references, it means that the object has already been</span>
         <span class="comment">// destroyed. Go ahead and destroy the tear-off.</span>
         <span class="kw">if</span> <span class="ident">remaining</span> <span class="op">=</span><span class="op">=</span> <span class="number">0</span> {
-            <span class="ident">Box</span>::<span class="ident">from_raw</span>(<span class="ident">this</span>);
+            <span class="ident">Box::from_raw</span>(<span class="ident">this</span>);
         }
 
         <span class="ident">remaining</span>
     }
 
     <span class="kw">unsafe</span> <span class="kw">extern</span> <span class="string">&quot;system&quot;</span> <span class="kw">fn</span> <span class="ident">StrongDowngrade</span>(<span class="ident">ptr</span>: <span class="ident">RawPtr</span>, <span class="ident">interface</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">RawPtr</span>) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">HRESULT</span> {
-        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span>::<span class="ident">from_strong_ptr</span>(<span class="ident">ptr</span>);
+        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span><span class="ident">::from_strong_ptr</span>(<span class="ident">ptr</span>);
 
         <span class="comment">// The strong vtable hands out a reference to the weak vtable. This is always safe and</span>
         <span class="comment">// straightforward since a strong refernece guarantees there is at lerast one weak</span>
@@ -604,13 +607,13 @@
         <span class="ident">iid</span>: <span class="kw-2">*</span><span class="kw">const</span> <span class="ident">Guid</span>,
         <span class="ident">interface</span>: <span class="kw-2">*</span><span class="kw-2">mut</span> <span class="ident">RawPtr</span>,
     ) <span class="op">-</span><span class="op">&gt;</span> <span class="ident">HRESULT</span> {
-        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span>::<span class="ident">from_weak_ptr</span>(<span class="ident">ptr</span>);
+        <span class="kw">let</span> <span class="ident">this</span> <span class="op">=</span> <span class="self">Self</span><span class="ident">::from_weak_ptr</span>(<span class="ident">ptr</span>);
 
-        <span class="kw">let</span> <span class="ident">count</span> <span class="op">=</span> <span class="ident">this</span>.<span class="ident">strong_count</span>.<span class="number">0</span>.<span class="ident">load</span>(<span class="ident">Ordering</span>::<span class="ident">Relaxed</span>);
+        <span class="kw">let</span> <span class="ident">count</span> <span class="op">=</span> <span class="ident">this</span>.<span class="ident">strong_count</span>.<span class="number">0</span>.<span class="ident">load</span>(<span class="ident">Ordering::Relaxed</span>);
 
         <span class="kw">loop</span> {
             <span class="kw">if</span> <span class="ident">count</span> <span class="op">=</span><span class="op">=</span> <span class="number">0</span> {
-                <span class="kw-2">*</span><span class="ident">interface</span> <span class="op">=</span> <span class="ident">std</span>::<span class="ident">ptr</span>::<span class="ident">null_mut</span>();
+                <span class="kw-2">*</span><span class="ident">interface</span> <span class="op">=</span> <span class="ident">std::ptr::null_mut</span>();
                 <span class="kw">return</span> <span class="ident">HRESULT</span>(<span class="number">0</span>);
             }
 
@@ -619,13 +622,13 @@
             <span class="kw">if</span> <span class="ident">this</span>
                 .<span class="ident">strong_count</span>
                 .<span class="number">0</span>
-                .<span class="ident">compare_exchange_weak</span>(<span class="ident">count</span>, <span class="ident">count</span> <span class="op">+</span> <span class="number">1</span>, <span class="ident">Ordering</span>::<span class="ident">Acquire</span>, <span class="ident">Ordering</span>::<span class="ident">Relaxed</span>)
+                .<span class="ident">compare_exchange_weak</span>(<span class="ident">count</span>, <span class="ident">count</span> <span class="op">+</span> <span class="number">1</span>, <span class="ident">Ordering::Acquire</span>, <span class="ident">Ordering::Relaxed</span>)
                 .<span class="ident">is_ok</span>()
             {
                 <span class="comment">// Let the object respond to the upgrade query.</span>
                 <span class="kw">let</span> <span class="ident">result</span> <span class="op">=</span> <span class="ident">this</span>.<span class="ident">query_interface</span>(<span class="ident">iid</span>, <span class="ident">interface</span>);
                 <span class="comment">// Decrement the temporary reference account used to stablize the object.</span>
-                <span class="ident">this</span>.<span class="ident">strong_count</span>.<span class="number">0</span>.<span class="ident">fetch_sub</span>(<span class="number">1</span>, <span class="ident">Ordering</span>::<span class="ident">Relaxed</span>);
+                <span class="ident">this</span>.<span class="ident">strong_count</span>.<span class="number">0</span>.<span class="ident">fetch_sub</span>(<span class="number">1</span>, <span class="ident">Ordering::Relaxed</span>);
                 <span class="comment">// Return the result of the query.</span>
                 <span class="kw">return</span> <span class="ident">result</span>;
             }
@@ -633,5 +636,6 @@
     }
 }
 </pre></div>
-</section><section id="search" class="content hidden"></section><section class="footer"></section><div id="rustdoc-vars" data-root-path="../../../" data-current-crate="windows" data-search-js="../../../search-index.js"></div>
-    <script src="../../../main.js"></script><script src="../../../source-script.js"></script><script src="../../../source-files.js"></script></body></html>
+</section><section id="search" class="content hidden"></section><div id="rustdoc-vars" data-root-path="../../../" data-current-crate="windows" data-search-index-js="../../../search-index.js" data-search-js="../../../search.js"></div>
+    <script src="../../../main.js"></script><script src="../../../source-script.js"></script><script src="../../../source-files.js"></script>
+</body></html>

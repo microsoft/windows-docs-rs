@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["CreateMailslotA",""],["CreateMailslotW",""],["GetMailslotInfo",""],["SetMailslotInfo",""]],"struct":[["Apis",""]]});
+initSidebarItems({"fn":[["CreateMailslotA",""],["CreateMailslotW",""],["GetMailslotInfo",""],["SetMailslotInfo",""]]});

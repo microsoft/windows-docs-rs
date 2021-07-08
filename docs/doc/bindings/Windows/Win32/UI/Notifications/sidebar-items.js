@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Apis",""],["INotificationActivationCallback",""],["NOTIFICATION_USER_INPUT_DATA",""]]});
+initSidebarItems({"struct":[["INotificationActivationCallback",""],["NOTIFICATION_USER_INPUT_DATA",""]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["OOBEComplete",""],["RegisterWaitUntilOOBECompleted",""],["UnregisterWaitUntilOOBECompleted",""]],"struct":[["Apis",""]],"type":[["OOBE_COMPLETED_CALLBACK",""]]});
+initSidebarItems({"fn":[["OOBEComplete",""],["RegisterWaitUntilOOBECompleted",""],["UnregisterWaitUntilOOBECompleted",""]],"type":[["OOBE_COMPLETED_CALLBACK",""]]});

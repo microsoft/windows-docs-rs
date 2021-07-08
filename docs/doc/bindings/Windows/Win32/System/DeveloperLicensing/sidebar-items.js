@@ -1,1 +1,1 @@
-initSidebarItems({"fn":[["AcquireDeveloperLicense",""],["CheckDeveloperLicense",""],["RemoveDeveloperLicense",""]],"struct":[["Apis",""]]});
+initSidebarItems({"fn":[["AcquireDeveloperLicense",""],["CheckDeveloperLicense",""],["RemoveDeveloperLicense",""]]});
