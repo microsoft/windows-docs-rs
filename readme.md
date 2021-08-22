@@ -13,5 +13,5 @@ The build cannot be automated with GitHub Actions as it takes around 30 minutes 
 It can be manually generated as follows:
 
 ```console
-C:\git\windows-docs-rs\crates\bindings> cargo doc --no-deps -p windows -p bindings --target-dir ..\..\docs
+C:\git\windows-docs-rs\crates\bindings> cargo doc --no-deps -p windows -p windows_bindings --target-dir ..\..\docs
 ```
