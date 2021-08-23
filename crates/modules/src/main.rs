@@ -1,5 +1,5 @@
 fn main() {
-    let reader = gen::TypeReader::get();
+    let reader = reader::TypeReader::get();
     let mut namespaces: Vec::<&'static str> = reader.namespaces();
     namespaces.sort();
 
