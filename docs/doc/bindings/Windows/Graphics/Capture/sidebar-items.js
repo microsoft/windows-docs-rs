@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Direct3D11CaptureFrame",""],["Direct3D11CaptureFramePool",""],["GraphicsCaptureItem",""],["GraphicsCapturePicker",""],["GraphicsCaptureSession",""]]});
+initSidebarItems({"struct":[["Direct3D11CaptureFrame",""],["Direct3D11CaptureFramePool",""],["GraphicsCaptureAccess",""],["GraphicsCaptureAccessKind",""],["GraphicsCaptureItem",""],["GraphicsCapturePicker",""],["GraphicsCaptureSession",""]]});

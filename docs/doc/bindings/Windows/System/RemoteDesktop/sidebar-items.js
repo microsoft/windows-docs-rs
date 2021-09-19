@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["InteractiveSession",""]]});
+initSidebarItems({"mod":[["Input",""]],"struct":[["InteractiveSession",""]]});
