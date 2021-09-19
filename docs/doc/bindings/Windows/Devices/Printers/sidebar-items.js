@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Extensions",""]],"struct":[["Print3DDevice",""],["PrintSchema",""],["PrintersContract",""]]});
+initSidebarItems({"mod":[["Extensions",""]],"struct":[["IppAttributeError",""],["IppAttributeErrorReason",""],["IppAttributeValue",""],["IppAttributeValueKind",""],["IppIntegerRange",""],["IppPrintDevice",""],["IppResolution",""],["IppResolutionUnit",""],["IppSetAttributesResult",""],["IppTextWithLanguage",""],["Print3DDevice",""],["PrintSchema",""],["PrintersContract",""]]});

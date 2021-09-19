@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CoreAppWindowPreview",""],["SystemNavigationCloseRequestedPreviewEventArgs",""],["SystemNavigationManagerPreview",""]]});
+initSidebarItems({"mod":[["Communications",""]],"struct":[["CoreAppWindowPreview",""],["SystemNavigationCloseRequestedPreviewEventArgs",""],["SystemNavigationManagerPreview",""]]});
