@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["OfflineMapPackage",""],["OfflineMapPackageQueryResult",""],["OfflineMapPackageQueryStatus",""],["OfflineMapPackageStartDownloadResult",""],["OfflineMapPackageStartDownloadStatus",""],["OfflineMapPackageStatus",""]]});

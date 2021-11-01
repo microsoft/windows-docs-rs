@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PalmRejectionDelayZonePreview","Required features: `UI_Input_Inking_Preview`"]]});

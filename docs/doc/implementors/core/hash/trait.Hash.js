@@ -1,0 +1,3 @@
+(function() {var implementors = {};
+implementors["windows"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/hash/trait.Hash.html\" title=\"trait core::hash::Hash\">Hash</a> for <a class=\"struct\" href=\"windows/runtime/struct.GUID.html\" title=\"struct windows::runtime::GUID\">GUID</a>","synthetic":false,"types":["windows::runtime::guid::GUID"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

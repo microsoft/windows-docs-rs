@@ -1,1 +1,0 @@
-initSidebarItems({"constant":[["CLSID_DeviceIoControl",""]],"fn":[["CreateDeviceAccessInstance",""]],"struct":[["ICreateDeviceAccessAsync",""],["IDeviceIoControl",""],["IDeviceRequestCompletionCallback",""]]});

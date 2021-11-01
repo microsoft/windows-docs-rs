@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["FileInformation","Required features: `Storage_BulkAccess`"],["FileInformationFactory","Required features: `Storage_BulkAccess`"],["FolderInformation","Required features: `Storage_BulkAccess`"],["IStorageItemInformation","Required features: `Storage_BulkAccess`"]]});

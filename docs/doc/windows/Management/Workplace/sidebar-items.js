@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["MdmPolicy","Required features: `Management_Workplace`"],["MessagingSyncPolicy","Required features: `Management_Workplace`"],["WorkplaceSettings","Required features: `Management_Workplace`"],["WorkplaceSettingsContract",""]]});

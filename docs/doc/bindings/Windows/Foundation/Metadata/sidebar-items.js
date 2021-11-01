@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ApiInformation",""],["AttributeTargets",""],["CompositionType",""],["DeprecationType",""],["FeatureStage",""],["GCPressureAmount",""],["MarshalingType",""],["Platform",""],["ThreadingModel",""]]});

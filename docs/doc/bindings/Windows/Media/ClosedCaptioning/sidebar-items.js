@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ClosedCaptionColor",""],["ClosedCaptionEdgeEffect",""],["ClosedCaptionOpacity",""],["ClosedCaptionProperties",""],["ClosedCaptionSize",""],["ClosedCaptionStyle",""]]});

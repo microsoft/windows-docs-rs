@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["Geofence",""],["GeofenceMonitor",""],["GeofenceMonitorStatus",""],["GeofenceRemovalReason",""],["GeofenceState",""],["GeofenceStateChangeReport",""],["MonitoredGeofenceStates",""]]});

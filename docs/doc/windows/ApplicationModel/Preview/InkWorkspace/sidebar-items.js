@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["InkWorkspaceHostedAppManager","Required features: `ApplicationModel_Preview_InkWorkspace`"],["PreviewInkWorkspaceContract",""]]});

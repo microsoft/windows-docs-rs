@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Battery","Required features: `Phone_Devices_Power`"]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["UserDataAvailability",""],["UserDataAvailabilityStateChangedEventArgs",""],["UserDataBufferUnprotectResult",""],["UserDataBufferUnprotectStatus",""],["UserDataProtectionManager",""],["UserDataStorageItemProtectionInfo",""],["UserDataStorageItemProtectionStatus",""]]});

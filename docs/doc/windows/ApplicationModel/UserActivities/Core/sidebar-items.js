@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["CoreUserActivityManager","Required features: `ApplicationModel_UserActivities_Core`"]]});

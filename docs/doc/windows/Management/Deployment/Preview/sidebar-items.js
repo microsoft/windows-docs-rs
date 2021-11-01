@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ClassicAppManager","Required features: `Management_Deployment_Preview`"],["DeploymentPreviewContract",""],["InstalledClassicAppInfo","Required features: `Management_Deployment_Preview`"]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["DesktopWindowTarget","Required features: `UI_Composition_Desktop`"]]});

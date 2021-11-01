@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["DeviceLockdownContract",""],["DeviceLockdownProfile","Required features: `Embedded_DeviceLockdown`"],["DeviceLockdownProfileInformation","Required features: `Embedded_DeviceLockdown`"]]});

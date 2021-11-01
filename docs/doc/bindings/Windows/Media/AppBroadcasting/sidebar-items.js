@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AppBroadcastingContract",""],["AppBroadcastingMonitor",""],["AppBroadcastingStatus",""],["AppBroadcastingStatusDetails",""],["AppBroadcastingUI",""]]});
