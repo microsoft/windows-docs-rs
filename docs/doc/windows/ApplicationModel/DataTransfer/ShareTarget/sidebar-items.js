@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["QuickLink","Required features: `ApplicationModel_DataTransfer_ShareTarget`"],["ShareOperation","Required features: `ApplicationModel_DataTransfer_ShareTarget`"]]});

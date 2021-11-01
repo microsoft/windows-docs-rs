@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["AI",""],["Data",""],["Devices",""],["Foundation",""],["Gaming",""],["Globalization",""],["Graphics",""],["Management",""],["Media",""],["NetworkManagement",""],["Networking",""],["Security",""],["Storage",""],["System",""],["UI",""],["Web",""]]});

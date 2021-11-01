@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["ConditionForceEffect",""],["ConditionForceEffectKind",""],["ConstantForceEffect",""],["ForceFeedbackEffectAxes",""],["ForceFeedbackEffectState",""],["ForceFeedbackLoadEffectResult",""],["ForceFeedbackMotor",""],["IForceFeedbackEffect",""],["PeriodicForceEffect",""],["PeriodicForceEffectKind",""],["RampForceEffect",""]]});

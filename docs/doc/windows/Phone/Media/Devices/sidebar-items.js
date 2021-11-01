@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AudioRoutingEndpoint","Required features: `Phone_Media_Devices`"],["AudioRoutingManager","Required features: `Phone_Media_Devices`"],["AvailableAudioRoutingEndpoints","Required features: `Phone_Media_Devices`"]]});

@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["Provider",""],["SystemAccess",""]],"struct":[["UserDataAccount",""],["UserDataAccountContentKinds",""],["UserDataAccountManager",""],["UserDataAccountManagerForUser",""],["UserDataAccountOtherAppReadAccess",""],["UserDataAccountStore",""],["UserDataAccountStoreAccessType",""],["UserDataAccountStoreChangedEventArgs",""]]});

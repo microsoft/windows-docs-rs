@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["VariablePhotoCapturedEventArgs","Required features: `Media_Capture_Core`"],["VariablePhotoSequenceCapture","Required features: `Media_Capture_Core`"]]});

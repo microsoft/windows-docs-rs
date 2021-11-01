@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["INotificationActivationCallback","Required features: `Win32_UI_Notifications`"],["NOTIFICATION_USER_INPUT_DATA","Required features: `Win32_UI_Notifications`, `Win32_Foundation`"]]});

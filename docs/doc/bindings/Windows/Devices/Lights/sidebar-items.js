@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["Effects",""]],"struct":[["Lamp",""],["LampArray",""],["LampArrayKind",""],["LampAvailabilityChangedEventArgs",""],["LampInfo",""],["LampPurposes",""]]});

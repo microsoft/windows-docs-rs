@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AppCapability","Required features: `Security_Authorization_AppCapabilityAccess`"],["AppCapabilityAccessChangedEventArgs","Required features: `Security_Authorization_AppCapabilityAccess`"],["AppCapabilityAccessStatus","Required features: `Security_Authorization_AppCapabilityAccess`"]]});

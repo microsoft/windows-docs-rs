@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["PortableDeviceContract",""],["ServiceDevice","Required features: `Devices_Portable`"],["ServiceDeviceType","Required features: `Devices_Portable`"],["StorageDevice","Required features: `Devices_Portable`"]]});

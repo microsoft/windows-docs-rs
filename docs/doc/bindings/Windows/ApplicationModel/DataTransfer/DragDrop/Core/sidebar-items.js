@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["CoreDragDropManager",""],["CoreDragInfo",""],["CoreDragOperation",""],["CoreDragUIContentMode",""],["CoreDragUIOverride",""],["CoreDropOperationTargetRequestedEventArgs",""],["ICoreDropOperationTarget",""]]});
