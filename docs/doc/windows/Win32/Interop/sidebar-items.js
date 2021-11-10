@@ -1,1 +1,0 @@
-initSidebarItems({"constant":[["All",""],["Arm64",""],["None",""],["X64",""],["X86",""]],"struct":[["Architecture","Required features: `Win32_Interop`"]]});
