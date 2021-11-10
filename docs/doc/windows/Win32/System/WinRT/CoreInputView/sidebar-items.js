@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ICoreFrameworkInputViewInterop","Required features: `Win32_System_WinRT_CoreInputView`"]]});

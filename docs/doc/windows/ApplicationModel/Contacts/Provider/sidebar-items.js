@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["AddContactResult","Required features: `ApplicationModel_Contacts_Provider`"],["ContactPickerUI","Required features: `ApplicationModel_Contacts_Provider`"],["ContactRemovedEventArgs","Required features: `ApplicationModel_Contacts_Provider`"]]});

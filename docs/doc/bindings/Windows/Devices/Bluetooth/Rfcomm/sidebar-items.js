@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["RfcommDeviceService",""],["RfcommDeviceServicesResult",""],["RfcommServiceId",""],["RfcommServiceProvider",""]]});

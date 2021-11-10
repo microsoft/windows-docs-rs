@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["NamedPolicy",""],["NamedPolicyData",""],["NamedPolicyKind",""]]});

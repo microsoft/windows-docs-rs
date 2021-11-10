@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["HingeState","Required features: `System_Preview`"],["TwoPanelHingedDevicePosturePreview","Required features: `System_Preview`"],["TwoPanelHingedDevicePosturePreviewReading","Required features: `System_Preview`"],["TwoPanelHingedDevicePosturePreviewReadingChangedEventArgs","Required features: `System_Preview`"]]});

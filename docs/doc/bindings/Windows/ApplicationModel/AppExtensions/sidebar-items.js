@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["AppExtension",""],["AppExtensionCatalog",""],["AppExtensionPackageInstalledEventArgs",""],["AppExtensionPackageStatusChangedEventArgs",""],["AppExtensionPackageUninstallingEventArgs",""],["AppExtensionPackageUpdatedEventArgs",""],["AppExtensionPackageUpdatingEventArgs",""]]});

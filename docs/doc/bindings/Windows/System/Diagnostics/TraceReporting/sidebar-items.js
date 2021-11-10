@@ -1,1 +1,0 @@
-initSidebarItems({"struct":[["PlatformDiagnosticActionState",""],["PlatformDiagnosticActions",""],["PlatformDiagnosticEscalationType",""],["PlatformDiagnosticEventBufferLatencies",""],["PlatformDiagnosticTraceInfo",""],["PlatformDiagnosticTracePriority",""],["PlatformDiagnosticTraceRuntimeInfo",""],["PlatformDiagnosticTraceSlotState",""],["PlatformDiagnosticTraceSlotType",""]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["ApplicationDataManager","Required features: `Management_Core`"]]});

@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["IWICImageEncoder","Required features: `Win32_Graphics_Imaging_D2D`"],["IWICImagingFactory2","Required features: `Win32_Graphics_Imaging_D2D`"]]});

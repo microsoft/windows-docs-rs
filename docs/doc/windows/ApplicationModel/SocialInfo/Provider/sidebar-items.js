@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["SocialDashboardItemUpdater","Required features: `ApplicationModel_SocialInfo_Provider`"],["SocialFeedUpdater","Required features: `ApplicationModel_SocialInfo_Provider`"],["SocialInfoProviderManager","Required features: `ApplicationModel_SocialInfo_Provider`"]]});

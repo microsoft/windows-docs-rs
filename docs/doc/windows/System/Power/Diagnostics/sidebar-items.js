@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["BackgroundEnergyDiagnostics","Required features: `System_Power_Diagnostics`"],["ForegroundEnergyDiagnostics","Required features: `System_Power_Diagnostics`"]]});

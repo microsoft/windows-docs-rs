@@ -1,0 +1,1 @@
+initSidebarItems({"constant":[["CLSID_SoftwareBitmapNativeFactory",""]],"struct":[["ISoftwareBitmapNative","Required features: `Win32_System_WinRT_Graphics_Imaging`"],["ISoftwareBitmapNativeFactory","Required features: `Win32_System_WinRT_Graphics_Imaging`"]]});

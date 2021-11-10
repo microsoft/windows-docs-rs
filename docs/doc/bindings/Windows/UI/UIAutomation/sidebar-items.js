@@ -1,1 +1,0 @@
-initSidebarItems({"mod":[["Core",""]],"struct":[["AutomationConnection",""],["AutomationConnectionBoundObject",""],["AutomationElement",""],["AutomationTextRange",""],["UIAutomationContract",""]]});
