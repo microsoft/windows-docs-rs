@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["WindowManagementPreview","Required features: `UI_WindowManagement_Preview`"]]});
+initSidebarItems({"struct":[["WindowManagementPreview","Required features: ‘UI_WindowManagement_Preview’"]]});

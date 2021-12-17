@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PreallocatedWorkItem","Required features: `System_Threading_Core`"],["SignalHandler","Required features: `System_Threading_Core`"],["SignalNotifier","Required features: `System_Threading_Core`"]]});
+initSidebarItems({"struct":[["PreallocatedWorkItem","Required features: ‘System_Threading_Core’"],["SignalHandler","Required features: ‘System_Threading_Core’"],["SignalNotifier","Required features: ‘System_Threading_Core’"]]});

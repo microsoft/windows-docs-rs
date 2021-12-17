@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PhoneCallOrigin","Required features: `ApplicationModel_Calls_Provider`"],["PhoneCallOriginManager","Required features: `ApplicationModel_Calls_Provider`"]]});
+initSidebarItems({"struct":[["PhoneCallOrigin","Required features: ‘ApplicationModel_Calls_Provider’"],["PhoneCallOriginManager","Required features: ‘ApplicationModel_Calls_Provider’"]]});

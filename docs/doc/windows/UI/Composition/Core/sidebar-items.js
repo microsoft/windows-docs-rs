@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CompositorController","Required features: `UI_Composition_Core`"]]});
+initSidebarItems({"struct":[["CompositorController","Required features: ‘UI_Composition_Core’"]]});

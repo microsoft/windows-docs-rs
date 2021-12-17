@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Storage",""]],"struct":[["StorageApiContract",""]]});
+initSidebarItems({"mod":[["Storage",""]]});

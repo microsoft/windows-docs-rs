@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["JET_API_PTR",""],["JET_HANDLE",""],["JET_INSTANCE",""],["JET_SESID",""],["JET_TABLEID",""]]});
+initSidebarItems({"type":[["JET_API_PTR",""],["JET_HANDLE",""],["JET_INSTANCE",""],["JET_SESID",""],["JET_TABLEID",""]]});

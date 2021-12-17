@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IGraphicsCaptureItemInterop","Required features: `Win32_System_WinRT_Graphics_Capture`"]]});
+initSidebarItems({"struct":[["IGraphicsCaptureItemInterop","Required features: ‘Win32_System_WinRT_Graphics_Capture’"]]});

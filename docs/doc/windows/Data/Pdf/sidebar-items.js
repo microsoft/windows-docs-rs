@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PdfDocument","Required features: `Data_Pdf`"],["PdfPage","Required features: `Data_Pdf`"],["PdfPageDimensions","Required features: `Data_Pdf`"],["PdfPageRenderOptions","Required features: `Data_Pdf`"],["PdfPageRotation","Required features: `Data_Pdf`"]]});
+initSidebarItems({"struct":[["PdfDocument","Required features: ‘Data_Pdf’"],["PdfPage","Required features: ‘Data_Pdf’"],["PdfPageDimensions","Required features: ‘Data_Pdf’"],["PdfPageRenderOptions","Required features: ‘Data_Pdf’"],["PdfPageRotation","Required features: ‘Data_Pdf’"]]});

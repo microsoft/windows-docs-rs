@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PreviewBuildsManager","Required features: `Management_Update`"],["PreviewBuildsState","Required features: `Management_Update`"]]});
+initSidebarItems({"struct":[["PreviewBuildsManager","Required features: ‘Management_Update’"],["PreviewBuildsState","Required features: ‘Management_Update’"]]});

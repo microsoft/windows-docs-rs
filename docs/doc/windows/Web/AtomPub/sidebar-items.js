@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AtomPubClient","Required features: `Web_AtomPub`"],["ResourceCollection","Required features: `Web_AtomPub`"],["ServiceDocument","Required features: `Web_AtomPub`"],["Workspace","Required features: `Web_AtomPub`"]]});
+initSidebarItems({"struct":[["AtomPubClient","Required features: ‘Web_AtomPub’"],["ResourceCollection","Required features: ‘Web_AtomPub’"],["ServiceDocument","Required features: ‘Web_AtomPub’"],["Workspace","Required features: ‘Web_AtomPub’"]]});

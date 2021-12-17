@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IDummyHICONIncluder","Required features: `Win32_System_Com_UI`"],["IThumbnailExtractor","Required features: `Win32_System_Com_UI`"]]});
+initSidebarItems({"struct":[["IDummyHICONIncluder","Required features: ‘Win32_System_Com_UI’"],["IThumbnailExtractor","Required features: ‘Win32_System_Com_UI’"]]});

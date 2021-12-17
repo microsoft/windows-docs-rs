@@ -7,5 +7,5 @@ https://microsoft.github.io/windows-docs-rs/
 It can be manually generated as follows:
 
 ```console
-C:\git\windows-rs> cargo doc --all-features --no-deps --target-dir c:\git\windows-docs-rs\docs
+C:\git\windows-rs> cargo doc -p windows --all-features --no-deps --target-dir d:\git\docs-rs\docs
 ```

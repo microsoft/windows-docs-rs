@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DualSimTile","Required features: `Phone_StartScreen`"],["DualSimTileContract",""],["IToastNotificationManagerStatics3","Required features: `Phone_StartScreen`"]]});
+initSidebarItems({"struct":[["DualSimTile","Required features: ‘Phone_StartScreen’"],["IToastNotificationManagerStatics3","Required features: ‘Phone_StartScreen’"]]});

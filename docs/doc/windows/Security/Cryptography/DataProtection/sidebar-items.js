@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DataProtectionProvider","Required features: `Security_Cryptography_DataProtection`"]]});
+initSidebarItems({"struct":[["DataProtectionProvider","Required features: ‘Security_Cryptography_DataProtection’"]]});

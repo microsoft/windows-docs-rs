@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["GameControllerProviderInfo","Required features: `Gaming_Input_Preview`"]]});
+initSidebarItems({"struct":[["GameControllerProviderInfo","Required features: ‘Gaming_Input_Preview’"]]});

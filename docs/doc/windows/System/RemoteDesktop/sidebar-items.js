@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Input",""]],"struct":[["InteractiveSession","Required features: `System_RemoteDesktop`"]]});
+initSidebarItems({"mod":[["Input",""]],"struct":[["InteractiveSession","Required features: ‘System_RemoteDesktop’"]]});

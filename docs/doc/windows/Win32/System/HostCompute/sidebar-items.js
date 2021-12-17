@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HCS_CALLBACK",""]]});
+initSidebarItems({"type":[["HCS_CALLBACK",""]]});

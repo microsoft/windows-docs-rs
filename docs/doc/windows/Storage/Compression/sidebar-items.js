@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CompressAlgorithm","Required features: `Storage_Compression`"],["Compressor","Required features: `Storage_Compression`"],["Decompressor","Required features: `Storage_Compression`"]]});
+initSidebarItems({"struct":[["CompressAlgorithm","Required features: ‘Storage_Compression’"],["Compressor","Required features: ‘Storage_Compression’"],["Decompressor","Required features: ‘Storage_Compression’"]]});

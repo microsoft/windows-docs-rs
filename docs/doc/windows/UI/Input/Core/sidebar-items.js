@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["RadialControllerIndependentInputSource","Required features: `UI_Input_Core`"]]});
+initSidebarItems({"struct":[["RadialControllerIndependentInputSource","Required features: ‘UI_Input_Core’"]]});

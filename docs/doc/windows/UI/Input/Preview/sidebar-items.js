@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Injection",""]],"struct":[["InputActivationListenerPreview","Required features: `UI_Input_Preview`"]]});
+initSidebarItems({"mod":[["Injection",""]],"struct":[["InputActivationListenerPreview","Required features: ‘UI_Input_Preview’"]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ApplicationProfile","Required features: `Phone_ApplicationModel`"],["ApplicationProfileModes","Required features: `Phone_ApplicationModel`"]]});
+initSidebarItems({"struct":[["ApplicationProfile","Required features: ‘Phone_ApplicationModel’"],["ApplicationProfileModes","Required features: ‘Phone_ApplicationModel’"]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["BackgroundEnergyDiagnostics","Required features: `System_Power_Diagnostics`"],["ForegroundEnergyDiagnostics","Required features: `System_Power_Diagnostics`"]]});
+initSidebarItems({"struct":[["BackgroundEnergyDiagnostics","Required features: ‘System_Power_Diagnostics’, ‘deprecated’"],["ForegroundEnergyDiagnostics","Required features: ‘System_Power_Diagnostics’, ‘deprecated’"]]});
