@@ -1,1 +1,1 @@
-initSidebarItems({"constant":[["CLSID_XMLGraphBuilder",""]],"struct":[["IXMLGraphBuilder","Required features: ‘Win32_Media_DirectShow_Xml’"]]});
+initSidebarItems({"constant":[["CLSID_XMLGraphBuilder",""]],"struct":[["IXMLGraphBuilder","Required features: ‘Win32_Media_DirectShow_Xml’"]],"trait":[["IXMLGraphBuilder_Impl",""]]});

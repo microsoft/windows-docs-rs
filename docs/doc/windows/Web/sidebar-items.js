@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["AtomPub",""],["Http",""],["Syndication",""],["UI",""]],"struct":[["IUriToStreamResolver","Required features: ‘Web’"],["WebError","Required features: ‘Web’"],["WebErrorStatus","Required features: ‘Web’"]]});
+initSidebarItems({"mod":[["AtomPub",""],["Http",""],["Syndication",""],["UI",""]],"struct":[["IUriToStreamResolver","Required features: ‘Web’"],["WebError","Required features: ‘Web’"],["WebErrorStatus","Required features: ‘Web’"]],"trait":[["IUriToStreamResolver_Impl",""]]});

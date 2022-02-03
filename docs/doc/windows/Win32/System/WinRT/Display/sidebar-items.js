@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IDisplayDeviceInterop","Required features: ‘Win32_System_WinRT_Display’"],["IDisplayPathInterop","Required features: ‘Win32_System_WinRT_Display’"]]});
+initSidebarItems({"struct":[["IDisplayDeviceInterop","Required features: ‘Win32_System_WinRT_Display’"],["IDisplayPathInterop","Required features: ‘Win32_System_WinRT_Display’"]],"trait":[["IDisplayDeviceInterop_Impl",""],["IDisplayPathInterop_Impl",""]]});
