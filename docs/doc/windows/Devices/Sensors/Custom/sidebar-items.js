@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CustomSensor","Required features: ‘Devices_Sensors_Custom’"],["CustomSensorReading","Required features: ‘Devices_Sensors_Custom’"],["CustomSensorReadingChangedEventArgs","Required features: ‘Devices_Sensors_Custom’"]]});
+initSidebarItems({"struct":[["CustomSensor","Required features: `\"Devices_Sensors_Custom\"`"],["CustomSensorReading","Required features: `\"Devices_Sensors_Custom\"`"],["CustomSensorReadingChangedEventArgs","Required features: `\"Devices_Sensors_Custom\"`"]]});

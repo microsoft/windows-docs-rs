@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CharacterGrouping","Required features: ‘Globalization_Collation’"],["CharacterGroupings","Required features: ‘Globalization_Collation’"]]});
+initSidebarItems({"struct":[["CharacterGrouping","Required features: `\"Globalization_Collation\"`"],["CharacterGroupings","Required features: `\"Globalization_Collation\"`"]]});

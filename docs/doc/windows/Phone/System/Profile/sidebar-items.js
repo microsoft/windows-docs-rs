@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["RetailMode","Required features: ‘Phone_System_Profile’, ‘deprecated’"]]});
+initSidebarItems({"struct":[["RetailMode","Required features: `\"Phone_System_Profile\"`, `\"deprecated\"`"]]});

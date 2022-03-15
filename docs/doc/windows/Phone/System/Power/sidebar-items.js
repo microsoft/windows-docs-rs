@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["PowerManager","Required features: ‘Phone_System_Power’"],["PowerSavingMode","Required features: ‘Phone_System_Power’"]]});
+initSidebarItems({"struct":[["PowerManager","Required features: `\"Phone_System_Power\"`"],["PowerSavingMode","Required features: `\"Phone_System_Power\"`"]]});

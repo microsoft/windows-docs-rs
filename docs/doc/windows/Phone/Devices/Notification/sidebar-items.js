@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["VibrationDevice","Required features: ‘Phone_Devices_Notification’"]]});
+initSidebarItems({"struct":[["VibrationDevice","Required features: `\"Phone_Devices_Notification\"`"]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IWICImageEncoder","Required features: ‘Win32_Graphics_Imaging_D2D’"],["IWICImagingFactory2","Required features: ‘Win32_Graphics_Imaging_D2D’"]],"trait":[["IWICImageEncoder_Impl",""],["IWICImagingFactory2_Impl",""]]});
+initSidebarItems({"struct":[["IWICImageEncoder","Required features: `\"Win32_Graphics_Imaging_D2D\"`"],["IWICImagingFactory2","Required features: `\"Win32_Graphics_Imaging_D2D\"`"]],"trait":[["IWICImageEncoder_Impl",""],["IWICImagingFactory2_Impl",""]]});

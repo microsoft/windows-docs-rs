@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["RemoteTextConnection","Required features: ‘System_RemoteDesktop_Input’"],["RemoteTextConnectionDataHandler","Required features: ‘System_RemoteDesktop_Input’"]]});
+initSidebarItems({"struct":[["RemoteTextConnection","Required features: `\"System_RemoteDesktop_Input\"`"],["RemoteTextConnectionDataHandler","Required features: `\"System_RemoteDesktop_Input\"`"]]});

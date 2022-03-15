@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ServiceDevice","Required features: ‘Devices_Portable’"],["ServiceDeviceType","Required features: ‘Devices_Portable’"],["StorageDevice","Required features: ‘Devices_Portable’"]]});
+initSidebarItems({"struct":[["ServiceDevice","Required features: `\"Devices_Portable\"`"],["ServiceDeviceType","Required features: `\"Devices_Portable\"`"],["StorageDevice","Required features: `\"Devices_Portable\"`"]]});

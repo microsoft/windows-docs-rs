@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IGraphicsEffect","Required features: ‘Graphics_Effects’"],["IGraphicsEffectSource","Required features: ‘Graphics_Effects’"]],"trait":[["IGraphicsEffectSource_Impl",""],["IGraphicsEffect_Impl",""]]});
+initSidebarItems({"struct":[["IGraphicsEffect","Required features: `\"Graphics_Effects\"`"],["IGraphicsEffectSource","Required features: `\"Graphics_Effects\"`"]],"trait":[["IGraphicsEffectSource_Impl",""],["IGraphicsEffect_Impl",""]]});

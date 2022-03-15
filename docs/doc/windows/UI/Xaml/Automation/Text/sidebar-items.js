@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["TextPatternRangeEndpoint","Required features: ‘UI_Xaml_Automation_Text’"],["TextUnit","Required features: ‘UI_Xaml_Automation_Text’"]]});
+initSidebarItems({"struct":[["TextPatternRangeEndpoint","Required features: `\"UI_Xaml_Automation_Text\"`"],["TextUnit","Required features: `\"UI_Xaml_Automation_Text\"`"]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["InstalledDesktopApp","Required features: ‘System_Inventory’"]]});
+initSidebarItems({"struct":[["InstalledDesktopApp","Required features: `\"System_Inventory\"`"]]});

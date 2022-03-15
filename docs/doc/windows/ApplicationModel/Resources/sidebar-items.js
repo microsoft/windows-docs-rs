@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Core",""],["Management",""]],"struct":[["ResourceLoader","Required features: ‘ApplicationModel_Resources’"]]});
+initSidebarItems({"mod":[["Core",""],["Management",""]],"struct":[["ResourceLoader","Required features: `\"ApplicationModel_Resources\"`"]]});

@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ScreenReaderPositionChangedEventArgs","Required features: ‘UI_Accessibility’"],["ScreenReaderService","Required features: ‘UI_Accessibility’"]]});
+initSidebarItems({"struct":[["ScreenReaderPositionChangedEventArgs","Required features: `\"UI_Accessibility\"`"],["ScreenReaderService","Required features: `\"UI_Accessibility\"`"]]});

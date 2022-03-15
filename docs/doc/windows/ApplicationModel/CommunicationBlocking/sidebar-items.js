@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CommunicationBlockingAccessManager","Required features: ‘ApplicationModel_CommunicationBlocking’"],["CommunicationBlockingAppManager","Required features: ‘ApplicationModel_CommunicationBlocking’"]]});
+initSidebarItems({"struct":[["CommunicationBlockingAccessManager","Required features: `\"ApplicationModel_CommunicationBlocking\"`"],["CommunicationBlockingAppManager","Required features: `\"ApplicationModel_CommunicationBlocking\"`"]]});

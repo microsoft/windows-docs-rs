@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DeviceServicingDetails","Required features: ‘Devices_Background’"],["DeviceUseDetails","Required features: ‘Devices_Background’"]]});
+initSidebarItems({"struct":[["DeviceServicingDetails","Required features: `\"Devices_Background\"`"],["DeviceUseDetails","Required features: `\"Devices_Background\"`"]]});

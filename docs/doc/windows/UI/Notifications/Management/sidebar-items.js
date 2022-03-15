@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["UserNotificationListener","Required features: ‘UI_Notifications_Management’"],["UserNotificationListenerAccessStatus","Required features: ‘UI_Notifications_Management’"]]});
+initSidebarItems({"struct":[["UserNotificationListener","Required features: `\"UI_Notifications_Management\"`"],["UserNotificationListenerAccessStatus","Required features: `\"UI_Notifications_Management\"`"]]});

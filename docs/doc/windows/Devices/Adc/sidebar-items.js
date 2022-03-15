@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Provider",""]],"struct":[["AdcChannel","Required features: ‘Devices_Adc’"],["AdcChannelMode","Required features: ‘Devices_Adc’"],["AdcController","Required features: ‘Devices_Adc’"]]});
+initSidebarItems({"mod":[["Provider",""]],"struct":[["AdcChannel","Required features: `\"Devices_Adc\"`"],["AdcChannelMode","Required features: `\"Devices_Adc\"`"],["AdcController","Required features: `\"Devices_Adc\"`"]]});

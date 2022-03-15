@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Power",""],["Profile",""],["UserProfile",""]],"struct":[["SystemProtection","Required features: ‘Phone_System’"]]});
+initSidebarItems({"mod":[["Power",""],["Profile",""],["UserProfile",""]],"struct":[["SystemProtection","Required features: `\"Phone_System\"`"]]});

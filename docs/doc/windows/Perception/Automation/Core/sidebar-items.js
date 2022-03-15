@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CorePerceptionAutomation","Required features: ‘Perception_Automation_Core’"]]});
+initSidebarItems({"struct":[["CorePerceptionAutomation","Required features: `\"Perception_Automation_Core\"`"]]});

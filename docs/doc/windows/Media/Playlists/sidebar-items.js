@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Playlist","Required features: ‘Media_Playlists’"],["PlaylistFormat","Required features: ‘Media_Playlists’"]]});
+initSidebarItems({"struct":[["Playlist","Required features: `\"Media_Playlists\"`"],["PlaylistFormat","Required features: `\"Media_Playlists\"`"]]});
