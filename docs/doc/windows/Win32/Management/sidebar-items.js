@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["MobileDeviceManagementRegistration",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["MobileDeviceManagementRegistration",""]]};

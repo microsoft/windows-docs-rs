@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Input",""],["Preview",""],["UI",""],["XboxLive",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Input",""],["Preview",""],["UI",""],["XboxLive",""]]};

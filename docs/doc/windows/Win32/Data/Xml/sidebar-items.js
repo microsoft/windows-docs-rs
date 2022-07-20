@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["MsXml",""],["XmlLite",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["MsXml",""],["XmlLite",""]]};

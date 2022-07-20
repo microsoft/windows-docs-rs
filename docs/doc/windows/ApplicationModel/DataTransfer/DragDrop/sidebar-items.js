@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Core",""]],"struct":[["DragDropModifiers","Required features: `\"ApplicationModel_DataTransfer_DragDrop\"`"]]});
+window.SIDEBAR_ITEMS = {"mod":[["Core",""]],"struct":[["DragDropModifiers","Required features: `\"ApplicationModel_DataTransfer_DragDrop\"`"]]};

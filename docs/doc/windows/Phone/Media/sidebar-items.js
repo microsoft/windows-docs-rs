@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Devices",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Devices",""]]};

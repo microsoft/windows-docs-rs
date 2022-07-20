@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["DirectML",""],["WinML",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["DirectML",""],["WinML",""]]};

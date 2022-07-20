@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Management",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Management",""]]};

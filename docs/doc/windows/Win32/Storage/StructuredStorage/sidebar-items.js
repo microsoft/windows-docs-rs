@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["JET_API_PTR",""],["JET_HANDLE",""],["JET_INSTANCE",""],["JET_SESID",""],["JET_TABLEID",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["JET_API_PTR",""],["JET_HANDLE",""],["JET_INSTANCE",""],["JET_SESID",""],["JET_TABLEID",""]]};

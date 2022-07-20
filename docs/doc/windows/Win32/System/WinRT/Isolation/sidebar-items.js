@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IIsolatedEnvironmentInterop","Required features: `\"Win32_System_WinRT_Isolation\"`"]],"trait":[["IIsolatedEnvironmentInterop_Impl",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["IIsolatedEnvironmentInterop","Required features: `\"Win32_System_WinRT_Isolation\"`"]],"trait":[["IIsolatedEnvironmentInterop_Impl",""]]};

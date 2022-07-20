@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ClassicAppManager","Required features: `\"Management_Deployment_Preview\"`"],["InstalledClassicAppInfo","Required features: `\"Management_Deployment_Preview\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["ClassicAppManager","Required features: `\"Management_Deployment_Preview\"`"],["InstalledClassicAppInfo","Required features: `\"Management_Deployment_Preview\"`"]]};

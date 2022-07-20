@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Ceip",""],["Debug",""],["Etw",""],["ProcessSnapshotting",""],["ToolHelp",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Ceip",""],["Debug",""],["Etw",""],["ProcessSnapshotting",""],["ToolHelp",""]]};

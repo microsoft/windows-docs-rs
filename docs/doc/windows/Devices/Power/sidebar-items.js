@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Battery","Required features: `\"Devices_Power\"`"],["BatteryReport","Required features: `\"Devices_Power\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["Battery","Required features: `\"Devices_Power\"`"],["BatteryReport","Required features: `\"Devices_Power\"`"]]};

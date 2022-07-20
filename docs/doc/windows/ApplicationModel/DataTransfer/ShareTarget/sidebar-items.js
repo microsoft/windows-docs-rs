@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["QuickLink","Required features: `\"ApplicationModel_DataTransfer_ShareTarget\"`"],["ShareOperation","Required features: `\"ApplicationModel_DataTransfer_ShareTarget\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["QuickLink","Required features: `\"ApplicationModel_DataTransfer_ShareTarget\"`"],["ShareOperation","Required features: `\"ApplicationModel_DataTransfer_ShareTarget\"`"]]};

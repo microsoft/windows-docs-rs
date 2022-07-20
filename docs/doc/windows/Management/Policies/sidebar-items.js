@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["NamedPolicy","Required features: `\"Management_Policies\"`"],["NamedPolicyData","Required features: `\"Management_Policies\"`"],["NamedPolicyKind","Required features: `\"Management_Policies\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["NamedPolicy","Required features: `\"Management_Policies\"`"],["NamedPolicyData","Required features: `\"Management_Policies\"`"],["NamedPolicyKind","Required features: `\"Management_Policies\"`"]]};

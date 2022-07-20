@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["LanguageFont","Required features: `\"Globalization_Fonts\"`"],["LanguageFontGroup","Required features: `\"Globalization_Fonts\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["LanguageFont","Required features: `\"Globalization_Fonts\"`"],["LanguageFontGroup","Required features: `\"Globalization_Fonts\"`"]]};

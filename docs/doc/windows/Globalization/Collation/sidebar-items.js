@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["CharacterGrouping","Required features: `\"Globalization_Collation\"`"],["CharacterGroupings","Required features: `\"Globalization_Collation\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["CharacterGrouping","Required features: `\"Globalization_Collation\"`"],["CharacterGroupings","Required features: `\"Globalization_Collation\"`"]]};

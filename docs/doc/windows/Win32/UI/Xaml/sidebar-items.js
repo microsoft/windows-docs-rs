@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Diagnostics",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Diagnostics",""]]};

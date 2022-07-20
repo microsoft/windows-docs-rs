@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["FileExplorer",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["FileExplorer",""]]};

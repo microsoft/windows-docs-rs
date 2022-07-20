@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Input",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Input",""]]};

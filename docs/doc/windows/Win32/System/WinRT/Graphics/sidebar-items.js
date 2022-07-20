@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Capture",""],["Direct2D",""],["Imaging",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Capture",""],["Direct2D",""],["Imaging",""]]};

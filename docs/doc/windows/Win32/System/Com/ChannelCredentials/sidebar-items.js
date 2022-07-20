@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IChannelCredentials","Required features: `\"Win32_System_Com_ChannelCredentials\"`"]],"trait":[["IChannelCredentials_Impl",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["IChannelCredentials","Required features: `\"Win32_System_Com_ChannelCredentials\"`"]],"trait":[["IChannelCredentials_Impl",""]]};

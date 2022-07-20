@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["SpatialGraphInteropFrameOfReferencePreview","Required features: `\"Perception_Spatial_Preview\"`"],["SpatialGraphInteropPreview","Required features: `\"Perception_Spatial_Preview\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["SpatialGraphInteropFrameOfReferencePreview","Required features: `\"Perception_Spatial_Preview\"`"],["SpatialGraphInteropPreview","Required features: `\"Perception_Spatial_Preview\"`"]]};

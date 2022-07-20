@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HolographicApplicationPreview","Required features: `\"ApplicationModel_Preview_Holographic\"`"],["HolographicKeyboardPlacementOverridePreview","Required features: `\"ApplicationModel_Preview_Holographic\"`, `\"deprecated\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["HolographicApplicationPreview","Required features: `\"ApplicationModel_Preview_Holographic\"`"],["HolographicKeyboardPlacementOverridePreview","Required features: `\"ApplicationModel_Preview_Holographic\"`, `\"deprecated\"`"]]};

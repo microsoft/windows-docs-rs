@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Html",""],["Json",""],["Pdf",""],["Text",""],["Xml",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Html",""],["Json",""],["Pdf",""],["Text",""],["Xml",""]]};

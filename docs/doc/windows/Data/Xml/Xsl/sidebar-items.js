@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["XsltProcessor","Required features: `\"Data_Xml_Xsl\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["XsltProcessor","Required features: `\"Data_Xml_Xsl\"`"]]};

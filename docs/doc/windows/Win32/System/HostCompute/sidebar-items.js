@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HCS_CALLBACK",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["HCS_CALLBACK",""]]};

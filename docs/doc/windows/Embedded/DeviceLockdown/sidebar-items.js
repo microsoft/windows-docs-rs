@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["DeviceLockdownProfile","Required features: `\"Embedded_DeviceLockdown\"`"],["DeviceLockdownProfileInformation","Required features: `\"Embedded_DeviceLockdown\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["DeviceLockdownProfile","Required features: `\"Embedded_DeviceLockdown\"`"],["DeviceLockdownProfileInformation","Required features: `\"Embedded_DeviceLockdown\"`"]]};

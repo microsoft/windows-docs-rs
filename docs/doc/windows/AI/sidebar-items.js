@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["MachineLearning",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["MachineLearning",""]]};

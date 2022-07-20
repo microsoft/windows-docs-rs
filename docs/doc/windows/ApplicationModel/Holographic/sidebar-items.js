@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["HolographicKeyboard","Required features: `\"ApplicationModel_Holographic\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["HolographicKeyboard","Required features: `\"ApplicationModel_Holographic\"`"]]};

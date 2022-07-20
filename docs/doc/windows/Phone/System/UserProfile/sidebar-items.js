@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["GameServices",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["GameServices",""]]};

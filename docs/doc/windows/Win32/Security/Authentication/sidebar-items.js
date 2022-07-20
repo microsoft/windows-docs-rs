@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Identity",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Identity",""]]};

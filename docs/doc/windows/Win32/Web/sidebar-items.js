@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["MsHtml",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["MsHtml",""]]};

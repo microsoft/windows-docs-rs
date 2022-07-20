@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Adaptive",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Adaptive",""]]};

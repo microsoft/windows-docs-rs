@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["AudioRenderCategory","Required features: `\"Media_Render\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["AudioRenderCategory","Required features: `\"Media_Render\"`"]]};

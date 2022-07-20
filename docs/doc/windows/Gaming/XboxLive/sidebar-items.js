@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Storage",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Storage",""]]};

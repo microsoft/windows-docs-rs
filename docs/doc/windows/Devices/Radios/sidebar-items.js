@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["Radio","Required features: `\"Devices_Radios\"`"],["RadioAccessStatus","Required features: `\"Devices_Radios\"`"],["RadioKind","Required features: `\"Devices_Radios\"`"],["RadioState","Required features: `\"Devices_Radios\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["Radio","Required features: `\"Devices_Radios\"`"],["RadioAccessStatus","Required features: `\"Devices_Radios\"`"],["RadioKind","Required features: `\"Devices_Radios\"`"],["RadioState","Required features: `\"Devices_Radios\"`"]]};

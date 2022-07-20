@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["AppCapabilityAccess",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["AppCapabilityAccess",""]]};

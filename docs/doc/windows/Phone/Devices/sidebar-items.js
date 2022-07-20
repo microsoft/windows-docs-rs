@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Notification",""],["Power",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Notification",""],["Power",""]]};

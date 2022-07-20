@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["SoundLevelBroker","Required features: `\"Media_Core_Preview\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["SoundLevelBroker","Required features: `\"Media_Core_Preview\"`"]]};

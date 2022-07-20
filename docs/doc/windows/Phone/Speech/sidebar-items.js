@@ -1,1 +1,1 @@
-initSidebarItems({"mod":[["Recognition",""]]});
+window.SIDEBAR_ITEMS = {"mod":[["Recognition",""]]};

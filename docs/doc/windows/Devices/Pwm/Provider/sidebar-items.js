@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["IPwmControllerProvider","Required features: `\"Devices_Pwm_Provider\"`"],["IPwmProvider","Required features: `\"Devices_Pwm_Provider\"`"]],"trait":[["IPwmControllerProvider_Impl",""],["IPwmProvider_Impl",""]]});
+window.SIDEBAR_ITEMS = {"struct":[["IPwmControllerProvider","Required features: `\"Devices_Pwm_Provider\"`"],["IPwmProvider","Required features: `\"Devices_Pwm_Provider\"`"]],"trait":[["IPwmControllerProvider_Impl",""],["IPwmProvider_Impl",""]]};

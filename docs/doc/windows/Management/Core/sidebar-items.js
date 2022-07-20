@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ApplicationDataManager","Required features: `\"Management_Core\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["ApplicationDataManager","Required features: `\"Management_Core\"`"]]};

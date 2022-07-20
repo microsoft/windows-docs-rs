@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["WalletItemAppAssociation","Required features: `\"ApplicationModel_Wallet_System\"`"],["WalletItemSystemStore","Required features: `\"ApplicationModel_Wallet_System\"`"],["WalletManagerSystem","Required features: `\"ApplicationModel_Wallet_System\"`"]]});
+window.SIDEBAR_ITEMS = {"struct":[["WalletItemAppAssociation","Required features: `\"ApplicationModel_Wallet_System\"`"],["WalletItemSystemStore","Required features: `\"ApplicationModel_Wallet_System\"`"],["WalletManagerSystem","Required features: `\"ApplicationModel_Wallet_System\"`"]]};
