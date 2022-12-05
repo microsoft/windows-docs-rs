@@ -1,3 +1,3 @@
-(function() {var implementors = {
-"windows":[["impl&lt;T:&nbsp;RuntimeType&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/ops/deref/trait.Deref.html\" title=\"trait core::ops::deref::Deref\">Deref</a> for <a class=\"struct\" href=\"windows/core/struct.Array.html\" title=\"struct windows::core::Array\">Array</a>&lt;T&gt;"]]
-};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
+(function() {var implementors = {};
+implementors["windows"] = [{"text":"impl&lt;T:&nbsp;RuntimeType&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.64.0/core/ops/deref/trait.Deref.html\" title=\"trait core::ops::deref::Deref\">Deref</a> for <a class=\"struct\" href=\"windows/core/struct.Array.html\" title=\"struct windows::core::Array\">Array</a>&lt;T&gt;","synthetic":false,"types":["windows::core::array::Array"]}];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
