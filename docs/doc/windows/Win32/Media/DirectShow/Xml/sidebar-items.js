@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"constant":[["CLSID_XMLGraphBuilder",""]],"struct":[["IXMLGraphBuilder","Required features: `\"Win32_Media_DirectShow_Xml\"`"]],"trait":[["IXMLGraphBuilder_Impl",""]]};
+window.SIDEBAR_ITEMS = {"constant":[["CLSID_XMLGraphBuilder","Required features: `\"Win32_Media_DirectShow_Xml\"`"]],"struct":[["IXMLGraphBuilder","Required features: `\"Win32_Media_DirectShow_Xml\"`"]],"trait":[["IXMLGraphBuilder_Impl","Required features: `\"Win32_Media_DirectShow_Xml\"`, `\"Win32_Data_Xml_MsXml\"`, `\"Win32_System_Com\"`, `\"implement\"`"]]};

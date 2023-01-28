@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":[["BackgroundEnergyDiagnostics","Required features: `\"System_Power_Diagnostics\"`, `\"deprecated\"`"],["ForegroundEnergyDiagnostics","Required features: `\"System_Power_Diagnostics\"`, `\"deprecated\"`"]]};

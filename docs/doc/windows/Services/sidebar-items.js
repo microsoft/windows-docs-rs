@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Cortana",""],["Maps",""],["Store",""],["TargetedContent",""]]};
+window.SIDEBAR_ITEMS = {"mod":[["Maps",""],["Store",""],["TargetedContent",""]]};
