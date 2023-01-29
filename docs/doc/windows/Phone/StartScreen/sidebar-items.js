@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DualSimTile","Required features: `\"Phone_StartScreen\"`"],["IToastNotificationManagerStatics3","Required features: `\"Phone_StartScreen\"`"]],"trait":[["IToastNotificationManagerStatics3_Impl",""]]};
+window.SIDEBAR_ITEMS = {"struct":[["DualSimTile","Required features: `\"Phone_StartScreen\"`"],["IToastNotificationManagerStatics3","Required features: `\"Phone_StartScreen\"`"]],"trait":[["IToastNotificationManagerStatics3_Impl","Required features: `\"Phone_StartScreen\"`, `\"UI_Notifications\"`, `\"implement\"`"]]};

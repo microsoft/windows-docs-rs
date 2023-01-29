@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["IGraphicsCaptureItemInterop","Required features: `\"Win32_System_WinRT_Graphics_Capture\"`"]],"trait":[["IGraphicsCaptureItemInterop_Impl",""]]};
+window.SIDEBAR_ITEMS = {"struct":[["IGraphicsCaptureItemInterop","Required features: `\"Win32_System_WinRT_Graphics_Capture\"`"]],"trait":[["IGraphicsCaptureItemInterop_Impl","Required features: `\"Win32_System_WinRT_Graphics_Capture\"`, `\"Win32_Foundation\"`, `\"Win32_Graphics_Gdi\"`, `\"implement\"`"]]};

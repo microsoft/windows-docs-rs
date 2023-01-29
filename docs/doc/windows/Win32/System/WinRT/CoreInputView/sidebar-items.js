@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ICoreFrameworkInputViewInterop","Required features: `\"Win32_System_WinRT_CoreInputView\"`"]],"trait":[["ICoreFrameworkInputViewInterop_Impl",""]]};
+window.SIDEBAR_ITEMS = {"struct":[["ICoreFrameworkInputViewInterop","Required features: `\"Win32_System_WinRT_CoreInputView\"`"]],"trait":[["ICoreFrameworkInputViewInterop_Impl","Required features: `\"Win32_System_WinRT_CoreInputView\"`, `\"Win32_Foundation\"`, `\"implement\"`"]]};

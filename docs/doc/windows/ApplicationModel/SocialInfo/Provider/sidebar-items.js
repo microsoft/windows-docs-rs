@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":[["SocialDashboardItemUpdater","Required features: `\"ApplicationModel_SocialInfo_Provider\"`, `\"deprecated\"`"],["SocialFeedUpdater","Required features: `\"ApplicationModel_SocialInfo_Provider\"`, `\"deprecated\"`"],["SocialInfoProviderManager","Required features: `\"ApplicationModel_SocialInfo_Provider\"`, `\"deprecated\"`"]]};
