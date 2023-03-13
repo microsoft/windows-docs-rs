@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CoreAppWindowPreview","Required features: `\"UI_Core_Preview\"`"],["SystemNavigationCloseRequestedPreviewEventArgs","Required features: `\"UI_Core_Preview\"`"],["SystemNavigationManagerPreview","Required features: `\"UI_Core_Preview\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["CoreAppWindowPreview","SystemNavigationCloseRequestedPreviewEventArgs","SystemNavigationManagerPreview"]};

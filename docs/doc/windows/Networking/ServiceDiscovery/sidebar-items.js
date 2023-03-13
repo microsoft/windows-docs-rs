@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Dnssd",""]]};
+window.SIDEBAR_ITEMS = {"mod":["Dnssd"]};

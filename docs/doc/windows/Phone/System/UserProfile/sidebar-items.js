@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["GameServices",""]]};
+window.SIDEBAR_ITEMS = {"mod":["GameServices"]};

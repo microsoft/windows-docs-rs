@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["HtmlUtilities","Required features: `\"Data_Html\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["HtmlUtilities"]};

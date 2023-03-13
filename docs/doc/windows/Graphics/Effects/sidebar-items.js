@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["IGraphicsEffect","Required features: `\"Graphics_Effects\"`"],["IGraphicsEffectSource","Required features: `\"Graphics_Effects\"`"]],"trait":[["IGraphicsEffectSource_Impl","Required features: `\"Graphics_Effects\"`, `\"implement\"`"],["IGraphicsEffect_Impl","Required features: `\"Graphics_Effects\"`, `\"implement\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["IGraphicsEffect","IGraphicsEffectSource"],"trait":["IGraphicsEffectSource_Impl","IGraphicsEffect_Impl"]};

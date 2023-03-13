@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Provider",""]],"struct":[["AdcChannel","Required features: `\"Devices_Adc\"`"],["AdcChannelMode","Required features: `\"Devices_Adc\"`"],["AdcController","Required features: `\"Devices_Adc\"`"]]};
+window.SIDEBAR_ITEMS = {"mod":["Provider"],"struct":["AdcChannel","AdcChannelMode","AdcController"]};

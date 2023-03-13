@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Injection",""]],"struct":[["InputActivationListenerPreview","Required features: `\"UI_Input_Preview\"`"]]};
+window.SIDEBAR_ITEMS = {"mod":["Injection"],"struct":["InputActivationListenerPreview"]};

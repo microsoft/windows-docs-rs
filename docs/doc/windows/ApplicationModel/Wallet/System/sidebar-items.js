@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["WalletItemAppAssociation","Required features: `\"ApplicationModel_Wallet_System\"`, `\"deprecated\"`"],["WalletItemSystemStore","Required features: `\"ApplicationModel_Wallet_System\"`, `\"deprecated\"`"],["WalletManagerSystem","Required features: `\"ApplicationModel_Wallet_System\"`, `\"deprecated\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["WalletItemAppAssociation","WalletItemSystemStore","WalletManagerSystem"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["PnpObject","Required features: `\"Devices_Enumeration_Pnp\"`"],["PnpObjectCollection","Required features: `\"Devices_Enumeration_Pnp\"`, `\"Foundation_Collections\"`"],["PnpObjectType","Required features: `\"Devices_Enumeration_Pnp\"`"],["PnpObjectUpdate","Required features: `\"Devices_Enumeration_Pnp\"`"],["PnpObjectWatcher","Required features: `\"Devices_Enumeration_Pnp\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["PnpObject","PnpObjectCollection","PnpObjectType","PnpObjectUpdate","PnpObjectWatcher"]};

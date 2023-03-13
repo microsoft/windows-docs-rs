@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["MobileDeviceManagementRegistration",""]]};
+window.SIDEBAR_ITEMS = {"mod":["MobileDeviceManagementRegistration"]};

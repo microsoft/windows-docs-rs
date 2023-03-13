@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["ActiveDirectory",""],["BackgroundIntelligentTransferService",""],["Clustering",""],["HttpServer",""],["Ldap",""],["NetworkListManager",""],["RemoteDifferentialCompression",""],["WebSocket",""],["WinHttp",""],["WinInet",""],["WinSock",""],["WindowsWebServices",""]]};
+window.SIDEBAR_ITEMS = {"mod":["ActiveDirectory","BackgroundIntelligentTransferService","Clustering","HttpServer","Ldap","NetworkListManager","RemoteDifferentialCompression","WebSocket","WinHttp","WinInet","WinSock","WindowsWebServices"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["RetailMode","Required features: `\"Phone_System_Profile\"`, `\"deprecated\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["RetailMode"]};

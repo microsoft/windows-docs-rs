@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ContactPartnerProvisioningManager","Required features: `\"Phone_PersonalInformation_Provisioning\"`"],["MessagePartnerProvisioningManager","Required features: `\"Phone_PersonalInformation_Provisioning\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["ContactPartnerProvisioningManager","MessagePartnerProvisioningManager"]};

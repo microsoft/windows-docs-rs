@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["InkWorkspaceHostedAppManager","Required features: `\"ApplicationModel_Preview_InkWorkspace\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["InkWorkspaceHostedAppManager"]};

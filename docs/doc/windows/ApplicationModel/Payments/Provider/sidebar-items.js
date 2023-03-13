@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["PaymentAppCanMakePaymentTriggerDetails","Required features: `\"ApplicationModel_Payments_Provider\"`"],["PaymentAppManager","Required features: `\"ApplicationModel_Payments_Provider\"`"],["PaymentTransaction","Required features: `\"ApplicationModel_Payments_Provider\"`"],["PaymentTransactionAcceptResult","Required features: `\"ApplicationModel_Payments_Provider\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["PaymentAppCanMakePaymentTriggerDetails","PaymentAppManager","PaymentTransaction","PaymentTransactionAcceptResult"]};

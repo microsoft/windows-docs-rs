@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CustomSensor","Required features: `\"Devices_Sensors_Custom\"`"],["CustomSensorReading","Required features: `\"Devices_Sensors_Custom\"`"],["CustomSensorReadingChangedEventArgs","Required features: `\"Devices_Sensors_Custom\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["CustomSensor","CustomSensorReading","CustomSensorReadingChangedEventArgs"]};

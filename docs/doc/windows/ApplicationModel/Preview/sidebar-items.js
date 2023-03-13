@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Holographic",""],["InkWorkspace",""],["Notes",""]]};
+window.SIDEBAR_ITEMS = {"mod":["Holographic","InkWorkspace","Notes"]};

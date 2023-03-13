@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["SpeechRecognitionUIStatus","Required features: `\"Phone_Speech_Recognition\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["SpeechRecognitionUIStatus"]};

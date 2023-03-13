@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CompositionDebugHeatMaps","Required features: `\"UI_Composition_Diagnostics\"`"],["CompositionDebugOverdrawContentKinds","Required features: `\"UI_Composition_Diagnostics\"`"],["CompositionDebugSettings","Required features: `\"UI_Composition_Diagnostics\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["CompositionDebugHeatMaps","CompositionDebugOverdrawContentKinds","CompositionDebugSettings"]};

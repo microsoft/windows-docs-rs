@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DisplayRequest","Required features: `\"System_Display\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["DisplayRequest"]};

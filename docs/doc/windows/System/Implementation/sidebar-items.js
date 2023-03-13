@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["FileExplorer",""]]};
+window.SIDEBAR_ITEMS = {"mod":["FileExplorer"]};

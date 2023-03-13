@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["RadialControllerIndependentInputSource","Required features: `\"UI_Input_Core\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["RadialControllerIndependentInputSource"]};

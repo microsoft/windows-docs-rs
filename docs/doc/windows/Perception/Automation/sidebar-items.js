@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Core",""]]};
+window.SIDEBAR_ITEMS = {"mod":["Core"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ServiceDevice","Required features: `\"Devices_Portable\"`"],["ServiceDeviceType","Required features: `\"Devices_Portable\"`"],["StorageDevice","Required features: `\"Devices_Portable\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["ServiceDevice","ServiceDeviceType","StorageDevice"]};

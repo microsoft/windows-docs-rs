@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["PreallocatedWorkItem","Required features: `\"System_Threading_Core\"`"],["SignalHandler","Required features: `\"System_Threading_Core\"`"],["SignalNotifier","Required features: `\"System_Threading_Core\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["PreallocatedWorkItem","SignalHandler","SignalNotifier"]};

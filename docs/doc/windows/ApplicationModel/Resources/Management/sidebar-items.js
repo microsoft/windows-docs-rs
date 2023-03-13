@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["IndexedResourceCandidate","Required features: `\"ApplicationModel_Resources_Management\"`"],["IndexedResourceQualifier","Required features: `\"ApplicationModel_Resources_Management\"`"],["IndexedResourceType","Required features: `\"ApplicationModel_Resources_Management\"`"],["ResourceIndexer","Required features: `\"ApplicationModel_Resources_Management\"`, `\"deprecated\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["IndexedResourceCandidate","IndexedResourceQualifier","IndexedResourceType","ResourceIndexer"]};

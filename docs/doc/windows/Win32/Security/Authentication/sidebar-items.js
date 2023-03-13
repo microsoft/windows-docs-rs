@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Identity",""]]};
+window.SIDEBAR_ITEMS = {"mod":["Identity"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":[["CreateMailslotA","Required features: `\"Win32_System_Mailslots\"`, `\"Win32_Foundation\"`, `\"Win32_Security\"`"],["CreateMailslotW","Required features: `\"Win32_System_Mailslots\"`, `\"Win32_Foundation\"`, `\"Win32_Security\"`"],["GetMailslotInfo","Required features: `\"Win32_System_Mailslots\"`, `\"Win32_Foundation\"`"],["SetMailslotInfo","Required features: `\"Win32_System_Mailslots\"`, `\"Win32_Foundation\"`"]]};
+window.SIDEBAR_ITEMS = {"fn":["CreateMailslotA","CreateMailslotW","GetMailslotInfo","SetMailslotInfo"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["ScreenReaderPositionChangedEventArgs","Required features: `\"UI_Accessibility\"`"],["ScreenReaderService","Required features: `\"UI_Accessibility\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["ScreenReaderPositionChangedEventArgs","ScreenReaderService"]};

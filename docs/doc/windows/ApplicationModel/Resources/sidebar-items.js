@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Core",""],["Management",""]],"struct":[["ResourceLoader","Required features: `\"ApplicationModel_Resources\"`"]]};
+window.SIDEBAR_ITEMS = {"mod":["Core","Management"],"struct":["ResourceLoader"]};

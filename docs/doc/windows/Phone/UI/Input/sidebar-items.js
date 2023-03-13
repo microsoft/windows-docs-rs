@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["BackPressedEventArgs","Required features: `\"Phone_UI_Input\"`"],["CameraEventArgs","Required features: `\"Phone_UI_Input\"`"],["HardwareButtons","Required features: `\"Phone_UI_Input\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["BackPressedEventArgs","CameraEventArgs","HardwareButtons"]};

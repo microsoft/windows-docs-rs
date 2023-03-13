@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["OcrEngine","Required features: `\"Media_Ocr\"`"],["OcrLine","Required features: `\"Media_Ocr\"`"],["OcrResult","Required features: `\"Media_Ocr\"`"],["OcrWord","Required features: `\"Media_Ocr\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["OcrEngine","OcrLine","OcrResult","OcrWord"]};

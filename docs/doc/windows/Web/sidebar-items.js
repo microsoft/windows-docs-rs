@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["AtomPub",""],["Http",""],["Syndication",""],["UI",""]],"struct":[["IUriToStreamResolver","Required features: `\"Web\"`"],["WebError","Required features: `\"Web\"`"],["WebErrorStatus","Required features: `\"Web\"`"]],"trait":[["IUriToStreamResolver_Impl","Required features: `\"Web\"`, `\"Foundation\"`, `\"Storage_Streams\"`, `\"implement\"`"]]};
+window.SIDEBAR_ITEMS = {"mod":["AtomPub","Http","Syndication","UI"],"struct":["IUriToStreamResolver","WebError","WebErrorStatus"],"trait":["IUriToStreamResolver_Impl"]};

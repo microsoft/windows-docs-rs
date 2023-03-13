@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Core",""]],"struct":[["AutomationConnection","Required features: `\"UI_UIAutomation\"`"],["AutomationConnectionBoundObject","Required features: `\"UI_UIAutomation\"`"],["AutomationElement","Required features: `\"UI_UIAutomation\"`"],["AutomationTextRange","Required features: `\"UI_UIAutomation\"`"]]};
+window.SIDEBAR_ITEMS = {"mod":["Core"],"struct":["AutomationConnection","AutomationConnectionBoundObject","AutomationElement","AutomationTextRange"]};

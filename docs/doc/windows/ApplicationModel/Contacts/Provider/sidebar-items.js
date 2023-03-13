@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["AddContactResult","Required features: `\"ApplicationModel_Contacts_Provider\"`"],["ContactPickerUI","Required features: `\"ApplicationModel_Contacts_Provider\"`"],["ContactRemovedEventArgs","Required features: `\"ApplicationModel_Contacts_Provider\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["AddContactResult","ContactPickerUI","ContactRemovedEventArgs"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["DeviceLockdown",""]]};
+window.SIDEBAR_ITEMS = {"mod":["DeviceLockdown"]};

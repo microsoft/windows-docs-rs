@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["LicenseManager","Required features: `\"ApplicationModel_Store_LicenseManagement\"`"],["LicenseRefreshOption","Required features: `\"ApplicationModel_Store_LicenseManagement\"`"],["LicenseSatisfactionInfo","Required features: `\"ApplicationModel_Store_LicenseManagement\"`"],["LicenseSatisfactionResult","Required features: `\"ApplicationModel_Store_LicenseManagement\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["LicenseManager","LicenseRefreshOption","LicenseSatisfactionInfo","LicenseSatisfactionResult"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":[["CeipIsOptedIn","Required features: `\"Win32_System_Diagnostics_Ceip\"`, `\"Win32_Foundation\"`"]]};
+window.SIDEBAR_ITEMS = {"fn":["CeipIsOptedIn"]};

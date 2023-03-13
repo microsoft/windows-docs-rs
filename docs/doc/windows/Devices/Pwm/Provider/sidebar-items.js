@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["IPwmControllerProvider","Required features: `\"Devices_Pwm_Provider\"`"],["IPwmProvider","Required features: `\"Devices_Pwm_Provider\"`"]],"trait":[["IPwmControllerProvider_Impl","Required features: `\"Devices_Pwm_Provider\"`, `\"implement\"`"],["IPwmProvider_Impl","Required features: `\"Devices_Pwm_Provider\"`, `\"Foundation_Collections\"`, `\"implement\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["IPwmControllerProvider","IPwmProvider"],"trait":["IPwmControllerProvider_Impl","IPwmProvider_Impl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Direct3D11",""]],"struct":[["DirectXAlphaMode","Required features: `\"Graphics_DirectX\"`"],["DirectXColorSpace","Required features: `\"Graphics_DirectX\"`"],["DirectXPixelFormat","Required features: `\"Graphics_DirectX\"`"],["DirectXPrimitiveTopology","Required features: `\"Graphics_DirectX\"`"]]};
+window.SIDEBAR_ITEMS = {"mod":["Direct3D11"],"struct":["DirectXAlphaMode","DirectXColorSpace","DirectXPixelFormat","DirectXPrimitiveTopology"]};

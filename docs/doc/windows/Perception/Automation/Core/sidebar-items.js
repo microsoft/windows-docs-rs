@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CorePerceptionAutomation","Required features: `\"Perception_Automation_Core\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["CorePerceptionAutomation"]};

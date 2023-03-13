@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["GameService","Required features: `\"Phone_System_UserProfile_GameServices_Core\"`"],["GameServiceGameOutcome","Required features: `\"Phone_System_UserProfile_GameServices_Core\"`"],["GameServicePropertyCollection","Required features: `\"Phone_System_UserProfile_GameServices_Core\"`"],["GameServiceScoreKind","Required features: `\"Phone_System_UserProfile_GameServices_Core\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["GameService","GameServiceGameOutcome","GameServicePropertyCollection","GameServiceScoreKind"]};

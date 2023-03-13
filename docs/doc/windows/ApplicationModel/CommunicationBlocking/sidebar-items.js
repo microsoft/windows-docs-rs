@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CommunicationBlockingAccessManager","Required features: `\"ApplicationModel_CommunicationBlocking\"`"],["CommunicationBlockingAppManager","Required features: `\"ApplicationModel_CommunicationBlocking\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["CommunicationBlockingAccessManager","CommunicationBlockingAppManager"]};

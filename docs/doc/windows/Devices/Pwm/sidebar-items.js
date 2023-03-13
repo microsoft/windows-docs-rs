@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Provider",""]],"struct":[["PwmController","Required features: `\"Devices_Pwm\"`"],["PwmPin","Required features: `\"Devices_Pwm\"`"],["PwmPulsePolarity","Required features: `\"Devices_Pwm\"`"]]};
+window.SIDEBAR_ITEMS = {"mod":["Provider"],"struct":["PwmController","PwmPin","PwmPulsePolarity"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["MediaTranscoder","Required features: `\"Media_Transcoding\"`"],["MediaVideoProcessingAlgorithm","Required features: `\"Media_Transcoding\"`"],["PrepareTranscodeResult","Required features: `\"Media_Transcoding\"`"],["TranscodeFailureReason","Required features: `\"Media_Transcoding\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["MediaTranscoder","MediaVideoProcessingAlgorithm","PrepareTranscodeResult","TranscodeFailureReason"]};

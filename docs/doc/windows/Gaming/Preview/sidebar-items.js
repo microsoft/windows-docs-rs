@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["GamesEnumeration",""]]};
+window.SIDEBAR_ITEMS = {"mod":["GamesEnumeration"]};

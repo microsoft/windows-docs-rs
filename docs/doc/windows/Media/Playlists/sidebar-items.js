@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["Playlist","Required features: `\"Media_Playlists\"`"],["PlaylistFormat","Required features: `\"Media_Playlists\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["Playlist","PlaylistFormat"]};

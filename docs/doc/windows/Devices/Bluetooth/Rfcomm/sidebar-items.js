@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["RfcommDeviceService","Required features: `\"Devices_Bluetooth_Rfcomm\"`"],["RfcommDeviceServicesResult","Required features: `\"Devices_Bluetooth_Rfcomm\"`"],["RfcommServiceId","Required features: `\"Devices_Bluetooth_Rfcomm\"`"],["RfcommServiceProvider","Required features: `\"Devices_Bluetooth_Rfcomm\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["RfcommDeviceService","RfcommDeviceServicesResult","RfcommServiceId","RfcommServiceProvider"]};

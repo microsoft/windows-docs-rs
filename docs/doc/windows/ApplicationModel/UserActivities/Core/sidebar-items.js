@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["CoreUserActivityManager","Required features: `\"ApplicationModel_UserActivities_Core\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["CoreUserActivityManager"]};

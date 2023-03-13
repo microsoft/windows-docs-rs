@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["SceneLightingEffect","Required features: `\"UI_Composition_Effects\"`"],["SceneLightingEffectReflectanceModel","Required features: `\"UI_Composition_Effects\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["SceneLightingEffect","SceneLightingEffectReflectanceModel"]};

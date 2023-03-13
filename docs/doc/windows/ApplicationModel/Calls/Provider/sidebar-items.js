@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["PhoneCallOrigin","Required features: `\"ApplicationModel_Calls_Provider\"`, `\"deprecated\"`"],["PhoneCallOriginManager","Required features: `\"ApplicationModel_Calls_Provider\"`, `\"deprecated\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["PhoneCallOrigin","PhoneCallOriginManager"]};

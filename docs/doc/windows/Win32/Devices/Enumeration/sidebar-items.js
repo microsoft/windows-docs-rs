@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Pnp",""]]};
+window.SIDEBAR_ITEMS = {"mod":["Pnp"]};

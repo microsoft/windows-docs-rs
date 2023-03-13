@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["AppCapabilityAccess",""]]};
+window.SIDEBAR_ITEMS = {"mod":["AppCapabilityAccess"]};

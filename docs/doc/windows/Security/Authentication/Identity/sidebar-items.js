@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Core",""]],"struct":[["EnterpriseKeyCredentialRegistrationInfo","Required features: `\"Security_Authentication_Identity\"`"],["EnterpriseKeyCredentialRegistrationManager","Required features: `\"Security_Authentication_Identity\"`"]]};
+window.SIDEBAR_ITEMS = {"mod":["Core"],"struct":["EnterpriseKeyCredentialRegistrationInfo","EnterpriseKeyCredentialRegistrationManager"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["PalmRejectionDelayZonePreview","Required features: `\"UI_Input_Inking_Preview\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["PalmRejectionDelayZonePreview"]};

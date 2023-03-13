@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["AppBroadcastingMonitor","Required features: `\"Media_AppBroadcasting\"`"],["AppBroadcastingStatus","Required features: `\"Media_AppBroadcasting\"`"],["AppBroadcastingStatusDetails","Required features: `\"Media_AppBroadcasting\"`"],["AppBroadcastingUI","Required features: `\"Media_AppBroadcasting\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["AppBroadcastingMonitor","AppBroadcastingStatus","AppBroadcastingStatusDetails","AppBroadcastingUI"]};

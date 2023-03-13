@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["AppCapability","Required features: `\"Security_Authorization_AppCapabilityAccess\"`"],["AppCapabilityAccessChangedEventArgs","Required features: `\"Security_Authorization_AppCapabilityAccess\"`"],["AppCapabilityAccessStatus","Required features: `\"Security_Authorization_AppCapabilityAccess\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["AppCapability","AppCapabilityAccessChangedEventArgs","AppCapabilityAccessStatus"]};

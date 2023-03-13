@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DetectedFace","Required features: `\"Media_FaceAnalysis\"`"],["FaceDetector","Required features: `\"Media_FaceAnalysis\"`"],["FaceTracker","Required features: `\"Media_FaceAnalysis\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["DetectedFace","FaceDetector","FaceTracker"]};

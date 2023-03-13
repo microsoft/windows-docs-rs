@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Devices",""]]};
+window.SIDEBAR_ITEMS = {"mod":["Devices"]};

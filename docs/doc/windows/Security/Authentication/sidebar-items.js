@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Identity",""],["OnlineId",""],["Web",""]]};
+window.SIDEBAR_ITEMS = {"mod":["Identity","OnlineId","Web"]};

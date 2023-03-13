@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["WindowManagementPreview","Required features: `\"UI_WindowManagement_Preview\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["WindowManagementPreview"]};

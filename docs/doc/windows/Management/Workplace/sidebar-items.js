@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["MdmPolicy","Required features: `\"Management_Workplace\"`"],["MessagingSyncPolicy","Required features: `\"Management_Workplace\"`"],["WorkplaceSettings","Required features: `\"Management_Workplace\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["MdmPolicy","MessagingSyncPolicy","WorkplaceSettings"]};

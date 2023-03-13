@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["DesktopWindowTarget","Required features: `\"UI_Composition_Desktop\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["DesktopWindowTarget"]};

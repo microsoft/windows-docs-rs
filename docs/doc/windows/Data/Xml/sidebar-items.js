@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":[["Dom",""],["Xsl",""]]};
+window.SIDEBAR_ITEMS = {"mod":["Dom","Xsl"]};

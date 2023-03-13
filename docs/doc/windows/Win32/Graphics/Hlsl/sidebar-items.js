@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"constant":[["D3DCOMPILE_OPTIMIZATION_LEVEL2","Required features: `\"Win32_Graphics_Hlsl\"`"],["D3D_COMPILE_STANDARD_FILE_INCLUDE","Required features: `\"Win32_Graphics_Hlsl\"`"]]};
+window.SIDEBAR_ITEMS = {"constant":["D3DCOMPILE_OPTIMIZATION_LEVEL2","D3D_COMPILE_STANDARD_FILE_INCLUDE"]};

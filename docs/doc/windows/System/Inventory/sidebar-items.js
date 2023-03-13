@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["InstalledDesktopApp","Required features: `\"System_Inventory\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["InstalledDesktopApp"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":[["VibrationDevice","Required features: `\"Phone_Devices_Notification\"`"]]};
+window.SIDEBAR_ITEMS = {"struct":["VibrationDevice"]};
