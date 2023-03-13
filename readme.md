@@ -6,6 +6,14 @@ https://microsoft.github.io/windows-docs-rs/
 
 It can be manually generated (using the nightly toolchain) as follows:
 
+1. Delete everything in `windows-docs-rs/docs` except `index.html`
+
+2. Run the following command from the windows-rs directory:
+
 ```console
-C:\git\windows-rs> cargo doc -p windows --all-features --no-deps --target-dir d:\git\docs-rs\docs
+C:\git\windows-rs> cargo doc -p windows --all-features --no-deps --target-dir d:\git\windows-docs-rs\docs
 ```
+
+3. Delete everything in `windows-docs-rs/docs` except `index.html` and `doc`
+
+4. Run `git add .` followed by `git commit -am "<next version>"`
