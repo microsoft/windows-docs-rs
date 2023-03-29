@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["ICoreFrameworkInputViewInterop"],"trait":["ICoreFrameworkInputViewInterop_Impl"]};

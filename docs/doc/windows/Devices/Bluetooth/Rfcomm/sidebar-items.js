@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["RfcommDeviceService","RfcommDeviceServicesResult","RfcommServiceId","RfcommServiceProvider"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["ExtendedExecutionForegroundReason","ExtendedExecutionForegroundResult","ExtendedExecutionForegroundRevokedEventArgs","ExtendedExecutionForegroundRevokedReason","ExtendedExecutionForegroundSession"]};

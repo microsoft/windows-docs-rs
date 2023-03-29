@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["D3D11On12CreateDevice"],"struct":["D3D11_RESOURCE_FLAGS","ID3D11On12Device","ID3D11On12Device1","ID3D11On12Device2"],"trait":["ID3D11On12Device1_Impl","ID3D11On12Device2_Impl","ID3D11On12Device_Impl"],"type":["PFN_D3D11ON12_CREATE_DEVICE"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["CoreIncrementalInkStroke","CoreInkIndependentInputSource","CoreInkPresenterHost","CoreWetStrokeDisposition","CoreWetStrokeUpdateEventArgs","CoreWetStrokeUpdateSource"]};

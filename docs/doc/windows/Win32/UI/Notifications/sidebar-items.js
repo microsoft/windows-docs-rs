@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["INotificationActivationCallback","NOTIFICATION_USER_INPUT_DATA"],"trait":["INotificationActivationCallback_Impl"]};

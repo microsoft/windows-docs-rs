@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["ForegroundText","JumpList","JumpListItem","JumpListItemKind","JumpListSystemGroupKind","SecondaryTile","SecondaryTileVisualElements","StartScreenManager","TileMixedRealityModel","TileMixedRealityModelActivationBehavior","TileOptions","TileSize","VisualElementsRequest","VisualElementsRequestDeferral","VisualElementsRequestedEventArgs"]};

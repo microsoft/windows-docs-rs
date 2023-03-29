@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["AppServiceCatalog","AppServiceClosedEventArgs","AppServiceClosedStatus","AppServiceConnection","AppServiceConnectionStatus","AppServiceDeferral","AppServiceRequest","AppServiceRequestReceivedEventArgs","AppServiceResponse","AppServiceResponseStatus","AppServiceTriggerDetails","StatelessAppServiceResponse","StatelessAppServiceResponseStatus"]};

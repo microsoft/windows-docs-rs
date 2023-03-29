@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["IGraphicsEffect","IGraphicsEffectSource"],"trait":["IGraphicsEffectSource_Impl","IGraphicsEffect_Impl"]};

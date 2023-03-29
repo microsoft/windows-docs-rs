@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["AppRecordingManager","AppRecordingResult","AppRecordingSaveScreenshotOption","AppRecordingSaveScreenshotResult","AppRecordingSavedScreenshotInfo","AppRecordingStatus","AppRecordingStatusDetails"]};

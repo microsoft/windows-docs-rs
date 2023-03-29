@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["GameSaveBlobGetResult","GameSaveBlobInfo","GameSaveBlobInfoGetResult","GameSaveBlobInfoQuery","GameSaveContainer","GameSaveContainerInfo","GameSaveContainerInfoGetResult","GameSaveContainerInfoQuery","GameSaveErrorStatus","GameSaveOperationResult","GameSaveProvider","GameSaveProviderGetResult"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["BackgroundAudioTrack","EmbeddedAudioTrack","MediaClip","MediaComposition","MediaOverlay","MediaOverlayLayer","MediaTrimmingPreference","VideoFramePrecision"]};

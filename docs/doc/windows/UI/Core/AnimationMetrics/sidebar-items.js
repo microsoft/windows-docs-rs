@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["AnimationDescription","AnimationEffect","AnimationEffectTarget","IPropertyAnimation","OpacityAnimation","PropertyAnimation","PropertyAnimationType","ScaleAnimation","TranslationAnimation"],"trait":["IPropertyAnimation_Impl"]};

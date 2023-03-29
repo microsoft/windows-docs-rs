@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["LocalCategories","LocalLocation","LocalLocationFinder","LocalLocationFinderResult","LocalLocationFinderStatus","LocalLocationHoursOfOperationItem","LocalLocationRatingInfo","PlaceInfoHelper"]};

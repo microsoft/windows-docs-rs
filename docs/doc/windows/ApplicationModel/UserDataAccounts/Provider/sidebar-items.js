@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["IUserDataAccountProviderOperation","UserDataAccountPartnerAccountInfo","UserDataAccountProviderAddAccountOperation","UserDataAccountProviderOperationKind","UserDataAccountProviderPartnerAccountKind","UserDataAccountProviderResolveErrorsOperation","UserDataAccountProviderSettingsOperation"],"trait":["IUserDataAccountProviderOperation_Impl"]};

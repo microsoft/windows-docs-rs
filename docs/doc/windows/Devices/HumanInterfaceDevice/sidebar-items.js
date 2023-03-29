@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["HidBooleanControl","HidBooleanControlDescription","HidCollection","HidCollectionType","HidDevice","HidFeatureReport","HidInputReport","HidInputReportReceivedEventArgs","HidNumericControl","HidNumericControlDescription","HidOutputReport","HidReportType"]};

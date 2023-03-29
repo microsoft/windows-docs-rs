@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["GameList","GameListCategory","GameListChangedEventHandler","GameListEntry","GameListEntryLaunchableState","GameListRemovedEventHandler","GameModeConfiguration","GameModeUserConfiguration","IGameListEntry"],"trait":["IGameListEntry_Impl"]};

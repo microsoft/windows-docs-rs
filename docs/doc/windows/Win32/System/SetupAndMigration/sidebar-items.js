@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["OOBEComplete","RegisterWaitUntilOOBECompleted","UnregisterWaitUntilOOBECompleted"],"type":["OOBE_COMPLETED_CALLBACK"]};

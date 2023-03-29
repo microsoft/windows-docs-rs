@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["ClosedCaptionColor","ClosedCaptionEdgeEffect","ClosedCaptionOpacity","ClosedCaptionProperties","ClosedCaptionSize","ClosedCaptionStyle"]};

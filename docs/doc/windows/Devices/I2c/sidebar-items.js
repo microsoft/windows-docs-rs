@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["Provider"],"struct":["I2cBusSpeed","I2cConnectionSettings","I2cController","I2cDevice","I2cSharingMode","I2cTransferResult","I2cTransferStatus","II2cDeviceStatics"],"trait":["II2cDeviceStatics_Impl"]};

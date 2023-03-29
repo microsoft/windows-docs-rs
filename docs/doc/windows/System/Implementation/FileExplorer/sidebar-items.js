@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["ISysStorageProviderEventSource","ISysStorageProviderHandlerFactory","ISysStorageProviderHttpRequestProvider","SysStorageProviderEventReceivedEventArgs"],"trait":["ISysStorageProviderEventSource_Impl","ISysStorageProviderHandlerFactory_Impl","ISysStorageProviderHttpRequestProvider_Impl"]};

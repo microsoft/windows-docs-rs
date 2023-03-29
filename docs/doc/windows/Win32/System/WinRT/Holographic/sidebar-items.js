@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["IHolographicCameraInterop","IHolographicCameraRenderingParametersInterop","IHolographicQuadLayerInterop","IHolographicQuadLayerUpdateParametersInterop"],"trait":["IHolographicCameraInterop_Impl","IHolographicCameraRenderingParametersInterop_Impl","IHolographicQuadLayerInterop_Impl","IHolographicQuadLayerUpdateParametersInterop_Impl"]};

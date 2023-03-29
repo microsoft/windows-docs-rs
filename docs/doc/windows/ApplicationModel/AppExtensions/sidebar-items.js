@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["AppExtension","AppExtensionCatalog","AppExtensionPackageInstalledEventArgs","AppExtensionPackageStatusChangedEventArgs","AppExtensionPackageUninstallingEventArgs","AppExtensionPackageUpdatedEventArgs","AppExtensionPackageUpdatingEventArgs"]};

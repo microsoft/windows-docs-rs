@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["IGraphicsCaptureItemInterop"],"trait":["IGraphicsCaptureItemInterop_Impl"]};

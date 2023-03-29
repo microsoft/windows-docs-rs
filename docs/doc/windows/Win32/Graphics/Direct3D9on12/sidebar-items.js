@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["MAX_D3D9ON12_QUEUES"],"fn":["Direct3DCreate9On12","Direct3DCreate9On12Ex"],"struct":["D3D9ON12_ARGS","IDirect3DDevice9On12"],"trait":["IDirect3DDevice9On12_Impl"],"type":["PFN_Direct3DCreate9On12","PFN_Direct3DCreate9On12Ex"]};

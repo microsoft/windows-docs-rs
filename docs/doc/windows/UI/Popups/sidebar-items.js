@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["IUICommand","MessageDialog","MessageDialogOptions","Placement","PopupMenu","UICommand","UICommandInvokedHandler","UICommandSeparator"],"trait":["IUICommand_Impl"]};

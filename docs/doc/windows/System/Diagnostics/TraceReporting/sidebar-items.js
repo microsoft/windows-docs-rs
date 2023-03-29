@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["PlatformDiagnosticActionState","PlatformDiagnosticActions","PlatformDiagnosticEscalationType","PlatformDiagnosticEventBufferLatencies","PlatformDiagnosticTraceInfo","PlatformDiagnosticTracePriority","PlatformDiagnosticTraceRuntimeInfo","PlatformDiagnosticTraceSlotState","PlatformDiagnosticTraceSlotType"]};

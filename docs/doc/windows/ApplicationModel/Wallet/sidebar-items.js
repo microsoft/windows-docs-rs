@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["System"],"struct":["WalletActionKind","WalletBarcode","WalletBarcodeSymbology","WalletDetailViewPosition","WalletItem","WalletItemCustomProperty","WalletItemKind","WalletItemStore","WalletManager","WalletRelevantLocation","WalletSummaryViewPosition","WalletTransaction","WalletVerb"]};

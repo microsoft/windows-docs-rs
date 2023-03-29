@@ -1,0 +1,168 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="Required features: `&quot;Win32_System_WinRT_Metadata&quot;`, `&quot;implement&quot;`"><title>IMetaDataAssemblyEmit_Impl in windows::Win32::System::WinRT::Metadata - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../static.files/SourceSerif4-Regular-46f98efaafac5295.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../static.files/FiraSans-Regular-018c141bf0843ffd.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../static.files/FiraSans-Medium-8f9a781e4970d388.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../static.files/SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../static.files/SourceSerif4-Bold-a2c9cd1067f8b328.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../static.files/SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2"><link rel="stylesheet" href="../../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../../static.files/rustdoc-c4dbdcde0fbd8430.css" id="mainThemeStyle"><div id="rustdoc-vars" data-root-path="../../../../../" data-static-root-path="../../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.70.0-nightly (44f518058 2023-03-20)" data-search-js="search-a6dd7f063a44c279.js" data-settings-js="settings-f0c5c39777a9a2f6.js" data-settings-css="settings-0bcba95ff279c1db.css" data-theme-light-css="light-db279b6232be9c13.css" data-theme-dark-css="dark-cf923f49f397b216.css" data-theme-ayu-css="ayu-be46fdc453a55015.css" ></div><script src="../../../../../static.files/storage-9184409068f70b79.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../../static.files/main-f5a2577c5297a973.js"></script><noscript><link rel="stylesheet" media="(prefers-color-scheme:light)" href="../../../../../static.files/light-db279b6232be9c13.css"><link rel="stylesheet" media="(prefers-color-scheme:dark)" href="../../../../../static.files/dark-cf923f49f397b216.css"><link rel="stylesheet" href="../../../../../static.files/noscript-13285aec31fa243e.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../../static.files/favicon-16x16-8b506e7a72182f1c.png"><link rel="alternate icon" type="image/png" href="../../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../../static.files/favicon-2c020d218678b618.svg"></head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle">&#9776;</button><a class="logo-container" href="../../../../../windows/index.html"><img class="rust-logo" src="../../../../../static.files/rust-logo-151179464ae7ed46.svg" alt="logo"></a><h2></h2></nav><nav class="sidebar"><a class="logo-container" href="../../../../../windows/index.html"><img class="rust-logo" src="../../../../../static.files/rust-logo-151179464ae7ed46.svg" alt="logo"></a><h2 class="location"><a href="#">IMetaDataAssemblyEmit_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.DefineAssembly">DefineAssembly</a></li><li><a href="#tymethod.DefineAssemblyRef">DefineAssemblyRef</a></li><li><a href="#tymethod.DefineExportedType">DefineExportedType</a></li><li><a href="#tymethod.DefineFile">DefineFile</a></li><li><a href="#tymethod.DefineManifestResource">DefineManifestResource</a></li><li><a href="#tymethod.SetAssemblyProps">SetAssemblyProps</a></li><li><a href="#tymethod.SetAssemblyRefProps">SetAssemblyRefProps</a></li><li><a href="#tymethod.SetExportedTypeProps">SetExportedTypeProps</a></li><li><a href="#tymethod.SetFileProps">SetFileProps</a></li><li><a href="#tymethod.SetManifestResourceProps">SetManifestResourceProps</a></li></ul><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::System::WinRT::Metadata</a></h2></div></nav><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" title="help" tabindex="-1"><a href="../../../../../help.html">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../../../../static.files/wheel-7b819b6101059cd0.svg"></a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../../index.html">windows</a>::<wbr><a href="../../../index.html">Win32</a>::<wbr><a href="../../index.html">System</a>::<wbr><a href="../index.html">WinRT</a>::<wbr><a href="index.html">Metadata</a>::<wbr><a class="trait" href="#">IMetaDataAssemblyEmit_Impl</a><button id="copy-path" title="Copy item path to clipboard"><img src="../../../../../static.files/clipboard-7571035ce49a181d.svg" width="19" height="18" alt="Copy item path"></button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IMetaDataAssemblyEmit_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+    // Required methods
+    fn <a href="#tymethod.DefineAssembly" class="fn">DefineAssembly</a>(
+        &amp;self,
+        pbpublickey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+        cbpublickey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        ulhashalgid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        pmetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ASSEMBLYMETADATA.html" title="struct windows::Win32::System::WinRT::Metadata::ASSEMBLYMETADATA">ASSEMBLYMETADATA</a>,
+        dwassemblyflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        pma: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.DefineAssemblyRef" class="fn">DefineAssemblyRef</a>(
+        &amp;self,
+        pbpublickeyortoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+        cbpublickeyortoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        pmetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ASSEMBLYMETADATA.html" title="struct windows::Win32::System::WinRT::Metadata::ASSEMBLYMETADATA">ASSEMBLYMETADATA</a>,
+        pbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+        cbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwassemblyrefflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        pmdar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.DefineFile" class="fn">DefineFile</a>(
+        &amp;self,
+        szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        pbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+        cbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwfileflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        pmdf: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.DefineExportedType" class="fn">DefineExportedType</a>(
+        &amp;self,
+        szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        tkimplementation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        tktypedef: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwexportedtypeflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        pmdct: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.DefineManifestResource" class="fn">DefineManifestResource</a>(
+        &amp;self,
+        szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        tkimplementation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwoffset: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwresourceflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        pmdmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.SetAssemblyProps" class="fn">SetAssemblyProps</a>(
+        &amp;self,
+        pma: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        pbpublickey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+        cbpublickey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        ulhashalgid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        pmetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ASSEMBLYMETADATA.html" title="struct windows::Win32::System::WinRT::Metadata::ASSEMBLYMETADATA">ASSEMBLYMETADATA</a>,
+        dwassemblyflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.SetAssemblyRefProps" class="fn">SetAssemblyRefProps</a>(
+        &amp;self,
+        ar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        pbpublickeyortoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+        cbpublickeyortoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        pmetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ASSEMBLYMETADATA.html" title="struct windows::Win32::System::WinRT::Metadata::ASSEMBLYMETADATA">ASSEMBLYMETADATA</a>,
+        pbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+        cbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwassemblyrefflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.SetFileProps" class="fn">SetFileProps</a>(
+        &amp;self,
+        file: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        pbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+        cbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwfileflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.SetExportedTypeProps" class="fn">SetExportedTypeProps</a>(
+        &amp;self,
+        ct: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        tkimplementation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        tktypedef: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwexportedtypeflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.SetManifestResourceProps" class="fn">SetManifestResourceProps</a>(
+        &amp;self,
+        mr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        tkimplementation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwoffset: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+        dwresourceflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+}</code></pre><details class="toggle top-doc" open><summary class="hideme"><span>Expand description</span></summary><div class="docblock"><p><em>Required features: <code>&quot;Win32_System_WinRT_Metadata&quot;</code>, <code>&quot;implement&quot;</code></em></p>
+</div></details><h2 id="required-methods" class="small-section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.DefineAssembly" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineAssembly" class="fn">DefineAssembly</a>(
+    &amp;self,
+    pbpublickey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+    cbpublickey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    ulhashalgid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    pmetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ASSEMBLYMETADATA.html" title="struct windows::Win32::System::WinRT::Metadata::ASSEMBLYMETADATA">ASSEMBLYMETADATA</a>,
+    dwassemblyflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    pma: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineAssemblyRef" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineAssemblyRef" class="fn">DefineAssemblyRef</a>(
+    &amp;self,
+    pbpublickeyortoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+    cbpublickeyortoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    pmetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ASSEMBLYMETADATA.html" title="struct windows::Win32::System::WinRT::Metadata::ASSEMBLYMETADATA">ASSEMBLYMETADATA</a>,
+    pbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+    cbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwassemblyrefflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    pmdar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineFile" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineFile" class="fn">DefineFile</a>(
+    &amp;self,
+    szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    pbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+    cbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwfileflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    pmdf: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineExportedType" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineExportedType" class="fn">DefineExportedType</a>(
+    &amp;self,
+    szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    tkimplementation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    tktypedef: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwexportedtypeflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    pmdct: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineManifestResource" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineManifestResource" class="fn">DefineManifestResource</a>(
+    &amp;self,
+    szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    tkimplementation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwoffset: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwresourceflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    pmdmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetAssemblyProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetAssemblyProps" class="fn">SetAssemblyProps</a>(
+    &amp;self,
+    pma: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    pbpublickey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+    cbpublickey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    ulhashalgid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    pmetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ASSEMBLYMETADATA.html" title="struct windows::Win32::System::WinRT::Metadata::ASSEMBLYMETADATA">ASSEMBLYMETADATA</a>,
+    dwassemblyflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetAssemblyRefProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetAssemblyRefProps" class="fn">SetAssemblyRefProps</a>(
+    &amp;self,
+    ar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    pbpublickeyortoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+    cbpublickeyortoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    szname: &amp;<a class="struct" href="../../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    pmetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ASSEMBLYMETADATA.html" title="struct windows::Win32::System::WinRT::Metadata::ASSEMBLYMETADATA">ASSEMBLYMETADATA</a>,
+    pbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+    cbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwassemblyrefflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetFileProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetFileProps" class="fn">SetFileProps</a>(
+    &amp;self,
+    file: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    pbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
+    cbhashvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwfileflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetExportedTypeProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetExportedTypeProps" class="fn">SetExportedTypeProps</a>(
+    &amp;self,
+    ct: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    tkimplementation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    tktypedef: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwexportedtypeflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetManifestResourceProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetManifestResourceProps" class="fn">SetManifestResourceProps</a>(
+    &amp;self,
+    mr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    tkimplementation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwoffset: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
+    dwresourceflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+) -&gt; <a class="type" href="../../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="implementors" class="small-section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../../implementors/windows/Windows/Win32/System/WinRT/Metadata/trait.IMetaDataAssemblyEmit_Impl.js" async></script></section></div></main></body></html>

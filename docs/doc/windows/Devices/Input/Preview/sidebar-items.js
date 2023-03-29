@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["GazeDeviceConfigurationStatePreview","GazeDevicePreview","GazeDeviceWatcherAddedPreviewEventArgs","GazeDeviceWatcherPreview","GazeDeviceWatcherRemovedPreviewEventArgs","GazeDeviceWatcherUpdatedPreviewEventArgs","GazeEnteredPreviewEventArgs","GazeExitedPreviewEventArgs","GazeInputSourcePreview","GazeMovedPreviewEventArgs","GazePointPreview"]};

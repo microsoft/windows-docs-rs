@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["GameBar","GameChatMessageOrigin","GameChatMessageReceivedEventArgs","GameChatOverlay","GameChatOverlayMessageSource","GameChatOverlayPosition","GameUIProviderActivatedEventArgs"]};

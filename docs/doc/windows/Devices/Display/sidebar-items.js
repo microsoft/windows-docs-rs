@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["Core"],"struct":["DisplayMonitor","DisplayMonitorConnectionKind","DisplayMonitorDescriptorKind","DisplayMonitorPhysicalConnectorKind","DisplayMonitorUsageKind"]};

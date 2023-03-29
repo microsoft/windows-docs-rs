@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["Geofence","GeofenceMonitor","GeofenceMonitorStatus","GeofenceRemovalReason","GeofenceState","GeofenceStateChangeReport","MonitoredGeofenceStates"]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["IWICImageEncoder","IWICImagingFactory2"],"trait":["IWICImageEncoder_Impl","IWICImagingFactory2_Impl"]};

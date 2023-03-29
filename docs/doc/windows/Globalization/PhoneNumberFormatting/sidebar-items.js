@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":["PhoneNumberFormat","PhoneNumberFormatter","PhoneNumberInfo","PhoneNumberMatchResult","PhoneNumberParseResult","PredictedPhoneNumberKind"]};
