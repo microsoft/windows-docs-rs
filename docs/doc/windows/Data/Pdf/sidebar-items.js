@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["PdfDocument","PdfPage","PdfPageDimensions","PdfPageRenderOptions","PdfPageRotation"]};

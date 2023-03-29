@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["CLSID_AudioFrameNativeFactory","CLSID_VideoFrameNativeFactory"],"struct":["IAudioFrameNative","IAudioFrameNativeFactory","IVideoFrameNative","IVideoFrameNativeFactory"],"trait":["IAudioFrameNativeFactory_Impl","IAudioFrameNative_Impl","IVideoFrameNativeFactory_Impl","IVideoFrameNative_Impl"]};

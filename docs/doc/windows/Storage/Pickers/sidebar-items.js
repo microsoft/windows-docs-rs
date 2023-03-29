@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["Provider"],"struct":["FileExtensionVector","FileOpenPicker","FilePickerFileTypesOrderedMap","FilePickerSelectedFilesArray","FileSavePicker","FolderPicker","PickerLocationId","PickerViewMode"]};

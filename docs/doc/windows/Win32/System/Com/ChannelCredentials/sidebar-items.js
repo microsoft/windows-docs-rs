@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["IChannelCredentials"],"trait":["IChannelCredentials_Impl"]};

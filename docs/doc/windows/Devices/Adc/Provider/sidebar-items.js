@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["IAdcControllerProvider","IAdcProvider","ProviderAdcChannelMode"],"trait":["IAdcControllerProvider_Impl","IAdcProvider_Impl"]};

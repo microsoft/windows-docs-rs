@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["SpeechAppendedSilence","SpeechPunctuationSilence","SpeechSynthesisStream","SpeechSynthesizer","SpeechSynthesizerOptions","VoiceGender","VoiceInformation"]};

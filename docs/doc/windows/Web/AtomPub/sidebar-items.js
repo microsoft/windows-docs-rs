@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["AtomPubClient","ResourceCollection","ServiceDocument","Workspace"]};

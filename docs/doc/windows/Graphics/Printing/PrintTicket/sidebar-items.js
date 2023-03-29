@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["PrintTicketCapabilities","PrintTicketFeature","PrintTicketFeatureSelectionType","PrintTicketOption","PrintTicketParameterDataType","PrintTicketParameterDefinition","PrintTicketParameterInitializer","PrintTicketValue","PrintTicketValueType","WorkflowPrintTicket","WorkflowPrintTicketValidationResult"]};

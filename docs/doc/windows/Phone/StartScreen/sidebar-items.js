@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["DualSimTile","IToastNotificationManagerStatics3"],"trait":["IToastNotificationManagerStatics3_Impl"]};

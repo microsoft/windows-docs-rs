@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["PushNotificationChannel","PushNotificationChannelManager","PushNotificationChannelManagerForUser","PushNotificationChannelsRevokedEventArgs","PushNotificationReceivedEventArgs","PushNotificationType","RawNotification"]};

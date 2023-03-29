@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["IDummyHICONIncluder","IThumbnailExtractor"],"trait":["IDummyHICONIncluder_Impl","IThumbnailExtractor_Impl"]};

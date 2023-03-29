@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["RtlDrainNonVolatileFlush","RtlFillNonVolatileMemory","RtlFlushNonVolatileMemory","RtlFlushNonVolatileMemoryRanges","RtlFreeNonVolatileToken","RtlGetNonVolatileToken","RtlWriteNonVolatileMemory"],"struct":["NV_MEMORY_RANGE"]};

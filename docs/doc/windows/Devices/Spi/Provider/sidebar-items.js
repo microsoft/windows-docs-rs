@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["ISpiControllerProvider","ISpiDeviceProvider","ISpiProvider","ProviderSpiConnectionSettings","ProviderSpiMode","ProviderSpiSharingMode"],"trait":["ISpiControllerProvider_Impl","ISpiDeviceProvider_Impl","ISpiProvider_Impl"]};

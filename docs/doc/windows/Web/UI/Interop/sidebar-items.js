@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["WebViewControl","WebViewControlAcceleratorKeyPressedEventArgs","WebViewControlAcceleratorKeyRoutingStage","WebViewControlMoveFocusReason","WebViewControlMoveFocusRequestedEventArgs","WebViewControlProcess","WebViewControlProcessCapabilityState","WebViewControlProcessOptions"]};

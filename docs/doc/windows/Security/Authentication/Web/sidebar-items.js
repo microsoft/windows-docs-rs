@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["Core","Provider"],"struct":["TokenBindingKeyType","WebAuthenticationBroker","WebAuthenticationOptions","WebAuthenticationResult","WebAuthenticationStatus"]};

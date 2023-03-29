@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["Core"],"struct":["ThreadPool","ThreadPoolTimer","TimerDestroyedHandler","TimerElapsedHandler","WorkItemHandler","WorkItemOptions","WorkItemPriority"]};

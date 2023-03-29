@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["AccessCacheOptions","AccessListEntry","AccessListEntryView","IStorageItemAccessList","ItemRemovedEventArgs","RecentStorageItemVisibility","StorageApplicationPermissions","StorageItemAccessList","StorageItemMostRecentlyUsedList"],"trait":["IStorageItemAccessList_Impl"]};

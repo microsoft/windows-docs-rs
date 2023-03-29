@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["CreateDirect3D11DeviceFromDXGIDevice","CreateDirect3D11SurfaceFromDXGISurface"],"struct":["IDirect3DDxgiInterfaceAccess"],"trait":["IDirect3DDxgiInterfaceAccess_Impl"]};

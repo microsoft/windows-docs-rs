@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["Accessibility","ApplicationSettings","Composition","Core","Input","Notifications","Popups","Shell","StartScreen","Text","UIAutomation","ViewManagement","WebUI","WindowManagement"],"struct":["Color","ColorHelper","Colors","UIContentRoot","UIContext","WindowId"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["DnssdRegistrationResult","DnssdRegistrationStatus","DnssdServiceInstance","DnssdServiceInstanceCollection","DnssdServiceWatcher","DnssdServiceWatcherStatus"]};

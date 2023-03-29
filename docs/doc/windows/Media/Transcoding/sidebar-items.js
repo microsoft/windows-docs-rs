@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["MediaTranscoder","MediaVideoProcessingAlgorithm","PrepareTranscodeResult","TranscodeFailureReason"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["IIsolatedEnvironmentInterop"],"trait":["IIsolatedEnvironmentInterop_Impl"]};

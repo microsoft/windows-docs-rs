@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["Collation","DateTimeFormatting","Fonts","NumberFormatting","PhoneNumberFormatting"],"struct":["ApplicationLanguages","Calendar","CalendarIdentifiers","ClockIdentifiers","CurrencyAmount","CurrencyIdentifiers","DayOfWeek","GeographicRegion","JapanesePhoneme","JapanesePhoneticAnalyzer","Language","LanguageLayoutDirection","NumeralSystemIdentifiers"]};

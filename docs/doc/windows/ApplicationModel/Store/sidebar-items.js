@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["LicenseManagement","Preview"],"struct":["CurrentApp","CurrentAppSimulator","FulfillmentResult","LicenseChangedEventHandler","LicenseInformation","ListingInformation","ProductLicense","ProductListing","ProductPurchaseDisplayProperties","ProductPurchaseStatus","ProductType","PurchaseResults","UnfulfilledConsumable"]};

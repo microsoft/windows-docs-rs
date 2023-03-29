@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["HttpDiagnosticProvider","HttpDiagnosticProviderRequestResponseCompletedEventArgs","HttpDiagnosticProviderRequestResponseTimestamps","HttpDiagnosticProviderRequestSentEventArgs","HttpDiagnosticProviderResponseReceivedEventArgs","HttpDiagnosticRequestInitiator","HttpDiagnosticSourceLocation"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["Input","Preview","UI","XboxLive"]};

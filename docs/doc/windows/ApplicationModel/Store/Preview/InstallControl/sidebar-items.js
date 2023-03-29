@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["AppInstallItem","AppInstallManager","AppInstallManagerItemEventArgs","AppInstallOptions","AppInstallState","AppInstallStatus","AppInstallType","AppInstallationToastNotificationMode","AppUpdateOptions","AutoUpdateSetting","GetEntitlementResult","GetEntitlementStatus"]};

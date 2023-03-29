@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["CastingConnection","CastingConnectionErrorOccurredEventArgs","CastingConnectionErrorStatus","CastingConnectionState","CastingDevice","CastingDevicePicker","CastingDevicePickerFilter","CastingDeviceSelectedEventArgs","CastingPlaybackTypes","CastingSource"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["VoiceCommand","VoiceCommandCompletedEventArgs","VoiceCommandCompletionReason","VoiceCommandConfirmationResult","VoiceCommandContentTile","VoiceCommandContentTileType","VoiceCommandDefinition","VoiceCommandDefinitionManager","VoiceCommandDisambiguationResult","VoiceCommandResponse","VoiceCommandServiceConnection","VoiceCommandUserMessage"]};

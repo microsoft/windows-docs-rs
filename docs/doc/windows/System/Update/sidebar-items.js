@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["SystemUpdateAttentionRequiredReason","SystemUpdateItem","SystemUpdateItemState","SystemUpdateLastErrorInfo","SystemUpdateManager","SystemUpdateManagerState","SystemUpdateStartInstallAction"]};

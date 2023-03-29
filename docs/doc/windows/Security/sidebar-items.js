@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["Authentication","Authorization","Credentials","Cryptography","DataProtection","EnterpriseData","ExchangeActiveSyncProvisioning","Isolation"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["factory"],"struct":["AgileReference","Array","BSTR","Error","Event","GUID","HRESULT","HSTRING","IInspectable","IUnknown","PCSTR","PCWSTR","PSTR","PWSTR","Weak"],"trait":["AsImpl","ComInterface"],"type":["Result"]};

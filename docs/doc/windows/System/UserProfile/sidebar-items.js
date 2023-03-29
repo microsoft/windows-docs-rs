@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["AccountPictureKind","AdvertisingManager","AdvertisingManagerForUser","AssignedAccessSettings","DiagnosticsSettings","FirstSignInSettings","GlobalizationPreferences","GlobalizationPreferencesForUser","LockScreen","SetAccountPictureResult","SetImageFeedResult","UserInformation","UserProfilePersonalizationSettings"]};

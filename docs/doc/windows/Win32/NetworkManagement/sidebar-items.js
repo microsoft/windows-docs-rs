@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["Dhcp","Dns","InternetConnectionWizard","IpHelper","MobileBroadband","Multicast","Ndis","NetBios","NetManagement","NetShell","NetworkDiagnosticsFramework","NetworkPolicyServer","P2P","QoS","Rras","Snmp","WNet","WebDav","WiFi","WindowsConnectNow","WindowsConnectionManager","WindowsFilteringPlatform","WindowsFirewall","WindowsNetworkVirtualization"]};

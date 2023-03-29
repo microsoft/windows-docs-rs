@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["HttpBaseProtocolFilter","HttpCacheControl","HttpCacheReadBehavior","HttpCacheWriteBehavior","HttpCookieUsageBehavior","HttpServerCustomValidationRequestedEventArgs","IHttpFilter"],"trait":["IHttpFilter_Impl"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["ConditionForceEffect","ConditionForceEffectKind","ConstantForceEffect","ForceFeedbackEffectAxes","ForceFeedbackEffectState","ForceFeedbackLoadEffectResult","ForceFeedbackMotor","IForceFeedbackEffect","PeriodicForceEffect","PeriodicForceEffectKind","RampForceEffect"],"trait":["IForceFeedbackEffect_Impl"]};

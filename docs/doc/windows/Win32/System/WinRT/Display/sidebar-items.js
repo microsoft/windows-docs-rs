@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["IDisplayDeviceInterop","IDisplayPathInterop"],"trait":["IDisplayDeviceInterop_Impl","IDisplayPathInterop_Impl"]};

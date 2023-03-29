@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["UserDataAvailability","UserDataAvailabilityStateChangedEventArgs","UserDataBufferUnprotectResult","UserDataBufferUnprotectStatus","UserDataProtectionManager","UserDataStorageItemProtectionInfo","UserDataStorageItemProtectionStatus"]};

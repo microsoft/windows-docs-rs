@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"macro":["h","s","w"],"mod":["AI","ApplicationModel","Data","Devices","Embedded","Foundation","Gaming","Globalization","Graphics","Management","Media","Networking","Perception","Phone","Security","Services","Storage","System","UI","Wdk","Web","Win32","core"]};

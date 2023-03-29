@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["CoreDragDropManager","CoreDragInfo","CoreDragOperation","CoreDragUIContentMode","CoreDragUIOverride","CoreDropOperationTargetRequestedEventArgs","ICoreDropOperationTarget"],"trait":["ICoreDropOperationTarget_Impl"]};

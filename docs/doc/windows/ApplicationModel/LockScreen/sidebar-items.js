@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["LockApplicationHost","LockScreenBadge","LockScreenInfo","LockScreenUnlockingDeferral","LockScreenUnlockingEventArgs"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["GpioPinProviderValueChangedEventArgs","IGpioControllerProvider","IGpioPinProvider","IGpioProvider","ProviderGpioPinDriveMode","ProviderGpioPinEdge","ProviderGpioPinValue","ProviderGpioSharingMode"],"trait":["IGpioControllerProvider_Impl","IGpioPinProvider_Impl","IGpioProvider_Impl"]};

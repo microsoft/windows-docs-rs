@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["CredentialPromptType","OnlineIdAuthenticator","OnlineIdServiceTicket","OnlineIdServiceTicketRequest","OnlineIdSystemAuthenticator","OnlineIdSystemAuthenticatorForUser","OnlineIdSystemIdentity","OnlineIdSystemTicketResult","OnlineIdSystemTicketStatus","SignOutUserOperation","UserAuthenticationOperation","UserIdentity"]};

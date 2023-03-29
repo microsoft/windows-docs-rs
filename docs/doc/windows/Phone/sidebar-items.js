@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["ApplicationModel","Devices","Management","Media","Notification","PersonalInformation","Speech","StartScreen","System","UI"]};

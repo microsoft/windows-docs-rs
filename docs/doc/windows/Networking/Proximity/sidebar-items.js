@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["ConnectionRequestedEventArgs","DeviceArrivedEventHandler","DeviceDepartedEventHandler","MessageReceivedHandler","MessageTransmittedHandler","PeerDiscoveryTypes","PeerFinder","PeerInformation","PeerRole","PeerWatcher","PeerWatcherStatus","ProximityDevice","ProximityMessage","TriggeredConnectState","TriggeredConnectionStateChangedEventArgs"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["DialApp","DialAppLaunchResult","DialAppState","DialAppStateDetails","DialAppStopResult","DialDevice","DialDeviceDisplayStatus","DialDevicePicker","DialDevicePickerFilter","DialDeviceSelectedEventArgs","DialDisconnectButtonClickedEventArgs","DialReceiverApp"]};

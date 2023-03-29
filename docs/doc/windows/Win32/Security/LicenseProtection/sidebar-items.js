@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["LicenseKeyAlreadyExists","LicenseKeyCorrupted","LicenseKeyNotFound","LicenseKeyUnprotected","Success"],"fn":["RegisterLicenseKeyWithExpiration","ValidateLicenseKeyProtection"],"struct":["LicenseProtectionStatus"]};

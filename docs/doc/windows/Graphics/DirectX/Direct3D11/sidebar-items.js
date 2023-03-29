@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["Direct3DBindings","Direct3DMultisampleDescription","Direct3DSurfaceDescription","Direct3DUsage","IDirect3DDevice","IDirect3DSurface"],"trait":["IDirect3DDevice_Impl","IDirect3DSurface_Impl"]};

@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["PnpObject","PnpObjectCollection","PnpObjectType","PnpObjectUpdate","PnpObjectWatcher"]};

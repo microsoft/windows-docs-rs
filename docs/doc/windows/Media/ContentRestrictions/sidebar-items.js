@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"struct":["ContentAccessRestrictionLevel","ContentRestrictionsBrowsePolicy","RatedContentCategory","RatedContentDescription","RatedContentRestrictions"]};

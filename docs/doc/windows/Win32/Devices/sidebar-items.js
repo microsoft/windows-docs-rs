@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"mod":["AllJoyn","BiometricFramework","Bluetooth","Communication","DeviceAccess","DeviceAndDriverInstallation","DeviceQuery","Display","Enumeration","Fax","FunctionDiscovery","Geolocation","HumanInterfaceDevice","ImageAcquisition","PortableDevices","Properties","Pwm","Sensors","SerialCommunication","Tapi","Usb","WebServicesOnDevices"]};
