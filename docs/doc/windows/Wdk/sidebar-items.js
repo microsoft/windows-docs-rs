@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["System"]};
+window.SIDEBAR_ITEMS = {"mod":["Foundation","Graphics","Storage","System"]};
