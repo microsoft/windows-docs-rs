@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["SceneLightingEffect","SceneLightingEffectReflectanceModel"]};
+window.SIDEBAR_ITEMS = {"struct":["ISceneLightingEffect","ISceneLightingEffect2","ISceneLightingEffect2_Vtbl","ISceneLightingEffect_Vtbl","SceneLightingEffect","SceneLightingEffectReflectanceModel"]};

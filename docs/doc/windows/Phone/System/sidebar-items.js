@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Power","Profile","UserProfile"],"struct":["SystemProtection"]};
+window.SIDEBAR_ITEMS = {"mod":["Power","Profile","UserProfile"],"struct":["ISystemProtectionStatics","ISystemProtectionStatics_Vtbl","ISystemProtectionUnlockStatics","ISystemProtectionUnlockStatics_Vtbl","SystemProtection"]};

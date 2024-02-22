@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["PdfCreateRenderer"],"struct":["IPdfRendererNative","PDF_RENDER_PARAMS"],"trait":["IPdfRendererNative_Impl"],"type":["PFN_PDF_CREATE_RENDERER"]};
+window.SIDEBAR_ITEMS = {"fn":["PdfCreateRenderer"],"struct":["IPdfRendererNative","IPdfRendererNative_Vtbl","PDF_RENDER_PARAMS"],"trait":["IPdfRendererNative_Impl"],"type":["PFN_PDF_CREATE_RENDERER"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["DesktopWindowTarget"]};
+window.SIDEBAR_ITEMS = {"struct":["DesktopWindowTarget","IDesktopWindowTarget","IDesktopWindowTarget_Vtbl"]};

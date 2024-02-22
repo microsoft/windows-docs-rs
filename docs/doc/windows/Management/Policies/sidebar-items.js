@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["NamedPolicy","NamedPolicyData","NamedPolicyKind"]};
+window.SIDEBAR_ITEMS = {"struct":["INamedPolicyData","INamedPolicyData_Vtbl","INamedPolicyStatics","INamedPolicyStatics_Vtbl","NamedPolicy","NamedPolicyData","NamedPolicyKind"]};

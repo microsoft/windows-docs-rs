@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Core","Management"],"struct":["ResourceLoader"]};
+window.SIDEBAR_ITEMS = {"mod":["Core","Management"],"struct":["IResourceLoader","IResourceLoader2","IResourceLoader2_Vtbl","IResourceLoaderFactory","IResourceLoaderFactory_Vtbl","IResourceLoaderStatics","IResourceLoaderStatics2","IResourceLoaderStatics2_Vtbl","IResourceLoaderStatics3","IResourceLoaderStatics3_Vtbl","IResourceLoaderStatics4","IResourceLoaderStatics4_Vtbl","IResourceLoaderStatics_Vtbl","IResourceLoader_Vtbl","ResourceLoader"]};

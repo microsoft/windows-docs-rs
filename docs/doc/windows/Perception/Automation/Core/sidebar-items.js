@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["CorePerceptionAutomation"]};
+window.SIDEBAR_ITEMS = {"struct":["CorePerceptionAutomation","ICorePerceptionAutomationStatics","ICorePerceptionAutomationStatics_Vtbl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["OcrEngine","OcrLine","OcrResult","OcrWord"]};
+window.SIDEBAR_ITEMS = {"struct":["IOcrEngine","IOcrEngineStatics","IOcrEngineStatics_Vtbl","IOcrEngine_Vtbl","IOcrLine","IOcrLine_Vtbl","IOcrResult","IOcrResult_Vtbl","IOcrWord","IOcrWord_Vtbl","OcrEngine","OcrLine","OcrResult","OcrWord"]};

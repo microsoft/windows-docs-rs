@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["PnpObject","PnpObjectCollection","PnpObjectType","PnpObjectUpdate","PnpObjectWatcher"]};
+window.SIDEBAR_ITEMS = {"struct":["IPnpObject","IPnpObjectStatics","IPnpObjectStatics_Vtbl","IPnpObjectUpdate","IPnpObjectUpdate_Vtbl","IPnpObjectWatcher","IPnpObjectWatcher_Vtbl","IPnpObject_Vtbl","PnpObject","PnpObjectCollection","PnpObjectType","PnpObjectUpdate","PnpObjectWatcher"]};

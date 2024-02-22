@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["IDisplayDeviceInterop","IDisplayPathInterop"],"trait":["IDisplayDeviceInterop_Impl","IDisplayPathInterop_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["IDisplayDeviceInterop","IDisplayDeviceInterop_Vtbl","IDisplayPathInterop","IDisplayPathInterop_Vtbl"],"trait":["IDisplayDeviceInterop_Impl","IDisplayPathInterop_Impl"]};

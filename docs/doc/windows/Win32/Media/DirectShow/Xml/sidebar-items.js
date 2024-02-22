@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"constant":["CLSID_XMLGraphBuilder"],"struct":["IXMLGraphBuilder"],"trait":["IXMLGraphBuilder_Impl"]};
+window.SIDEBAR_ITEMS = {"constant":["CLSID_XMLGraphBuilder"],"struct":["IXMLGraphBuilder","IXMLGraphBuilder_Vtbl"],"trait":["IXMLGraphBuilder_Impl"]};

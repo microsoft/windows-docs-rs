@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ICoreFrameworkInputViewInterop"],"trait":["ICoreFrameworkInputViewInterop_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["ICoreFrameworkInputViewInterop","ICoreFrameworkInputViewInterop_Vtbl"],"trait":["ICoreFrameworkInputViewInterop_Impl"]};

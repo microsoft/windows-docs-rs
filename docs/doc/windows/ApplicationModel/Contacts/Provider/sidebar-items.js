@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["AddContactResult","ContactPickerUI","ContactRemovedEventArgs"]};
+window.SIDEBAR_ITEMS = {"struct":["AddContactResult","ContactPickerUI","ContactRemovedEventArgs","IContactPickerUI","IContactPickerUI2","IContactPickerUI2_Vtbl","IContactPickerUI_Vtbl","IContactRemovedEventArgs","IContactRemovedEventArgs_Vtbl"]};

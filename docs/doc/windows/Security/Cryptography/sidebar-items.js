@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Certificates","Core","DataProtection"],"struct":["BinaryStringEncoding","CryptographicBuffer"]};
+window.SIDEBAR_ITEMS = {"mod":["Certificates","Core","DataProtection"],"struct":["BinaryStringEncoding","CryptographicBuffer","ICryptographicBufferStatics","ICryptographicBufferStatics_Vtbl"]};

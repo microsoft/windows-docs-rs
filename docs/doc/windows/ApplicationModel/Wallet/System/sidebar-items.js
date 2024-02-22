@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["WalletItemAppAssociation","WalletItemSystemStore","WalletManagerSystem"]};
+window.SIDEBAR_ITEMS = {"struct":["IWalletItemSystemStore","IWalletItemSystemStore2","IWalletItemSystemStore2_Vtbl","IWalletItemSystemStore_Vtbl","IWalletManagerSystemStatics","IWalletManagerSystemStatics_Vtbl","WalletItemAppAssociation","WalletItemSystemStore","WalletManagerSystem"]};

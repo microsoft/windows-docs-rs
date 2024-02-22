@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["CustomSensor","CustomSensorReading","CustomSensorReadingChangedEventArgs"]};
+window.SIDEBAR_ITEMS = {"struct":["CustomSensor","CustomSensorReading","CustomSensorReadingChangedEventArgs","ICustomSensor","ICustomSensor2","ICustomSensor2_Vtbl","ICustomSensorReading","ICustomSensorReading2","ICustomSensorReading2_Vtbl","ICustomSensorReadingChangedEventArgs","ICustomSensorReadingChangedEventArgs_Vtbl","ICustomSensorReading_Vtbl","ICustomSensorStatics","ICustomSensorStatics_Vtbl","ICustomSensor_Vtbl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["UserNotificationListener","UserNotificationListenerAccessStatus"]};
+window.SIDEBAR_ITEMS = {"struct":["IUserNotificationListener","IUserNotificationListenerStatics","IUserNotificationListenerStatics_Vtbl","IUserNotificationListener_Vtbl","UserNotificationListener","UserNotificationListenerAccessStatus"]};

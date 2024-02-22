@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["AtomPubClient","ResourceCollection","ServiceDocument","Workspace"]};
+window.SIDEBAR_ITEMS = {"struct":["AtomPubClient","IAtomPubClient","IAtomPubClientFactory","IAtomPubClientFactory_Vtbl","IAtomPubClient_Vtbl","IResourceCollection","IResourceCollection_Vtbl","IServiceDocument","IServiceDocument_Vtbl","IWorkspace","IWorkspace_Vtbl","ResourceCollection","ServiceDocument","Workspace"]};

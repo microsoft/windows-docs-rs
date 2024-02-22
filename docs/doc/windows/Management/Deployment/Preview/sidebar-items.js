@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ClassicAppManager","InstalledClassicAppInfo"]};
+window.SIDEBAR_ITEMS = {"struct":["ClassicAppManager","IClassicAppManagerStatics","IClassicAppManagerStatics_Vtbl","IInstalledClassicAppInfo","IInstalledClassicAppInfo_Vtbl","InstalledClassicAppInfo"]};

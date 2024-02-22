@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["LanguageFont","LanguageFontGroup"]};
+window.SIDEBAR_ITEMS = {"struct":["ILanguageFont","ILanguageFontGroup","ILanguageFontGroupFactory","ILanguageFontGroupFactory_Vtbl","ILanguageFontGroup_Vtbl","ILanguageFont_Vtbl","LanguageFont","LanguageFontGroup"]};

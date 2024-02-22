@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ContactPartnerProvisioningManager","MessagePartnerProvisioningManager"]};
+window.SIDEBAR_ITEMS = {"struct":["ContactPartnerProvisioningManager","IContactPartnerProvisioningManagerStatics","IContactPartnerProvisioningManagerStatics2","IContactPartnerProvisioningManagerStatics2_Vtbl","IContactPartnerProvisioningManagerStatics_Vtbl","IMessagePartnerProvisioningManagerStatics","IMessagePartnerProvisioningManagerStatics_Vtbl","MessagePartnerProvisioningManager"]};

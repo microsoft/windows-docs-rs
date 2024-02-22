@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["RemoteTextConnection","RemoteTextConnectionDataHandler"]};
+window.SIDEBAR_ITEMS = {"struct":["IRemoteTextConnection","IRemoteTextConnectionFactory","IRemoteTextConnectionFactory_Vtbl","IRemoteTextConnection_Vtbl","RemoteTextConnection","RemoteTextConnectionDataHandler","RemoteTextConnectionDataHandler_Vtbl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["EyesPose","HandJointKind","HandMeshObserver","HandMeshVertex","HandMeshVertexState","HandPose","HeadPose","JointPose","JointPoseAccuracy"]};
+window.SIDEBAR_ITEMS = {"struct":["EyesPose","HandJointKind","HandMeshObserver","HandMeshVertex","HandMeshVertexState","HandPose","HeadPose","IEyesPose","IEyesPoseStatics","IEyesPoseStatics_Vtbl","IEyesPose_Vtbl","IHandMeshObserver","IHandMeshObserver_Vtbl","IHandMeshVertexState","IHandMeshVertexState_Vtbl","IHandPose","IHandPose_Vtbl","IHeadPose","IHeadPose_Vtbl","JointPose","JointPoseAccuracy"]};

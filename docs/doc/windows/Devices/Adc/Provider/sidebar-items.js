@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["IAdcControllerProvider","IAdcProvider","ProviderAdcChannelMode"],"trait":["IAdcControllerProvider_Impl","IAdcProvider_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["IAdcControllerProvider","IAdcControllerProvider_Vtbl","IAdcProvider","IAdcProvider_Vtbl","ProviderAdcChannelMode"],"trait":["IAdcControllerProvider_Impl","IAdcProvider_Impl"]};

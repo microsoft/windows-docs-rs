@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Capture","DirectX","Display","Effects","Holographic","Imaging","Printing","Printing3D"],"struct":["DisplayAdapterId","DisplayId","IGeometrySource2D","PointInt32","RectInt32","SizeInt32"],"trait":["IGeometrySource2D_Impl"]};
+window.SIDEBAR_ITEMS = {"mod":["Capture","DirectX","Display","Effects","Holographic","Imaging","Printing","Printing3D"],"struct":["DisplayAdapterId","DisplayId","IGeometrySource2D","IGeometrySource2D_Vtbl","PointInt32","RectInt32","SizeInt32"],"trait":["IGeometrySource2D_Impl"]};

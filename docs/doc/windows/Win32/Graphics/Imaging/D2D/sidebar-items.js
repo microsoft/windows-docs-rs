@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["IWICImageEncoder","IWICImagingFactory2"],"trait":["IWICImageEncoder_Impl","IWICImagingFactory2_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["IWICImageEncoder","IWICImageEncoder_Vtbl","IWICImagingFactory2","IWICImagingFactory2_Vtbl"],"trait":["IWICImageEncoder_Impl","IWICImagingFactory2_Impl"]};

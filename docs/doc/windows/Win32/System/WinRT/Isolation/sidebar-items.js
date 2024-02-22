@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["IIsolatedEnvironmentInterop"],"trait":["IIsolatedEnvironmentInterop_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["IIsolatedEnvironmentInterop","IIsolatedEnvironmentInterop_Vtbl"],"trait":["IIsolatedEnvironmentInterop_Impl"]};

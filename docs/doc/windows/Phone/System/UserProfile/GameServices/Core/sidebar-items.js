@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["GameService","GameServiceGameOutcome","GameServicePropertyCollection","GameServiceScoreKind"]};
+window.SIDEBAR_ITEMS = {"struct":["GameService","GameServiceGameOutcome","GameServicePropertyCollection","GameServiceScoreKind","IGameService","IGameService2","IGameService2_Vtbl","IGameServicePropertyCollection","IGameServicePropertyCollection_Vtbl","IGameService_Vtbl"]};

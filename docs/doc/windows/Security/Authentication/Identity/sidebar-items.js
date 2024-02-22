@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Core"],"struct":["EnterpriseKeyCredentialRegistrationInfo","EnterpriseKeyCredentialRegistrationManager"]};
+window.SIDEBAR_ITEMS = {"mod":["Core"],"struct":["EnterpriseKeyCredentialRegistrationInfo","EnterpriseKeyCredentialRegistrationManager","IEnterpriseKeyCredentialRegistrationInfo","IEnterpriseKeyCredentialRegistrationInfo_Vtbl","IEnterpriseKeyCredentialRegistrationManager","IEnterpriseKeyCredentialRegistrationManagerStatics","IEnterpriseKeyCredentialRegistrationManagerStatics_Vtbl","IEnterpriseKeyCredentialRegistrationManager_Vtbl"]};

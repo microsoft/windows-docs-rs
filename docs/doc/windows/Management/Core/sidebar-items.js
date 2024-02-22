@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ApplicationDataManager"]};
+window.SIDEBAR_ITEMS = {"struct":["ApplicationDataManager","IApplicationDataManager","IApplicationDataManagerStatics","IApplicationDataManagerStatics_Vtbl","IApplicationDataManager_Vtbl"]};

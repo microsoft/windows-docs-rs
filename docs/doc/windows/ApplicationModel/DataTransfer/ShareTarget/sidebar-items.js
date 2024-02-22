@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["QuickLink","ShareOperation"]};
+window.SIDEBAR_ITEMS = {"struct":["IQuickLink","IQuickLink_Vtbl","IShareOperation","IShareOperation2","IShareOperation2_Vtbl","IShareOperation3","IShareOperation3_Vtbl","IShareOperation_Vtbl","QuickLink","ShareOperation"]};

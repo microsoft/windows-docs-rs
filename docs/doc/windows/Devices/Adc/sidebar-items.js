@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Provider"],"struct":["AdcChannel","AdcChannelMode","AdcController"]};
+window.SIDEBAR_ITEMS = {"mod":["Provider"],"struct":["AdcChannel","AdcChannelMode","AdcController","IAdcChannel","IAdcChannel_Vtbl","IAdcController","IAdcControllerStatics","IAdcControllerStatics2","IAdcControllerStatics2_Vtbl","IAdcControllerStatics_Vtbl","IAdcController_Vtbl"]};

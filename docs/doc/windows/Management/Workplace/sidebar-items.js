@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["MdmPolicy","MessagingSyncPolicy","WorkplaceSettings"]};
+window.SIDEBAR_ITEMS = {"struct":["IMdmAllowPolicyStatics","IMdmAllowPolicyStatics_Vtbl","IMdmPolicyStatics2","IMdmPolicyStatics2_Vtbl","IWorkplaceSettingsStatics","IWorkplaceSettingsStatics_Vtbl","MdmPolicy","MessagingSyncPolicy","WorkplaceSettings"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["IPwmControllerProvider","IPwmProvider"],"trait":["IPwmControllerProvider_Impl","IPwmProvider_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["IPwmControllerProvider","IPwmControllerProvider_Vtbl","IPwmProvider","IPwmProvider_Vtbl"],"trait":["IPwmControllerProvider_Impl","IPwmProvider_Impl"]};

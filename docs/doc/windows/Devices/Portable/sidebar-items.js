@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ServiceDevice","ServiceDeviceType","StorageDevice"]};
+window.SIDEBAR_ITEMS = {"struct":["IServiceDeviceStatics","IServiceDeviceStatics_Vtbl","IStorageDeviceStatics","IStorageDeviceStatics_Vtbl","ServiceDevice","ServiceDeviceType","StorageDevice"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["HolographicKeyboard"]};
+window.SIDEBAR_ITEMS = {"struct":["HolographicKeyboard","IHolographicKeyboard","IHolographicKeyboardStatics","IHolographicKeyboardStatics_Vtbl","IHolographicKeyboard_Vtbl"]};

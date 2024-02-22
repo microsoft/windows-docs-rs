@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Provider"],"struct":["PwmController","PwmPin","PwmPulsePolarity"]};
+window.SIDEBAR_ITEMS = {"mod":["Provider"],"struct":["IPwmController","IPwmControllerStatics","IPwmControllerStatics2","IPwmControllerStatics2_Vtbl","IPwmControllerStatics3","IPwmControllerStatics3_Vtbl","IPwmControllerStatics_Vtbl","IPwmController_Vtbl","IPwmPin","IPwmPin_Vtbl","PwmController","PwmPin","PwmPulsePolarity"]};

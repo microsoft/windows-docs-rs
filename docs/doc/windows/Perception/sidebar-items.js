@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Automation","People","Spatial"],"struct":["PerceptionTimestamp","PerceptionTimestampHelper"]};
+window.SIDEBAR_ITEMS = {"mod":["Automation","People","Spatial"],"struct":["IPerceptionTimestamp","IPerceptionTimestamp2","IPerceptionTimestamp2_Vtbl","IPerceptionTimestampHelperStatics","IPerceptionTimestampHelperStatics2","IPerceptionTimestampHelperStatics2_Vtbl","IPerceptionTimestampHelperStatics_Vtbl","IPerceptionTimestamp_Vtbl","PerceptionTimestamp","PerceptionTimestampHelper"]};

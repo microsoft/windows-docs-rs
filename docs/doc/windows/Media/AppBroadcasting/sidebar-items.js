@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["AppBroadcastingMonitor","AppBroadcastingStatus","AppBroadcastingStatusDetails","AppBroadcastingUI"]};
+window.SIDEBAR_ITEMS = {"struct":["AppBroadcastingMonitor","AppBroadcastingStatus","AppBroadcastingStatusDetails","AppBroadcastingUI","IAppBroadcastingMonitor","IAppBroadcastingMonitor_Vtbl","IAppBroadcastingStatus","IAppBroadcastingStatusDetails","IAppBroadcastingStatusDetails_Vtbl","IAppBroadcastingStatus_Vtbl","IAppBroadcastingUI","IAppBroadcastingUIStatics","IAppBroadcastingUIStatics_Vtbl","IAppBroadcastingUI_Vtbl"]};

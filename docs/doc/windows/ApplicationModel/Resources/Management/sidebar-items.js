@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["IndexedResourceCandidate","IndexedResourceQualifier","IndexedResourceType","ResourceIndexer"]};
+window.SIDEBAR_ITEMS = {"struct":["IIndexedResourceCandidate","IIndexedResourceCandidate_Vtbl","IIndexedResourceQualifier","IIndexedResourceQualifier_Vtbl","IResourceIndexer","IResourceIndexerFactory","IResourceIndexerFactory2","IResourceIndexerFactory2_Vtbl","IResourceIndexerFactory_Vtbl","IResourceIndexer_Vtbl","IndexedResourceCandidate","IndexedResourceQualifier","IndexedResourceType","ResourceIndexer"]};

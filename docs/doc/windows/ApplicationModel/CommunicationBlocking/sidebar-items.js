@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["CommunicationBlockingAccessManager","CommunicationBlockingAppManager"]};
+window.SIDEBAR_ITEMS = {"struct":["CommunicationBlockingAccessManager","CommunicationBlockingAppManager","ICommunicationBlockingAccessManagerStatics","ICommunicationBlockingAccessManagerStatics_Vtbl","ICommunicationBlockingAppManagerStatics","ICommunicationBlockingAppManagerStatics2","ICommunicationBlockingAppManagerStatics2_Vtbl","ICommunicationBlockingAppManagerStatics_Vtbl"]};

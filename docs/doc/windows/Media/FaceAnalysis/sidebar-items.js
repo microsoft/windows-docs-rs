@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["DetectedFace","FaceDetector","FaceTracker"]};
+window.SIDEBAR_ITEMS = {"struct":["DetectedFace","FaceDetector","FaceTracker","IDetectedFace","IDetectedFace_Vtbl","IFaceDetector","IFaceDetectorStatics","IFaceDetectorStatics_Vtbl","IFaceDetector_Vtbl","IFaceTracker","IFaceTrackerStatics","IFaceTrackerStatics_Vtbl","IFaceTracker_Vtbl"]};

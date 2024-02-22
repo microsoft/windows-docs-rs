@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["LicenseManager","LicenseRefreshOption","LicenseSatisfactionInfo","LicenseSatisfactionResult"]};
+window.SIDEBAR_ITEMS = {"struct":["ILicenseManagerStatics","ILicenseManagerStatics2","ILicenseManagerStatics2_Vtbl","ILicenseManagerStatics_Vtbl","ILicenseSatisfactionInfo","ILicenseSatisfactionInfo_Vtbl","ILicenseSatisfactionResult","ILicenseSatisfactionResult_Vtbl","LicenseManager","LicenseRefreshOption","LicenseSatisfactionInfo","LicenseSatisfactionResult"]};

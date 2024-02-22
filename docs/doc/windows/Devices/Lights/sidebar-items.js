@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Effects"],"struct":["Lamp","LampArray","LampArrayKind","LampAvailabilityChangedEventArgs","LampInfo","LampPurposes"]};
+window.SIDEBAR_ITEMS = {"mod":["Effects"],"struct":["ILamp","ILampArray","ILampArray2","ILampArray2_Vtbl","ILampArrayStatics","ILampArrayStatics_Vtbl","ILampArray_Vtbl","ILampAvailabilityChangedEventArgs","ILampAvailabilityChangedEventArgs_Vtbl","ILampInfo","ILampInfo_Vtbl","ILampStatics","ILampStatics_Vtbl","ILamp_Vtbl","Lamp","LampArray","LampArrayKind","LampAvailabilityChangedEventArgs","LampInfo","LampPurposes"]};

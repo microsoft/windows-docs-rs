@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["AudioRoutingEndpoint","AudioRoutingManager","AvailableAudioRoutingEndpoints"]};
+window.SIDEBAR_ITEMS = {"struct":["AudioRoutingEndpoint","AudioRoutingManager","AvailableAudioRoutingEndpoints","IAudioRoutingManager","IAudioRoutingManagerStatics","IAudioRoutingManagerStatics_Vtbl","IAudioRoutingManager_Vtbl"]};

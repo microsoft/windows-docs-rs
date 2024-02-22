@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Foreground"],"struct":["ExtendedExecutionReason","ExtendedExecutionResult","ExtendedExecutionRevokedEventArgs","ExtendedExecutionRevokedReason","ExtendedExecutionSession"]};
+window.SIDEBAR_ITEMS = {"mod":["Foreground"],"struct":["ExtendedExecutionReason","ExtendedExecutionResult","ExtendedExecutionRevokedEventArgs","ExtendedExecutionRevokedReason","ExtendedExecutionSession","IExtendedExecutionRevokedEventArgs","IExtendedExecutionRevokedEventArgs_Vtbl","IExtendedExecutionSession","IExtendedExecutionSession_Vtbl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["GameControllerProviderInfo"]};
+window.SIDEBAR_ITEMS = {"struct":["GameControllerProviderInfo","IGameControllerProviderInfoStatics","IGameControllerProviderInfoStatics_Vtbl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["CompressAlgorithm","Compressor","Decompressor"]};
+window.SIDEBAR_ITEMS = {"struct":["CompressAlgorithm","Compressor","Decompressor","ICompressor","ICompressorFactory","ICompressorFactory_Vtbl","ICompressor_Vtbl","IDecompressor","IDecompressorFactory","IDecompressorFactory_Vtbl","IDecompressor_Vtbl"]};

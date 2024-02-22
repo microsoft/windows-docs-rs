@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["DataProtectionProvider"]};
+window.SIDEBAR_ITEMS = {"struct":["DataProtectionProvider","IDataProtectionProvider","IDataProtectionProviderFactory","IDataProtectionProviderFactory_Vtbl","IDataProtectionProvider_Vtbl"]};

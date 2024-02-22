@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Input"],"struct":["InteractiveSession"]};
+window.SIDEBAR_ITEMS = {"mod":["Input","Provider"],"struct":["IInteractiveSessionStatics","IInteractiveSessionStatics_Vtbl","InteractiveSession"]};

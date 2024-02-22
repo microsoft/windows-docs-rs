@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"constant":["CpAicLaunchAdminProcess","CpCreateProcess","CpCreateProcessAsUser"],"struct":["CreateProcessMethod","IDDEInitializer"],"trait":["IDDEInitializer_Impl"]};
+window.SIDEBAR_ITEMS = {"constant":["CpAicLaunchAdminProcess","CpCreateProcess","CpCreateProcessAsUser"],"struct":["CreateProcessMethod","IDDEInitializer","IDDEInitializer_Vtbl"],"trait":["IDDEInitializer_Impl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["PdfDocument","PdfPage","PdfPageDimensions","PdfPageRenderOptions","PdfPageRotation"]};
+window.SIDEBAR_ITEMS = {"struct":["IPdfDocument","IPdfDocumentStatics","IPdfDocumentStatics_Vtbl","IPdfDocument_Vtbl","IPdfPage","IPdfPageDimensions","IPdfPageDimensions_Vtbl","IPdfPageRenderOptions","IPdfPageRenderOptions_Vtbl","IPdfPage_Vtbl","PdfDocument","PdfPage","PdfPageDimensions","PdfPageRenderOptions","PdfPageRotation"]};

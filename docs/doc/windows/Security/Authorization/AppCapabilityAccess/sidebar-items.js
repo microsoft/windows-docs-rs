@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["AppCapability","AppCapabilityAccessChangedEventArgs","AppCapabilityAccessStatus"]};
+window.SIDEBAR_ITEMS = {"struct":["AppCapability","AppCapabilityAccessChangedEventArgs","AppCapabilityAccessStatus","IAppCapability","IAppCapability2","IAppCapability2_Vtbl","IAppCapabilityAccessChangedEventArgs","IAppCapabilityAccessChangedEventArgs_Vtbl","IAppCapabilityStatics","IAppCapabilityStatics_Vtbl","IAppCapability_Vtbl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["VariablePhotoCapturedEventArgs","VariablePhotoSequenceCapture"]};
+window.SIDEBAR_ITEMS = {"struct":["IVariablePhotoCapturedEventArgs","IVariablePhotoCapturedEventArgs_Vtbl","IVariablePhotoSequenceCapture","IVariablePhotoSequenceCapture2","IVariablePhotoSequenceCapture2_Vtbl","IVariablePhotoSequenceCapture_Vtbl","VariablePhotoCapturedEventArgs","VariablePhotoSequenceCapture"]};

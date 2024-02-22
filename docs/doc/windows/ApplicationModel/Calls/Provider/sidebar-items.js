@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["PhoneCallOrigin","PhoneCallOriginManager"]};
+window.SIDEBAR_ITEMS = {"struct":["IPhoneCallOrigin","IPhoneCallOrigin2","IPhoneCallOrigin2_Vtbl","IPhoneCallOrigin3","IPhoneCallOrigin3_Vtbl","IPhoneCallOriginManagerStatics","IPhoneCallOriginManagerStatics2","IPhoneCallOriginManagerStatics2_Vtbl","IPhoneCallOriginManagerStatics3","IPhoneCallOriginManagerStatics3_Vtbl","IPhoneCallOriginManagerStatics_Vtbl","IPhoneCallOrigin_Vtbl","PhoneCallOrigin","PhoneCallOriginManager"]};

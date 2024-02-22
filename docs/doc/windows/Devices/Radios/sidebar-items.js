@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["Radio","RadioAccessStatus","RadioKind","RadioState"]};
+window.SIDEBAR_ITEMS = {"struct":["IRadio","IRadioStatics","IRadioStatics_Vtbl","IRadio_Vtbl","Radio","RadioAccessStatus","RadioKind","RadioState"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["MediaTranscoder","MediaVideoProcessingAlgorithm","PrepareTranscodeResult","TranscodeFailureReason"]};
+window.SIDEBAR_ITEMS = {"struct":["IMediaTranscoder","IMediaTranscoder2","IMediaTranscoder2_Vtbl","IMediaTranscoder_Vtbl","IPrepareTranscodeResult","IPrepareTranscodeResult_Vtbl","MediaTranscoder","MediaVideoProcessingAlgorithm","PrepareTranscodeResult","TranscodeFailureReason"]};

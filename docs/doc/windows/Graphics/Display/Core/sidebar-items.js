@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["HdmiDisplayColorSpace","HdmiDisplayHdr2086Metadata","HdmiDisplayHdrOption","HdmiDisplayInformation","HdmiDisplayMode","HdmiDisplayPixelEncoding"]};
+window.SIDEBAR_ITEMS = {"struct":["HdmiDisplayColorSpace","HdmiDisplayHdr2086Metadata","HdmiDisplayHdrOption","HdmiDisplayInformation","HdmiDisplayMode","HdmiDisplayPixelEncoding","IHdmiDisplayInformation","IHdmiDisplayInformationStatics","IHdmiDisplayInformationStatics_Vtbl","IHdmiDisplayInformation_Vtbl","IHdmiDisplayMode","IHdmiDisplayMode2","IHdmiDisplayMode2_Vtbl","IHdmiDisplayMode_Vtbl"]};

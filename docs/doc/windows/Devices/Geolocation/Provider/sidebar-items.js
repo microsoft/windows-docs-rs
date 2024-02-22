@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["GeolocationProvider","LocationOverrideStatus"]};
+window.SIDEBAR_ITEMS = {"struct":["GeolocationProvider","IGeolocationProvider","IGeolocationProvider_Vtbl","LocationOverrideStatus"]};

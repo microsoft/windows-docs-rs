@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["InkWorkspaceHostedAppManager"]};
+window.SIDEBAR_ITEMS = {"struct":["IInkWorkspaceHostedAppManager","IInkWorkspaceHostedAppManagerStatics","IInkWorkspaceHostedAppManagerStatics_Vtbl","IInkWorkspaceHostedAppManager_Vtbl","InkWorkspaceHostedAppManager"]};

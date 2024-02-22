@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"constant":["CLSID_SoftwareBitmapNativeFactory"],"struct":["ISoftwareBitmapNative","ISoftwareBitmapNativeFactory"],"trait":["ISoftwareBitmapNativeFactory_Impl","ISoftwareBitmapNative_Impl"]};
+window.SIDEBAR_ITEMS = {"constant":["CLSID_SoftwareBitmapNativeFactory"],"struct":["ISoftwareBitmapNative","ISoftwareBitmapNativeFactory","ISoftwareBitmapNativeFactory_Vtbl","ISoftwareBitmapNative_Vtbl"],"trait":["ISoftwareBitmapNativeFactory_Impl","ISoftwareBitmapNative_Impl"]};

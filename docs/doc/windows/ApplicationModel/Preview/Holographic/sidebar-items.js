@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["HolographicApplicationPreview","HolographicKeyboardPlacementOverridePreview"]};
+window.SIDEBAR_ITEMS = {"struct":["HolographicApplicationPreview","HolographicKeyboardPlacementOverridePreview","IHolographicApplicationPreviewStatics","IHolographicApplicationPreviewStatics_Vtbl","IHolographicKeyboardPlacementOverridePreview","IHolographicKeyboardPlacementOverridePreviewStatics","IHolographicKeyboardPlacementOverridePreviewStatics_Vtbl","IHolographicKeyboardPlacementOverridePreview_Vtbl"]};

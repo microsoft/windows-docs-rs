@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["BackgroundEnergyManager","BatteryStatus","EnergySaverStatus","ForegroundEnergyManager","PowerManager","PowerSupplyStatus"]};
+window.SIDEBAR_ITEMS = {"struct":["BackgroundEnergyManager","BatteryStatus","EnergySaverStatus","ForegroundEnergyManager","IBackgroundEnergyManagerStatics","IBackgroundEnergyManagerStatics_Vtbl","IForegroundEnergyManagerStatics","IForegroundEnergyManagerStatics_Vtbl","IPowerManagerStatics","IPowerManagerStatics_Vtbl","PowerManager","PowerSupplyStatus"]};

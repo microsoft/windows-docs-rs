@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["DualSimTile","IToastNotificationManagerStatics3"],"trait":["IToastNotificationManagerStatics3_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["DualSimTile","IDualSimTile","IDualSimTileStatics","IDualSimTileStatics_Vtbl","IDualSimTile_Vtbl","IToastNotificationManagerStatics3","IToastNotificationManagerStatics3_Vtbl"],"trait":["IToastNotificationManagerStatics3_Impl"]};

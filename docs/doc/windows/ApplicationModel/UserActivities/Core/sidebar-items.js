@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["CoreUserActivityManager"]};
+window.SIDEBAR_ITEMS = {"struct":["CoreUserActivityManager","ICoreUserActivityManagerStatics","ICoreUserActivityManagerStatics_Vtbl"]};

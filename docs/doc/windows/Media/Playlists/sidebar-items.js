@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["Playlist","PlaylistFormat"]};
+window.SIDEBAR_ITEMS = {"struct":["IPlaylist","IPlaylistStatics","IPlaylistStatics_Vtbl","IPlaylist_Vtbl","Playlist","PlaylistFormat"]};

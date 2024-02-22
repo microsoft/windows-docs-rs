@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["FileInformation","FileInformationFactory","FolderInformation","IStorageItemInformation"],"trait":["IStorageItemInformation_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["FileInformation","FileInformationFactory","FolderInformation","IFileInformationFactory","IFileInformationFactoryFactory","IFileInformationFactoryFactory_Vtbl","IFileInformationFactory_Vtbl","IStorageItemInformation","IStorageItemInformation_Vtbl"],"trait":["IStorageItemInformation_Impl"]};

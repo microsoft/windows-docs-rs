@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["Core"],"struct":["DisplayMonitor","DisplayMonitorConnectionKind","DisplayMonitorDescriptorKind","DisplayMonitorPhysicalConnectorKind","DisplayMonitorUsageKind"]};
+window.SIDEBAR_ITEMS = {"mod":["Core"],"struct":["DisplayMonitor","DisplayMonitorConnectionKind","DisplayMonitorDescriptorKind","DisplayMonitorPhysicalConnectorKind","DisplayMonitorUsageKind","IDisplayMonitor","IDisplayMonitor2","IDisplayMonitor2_Vtbl","IDisplayMonitorStatics","IDisplayMonitorStatics_Vtbl","IDisplayMonitor_Vtbl"]};

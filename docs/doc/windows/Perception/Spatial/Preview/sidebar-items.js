@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["SpatialGraphInteropFrameOfReferencePreview","SpatialGraphInteropPreview"]};
+window.SIDEBAR_ITEMS = {"struct":["ISpatialGraphInteropFrameOfReferencePreview","ISpatialGraphInteropFrameOfReferencePreview_Vtbl","ISpatialGraphInteropPreviewStatics","ISpatialGraphInteropPreviewStatics2","ISpatialGraphInteropPreviewStatics2_Vtbl","ISpatialGraphInteropPreviewStatics_Vtbl","SpatialGraphInteropFrameOfReferencePreview","SpatialGraphInteropPreview"]};

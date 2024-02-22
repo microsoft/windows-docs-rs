@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["IGraphicsCaptureItemInterop"],"trait":["IGraphicsCaptureItemInterop_Impl"]};
+window.SIDEBAR_ITEMS = {"struct":["IGraphicsCaptureItemInterop","IGraphicsCaptureItemInterop_Vtbl"],"trait":["IGraphicsCaptureItemInterop_Impl"]};

@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["ErrorReceivedEventArgs","PinChangedEventArgs","SerialDevice","SerialError","SerialHandshake","SerialParity","SerialPinChange","SerialStopBitCount"]};
+window.SIDEBAR_ITEMS = {"struct":["ErrorReceivedEventArgs","IErrorReceivedEventArgs","IErrorReceivedEventArgs_Vtbl","IPinChangedEventArgs","IPinChangedEventArgs_Vtbl","ISerialDevice","ISerialDeviceStatics","ISerialDeviceStatics_Vtbl","ISerialDevice_Vtbl","PinChangedEventArgs","SerialDevice","SerialError","SerialHandshake","SerialParity","SerialPinChange","SerialStopBitCount"]};

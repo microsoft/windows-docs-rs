@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["InstalledDesktopApp"]};
+window.SIDEBAR_ITEMS = {"struct":["IInstalledDesktopApp","IInstalledDesktopAppStatics","IInstalledDesktopAppStatics_Vtbl","IInstalledDesktopApp_Vtbl","InstalledDesktopApp"]};
