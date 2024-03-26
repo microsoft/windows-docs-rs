@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Rust for Windows</ShortName>
+    <Description>Search the Rust for Windows crate documentation</Description>
+    <InputEncoding>UTF-8</InputEncoding>
+    <Image height="16" width="16" type="image/x-icon">https://www.microsoft.com/favicon.ico</Image>
+    <Url type="text/html" method="get" template="https://microsoft.github.io/windows-docs-rs/doc/windows/?search={searchTerms}"/>
+</OpenSearchDescription>
