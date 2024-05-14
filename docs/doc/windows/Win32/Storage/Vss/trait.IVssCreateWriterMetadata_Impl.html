@@ -1,32 +1,31 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `IVssCreateWriterMetadata_Impl` trait in crate `windows`."><title>IVssCreateWriterMetadata_Impl in windows::Win32::Storage::Vss - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/SourceSerif4-Regular-46f98efaafac5295.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/FiraSans-Regular-018c141bf0843ffd.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/FiraSans-Medium-8f9a781e4970d388.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2"><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-e935ef01ae1c1829.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.78.0-nightly (381d69953 2024-02-24)" data-channel="nightly" data-search-js="search-dd67cee4cfa65049.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-4c98445ec4002617.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-c37d3936c59ababd.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-04d5337699b92874.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-16x16-8b506e7a72182f1c.png"><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `IVssCreateWriterMetadata_Impl` trait in crate `windows`."><title>IVssCreateWriterMetadata_Impl in windows::Win32::Storage::Vss - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-b21aa549bf6d91ff.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.80.0-nightly (79734f1db 2024-05-02)" data-channel="nightly" data-search-js="search-bf21c90c8c1d92b1.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-e32f0c247825364d.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-09095024cf37855e.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
   rel="search"
   type="application/opensearchdescription+xml"
-  title="Search Rust for Windows Docs"
+  title="Rust for Windows"
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.54.0</span></h2></div><h2 class="location"><a href="#">IVssCreateWriterMetadata_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.AddAlternateLocationMapping">AddAlternateLocationMapping</a></li><li><a href="#tymethod.AddComponent">AddComponent</a></li><li><a href="#tymethod.AddComponentDependency">AddComponentDependency</a></li><li><a href="#tymethod.AddDatabaseFiles">AddDatabaseFiles</a></li><li><a href="#tymethod.AddDatabaseLogFiles">AddDatabaseLogFiles</a></li><li><a href="#tymethod.AddExcludeFiles">AddExcludeFiles</a></li><li><a href="#tymethod.AddFilesToFileGroup">AddFilesToFileGroup</a></li><li><a href="#tymethod.AddIncludeFiles">AddIncludeFiles</a></li><li><a href="#tymethod.GetDocument">GetDocument</a></li><li><a href="#tymethod.SaveAsXML">SaveAsXML</a></li><li><a href="#tymethod.SetBackupSchema">SetBackupSchema</a></li><li><a href="#tymethod.SetRestoreMethod">SetRestoreMethod</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::Storage::Vss</a></h2></div></nav><div class="sidebar-resizer"></div>
-    <main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><div id="sidebar-button" tabindex="-1"><a href="../../../../windows/all.html" title="show sidebar"></a></div><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" tabindex="-1"><a href="../../../../help.html" title="help">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../../../static.files/wheel-7b819b6101059cd0.svg"></a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Storage</a>::<wbr><a href="index.html">Vss</a>::<wbr><a class="trait" href="#">IVssCreateWriterMetadata_Impl</a><button id="copy-path" title="Copy item path to clipboard"><img src="../../../../static.files/clipboard-7571035ce49a181d.svg" width="19" height="18" alt="Copy item path"></button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IVssCreateWriterMetadata_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.56.0</span></h2></div><h2 class="location"><a href="#">IVssCreateWriterMetadata_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.AddAlternateLocationMapping">AddAlternateLocationMapping</a></li><li><a href="#tymethod.AddComponent">AddComponent</a></li><li><a href="#tymethod.AddComponentDependency">AddComponentDependency</a></li><li><a href="#tymethod.AddDatabaseFiles">AddDatabaseFiles</a></li><li><a href="#tymethod.AddDatabaseLogFiles">AddDatabaseLogFiles</a></li><li><a href="#tymethod.AddExcludeFiles">AddExcludeFiles</a></li><li><a href="#tymethod.AddFilesToFileGroup">AddFilesToFileGroup</a></li><li><a href="#tymethod.AddIncludeFiles">AddIncludeFiles</a></li><li><a href="#tymethod.GetDocument">GetDocument</a></li><li><a href="#tymethod.SaveAsXML">SaveAsXML</a></li><li><a href="#tymethod.SetBackupSchema">SetBackupSchema</a></li><li><a href="#tymethod.SetRestoreMethod">SetRestoreMethod</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::Storage::Vss</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><div id="sidebar-button" tabindex="-1"><a href="../../../../windows/all.html" title="show sidebar"></a></div><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Type ‘S’ or ‘/’ to search, ‘?’ for more options…" type="search"><div id="help-button" tabindex="-1"><a href="../../../../help.html" title="help">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../settings.html" title="settings">Settings</a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Storage</a>::<wbr><a href="index.html">Vss</a>::<wbr><a class="trait" href="#">IVssCreateWriterMetadata_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IVssCreateWriterMetadata_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
     // Required methods
     fn <a href="#tymethod.AddIncludeFiles" class="fn">AddIncludeFiles</a>(
         &amp;self,
-        wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszpath: &amp;PCWSTR,
+        wszfilespec: &amp;PCWSTR,
         brecursive: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        wszalternatelocation: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+        wszalternatelocation: &amp;PCWSTR
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddExcludeFiles" class="fn">AddExcludeFiles</a>(
         &amp;self,
-        wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszpath: &amp;PCWSTR,
+        wszfilespec: &amp;PCWSTR,
         brecursive: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddComponent" class="fn">AddComponent</a>(
         &amp;self,
         ct: <a class="struct" href="struct.VSS_COMPONENT_TYPE.html" title="struct windows::Win32::Storage::Vss::VSS_COMPONENT_TYPE">VSS_COMPONENT_TYPE</a>,
-        wszlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszcomponentname: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszcaption: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszlogicalpath: &amp;PCWSTR,
+        wszcomponentname: &amp;PCWSTR,
+        wszcaption: &amp;PCWSTR,
         pbicon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbicon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         brestoremetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
@@ -34,76 +33,76 @@
         bselectable: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         bselectableforrestore: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         dwcomponentflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddDatabaseFiles" class="fn">AddDatabaseFiles</a>(
         &amp;self,
-        wszlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszdatabasename: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszlogicalpath: &amp;PCWSTR,
+        wszdatabasename: &amp;PCWSTR,
+        wszpath: &amp;PCWSTR,
+        wszfilespec: &amp;PCWSTR,
         dwbackuptypemask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddDatabaseLogFiles" class="fn">AddDatabaseLogFiles</a>(
         &amp;self,
-        wszlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszdatabasename: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszlogicalpath: &amp;PCWSTR,
+        wszdatabasename: &amp;PCWSTR,
+        wszpath: &amp;PCWSTR,
+        wszfilespec: &amp;PCWSTR,
         dwbackuptypemask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddFilesToFileGroup" class="fn">AddFilesToFileGroup</a>(
         &amp;self,
-        wszlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszgroupname: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszlogicalpath: &amp;PCWSTR,
+        wszgroupname: &amp;PCWSTR,
+        wszpath: &amp;PCWSTR,
+        wszfilespec: &amp;PCWSTR,
         brecursive: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        wszalternatelocation: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszalternatelocation: &amp;PCWSTR,
         dwbackuptypemask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetRestoreMethod" class="fn">SetRestoreMethod</a>(
         &amp;self,
         method: <a class="struct" href="struct.VSS_RESTOREMETHOD_ENUM.html" title="struct windows::Win32::Storage::Vss::VSS_RESTOREMETHOD_ENUM">VSS_RESTOREMETHOD_ENUM</a>,
-        wszservice: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszuserprocedure: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszservice: &amp;PCWSTR,
+        wszuserprocedure: &amp;PCWSTR,
         writerrestore: <a class="struct" href="struct.VSS_WRITERRESTORE_ENUM.html" title="struct windows::Win32::Storage::Vss::VSS_WRITERRESTORE_ENUM">VSS_WRITERRESTORE_ENUM</a>,
         brebootrequired: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddAlternateLocationMapping" class="fn">AddAlternateLocationMapping</a>(
         &amp;self,
-        wszsourcepath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszsourcefilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+        wszsourcepath: &amp;PCWSTR,
+        wszsourcefilespec: &amp;PCWSTR,
         brecursive: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        wszdestination: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+        wszdestination: &amp;PCWSTR
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddComponentDependency" class="fn">AddComponentDependency</a>(
         &amp;self,
-        wszforlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszforcomponentname: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        onwriterid: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-        wszonlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-        wszoncomponentname: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
-<span class="item-spacer"></span>    fn <a href="#tymethod.SetBackupSchema" class="fn">SetBackupSchema</a>(&amp;self, dwschemamask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
-<span class="item-spacer"></span>    fn <a href="#tymethod.GetDocument" class="fn">GetDocument</a>(&amp;self) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="struct" href="../../Data/Xml/MsXml/struct.IXMLDOMDocument.html" title="struct windows::Win32::Data::Xml::MsXml::IXMLDOMDocument">IXMLDOMDocument</a>&gt;;
-<span class="item-spacer"></span>    fn <a href="#tymethod.SaveAsXML" class="fn">SaveAsXML</a>(&amp;self, pbstrxml: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../../core/struct.BSTR.html" title="struct windows::core::BSTR">BSTR</a>) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+        wszforlogicalpath: &amp;PCWSTR,
+        wszforcomponentname: &amp;PCWSTR,
+        onwriterid: &amp;GUID,
+        wszonlogicalpath: &amp;PCWSTR,
+        wszoncomponentname: &amp;PCWSTR
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.SetBackupSchema" class="fn">SetBackupSchema</a>(&amp;self, dwschemamask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.GetDocument" class="fn">GetDocument</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="../../Data/Xml/MsXml/struct.IXMLDOMDocument.html" title="struct windows::Win32::Data::Xml::MsXml::IXMLDOMDocument">IXMLDOMDocument</a>&gt;;
+<span class="item-spacer"></span>    fn <a href="#tymethod.SaveAsXML" class="fn">SaveAsXML</a>(&amp;self, pbstrxml: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 }</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.AddIncludeFiles" class="method"><h4 class="code-header">fn <a href="#tymethod.AddIncludeFiles" class="fn">AddIncludeFiles</a>(
     &amp;self,
-    wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszpath: &amp;PCWSTR,
+    wszfilespec: &amp;PCWSTR,
     brecursive: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    wszalternatelocation: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddExcludeFiles" class="method"><h4 class="code-header">fn <a href="#tymethod.AddExcludeFiles" class="fn">AddExcludeFiles</a>(
+    wszalternatelocation: &amp;PCWSTR
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddExcludeFiles" class="method"><h4 class="code-header">fn <a href="#tymethod.AddExcludeFiles" class="fn">AddExcludeFiles</a>(
     &amp;self,
-    wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszpath: &amp;PCWSTR,
+    wszfilespec: &amp;PCWSTR,
     brecursive: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddComponent" class="method"><h4 class="code-header">fn <a href="#tymethod.AddComponent" class="fn">AddComponent</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddComponent" class="method"><h4 class="code-header">fn <a href="#tymethod.AddComponent" class="fn">AddComponent</a>(
     &amp;self,
     ct: <a class="struct" href="struct.VSS_COMPONENT_TYPE.html" title="struct windows::Win32::Storage::Vss::VSS_COMPONENT_TYPE">VSS_COMPONENT_TYPE</a>,
-    wszlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszcomponentname: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszcaption: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszlogicalpath: &amp;PCWSTR,
+    wszcomponentname: &amp;PCWSTR,
+    wszcaption: &amp;PCWSTR,
     pbicon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbicon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     brestoremetadata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
@@ -111,47 +110,47 @@
     bselectable: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     bselectableforrestore: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     dwcomponentflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddDatabaseFiles" class="method"><h4 class="code-header">fn <a href="#tymethod.AddDatabaseFiles" class="fn">AddDatabaseFiles</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddDatabaseFiles" class="method"><h4 class="code-header">fn <a href="#tymethod.AddDatabaseFiles" class="fn">AddDatabaseFiles</a>(
     &amp;self,
-    wszlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszdatabasename: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszlogicalpath: &amp;PCWSTR,
+    wszdatabasename: &amp;PCWSTR,
+    wszpath: &amp;PCWSTR,
+    wszfilespec: &amp;PCWSTR,
     dwbackuptypemask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddDatabaseLogFiles" class="method"><h4 class="code-header">fn <a href="#tymethod.AddDatabaseLogFiles" class="fn">AddDatabaseLogFiles</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddDatabaseLogFiles" class="method"><h4 class="code-header">fn <a href="#tymethod.AddDatabaseLogFiles" class="fn">AddDatabaseLogFiles</a>(
     &amp;self,
-    wszlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszdatabasename: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszlogicalpath: &amp;PCWSTR,
+    wszdatabasename: &amp;PCWSTR,
+    wszpath: &amp;PCWSTR,
+    wszfilespec: &amp;PCWSTR,
     dwbackuptypemask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddFilesToFileGroup" class="method"><h4 class="code-header">fn <a href="#tymethod.AddFilesToFileGroup" class="fn">AddFilesToFileGroup</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddFilesToFileGroup" class="method"><h4 class="code-header">fn <a href="#tymethod.AddFilesToFileGroup" class="fn">AddFilesToFileGroup</a>(
     &amp;self,
-    wszlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszgroupname: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszfilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszlogicalpath: &amp;PCWSTR,
+    wszgroupname: &amp;PCWSTR,
+    wszpath: &amp;PCWSTR,
+    wszfilespec: &amp;PCWSTR,
     brecursive: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    wszalternatelocation: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszalternatelocation: &amp;PCWSTR,
     dwbackuptypemask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetRestoreMethod" class="method"><h4 class="code-header">fn <a href="#tymethod.SetRestoreMethod" class="fn">SetRestoreMethod</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetRestoreMethod" class="method"><h4 class="code-header">fn <a href="#tymethod.SetRestoreMethod" class="fn">SetRestoreMethod</a>(
     &amp;self,
     method: <a class="struct" href="struct.VSS_RESTOREMETHOD_ENUM.html" title="struct windows::Win32::Storage::Vss::VSS_RESTOREMETHOD_ENUM">VSS_RESTOREMETHOD_ENUM</a>,
-    wszservice: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszuserprocedure: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszservice: &amp;PCWSTR,
+    wszuserprocedure: &amp;PCWSTR,
     writerrestore: <a class="struct" href="struct.VSS_WRITERRESTORE_ENUM.html" title="struct windows::Win32::Storage::Vss::VSS_WRITERRESTORE_ENUM">VSS_WRITERRESTORE_ENUM</a>,
     brebootrequired: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddAlternateLocationMapping" class="method"><h4 class="code-header">fn <a href="#tymethod.AddAlternateLocationMapping" class="fn">AddAlternateLocationMapping</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddAlternateLocationMapping" class="method"><h4 class="code-header">fn <a href="#tymethod.AddAlternateLocationMapping" class="fn">AddAlternateLocationMapping</a>(
     &amp;self,
-    wszsourcepath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszsourcefilespec: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
+    wszsourcepath: &amp;PCWSTR,
+    wszsourcefilespec: &amp;PCWSTR,
     brecursive: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    wszdestination: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddComponentDependency" class="method"><h4 class="code-header">fn <a href="#tymethod.AddComponentDependency" class="fn">AddComponentDependency</a>(
+    wszdestination: &amp;PCWSTR
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddComponentDependency" class="method"><h4 class="code-header">fn <a href="#tymethod.AddComponentDependency" class="fn">AddComponentDependency</a>(
     &amp;self,
-    wszforlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszforcomponentname: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    onwriterid: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-    wszonlogicalpath: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>,
-    wszoncomponentname: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetBackupSchema" class="method"><h4 class="code-header">fn <a href="#tymethod.SetBackupSchema" class="fn">SetBackupSchema</a>(&amp;self, dwschemamask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetDocument" class="method"><h4 class="code-header">fn <a href="#tymethod.GetDocument" class="fn">GetDocument</a>(&amp;self) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="struct" href="../../Data/Xml/MsXml/struct.IXMLDOMDocument.html" title="struct windows::Win32::Data::Xml::MsXml::IXMLDOMDocument">IXMLDOMDocument</a>&gt;</h4></section><section id="tymethod.SaveAsXML" class="method"><h4 class="code-header">fn <a href="#tymethod.SaveAsXML" class="fn">SaveAsXML</a>(&amp;self, pbstrxml: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../../core/struct.BSTR.html" title="struct windows::core::BSTR">BSTR</a>) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="object-safety" class="section-header">Object Safety<a href="#object-safety" class="anchor">§</a></h2><div class="object-safety-info">This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">object safe</a>.</div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/Storage/Vss/trait.IVssCreateWriterMetadata_Impl.js" async></script></section></div></main></body></html>
+    wszforlogicalpath: &amp;PCWSTR,
+    wszforcomponentname: &amp;PCWSTR,
+    onwriterid: &amp;GUID,
+    wszonlogicalpath: &amp;PCWSTR,
+    wszoncomponentname: &amp;PCWSTR
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetBackupSchema" class="method"><h4 class="code-header">fn <a href="#tymethod.SetBackupSchema" class="fn">SetBackupSchema</a>(&amp;self, dwschemamask: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetDocument" class="method"><h4 class="code-header">fn <a href="#tymethod.GetDocument" class="fn">GetDocument</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="../../Data/Xml/MsXml/struct.IXMLDOMDocument.html" title="struct windows::Win32::Data::Xml::MsXml::IXMLDOMDocument">IXMLDOMDocument</a>&gt;</h4></section><section id="tymethod.SaveAsXML" class="method"><h4 class="code-header">fn <a href="#tymethod.SaveAsXML" class="fn">SaveAsXML</a>(&amp;self, pbstrxml: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="object-safety" class="section-header">Object Safety<a href="#object-safety" class="anchor">§</a></h2><div class="object-safety-info">This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">object safe</a>.</div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/Storage/Vss/trait.IVssCreateWriterMetadata_Impl.js" async></script></section></div></main></body></html>

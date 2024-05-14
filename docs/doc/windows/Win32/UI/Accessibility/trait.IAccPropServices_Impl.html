@@ -1,70 +1,69 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `IAccPropServices_Impl` trait in crate `windows`."><title>IAccPropServices_Impl in windows::Win32::UI::Accessibility - Rust</title><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/SourceSerif4-Regular-46f98efaafac5295.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/FiraSans-Regular-018c141bf0843ffd.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/FiraSans-Medium-8f9a781e4970d388.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2"><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-e935ef01ae1c1829.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.78.0-nightly (381d69953 2024-02-24)" data-channel="nightly" data-search-js="search-dd67cee4cfa65049.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-4c98445ec4002617.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-c37d3936c59ababd.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-04d5337699b92874.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-16x16-8b506e7a72182f1c.png"><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `IAccPropServices_Impl` trait in crate `windows`."><title>IAccPropServices_Impl in windows::Win32::UI::Accessibility - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-b21aa549bf6d91ff.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.80.0-nightly (79734f1db 2024-05-02)" data-channel="nightly" data-search-js="search-bf21c90c8c1d92b1.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-e32f0c247825364d.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-09095024cf37855e.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
   rel="search"
   type="application/opensearchdescription+xml"
-  title="Search Rust for Windows Docs"
+  title="Rust for Windows"
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.54.0</span></h2></div><h2 class="location"><a href="#">IAccPropServices_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.ClearHmenuProps">ClearHmenuProps</a></li><li><a href="#tymethod.ClearHwndProps">ClearHwndProps</a></li><li><a href="#tymethod.ClearProps">ClearProps</a></li><li><a href="#tymethod.ComposeHmenuIdentityString">ComposeHmenuIdentityString</a></li><li><a href="#tymethod.ComposeHwndIdentityString">ComposeHwndIdentityString</a></li><li><a href="#tymethod.DecomposeHmenuIdentityString">DecomposeHmenuIdentityString</a></li><li><a href="#tymethod.DecomposeHwndIdentityString">DecomposeHwndIdentityString</a></li><li><a href="#tymethod.SetHmenuProp">SetHmenuProp</a></li><li><a href="#tymethod.SetHmenuPropServer">SetHmenuPropServer</a></li><li><a href="#tymethod.SetHmenuPropStr">SetHmenuPropStr</a></li><li><a href="#tymethod.SetHwndProp">SetHwndProp</a></li><li><a href="#tymethod.SetHwndPropServer">SetHwndPropServer</a></li><li><a href="#tymethod.SetHwndPropStr">SetHwndPropStr</a></li><li><a href="#tymethod.SetPropServer">SetPropServer</a></li><li><a href="#tymethod.SetPropValue">SetPropValue</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::UI::Accessibility</a></h2></div></nav><div class="sidebar-resizer"></div>
-    <main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><div id="sidebar-button" tabindex="-1"><a href="../../../../windows/all.html" title="show sidebar"></a></div><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Click or press ‘S’ to search, ‘?’ for more options…" type="search"><div id="help-button" tabindex="-1"><a href="../../../../help.html" title="help">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../settings.html" title="settings"><img width="22" height="22" alt="Change settings" src="../../../../static.files/wheel-7b819b6101059cd0.svg"></a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">UI</a>::<wbr><a href="index.html">Accessibility</a>::<wbr><a class="trait" href="#">IAccPropServices_Impl</a><button id="copy-path" title="Copy item path to clipboard"><img src="../../../../static.files/clipboard-7571035ce49a181d.svg" width="19" height="18" alt="Copy item path"></button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IAccPropServices_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.56.0</span></h2></div><h2 class="location"><a href="#">IAccPropServices_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.ClearHmenuProps">ClearHmenuProps</a></li><li><a href="#tymethod.ClearHwndProps">ClearHwndProps</a></li><li><a href="#tymethod.ClearProps">ClearProps</a></li><li><a href="#tymethod.ComposeHmenuIdentityString">ComposeHmenuIdentityString</a></li><li><a href="#tymethod.ComposeHwndIdentityString">ComposeHwndIdentityString</a></li><li><a href="#tymethod.DecomposeHmenuIdentityString">DecomposeHmenuIdentityString</a></li><li><a href="#tymethod.DecomposeHwndIdentityString">DecomposeHwndIdentityString</a></li><li><a href="#tymethod.SetHmenuProp">SetHmenuProp</a></li><li><a href="#tymethod.SetHmenuPropServer">SetHmenuPropServer</a></li><li><a href="#tymethod.SetHmenuPropStr">SetHmenuPropStr</a></li><li><a href="#tymethod.SetHwndProp">SetHwndProp</a></li><li><a href="#tymethod.SetHwndPropServer">SetHwndPropServer</a></li><li><a href="#tymethod.SetHwndPropStr">SetHwndPropStr</a></li><li><a href="#tymethod.SetPropServer">SetPropServer</a></li><li><a href="#tymethod.SetPropValue">SetPropValue</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::UI::Accessibility</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><div id="sidebar-button" tabindex="-1"><a href="../../../../windows/all.html" title="show sidebar"></a></div><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Type ‘S’ or ‘/’ to search, ‘?’ for more options…" type="search"><div id="help-button" tabindex="-1"><a href="../../../../help.html" title="help">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../settings.html" title="settings">Settings</a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">UI</a>::<wbr><a href="index.html">Accessibility</a>::<wbr><a class="trait" href="#">IAccPropServices_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IAccPropServices_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
 <details class="toggle type-contents-toggle"><summary class="hideme"><span>Show 15 methods</span></summary>    // Required methods
     fn <a href="#tymethod.SetPropValue" class="fn">SetPropValue</a>(
         &amp;self,
         pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-        var: &amp;<a class="struct" href="../../../core/struct.VARIANT.html" title="struct windows::core::VARIANT">VARIANT</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+        idprop: &amp;GUID,
+        var: &amp;VARIANT
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetPropServer" class="fn">SetPropServer</a>(
         &amp;self,
         pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         pserver: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IAccPropServer.html" title="struct windows::Win32::UI::Accessibility::IAccPropServer">IAccPropServer</a>&gt;,
         annoscope: <a class="struct" href="struct.AnnoScope.html" title="struct windows::Win32::UI::Accessibility::AnnoScope">AnnoScope</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ClearProps" class="fn">ClearProps</a>(
         &amp;self,
         pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetHwndProp" class="fn">SetHwndProp</a>(
         &amp;self,
         hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-        var: &amp;<a class="struct" href="../../../core/struct.VARIANT.html" title="struct windows::core::VARIANT">VARIANT</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+        idprop: &amp;GUID,
+        var: &amp;VARIANT
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetHwndPropStr" class="fn">SetHwndPropStr</a>(
         &amp;self,
         hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-        str: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+        idprop: &amp;GUID,
+        str: &amp;PCWSTR
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetHwndPropServer" class="fn">SetHwndPropServer</a>(
         &amp;self,
         hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         pserver: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IAccPropServer.html" title="struct windows::Win32::UI::Accessibility::IAccPropServer">IAccPropServer</a>&gt;,
         annoscope: <a class="struct" href="struct.AnnoScope.html" title="struct windows::Win32::UI::Accessibility::AnnoScope">AnnoScope</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ClearHwndProps" class="fn">ClearHwndProps</a>(
         &amp;self,
         hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ComposeHwndIdentityString" class="fn">ComposeHwndIdentityString</a>(
         &amp;self,
         hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
@@ -72,7 +71,7 @@
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         pdwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DecomposeHwndIdentityString" class="fn">DecomposeHwndIdentityString</a>(
         &amp;self,
         pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
@@ -80,151 +79,151 @@
         phwnd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         pidobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pidchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetHmenuProp" class="fn">SetHmenuProp</a>(
         &amp;self,
         hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-        var: &amp;<a class="struct" href="../../../core/struct.VARIANT.html" title="struct windows::core::VARIANT">VARIANT</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+        idprop: &amp;GUID,
+        var: &amp;VARIANT
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetHmenuPropStr" class="fn">SetHmenuPropStr</a>(
         &amp;self,
         hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-        str: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+        idprop: &amp;GUID,
+        str: &amp;PCWSTR
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetHmenuPropServer" class="fn">SetHmenuPropServer</a>(
         &amp;self,
         hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         pserver: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IAccPropServer.html" title="struct windows::Win32::UI::Accessibility::IAccPropServer">IAccPropServer</a>&gt;,
         annoscope: <a class="struct" href="struct.AnnoScope.html" title="struct windows::Win32::UI::Accessibility::AnnoScope">AnnoScope</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ClearHmenuProps" class="fn">ClearHmenuProps</a>(
         &amp;self,
         hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+        paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ComposeHmenuIdentityString" class="fn">ComposeHmenuIdentityString</a>(
         &amp;self,
         hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
         idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         pdwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DecomposeHmenuIdentityString" class="fn">DecomposeHmenuIdentityString</a>(
         &amp;self,
         pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         phmenu: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
         pidchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-    ) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
+    ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 </details>}</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.SetPropValue" class="method"><h4 class="code-header">fn <a href="#tymethod.SetPropValue" class="fn">SetPropValue</a>(
     &amp;self,
     pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-    var: &amp;<a class="struct" href="../../../core/struct.VARIANT.html" title="struct windows::core::VARIANT">VARIANT</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetPropServer" class="method"><h4 class="code-header">fn <a href="#tymethod.SetPropServer" class="fn">SetPropServer</a>(
+    idprop: &amp;GUID,
+    var: &amp;VARIANT
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetPropServer" class="method"><h4 class="code-header">fn <a href="#tymethod.SetPropServer" class="fn">SetPropServer</a>(
     &amp;self,
     pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     pserver: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IAccPropServer.html" title="struct windows::Win32::UI::Accessibility::IAccPropServer">IAccPropServer</a>&gt;,
     annoscope: <a class="struct" href="struct.AnnoScope.html" title="struct windows::Win32::UI::Accessibility::AnnoScope">AnnoScope</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ClearProps" class="method"><h4 class="code-header">fn <a href="#tymethod.ClearProps" class="fn">ClearProps</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ClearProps" class="method"><h4 class="code-header">fn <a href="#tymethod.ClearProps" class="fn">ClearProps</a>(
     &amp;self,
     pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHwndProp" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHwndProp" class="fn">SetHwndProp</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHwndProp" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHwndProp" class="fn">SetHwndProp</a>(
     &amp;self,
     hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-    var: &amp;<a class="struct" href="../../../core/struct.VARIANT.html" title="struct windows::core::VARIANT">VARIANT</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHwndPropStr" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHwndPropStr" class="fn">SetHwndPropStr</a>(
+    idprop: &amp;GUID,
+    var: &amp;VARIANT
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHwndPropStr" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHwndPropStr" class="fn">SetHwndPropStr</a>(
     &amp;self,
     hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-    str: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHwndPropServer" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHwndPropServer" class="fn">SetHwndPropServer</a>(
+    idprop: &amp;GUID,
+    str: &amp;PCWSTR
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHwndPropServer" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHwndPropServer" class="fn">SetHwndPropServer</a>(
     &amp;self,
     hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     pserver: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IAccPropServer.html" title="struct windows::Win32::UI::Accessibility::IAccPropServer">IAccPropServer</a>&gt;,
     annoscope: <a class="struct" href="struct.AnnoScope.html" title="struct windows::Win32::UI::Accessibility::AnnoScope">AnnoScope</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ClearHwndProps" class="method"><h4 class="code-header">fn <a href="#tymethod.ClearHwndProps" class="fn">ClearHwndProps</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ClearHwndProps" class="method"><h4 class="code-header">fn <a href="#tymethod.ClearHwndProps" class="fn">ClearHwndProps</a>(
     &amp;self,
     hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ComposeHwndIdentityString" class="method"><h4 class="code-header">fn <a href="#tymethod.ComposeHwndIdentityString" class="fn">ComposeHwndIdentityString</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ComposeHwndIdentityString" class="method"><h4 class="code-header">fn <a href="#tymethod.ComposeHwndIdentityString" class="fn">ComposeHwndIdentityString</a>(
     &amp;self,
     hwnd: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     idobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     pdwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DecomposeHwndIdentityString" class="method"><h4 class="code-header">fn <a href="#tymethod.DecomposeHwndIdentityString" class="fn">DecomposeHwndIdentityString</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DecomposeHwndIdentityString" class="method"><h4 class="code-header">fn <a href="#tymethod.DecomposeHwndIdentityString" class="fn">DecomposeHwndIdentityString</a>(
     &amp;self,
     pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     phwnd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     pidobject: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pidchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHmenuProp" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHmenuProp" class="fn">SetHmenuProp</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHmenuProp" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHmenuProp" class="fn">SetHmenuProp</a>(
     &amp;self,
     hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-    var: &amp;<a class="struct" href="../../../core/struct.VARIANT.html" title="struct windows::core::VARIANT">VARIANT</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHmenuPropStr" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHmenuPropStr" class="fn">SetHmenuPropStr</a>(
+    idprop: &amp;GUID,
+    var: &amp;VARIANT
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHmenuPropStr" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHmenuPropStr" class="fn">SetHmenuPropStr</a>(
     &amp;self,
     hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    idprop: &amp;<a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
-    str: &amp;<a class="struct" href="../../../core/struct.PCWSTR.html" title="struct windows::core::PCWSTR">PCWSTR</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHmenuPropServer" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHmenuPropServer" class="fn">SetHmenuPropServer</a>(
+    idprop: &amp;GUID,
+    str: &amp;PCWSTR
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHmenuPropServer" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHmenuPropServer" class="fn">SetHmenuPropServer</a>(
     &amp;self,
     hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     pserver: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IAccPropServer.html" title="struct windows::Win32::UI::Accessibility::IAccPropServer">IAccPropServer</a>&gt;,
     annoscope: <a class="struct" href="struct.AnnoScope.html" title="struct windows::Win32::UI::Accessibility::AnnoScope">AnnoScope</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ClearHmenuProps" class="method"><h4 class="code-header">fn <a href="#tymethod.ClearHmenuProps" class="fn">ClearHmenuProps</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ClearHmenuProps" class="method"><h4 class="code-header">fn <a href="#tymethod.ClearHmenuProps" class="fn">ClearHmenuProps</a>(
     &amp;self,
     hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../core/struct.GUID.html" title="struct windows::core::GUID">GUID</a>,
+    paprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     cprops: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ComposeHmenuIdentityString" class="method"><h4 class="code-header">fn <a href="#tymethod.ComposeHmenuIdentityString" class="fn">ComposeHmenuIdentityString</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ComposeHmenuIdentityString" class="method"><h4 class="code-header">fn <a href="#tymethod.ComposeHmenuIdentityString" class="fn">ComposeHmenuIdentityString</a>(
     &amp;self,
     hmenu: <a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
     idchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     pdwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DecomposeHmenuIdentityString" class="method"><h4 class="code-header">fn <a href="#tymethod.DecomposeHmenuIdentityString" class="fn">DecomposeHmenuIdentityString</a>(
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DecomposeHmenuIdentityString" class="method"><h4 class="code-header">fn <a href="#tymethod.DecomposeHmenuIdentityString" class="fn">DecomposeHmenuIdentityString</a>(
     &amp;self,
     pidstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     dwidstringlen: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     phmenu: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../WindowsAndMessaging/struct.HMENU.html" title="struct windows::Win32::UI::WindowsAndMessaging::HMENU">HMENU</a>,
     pidchild: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
-) -&gt; <a class="type" href="../../../core/type.Result.html" title="type windows::core::Result">Result</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="object-safety" class="section-header">Object Safety<a href="#object-safety" class="anchor">§</a></h2><div class="object-safety-info">This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">object safe</a>.</div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/UI/Accessibility/trait.IAccPropServices_Impl.js" async></script></section></div></main></body></html>
+) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="object-safety" class="section-header">Object Safety<a href="#object-safety" class="anchor">§</a></h2><div class="object-safety-info">This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">object safe</a>.</div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/UI/Accessibility/trait.IAccPropServices_Impl.js" async></script></section></div></main></body></html>

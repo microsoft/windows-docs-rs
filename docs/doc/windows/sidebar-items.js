@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["AI","ApplicationModel","Data","Devices","Embedded","Foundation","Gaming","Globalization","Graphics","Management","Media","Networking","Perception","Phone","Security","Services","Storage","System","UI","Wdk","Web","Win32","core"]};
+window.SIDEBAR_ITEMS = {"mod":["AI","ApplicationModel","Data","Devices","Embedded","Foundation","Gaming","Globalization","Graphics","Management","Media","Networking","Perception","Phone","Security","Services","Storage","System","UI","Wdk","Web","Win32"]};
