@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["IO","OfflineRegistry","Registry","SystemInformation","SystemServices","Threading"]};
+window.SIDEBAR_ITEMS = {"mod":["IO","Memory","OfflineRegistry","Registry","SystemInformation","SystemServices","Threading"]};

@@ -1,17 +1,17 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `ISWbemServices_Impl` trait in crate `windows`."><title>ISWbemServices_Impl in windows::Win32::System::Wmi - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-b21aa549bf6d91ff.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.80.0-nightly (79734f1db 2024-05-02)" data-channel="nightly" data-search-js="search-bf21c90c8c1d92b1.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-e32f0c247825364d.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-09095024cf37855e.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `ISWbemServices_Impl` trait in crate `windows`."><title>ISWbemServices_Impl in windows::Win32::System::Wmi - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-dd39b87e5fcfba68.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.81.0-nightly (20ae37c18 2024-07-07)" data-channel="nightly" data-search-js="search-d234aafac6c221dd.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-118b08c4c78b968e.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-df360f571f6edeae.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
   rel="search"
   type="application/opensearchdescription+xml"
   title="Rust for Windows"
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.56.0</span></h2></div><h2 class="location"><a href="#">ISWbemServices_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.AssociatorsOf">AssociatorsOf</a></li><li><a href="#tymethod.AssociatorsOfAsync">AssociatorsOfAsync</a></li><li><a href="#tymethod.Delete">Delete</a></li><li><a href="#tymethod.DeleteAsync">DeleteAsync</a></li><li><a href="#tymethod.ExecMethod">ExecMethod</a></li><li><a href="#tymethod.ExecMethodAsync">ExecMethodAsync</a></li><li><a href="#tymethod.ExecNotificationQuery">ExecNotificationQuery</a></li><li><a href="#tymethod.ExecNotificationQueryAsync">ExecNotificationQueryAsync</a></li><li><a href="#tymethod.ExecQuery">ExecQuery</a></li><li><a href="#tymethod.ExecQueryAsync">ExecQueryAsync</a></li><li><a href="#tymethod.Get">Get</a></li><li><a href="#tymethod.GetAsync">GetAsync</a></li><li><a href="#tymethod.InstancesOf">InstancesOf</a></li><li><a href="#tymethod.InstancesOfAsync">InstancesOfAsync</a></li><li><a href="#tymethod.ReferencesTo">ReferencesTo</a></li><li><a href="#tymethod.ReferencesToAsync">ReferencesToAsync</a></li><li><a href="#tymethod.Security_">Security_</a></li><li><a href="#tymethod.SubclassesOf">SubclassesOf</a></li><li><a href="#tymethod.SubclassesOfAsync">SubclassesOfAsync</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::System::Wmi</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><div id="sidebar-button" tabindex="-1"><a href="../../../../windows/all.html" title="show sidebar"></a></div><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Type ‘S’ or ‘/’ to search, ‘?’ for more options…" type="search"><div id="help-button" tabindex="-1"><a href="../../../../help.html" title="help">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../settings.html" title="settings">Settings</a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Wmi</a>::<wbr><a class="trait" href="#">ISWbemServices_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait ISWbemServices_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> + <a class="trait" href="../Com/trait.IDispatch_Impl.html" title="trait windows::Win32::System::Com::IDispatch_Impl">IDispatch_Impl</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><h2 class="location"><a href="#">ISWbemServices_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.AssociatorsOf">AssociatorsOf</a></li><li><a href="#tymethod.AssociatorsOfAsync">AssociatorsOfAsync</a></li><li><a href="#tymethod.Delete">Delete</a></li><li><a href="#tymethod.DeleteAsync">DeleteAsync</a></li><li><a href="#tymethod.ExecMethod">ExecMethod</a></li><li><a href="#tymethod.ExecMethodAsync">ExecMethodAsync</a></li><li><a href="#tymethod.ExecNotificationQuery">ExecNotificationQuery</a></li><li><a href="#tymethod.ExecNotificationQueryAsync">ExecNotificationQueryAsync</a></li><li><a href="#tymethod.ExecQuery">ExecQuery</a></li><li><a href="#tymethod.ExecQueryAsync">ExecQueryAsync</a></li><li><a href="#tymethod.Get">Get</a></li><li><a href="#tymethod.GetAsync">GetAsync</a></li><li><a href="#tymethod.InstancesOf">InstancesOf</a></li><li><a href="#tymethod.InstancesOfAsync">InstancesOfAsync</a></li><li><a href="#tymethod.ReferencesTo">ReferencesTo</a></li><li><a href="#tymethod.ReferencesToAsync">ReferencesToAsync</a></li><li><a href="#tymethod.Security_">Security_</a></li><li><a href="#tymethod.SubclassesOf">SubclassesOf</a></li><li><a href="#tymethod.SubclassesOfAsync">SubclassesOfAsync</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::System::Wmi</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Wmi</a>::<wbr><a class="trait" href="#">ISWbemServices_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait ISWbemServices_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> + <a class="trait" href="../Com/trait.IDispatch_Impl.html" title="trait windows::Win32::System::Com::IDispatch_Impl">IDispatch_Impl</a> {
 <details class="toggle type-contents-toggle"><summary class="hideme"><span>Show 19 methods</span></summary>    // Required methods
     fn <a href="#tymethod.Get" class="fn">Get</a>(
         &amp;self,
         strobjectpath: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObject.html" title="struct windows::Win32::System::Wmi::ISWbemObject">ISWbemObject</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetAsync" class="fn">GetAsync</a>(
         &amp;self,
@@ -19,13 +19,13 @@
         strobjectpath: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Delete" class="fn">Delete</a>(
         &amp;self,
         strobjectpath: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteAsync" class="fn">DeleteAsync</a>(
         &amp;self,
@@ -33,13 +33,13 @@
         strobjectpath: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.InstancesOf" class="fn">InstancesOf</a>(
         &amp;self,
         strclass: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.InstancesOfAsync" class="fn">InstancesOfAsync</a>(
         &amp;self,
@@ -47,13 +47,13 @@
         strclass: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SubclassesOf" class="fn">SubclassesOf</a>(
         &amp;self,
         strsuperclass: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SubclassesOfAsync" class="fn">SubclassesOfAsync</a>(
         &amp;self,
@@ -61,14 +61,14 @@
         strsuperclass: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ExecQuery" class="fn">ExecQuery</a>(
         &amp;self,
         strquery: &amp;BSTR,
         strquerylanguage: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ExecQueryAsync" class="fn">ExecQueryAsync</a>(
         &amp;self,
@@ -77,7 +77,7 @@
         strquerylanguage: &amp;BSTR,
         lflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AssociatorsOf" class="fn">AssociatorsOf</a>(
         &amp;self,
@@ -91,7 +91,7 @@
         strrequiredassocqualifier: &amp;BSTR,
         strrequiredqualifier: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AssociatorsOfAsync" class="fn">AssociatorsOfAsync</a>(
         &amp;self,
@@ -107,7 +107,7 @@
         strrequiredqualifier: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ReferencesTo" class="fn">ReferencesTo</a>(
         &amp;self,
@@ -118,7 +118,7 @@
         bschemaonly: <a class="struct" href="../../Foundation/struct.VARIANT_BOOL.html" title="struct windows::Win32::Foundation::VARIANT_BOOL">VARIANT_BOOL</a>,
         strrequiredqualifier: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ReferencesToAsync" class="fn">ReferencesToAsync</a>(
         &amp;self,
@@ -131,14 +131,14 @@
         strrequiredqualifier: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ExecNotificationQuery" class="fn">ExecNotificationQuery</a>(
         &amp;self,
         strquery: &amp;BSTR,
         strquerylanguage: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemEventSource.html" title="struct windows::Win32::System::Wmi::ISWbemEventSource">ISWbemEventSource</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ExecNotificationQueryAsync" class="fn">ExecNotificationQueryAsync</a>(
         &amp;self,
@@ -147,7 +147,7 @@
         strquerylanguage: &amp;BSTR,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ExecMethod" class="fn">ExecMethod</a>(
         &amp;self,
@@ -155,7 +155,7 @@
         strmethodname: &amp;BSTR,
         objwbeminparameters: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObject.html" title="struct windows::Win32::System::Wmi::ISWbemObject">ISWbemObject</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ExecMethodAsync" class="fn">ExecMethodAsync</a>(
         &amp;self,
@@ -165,63 +165,63 @@
         objwbeminparameters: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
         iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+        objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Security_" class="fn">Security_</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.ISWbemSecurity.html" title="struct windows::Win32::System::Wmi::ISWbemSecurity">ISWbemSecurity</a>&gt;;
 </details>}</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.Get" class="method"><h4 class="code-header">fn <a href="#tymethod.Get" class="fn">Get</a>(
     &amp;self,
     strobjectpath: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObject.html" title="struct windows::Win32::System::Wmi::ISWbemObject">ISWbemObject</a>&gt;</h4></section><section id="tymethod.GetAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.GetAsync" class="fn">GetAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     strobjectpath: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Delete" class="method"><h4 class="code-header">fn <a href="#tymethod.Delete" class="fn">Delete</a>(
     &amp;self,
     strobjectpath: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeleteAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteAsync" class="fn">DeleteAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     strobjectpath: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.InstancesOf" class="method"><h4 class="code-header">fn <a href="#tymethod.InstancesOf" class="fn">InstancesOf</a>(
     &amp;self,
     strclass: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;</h4></section><section id="tymethod.InstancesOfAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.InstancesOfAsync" class="fn">InstancesOfAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     strclass: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SubclassesOf" class="method"><h4 class="code-header">fn <a href="#tymethod.SubclassesOf" class="fn">SubclassesOf</a>(
     &amp;self,
     strsuperclass: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;</h4></section><section id="tymethod.SubclassesOfAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.SubclassesOfAsync" class="fn">SubclassesOfAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     strsuperclass: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ExecQuery" class="method"><h4 class="code-header">fn <a href="#tymethod.ExecQuery" class="fn">ExecQuery</a>(
     &amp;self,
     strquery: &amp;BSTR,
     strquerylanguage: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;</h4></section><section id="tymethod.ExecQueryAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.ExecQueryAsync" class="fn">ExecQueryAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
@@ -229,7 +229,7 @@
     strquerylanguage: &amp;BSTR,
     lflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AssociatorsOf" class="method"><h4 class="code-header">fn <a href="#tymethod.AssociatorsOf" class="fn">AssociatorsOf</a>(
     &amp;self,
     strobjectpath: &amp;BSTR,
@@ -242,7 +242,7 @@
     strrequiredassocqualifier: &amp;BSTR,
     strrequiredqualifier: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;</h4></section><section id="tymethod.AssociatorsOfAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.AssociatorsOfAsync" class="fn">AssociatorsOfAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
@@ -257,7 +257,7 @@
     strrequiredqualifier: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ReferencesTo" class="method"><h4 class="code-header">fn <a href="#tymethod.ReferencesTo" class="fn">ReferencesTo</a>(
     &amp;self,
     strobjectpath: &amp;BSTR,
@@ -267,7 +267,7 @@
     bschemaonly: <a class="struct" href="../../Foundation/struct.VARIANT_BOOL.html" title="struct windows::Win32::Foundation::VARIANT_BOOL">VARIANT_BOOL</a>,
     strrequiredqualifier: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObjectSet.html" title="struct windows::Win32::System::Wmi::ISWbemObjectSet">ISWbemObjectSet</a>&gt;</h4></section><section id="tymethod.ReferencesToAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.ReferencesToAsync" class="fn">ReferencesToAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
@@ -279,13 +279,13 @@
     strrequiredqualifier: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ExecNotificationQuery" class="method"><h4 class="code-header">fn <a href="#tymethod.ExecNotificationQuery" class="fn">ExecNotificationQuery</a>(
     &amp;self,
     strquery: &amp;BSTR,
     strquerylanguage: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemEventSource.html" title="struct windows::Win32::System::Wmi::ISWbemEventSource">ISWbemEventSource</a>&gt;</h4></section><section id="tymethod.ExecNotificationQueryAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.ExecNotificationQueryAsync" class="fn">ExecNotificationQueryAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
@@ -293,14 +293,14 @@
     strquerylanguage: &amp;BSTR,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ExecMethod" class="method"><h4 class="code-header">fn <a href="#tymethod.ExecMethod" class="fn">ExecMethod</a>(
     &amp;self,
     strobjectpath: &amp;BSTR,
     strmethodname: &amp;BSTR,
     objwbeminparameters: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="struct" href="struct.ISWbemObject.html" title="struct windows::Win32::System::Wmi::ISWbemObject">ISWbemObject</a>&gt;</h4></section><section id="tymethod.ExecMethodAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.ExecMethodAsync" class="fn">ExecMethodAsync</a>(
     &amp;self,
     objwbemsink: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
@@ -309,5 +309,5 @@
     objwbeminparameters: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
     iflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     objwbemnamedvalueset: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
-    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;
+    objwbemasynccontext: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDispatch.html" title="struct windows::Win32::System::Com::IDispatch">IDispatch</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Security_" class="method"><h4 class="code-header">fn <a href="#tymethod.Security_" class="fn">Security_</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.ISWbemSecurity.html" title="struct windows::Win32::System::Wmi::ISWbemSecurity">ISWbemSecurity</a>&gt;</h4></section></div><h2 id="object-safety" class="section-header">Object Safety<a href="#object-safety" class="anchor">§</a></h2><div class="object-safety-info">This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">object safe</a>.</div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/System/Wmi/trait.ISWbemServices_Impl.js" async></script></section></div></main></body></html>

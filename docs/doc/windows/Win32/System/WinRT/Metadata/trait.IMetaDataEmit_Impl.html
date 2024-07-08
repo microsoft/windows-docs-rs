@@ -1,23 +1,23 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `IMetaDataEmit_Impl` trait in crate `windows`."><title>IMetaDataEmit_Impl in windows::Win32::System::WinRT::Metadata - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../../static.files/rustdoc-b21aa549bf6d91ff.css"><meta name="rustdoc-vars" data-root-path="../../../../../" data-static-root-path="../../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.80.0-nightly (79734f1db 2024-05-02)" data-channel="nightly" data-search-js="search-bf21c90c8c1d92b1.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../../static.files/storage-e32f0c247825364d.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../../static.files/noscript-09095024cf37855e.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../../static.files/favicon-2c020d218678b618.svg"><link
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `IMetaDataEmit_Impl` trait in crate `windows`."><title>IMetaDataEmit_Impl in windows::Win32::System::WinRT::Metadata - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../../static.files/rustdoc-dd39b87e5fcfba68.css"><meta name="rustdoc-vars" data-root-path="../../../../../" data-static-root-path="../../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.81.0-nightly (20ae37c18 2024-07-07)" data-channel="nightly" data-search-js="search-d234aafac6c221dd.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../../static.files/storage-118b08c4c78b968e.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../../static.files/noscript-df360f571f6edeae.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../../static.files/favicon-2c020d218678b618.svg"><link
   rel="search"
   type="application/opensearchdescription+xml"
   title="Rust for Windows"
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../../windows/index.html">windows</a><span class="version">0.56.0</span></h2></div><h2 class="location"><a href="#">IMetaDataEmit_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.ApplyEditAndContinue">ApplyEditAndContinue</a></li><li><a href="#tymethod.DefineCustomAttribute">DefineCustomAttribute</a></li><li><a href="#tymethod.DefineEvent">DefineEvent</a></li><li><a href="#tymethod.DefineField">DefineField</a></li><li><a href="#tymethod.DefineImportMember">DefineImportMember</a></li><li><a href="#tymethod.DefineImportType">DefineImportType</a></li><li><a href="#tymethod.DefineMemberRef">DefineMemberRef</a></li><li><a href="#tymethod.DefineMethod">DefineMethod</a></li><li><a href="#tymethod.DefineMethodImpl">DefineMethodImpl</a></li><li><a href="#tymethod.DefineModuleRef">DefineModuleRef</a></li><li><a href="#tymethod.DefineNestedType">DefineNestedType</a></li><li><a href="#tymethod.DefineParam">DefineParam</a></li><li><a href="#tymethod.DefinePermissionSet">DefinePermissionSet</a></li><li><a href="#tymethod.DefinePinvokeMap">DefinePinvokeMap</a></li><li><a href="#tymethod.DefineProperty">DefineProperty</a></li><li><a href="#tymethod.DefineSecurityAttributeSet">DefineSecurityAttributeSet</a></li><li><a href="#tymethod.DefineTypeDef">DefineTypeDef</a></li><li><a href="#tymethod.DefineTypeRefByName">DefineTypeRefByName</a></li><li><a href="#tymethod.DefineUserString">DefineUserString</a></li><li><a href="#tymethod.DeleteClassLayout">DeleteClassLayout</a></li><li><a href="#tymethod.DeleteFieldMarshal">DeleteFieldMarshal</a></li><li><a href="#tymethod.DeletePinvokeMap">DeletePinvokeMap</a></li><li><a href="#tymethod.DeleteToken">DeleteToken</a></li><li><a href="#tymethod.GetSaveSize">GetSaveSize</a></li><li><a href="#tymethod.GetTokenFromSig">GetTokenFromSig</a></li><li><a href="#tymethod.GetTokenFromTypeSpec">GetTokenFromTypeSpec</a></li><li><a href="#tymethod.Merge">Merge</a></li><li><a href="#tymethod.MergeEnd">MergeEnd</a></li><li><a href="#tymethod.Save">Save</a></li><li><a href="#tymethod.SaveToMemory">SaveToMemory</a></li><li><a href="#tymethod.SaveToStream">SaveToStream</a></li><li><a href="#tymethod.SetClassLayout">SetClassLayout</a></li><li><a href="#tymethod.SetCustomAttributeValue">SetCustomAttributeValue</a></li><li><a href="#tymethod.SetEventProps">SetEventProps</a></li><li><a href="#tymethod.SetFieldMarshal">SetFieldMarshal</a></li><li><a href="#tymethod.SetFieldProps">SetFieldProps</a></li><li><a href="#tymethod.SetFieldRVA">SetFieldRVA</a></li><li><a href="#tymethod.SetHandler">SetHandler</a></li><li><a href="#tymethod.SetMethodImplFlags">SetMethodImplFlags</a></li><li><a href="#tymethod.SetMethodProps">SetMethodProps</a></li><li><a href="#tymethod.SetModuleProps">SetModuleProps</a></li><li><a href="#tymethod.SetParamProps">SetParamProps</a></li><li><a href="#tymethod.SetParent">SetParent</a></li><li><a href="#tymethod.SetPermissionSetProps">SetPermissionSetProps</a></li><li><a href="#tymethod.SetPinvokeMap">SetPinvokeMap</a></li><li><a href="#tymethod.SetPropertyProps">SetPropertyProps</a></li><li><a href="#tymethod.SetRVA">SetRVA</a></li><li><a href="#tymethod.SetTypeDefProps">SetTypeDefProps</a></li><li><a href="#tymethod.TranslateSigWithScope">TranslateSigWithScope</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::System::WinRT::Metadata</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><div id="sidebar-button" tabindex="-1"><a href="../../../../../windows/all.html" title="show sidebar"></a></div><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Type ‘S’ or ‘/’ to search, ‘?’ for more options…" type="search"><div id="help-button" tabindex="-1"><a href="../../../../../help.html" title="help">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../../settings.html" title="settings">Settings</a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../../index.html">windows</a>::<wbr><a href="../../../index.html">Win32</a>::<wbr><a href="../../index.html">System</a>::<wbr><a href="../index.html">WinRT</a>::<wbr><a href="index.html">Metadata</a>::<wbr><a class="trait" href="#">IMetaDataEmit_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IMetaDataEmit_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><h2 class="location"><a href="#">IMetaDataEmit_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.ApplyEditAndContinue">ApplyEditAndContinue</a></li><li><a href="#tymethod.DefineCustomAttribute">DefineCustomAttribute</a></li><li><a href="#tymethod.DefineEvent">DefineEvent</a></li><li><a href="#tymethod.DefineField">DefineField</a></li><li><a href="#tymethod.DefineImportMember">DefineImportMember</a></li><li><a href="#tymethod.DefineImportType">DefineImportType</a></li><li><a href="#tymethod.DefineMemberRef">DefineMemberRef</a></li><li><a href="#tymethod.DefineMethod">DefineMethod</a></li><li><a href="#tymethod.DefineMethodImpl">DefineMethodImpl</a></li><li><a href="#tymethod.DefineModuleRef">DefineModuleRef</a></li><li><a href="#tymethod.DefineNestedType">DefineNestedType</a></li><li><a href="#tymethod.DefineParam">DefineParam</a></li><li><a href="#tymethod.DefinePermissionSet">DefinePermissionSet</a></li><li><a href="#tymethod.DefinePinvokeMap">DefinePinvokeMap</a></li><li><a href="#tymethod.DefineProperty">DefineProperty</a></li><li><a href="#tymethod.DefineSecurityAttributeSet">DefineSecurityAttributeSet</a></li><li><a href="#tymethod.DefineTypeDef">DefineTypeDef</a></li><li><a href="#tymethod.DefineTypeRefByName">DefineTypeRefByName</a></li><li><a href="#tymethod.DefineUserString">DefineUserString</a></li><li><a href="#tymethod.DeleteClassLayout">DeleteClassLayout</a></li><li><a href="#tymethod.DeleteFieldMarshal">DeleteFieldMarshal</a></li><li><a href="#tymethod.DeletePinvokeMap">DeletePinvokeMap</a></li><li><a href="#tymethod.DeleteToken">DeleteToken</a></li><li><a href="#tymethod.GetSaveSize">GetSaveSize</a></li><li><a href="#tymethod.GetTokenFromSig">GetTokenFromSig</a></li><li><a href="#tymethod.GetTokenFromTypeSpec">GetTokenFromTypeSpec</a></li><li><a href="#tymethod.Merge">Merge</a></li><li><a href="#tymethod.MergeEnd">MergeEnd</a></li><li><a href="#tymethod.Save">Save</a></li><li><a href="#tymethod.SaveToMemory">SaveToMemory</a></li><li><a href="#tymethod.SaveToStream">SaveToStream</a></li><li><a href="#tymethod.SetClassLayout">SetClassLayout</a></li><li><a href="#tymethod.SetCustomAttributeValue">SetCustomAttributeValue</a></li><li><a href="#tymethod.SetEventProps">SetEventProps</a></li><li><a href="#tymethod.SetFieldMarshal">SetFieldMarshal</a></li><li><a href="#tymethod.SetFieldProps">SetFieldProps</a></li><li><a href="#tymethod.SetFieldRVA">SetFieldRVA</a></li><li><a href="#tymethod.SetHandler">SetHandler</a></li><li><a href="#tymethod.SetMethodImplFlags">SetMethodImplFlags</a></li><li><a href="#tymethod.SetMethodProps">SetMethodProps</a></li><li><a href="#tymethod.SetModuleProps">SetModuleProps</a></li><li><a href="#tymethod.SetParamProps">SetParamProps</a></li><li><a href="#tymethod.SetParent">SetParent</a></li><li><a href="#tymethod.SetPermissionSetProps">SetPermissionSetProps</a></li><li><a href="#tymethod.SetPinvokeMap">SetPinvokeMap</a></li><li><a href="#tymethod.SetPropertyProps">SetPropertyProps</a></li><li><a href="#tymethod.SetRVA">SetRVA</a></li><li><a href="#tymethod.SetTypeDefProps">SetTypeDefProps</a></li><li><a href="#tymethod.TranslateSigWithScope">TranslateSigWithScope</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::System::WinRT::Metadata</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../../index.html">windows</a>::<wbr><a href="../../../index.html">Win32</a>::<wbr><a href="../../index.html">System</a>::<wbr><a href="../index.html">WinRT</a>::<wbr><a href="index.html">Metadata</a>::<wbr><a class="trait" href="#">IMetaDataEmit_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IMetaDataEmit_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
 <details class="toggle type-contents-toggle"><summary class="hideme"><span>Show 49 methods</span></summary>    // Required methods
     fn <a href="#tymethod.SetModuleProps" class="fn">SetModuleProps</a>(&amp;self, szname: &amp;PCWSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Save" class="fn">Save</a>(&amp;self, szfile: &amp;PCWSTR, dwsaveflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SaveToStream" class="fn">SaveToStream</a>(
         &amp;self,
         pistream: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../../Com/struct.IStream.html" title="struct windows::Win32::System::Com::IStream">IStream</a>&gt;,
-        dwsaveflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        dwsaveflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetSaveSize" class="fn">GetSaveSize</a>(
         &amp;self,
         fsave: <a class="struct" href="struct.CorSaveSize.html" title="struct windows::Win32::System::WinRT::Metadata::CorSaveSize">CorSaveSize</a>,
-        pdwsavesize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pdwsavesize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineTypeDef" class="fn">DefineTypeDef</a>(
         &amp;self,
@@ -25,7 +25,7 @@
         dwtypedefflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         tkextends: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         rtkimplements: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        ptd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ptd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineNestedType" class="fn">DefineNestedType</a>(
         &amp;self,
@@ -34,7 +34,7 @@
         tkextends: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         rtkimplements: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         tdencloser: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        ptd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ptd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetHandler" class="fn">SetHandler</a>(&amp;self, punk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineMethod" class="fn">DefineMethod</a>(
@@ -46,14 +46,14 @@
         cbsigblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ulcoderva: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwimplflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pmd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pmd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineMethodImpl" class="fn">DefineMethodImpl</a>(&amp;self, td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, tkbody: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, tkdecl: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineTypeRefByName" class="fn">DefineTypeRefByName</a>(
         &amp;self,
         tkresolutionscope: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         szname: &amp;PCWSTR,
-        ptr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ptr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineImportType" class="fn">DefineImportType</a>(
         &amp;self,
@@ -63,7 +63,7 @@
         pimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataImport.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataImport">IMetaDataImport</a>&gt;,
         tdimport: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         passememit: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataAssemblyEmit.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataAssemblyEmit">IMetaDataAssemblyEmit</a>&gt;,
-        ptr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ptr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineMemberRef" class="fn">DefineMemberRef</a>(
         &amp;self,
@@ -71,7 +71,7 @@
         szname: &amp;PCWSTR,
         pvsigblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbsigblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineImportMember" class="fn">DefineImportMember</a>(
         &amp;self,
@@ -82,7 +82,7 @@
         mbmember: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         passememit: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataAssemblyEmit.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataAssemblyEmit">IMetaDataAssemblyEmit</a>&gt;,
         tkparent: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineEvent" class="fn">DefineEvent</a>(
         &amp;self,
@@ -94,21 +94,21 @@
         mdremoveon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         mdfire: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pmdevent: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pmdevent: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetClassLayout" class="fn">SetClassLayout</a>(
         &amp;self,
         td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwpacksize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         rfieldoffsets: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="struct.COR_FIELD_OFFSET.html" title="struct windows::Win32::System::WinRT::Metadata::COR_FIELD_OFFSET">COR_FIELD_OFFSET</a>,
-        ulclasssize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ulclasssize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteClassLayout" class="fn">DeleteClassLayout</a>(&amp;self, td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetFieldMarshal" class="fn">SetFieldMarshal</a>(
         &amp;self,
         tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pvnativetype: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        cbnativetype: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        cbnativetype: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteFieldMarshal" class="fn">DeleteFieldMarshal</a>(&amp;self, tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefinePermissionSet" class="fn">DefinePermissionSet</a>(
@@ -117,14 +117,14 @@
         dwaction: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pvpermission: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
         cbpermission: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        ppm: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ppm: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetRVA" class="fn">SetRVA</a>(&amp;self, md: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, ulrva: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetTokenFromSig" class="fn">GetTokenFromSig</a>(
         &amp;self,
         pvsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pmsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pmsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineModuleRef" class="fn">DefineModuleRef</a>(&amp;self, szname: &amp;PCWSTR, pmur: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetParent" class="fn">SetParent</a>(&amp;self, mr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
@@ -132,14 +132,14 @@
         &amp;self,
         pvsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        ptypespec: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ptypespec: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SaveToMemory" class="fn">SaveToMemory</a>(&amp;self, pbdata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>, cbdata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineUserString" class="fn">DefineUserString</a>(
         &amp;self,
         szstring: &amp;PCWSTR,
         cchstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pstk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pstk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteToken" class="fn">DeleteToken</a>(&amp;self, tkobj: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetMethodProps" class="fn">SetMethodProps</a>(
@@ -147,14 +147,14 @@
         md: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwmethodflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ulcoderva: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        dwimplflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        dwimplflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetTypeDefProps" class="fn">SetTypeDefProps</a>(
         &amp;self,
         td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwtypedefflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         tkextends: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        rtkimplements: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        rtkimplements: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetEventProps" class="fn">SetEventProps</a>(
         &amp;self,
@@ -164,7 +164,7 @@
         mdaddon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         mdremoveon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         mdfire: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetPermissionSetProps" class="fn">SetPermissionSetProps</a>(
         &amp;self,
@@ -172,21 +172,21 @@
         dwaction: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pvpermission: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
         cbpermission: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        ppm: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ppm: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefinePinvokeMap" class="fn">DefinePinvokeMap</a>(
         &amp;self,
         tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwmappingflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         szimportname: &amp;PCWSTR,
-        mrimportdll: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        mrimportdll: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetPinvokeMap" class="fn">SetPinvokeMap</a>(
         &amp;self,
         tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwmappingflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         szimportname: &amp;PCWSTR,
-        mrimportdll: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        mrimportdll: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeletePinvokeMap" class="fn">DeletePinvokeMap</a>(&amp;self, tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineCustomAttribute" class="fn">DefineCustomAttribute</a>(
@@ -195,13 +195,13 @@
         tkctor: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
         cbcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pcv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetCustomAttributeValue" class="fn">SetCustomAttributeValue</a>(
         &amp;self,
         pcv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
-        cbcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        cbcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineField" class="fn">DefineField</a>(
         &amp;self,
@@ -213,7 +213,7 @@
         dwcplustypeflag: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
         cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pmd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pmd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineProperty" class="fn">DefineProperty</a>(
         &amp;self,
@@ -228,7 +228,7 @@
         mdsetter: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         mdgetter: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pmdprop: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pmdprop: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineParam" class="fn">DefineParam</a>(
         &amp;self,
@@ -239,7 +239,7 @@
         dwcplustypeflag: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
         cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        ppd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        ppd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetFieldProps" class="fn">SetFieldProps</a>(
         &amp;self,
@@ -247,7 +247,7 @@
         dwfieldflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwcplustypeflag: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
-        cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetPropertyProps" class="fn">SetPropertyProps</a>(
         &amp;self,
@@ -258,7 +258,7 @@
         cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         mdsetter: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         mdgetter: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetParamProps" class="fn">SetParamProps</a>(
         &amp;self,
@@ -267,14 +267,14 @@
         dwparamflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwcplustypeflag: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
-        cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DefineSecurityAttributeSet" class="fn">DefineSecurityAttributeSet</a>(
         &amp;self,
         tkobj: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         rsecattrs: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="struct.COR_SECATTR.html" title="struct windows::Win32::System::WinRT::Metadata::COR_SECATTR">COR_SECATTR</a>,
         csecattrs: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pulerrorattr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pulerrorattr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ApplyEditAndContinue" class="fn">ApplyEditAndContinue</a>(&amp;self, pimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.TranslateSigWithScope" class="fn">TranslateSigWithScope</a>(
@@ -289,7 +289,7 @@
         emit: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataEmit.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataEmit">IMetaDataEmit</a>&gt;,
         pvtranslatedsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbtranslatedsigmax: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pcbtranslatedsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbtranslatedsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetMethodImplFlags" class="fn">SetMethodImplFlags</a>(&amp;self, md: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, dwimplflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetFieldRVA" class="fn">SetFieldRVA</a>(&amp;self, fd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, ulrva: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
@@ -297,20 +297,20 @@
         &amp;self,
         pimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataImport.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataImport">IMetaDataImport</a>&gt;,
         phostmaptoken: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMapToken.html" title="struct windows::Win32::System::WinRT::Metadata::IMapToken">IMapToken</a>&gt;,
-        phandler: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;
+        phandler: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.MergeEnd" class="fn">MergeEnd</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 </details>}</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.SetModuleProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetModuleProps" class="fn">SetModuleProps</a>(&amp;self, szname: &amp;PCWSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Save" class="method"><h4 class="code-header">fn <a href="#tymethod.Save" class="fn">Save</a>(&amp;self, szfile: &amp;PCWSTR, dwsaveflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SaveToStream" class="method"><h4 class="code-header">fn <a href="#tymethod.SaveToStream" class="fn">SaveToStream</a>(
     &amp;self,
     pistream: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../../Com/struct.IStream.html" title="struct windows::Win32::System::Com::IStream">IStream</a>&gt;,
-    dwsaveflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    dwsaveflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetSaveSize" class="method"><h4 class="code-header">fn <a href="#tymethod.GetSaveSize" class="fn">GetSaveSize</a>(&amp;self, fsave: <a class="struct" href="struct.CorSaveSize.html" title="struct windows::Win32::System::WinRT::Metadata::CorSaveSize">CorSaveSize</a>, pdwsavesize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineTypeDef" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineTypeDef" class="fn">DefineTypeDef</a>(
     &amp;self,
     sztypedef: &amp;PCWSTR,
     dwtypedefflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     tkextends: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     rtkimplements: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    ptd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ptd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineNestedType" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineNestedType" class="fn">DefineNestedType</a>(
     &amp;self,
     sztypedef: &amp;PCWSTR,
@@ -318,7 +318,7 @@
     tkextends: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     rtkimplements: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     tdencloser: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    ptd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ptd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetHandler" class="method"><h4 class="code-header">fn <a href="#tymethod.SetHandler" class="fn">SetHandler</a>(&amp;self, punk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineMethod" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineMethod" class="fn">DefineMethod</a>(
     &amp;self,
     td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
@@ -328,12 +328,12 @@
     cbsigblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ulcoderva: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwimplflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pmd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pmd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineMethodImpl" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineMethodImpl" class="fn">DefineMethodImpl</a>(&amp;self, td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, tkbody: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, tkdecl: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineTypeRefByName" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineTypeRefByName" class="fn">DefineTypeRefByName</a>(
     &amp;self,
     tkresolutionscope: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     szname: &amp;PCWSTR,
-    ptr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ptr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineImportType" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineImportType" class="fn">DefineImportType</a>(
     &amp;self,
     passemimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataAssemblyImport.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataAssemblyImport">IMetaDataAssemblyImport</a>&gt;,
@@ -342,14 +342,14 @@
     pimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataImport.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataImport">IMetaDataImport</a>&gt;,
     tdimport: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     passememit: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataAssemblyEmit.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataAssemblyEmit">IMetaDataAssemblyEmit</a>&gt;,
-    ptr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ptr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineMemberRef" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineMemberRef" class="fn">DefineMemberRef</a>(
     &amp;self,
     tkimport: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     szname: &amp;PCWSTR,
     pvsigblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbsigblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineImportMember" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineImportMember" class="fn">DefineImportMember</a>(
     &amp;self,
     passemimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataAssemblyImport.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataAssemblyImport">IMetaDataAssemblyImport</a>&gt;,
@@ -359,7 +359,7 @@
     mbmember: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     passememit: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataAssemblyEmit.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataAssemblyEmit">IMetaDataAssemblyEmit</a>&gt;,
     tkparent: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pmr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineEvent" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineEvent" class="fn">DefineEvent</a>(
     &amp;self,
     td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
@@ -370,52 +370,52 @@
     mdremoveon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     mdfire: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pmdevent: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pmdevent: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetClassLayout" class="method"><h4 class="code-header">fn <a href="#tymethod.SetClassLayout" class="fn">SetClassLayout</a>(
     &amp;self,
     td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwpacksize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     rfieldoffsets: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="struct.COR_FIELD_OFFSET.html" title="struct windows::Win32::System::WinRT::Metadata::COR_FIELD_OFFSET">COR_FIELD_OFFSET</a>,
-    ulclasssize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ulclasssize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeleteClassLayout" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteClassLayout" class="fn">DeleteClassLayout</a>(&amp;self, td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetFieldMarshal" class="method"><h4 class="code-header">fn <a href="#tymethod.SetFieldMarshal" class="fn">SetFieldMarshal</a>(
     &amp;self,
     tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pvnativetype: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    cbnativetype: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    cbnativetype: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeleteFieldMarshal" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteFieldMarshal" class="fn">DeleteFieldMarshal</a>(&amp;self, tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefinePermissionSet" class="method"><h4 class="code-header">fn <a href="#tymethod.DefinePermissionSet" class="fn">DefinePermissionSet</a>(
     &amp;self,
     tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwaction: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pvpermission: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     cbpermission: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    ppm: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ppm: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetRVA" class="method"><h4 class="code-header">fn <a href="#tymethod.SetRVA" class="fn">SetRVA</a>(&amp;self, md: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, ulrva: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetTokenFromSig" class="method"><h4 class="code-header">fn <a href="#tymethod.GetTokenFromSig" class="fn">GetTokenFromSig</a>(
     &amp;self,
     pvsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pmsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pmsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineModuleRef" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineModuleRef" class="fn">DefineModuleRef</a>(&amp;self, szname: &amp;PCWSTR, pmur: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetParent" class="method"><h4 class="code-header">fn <a href="#tymethod.SetParent" class="fn">SetParent</a>(&amp;self, mr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetTokenFromTypeSpec" class="method"><h4 class="code-header">fn <a href="#tymethod.GetTokenFromTypeSpec" class="fn">GetTokenFromTypeSpec</a>(
     &amp;self,
     pvsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    ptypespec: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ptypespec: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SaveToMemory" class="method"><h4 class="code-header">fn <a href="#tymethod.SaveToMemory" class="fn">SaveToMemory</a>(&amp;self, pbdata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>, cbdata: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineUserString" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineUserString" class="fn">DefineUserString</a>(
     &amp;self,
     szstring: &amp;PCWSTR,
     cchstring: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pstk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pstk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeleteToken" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteToken" class="fn">DeleteToken</a>(&amp;self, tkobj: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetMethodProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetMethodProps" class="fn">SetMethodProps</a>(
     &amp;self,
     md: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwmethodflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ulcoderva: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    dwimplflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    dwimplflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetTypeDefProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetTypeDefProps" class="fn">SetTypeDefProps</a>(
     &amp;self,
     td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwtypedefflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     tkextends: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    rtkimplements: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    rtkimplements: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetEventProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetEventProps" class="fn">SetEventProps</a>(
     &amp;self,
     ev: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
@@ -424,38 +424,38 @@
     mdaddon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     mdremoveon: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     mdfire: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetPermissionSetProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetPermissionSetProps" class="fn">SetPermissionSetProps</a>(
     &amp;self,
     tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwaction: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pvpermission: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     cbpermission: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    ppm: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ppm: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefinePinvokeMap" class="method"><h4 class="code-header">fn <a href="#tymethod.DefinePinvokeMap" class="fn">DefinePinvokeMap</a>(
     &amp;self,
     tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwmappingflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     szimportname: &amp;PCWSTR,
-    mrimportdll: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    mrimportdll: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetPinvokeMap" class="method"><h4 class="code-header">fn <a href="#tymethod.SetPinvokeMap" class="fn">SetPinvokeMap</a>(
     &amp;self,
     tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwmappingflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     szimportname: &amp;PCWSTR,
-    mrimportdll: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    mrimportdll: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeletePinvokeMap" class="method"><h4 class="code-header">fn <a href="#tymethod.DeletePinvokeMap" class="fn">DeletePinvokeMap</a>(&amp;self, tk: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineCustomAttribute" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineCustomAttribute" class="fn">DefineCustomAttribute</a>(
     &amp;self,
     tkowner: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     tkctor: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     cbcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pcv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetCustomAttributeValue" class="method"><h4 class="code-header">fn <a href="#tymethod.SetCustomAttributeValue" class="fn">SetCustomAttributeValue</a>(
     &amp;self,
     pcv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
-    cbcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    cbcustomattribute: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineField" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineField" class="fn">DefineField</a>(
     &amp;self,
     td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
@@ -466,7 +466,7 @@
     dwcplustypeflag: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pmd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pmd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineProperty" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineProperty" class="fn">DefineProperty</a>(
     &amp;self,
     td: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
@@ -480,7 +480,7 @@
     mdsetter: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     mdgetter: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pmdprop: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pmdprop: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineParam" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineParam" class="fn">DefineParam</a>(
     &amp;self,
     md: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
@@ -490,14 +490,14 @@
     dwcplustypeflag: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    ppd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    ppd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetFieldProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetFieldProps" class="fn">SetFieldProps</a>(
     &amp;self,
     fd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwfieldflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwcplustypeflag: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
-    cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetPropertyProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetPropertyProps" class="fn">SetPropertyProps</a>(
     &amp;self,
     pr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
@@ -507,7 +507,7 @@
     cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     mdsetter: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     mdgetter: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    rmdothermethods: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetParamProps" class="method"><h4 class="code-header">fn <a href="#tymethod.SetParamProps" class="fn">SetParamProps</a>(
     &amp;self,
     pd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
@@ -515,13 +515,13 @@
     dwparamflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwcplustypeflag: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
-    cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    cchvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DefineSecurityAttributeSet" class="method"><h4 class="code-header">fn <a href="#tymethod.DefineSecurityAttributeSet" class="fn">DefineSecurityAttributeSet</a>(
     &amp;self,
     tkobj: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     rsecattrs: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="struct.COR_SECATTR.html" title="struct windows::Win32::System::WinRT::Metadata::COR_SECATTR">COR_SECATTR</a>,
     csecattrs: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pulerrorattr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pulerrorattr: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ApplyEditAndContinue" class="method"><h4 class="code-header">fn <a href="#tymethod.ApplyEditAndContinue" class="fn">ApplyEditAndContinue</a>(&amp;self, pimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.TranslateSigWithScope" class="method"><h4 class="code-header">fn <a href="#tymethod.TranslateSigWithScope" class="fn">TranslateSigWithScope</a>(
     &amp;self,
     passemimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataAssemblyImport.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataAssemblyImport">IMetaDataAssemblyImport</a>&gt;,
@@ -534,10 +534,10 @@
     emit: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataEmit.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataEmit">IMetaDataEmit</a>&gt;,
     pvtranslatedsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbtranslatedsigmax: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pcbtranslatedsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbtranslatedsig: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetMethodImplFlags" class="method"><h4 class="code-header">fn <a href="#tymethod.SetMethodImplFlags" class="fn">SetMethodImplFlags</a>(&amp;self, md: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, dwimplflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetFieldRVA" class="method"><h4 class="code-header">fn <a href="#tymethod.SetFieldRVA" class="fn">SetFieldRVA</a>(&amp;self, fd: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, ulrva: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Merge" class="method"><h4 class="code-header">fn <a href="#tymethod.Merge" class="fn">Merge</a>(
     &amp;self,
     pimport: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMetaDataImport.html" title="struct windows::Win32::System::WinRT::Metadata::IMetaDataImport">IMetaDataImport</a>&gt;,
     phostmaptoken: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMapToken.html" title="struct windows::Win32::System::WinRT::Metadata::IMapToken">IMapToken</a>&gt;,
-    phandler: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;
+    phandler: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.MergeEnd" class="method"><h4 class="code-header">fn <a href="#tymethod.MergeEnd" class="fn">MergeEnd</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="object-safety" class="section-header">Object Safety<a href="#object-safety" class="anchor">§</a></h2><div class="object-safety-info">This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">object safe</a>.</div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../../trait.impl/windows/Win32/System/WinRT/Metadata/trait.IMetaDataEmit_Impl.js" async></script></section></div></main></body></html>

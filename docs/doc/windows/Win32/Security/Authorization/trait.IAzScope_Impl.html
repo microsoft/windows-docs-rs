@@ -1,11 +1,11 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `IAzScope_Impl` trait in crate `windows`."><title>IAzScope_Impl in windows::Win32::Security::Authorization - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-b21aa549bf6d91ff.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.80.0-nightly (79734f1db 2024-05-02)" data-channel="nightly" data-search-js="search-bf21c90c8c1d92b1.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-e32f0c247825364d.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-09095024cf37855e.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `IAzScope_Impl` trait in crate `windows`."><title>IAzScope_Impl in windows::Win32::Security::Authorization - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-dd39b87e5fcfba68.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.81.0-nightly (20ae37c18 2024-07-07)" data-channel="nightly" data-search-js="search-d234aafac6c221dd.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-118b08c4c78b968e.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-df360f571f6edeae.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
   rel="search"
   type="application/opensearchdescription+xml"
   title="Rust for Windows"
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.56.0</span></h2></div><h2 class="location"><a href="#">IAzScope_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.AddPolicyAdministrator">AddPolicyAdministrator</a></li><li><a href="#tymethod.AddPolicyAdministratorName">AddPolicyAdministratorName</a></li><li><a href="#tymethod.AddPolicyReader">AddPolicyReader</a></li><li><a href="#tymethod.AddPolicyReaderName">AddPolicyReaderName</a></li><li><a href="#tymethod.AddPropertyItem">AddPropertyItem</a></li><li><a href="#tymethod.ApplicationData">ApplicationData</a></li><li><a href="#tymethod.ApplicationGroups">ApplicationGroups</a></li><li><a href="#tymethod.BizrulesWritable">BizrulesWritable</a></li><li><a href="#tymethod.CanBeDelegated">CanBeDelegated</a></li><li><a href="#tymethod.CreateApplicationGroup">CreateApplicationGroup</a></li><li><a href="#tymethod.CreateRole">CreateRole</a></li><li><a href="#tymethod.CreateTask">CreateTask</a></li><li><a href="#tymethod.DeleteApplicationGroup">DeleteApplicationGroup</a></li><li><a href="#tymethod.DeletePolicyAdministrator">DeletePolicyAdministrator</a></li><li><a href="#tymethod.DeletePolicyAdministratorName">DeletePolicyAdministratorName</a></li><li><a href="#tymethod.DeletePolicyReader">DeletePolicyReader</a></li><li><a href="#tymethod.DeletePolicyReaderName">DeletePolicyReaderName</a></li><li><a href="#tymethod.DeletePropertyItem">DeletePropertyItem</a></li><li><a href="#tymethod.DeleteRole">DeleteRole</a></li><li><a href="#tymethod.DeleteTask">DeleteTask</a></li><li><a href="#tymethod.Description">Description</a></li><li><a href="#tymethod.GetProperty">GetProperty</a></li><li><a href="#tymethod.Name">Name</a></li><li><a href="#tymethod.OpenApplicationGroup">OpenApplicationGroup</a></li><li><a href="#tymethod.OpenRole">OpenRole</a></li><li><a href="#tymethod.OpenTask">OpenTask</a></li><li><a href="#tymethod.PolicyAdministrators">PolicyAdministrators</a></li><li><a href="#tymethod.PolicyAdministratorsName">PolicyAdministratorsName</a></li><li><a href="#tymethod.PolicyReaders">PolicyReaders</a></li><li><a href="#tymethod.PolicyReadersName">PolicyReadersName</a></li><li><a href="#tymethod.Roles">Roles</a></li><li><a href="#tymethod.SetApplicationData">SetApplicationData</a></li><li><a href="#tymethod.SetDescription">SetDescription</a></li><li><a href="#tymethod.SetName">SetName</a></li><li><a href="#tymethod.SetProperty">SetProperty</a></li><li><a href="#tymethod.Submit">Submit</a></li><li><a href="#tymethod.Tasks">Tasks</a></li><li><a href="#tymethod.Writable">Writable</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::Security::Authorization</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><div id="sidebar-button" tabindex="-1"><a href="../../../../windows/all.html" title="show sidebar"></a></div><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Type ‘S’ or ‘/’ to search, ‘?’ for more options…" type="search"><div id="help-button" tabindex="-1"><a href="../../../../help.html" title="help">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../settings.html" title="settings">Settings</a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Security</a>::<wbr><a href="index.html">Authorization</a>::<wbr><a class="trait" href="#">IAzScope_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IAzScope_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> + <a class="trait" href="../../System/Com/trait.IDispatch_Impl.html" title="trait windows::Win32::System::Com::IDispatch_Impl">IDispatch_Impl</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><h2 class="location"><a href="#">IAzScope_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.AddPolicyAdministrator">AddPolicyAdministrator</a></li><li><a href="#tymethod.AddPolicyAdministratorName">AddPolicyAdministratorName</a></li><li><a href="#tymethod.AddPolicyReader">AddPolicyReader</a></li><li><a href="#tymethod.AddPolicyReaderName">AddPolicyReaderName</a></li><li><a href="#tymethod.AddPropertyItem">AddPropertyItem</a></li><li><a href="#tymethod.ApplicationData">ApplicationData</a></li><li><a href="#tymethod.ApplicationGroups">ApplicationGroups</a></li><li><a href="#tymethod.BizrulesWritable">BizrulesWritable</a></li><li><a href="#tymethod.CanBeDelegated">CanBeDelegated</a></li><li><a href="#tymethod.CreateApplicationGroup">CreateApplicationGroup</a></li><li><a href="#tymethod.CreateRole">CreateRole</a></li><li><a href="#tymethod.CreateTask">CreateTask</a></li><li><a href="#tymethod.DeleteApplicationGroup">DeleteApplicationGroup</a></li><li><a href="#tymethod.DeletePolicyAdministrator">DeletePolicyAdministrator</a></li><li><a href="#tymethod.DeletePolicyAdministratorName">DeletePolicyAdministratorName</a></li><li><a href="#tymethod.DeletePolicyReader">DeletePolicyReader</a></li><li><a href="#tymethod.DeletePolicyReaderName">DeletePolicyReaderName</a></li><li><a href="#tymethod.DeletePropertyItem">DeletePropertyItem</a></li><li><a href="#tymethod.DeleteRole">DeleteRole</a></li><li><a href="#tymethod.DeleteTask">DeleteTask</a></li><li><a href="#tymethod.Description">Description</a></li><li><a href="#tymethod.GetProperty">GetProperty</a></li><li><a href="#tymethod.Name">Name</a></li><li><a href="#tymethod.OpenApplicationGroup">OpenApplicationGroup</a></li><li><a href="#tymethod.OpenRole">OpenRole</a></li><li><a href="#tymethod.OpenTask">OpenTask</a></li><li><a href="#tymethod.PolicyAdministrators">PolicyAdministrators</a></li><li><a href="#tymethod.PolicyAdministratorsName">PolicyAdministratorsName</a></li><li><a href="#tymethod.PolicyReaders">PolicyReaders</a></li><li><a href="#tymethod.PolicyReadersName">PolicyReadersName</a></li><li><a href="#tymethod.Roles">Roles</a></li><li><a href="#tymethod.SetApplicationData">SetApplicationData</a></li><li><a href="#tymethod.SetDescription">SetDescription</a></li><li><a href="#tymethod.SetName">SetName</a></li><li><a href="#tymethod.SetProperty">SetProperty</a></li><li><a href="#tymethod.Submit">Submit</a></li><li><a href="#tymethod.Tasks">Tasks</a></li><li><a href="#tymethod.Writable">Writable</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::Security::Authorization</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Security</a>::<wbr><a href="index.html">Authorization</a>::<wbr><a class="trait" href="#">IAzScope_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait IAzScope_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> + <a class="trait" href="../../System/Com/trait.IDispatch_Impl.html" title="trait windows::Win32::System::Com::IDispatch_Impl">IDispatch_Impl</a> {
 <details class="toggle type-contents-toggle"><summary class="hideme"><span>Show 38 methods</span></summary>    // Required methods
     fn <a href="#tymethod.Name" class="fn">Name</a>(&amp;self) -&gt; Result&lt;BSTR&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetName" class="fn">SetName</a>(&amp;self, bstrname: &amp;BSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
@@ -17,95 +17,95 @@
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetProperty" class="fn">GetProperty</a>(
         &amp;self,
         lpropid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;VARIANT&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetProperty" class="fn">SetProperty</a>(
         &amp;self,
         lpropid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         varprop: &amp;VARIANT,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddPropertyItem" class="fn">AddPropertyItem</a>(
         &amp;self,
         lpropid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         varprop: &amp;VARIANT,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeletePropertyItem" class="fn">DeletePropertyItem</a>(
         &amp;self,
         lpropid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         varprop: &amp;VARIANT,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PolicyAdministrators" class="fn">PolicyAdministrators</a>(&amp;self) -&gt; Result&lt;VARIANT&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PolicyReaders" class="fn">PolicyReaders</a>(&amp;self) -&gt; Result&lt;VARIANT&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddPolicyAdministrator" class="fn">AddPolicyAdministrator</a>(
         &amp;self,
         bstradmin: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeletePolicyAdministrator" class="fn">DeletePolicyAdministrator</a>(
         &amp;self,
         bstradmin: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddPolicyReader" class="fn">AddPolicyReader</a>(
         &amp;self,
         bstrreader: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeletePolicyReader" class="fn">DeletePolicyReader</a>(
         &amp;self,
         bstrreader: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ApplicationGroups" class="fn">ApplicationGroups</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.IAzApplicationGroups.html" title="struct windows::Win32::Security::Authorization::IAzApplicationGroups">IAzApplicationGroups</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.OpenApplicationGroup" class="fn">OpenApplicationGroup</a>(
         &amp;self,
         bstrgroupname: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="struct" href="struct.IAzApplicationGroup.html" title="struct windows::Win32::Security::Authorization::IAzApplicationGroup">IAzApplicationGroup</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateApplicationGroup" class="fn">CreateApplicationGroup</a>(
         &amp;self,
         bstrgroupname: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="struct" href="struct.IAzApplicationGroup.html" title="struct windows::Win32::Security::Authorization::IAzApplicationGroup">IAzApplicationGroup</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteApplicationGroup" class="fn">DeleteApplicationGroup</a>(
         &amp;self,
         bstrgroupname: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Roles" class="fn">Roles</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.IAzRoles.html" title="struct windows::Win32::Security::Authorization::IAzRoles">IAzRoles</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.OpenRole" class="fn">OpenRole</a>(
         &amp;self,
         bstrrolename: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="struct" href="struct.IAzRole.html" title="struct windows::Win32::Security::Authorization::IAzRole">IAzRole</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateRole" class="fn">CreateRole</a>(
         &amp;self,
         bstrrolename: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="struct" href="struct.IAzRole.html" title="struct windows::Win32::Security::Authorization::IAzRole">IAzRole</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteRole" class="fn">DeleteRole</a>(
         &amp;self,
         bstrrolename: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Tasks" class="fn">Tasks</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.IAzTasks.html" title="struct windows::Win32::Security::Authorization::IAzTasks">IAzTasks</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.OpenTask" class="fn">OpenTask</a>(
         &amp;self,
         bstrtaskname: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="struct" href="struct.IAzTask.html" title="struct windows::Win32::Security::Authorization::IAzTask">IAzTask</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateTask" class="fn">CreateTask</a>(
         &amp;self,
         bstrtaskname: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="struct" href="struct.IAzTask.html" title="struct windows::Win32::Security::Authorization::IAzTask">IAzTask</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteTask" class="fn">DeleteTask</a>(
         &amp;self,
         bstrtaskname: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Submit" class="fn">Submit</a>(&amp;self, lflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>, varreserved: &amp;VARIANT) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CanBeDelegated" class="fn">CanBeDelegated</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;;
@@ -115,96 +115,96 @@
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddPolicyAdministratorName" class="fn">AddPolicyAdministratorName</a>(
         &amp;self,
         bstradmin: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeletePolicyAdministratorName" class="fn">DeletePolicyAdministratorName</a>(
         &amp;self,
         bstradmin: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddPolicyReaderName" class="fn">AddPolicyReaderName</a>(
         &amp;self,
         bstrreader: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeletePolicyReaderName" class="fn">DeletePolicyReaderName</a>(
         &amp;self,
         bstrreader: &amp;BSTR,
-        varreserved: &amp;VARIANT
+        varreserved: &amp;VARIANT,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 </details>}</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.Name" class="method"><h4 class="code-header">fn <a href="#tymethod.Name" class="fn">Name</a>(&amp;self) -&gt; Result&lt;BSTR&gt;</h4></section><section id="tymethod.SetName" class="method"><h4 class="code-header">fn <a href="#tymethod.SetName" class="fn">SetName</a>(&amp;self, bstrname: &amp;BSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Description" class="method"><h4 class="code-header">fn <a href="#tymethod.Description" class="fn">Description</a>(&amp;self) -&gt; Result&lt;BSTR&gt;</h4></section><section id="tymethod.SetDescription" class="method"><h4 class="code-header">fn <a href="#tymethod.SetDescription" class="fn">SetDescription</a>(&amp;self, bstrdescription: &amp;BSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ApplicationData" class="method"><h4 class="code-header">fn <a href="#tymethod.ApplicationData" class="fn">ApplicationData</a>(&amp;self) -&gt; Result&lt;BSTR&gt;</h4></section><section id="tymethod.SetApplicationData" class="method"><h4 class="code-header">fn <a href="#tymethod.SetApplicationData" class="fn">SetApplicationData</a>(&amp;self, bstrapplicationdata: &amp;BSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Writable" class="method"><h4 class="code-header">fn <a href="#tymethod.Writable" class="fn">Writable</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;</h4></section><section id="tymethod.GetProperty" class="method"><h4 class="code-header">fn <a href="#tymethod.GetProperty" class="fn">GetProperty</a>(&amp;self, lpropid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>, varreserved: &amp;VARIANT) -&gt; Result&lt;VARIANT&gt;</h4></section><section id="tymethod.SetProperty" class="method"><h4 class="code-header">fn <a href="#tymethod.SetProperty" class="fn">SetProperty</a>(
     &amp;self,
     lpropid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     varprop: &amp;VARIANT,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddPropertyItem" class="method"><h4 class="code-header">fn <a href="#tymethod.AddPropertyItem" class="fn">AddPropertyItem</a>(
     &amp;self,
     lpropid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     varprop: &amp;VARIANT,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeletePropertyItem" class="method"><h4 class="code-header">fn <a href="#tymethod.DeletePropertyItem" class="fn">DeletePropertyItem</a>(
     &amp;self,
     lpropid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     varprop: &amp;VARIANT,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PolicyAdministrators" class="method"><h4 class="code-header">fn <a href="#tymethod.PolicyAdministrators" class="fn">PolicyAdministrators</a>(&amp;self) -&gt; Result&lt;VARIANT&gt;</h4></section><section id="tymethod.PolicyReaders" class="method"><h4 class="code-header">fn <a href="#tymethod.PolicyReaders" class="fn">PolicyReaders</a>(&amp;self) -&gt; Result&lt;VARIANT&gt;</h4></section><section id="tymethod.AddPolicyAdministrator" class="method"><h4 class="code-header">fn <a href="#tymethod.AddPolicyAdministrator" class="fn">AddPolicyAdministrator</a>(
     &amp;self,
     bstradmin: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeletePolicyAdministrator" class="method"><h4 class="code-header">fn <a href="#tymethod.DeletePolicyAdministrator" class="fn">DeletePolicyAdministrator</a>(
     &amp;self,
     bstradmin: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddPolicyReader" class="method"><h4 class="code-header">fn <a href="#tymethod.AddPolicyReader" class="fn">AddPolicyReader</a>(
     &amp;self,
     bstrreader: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeletePolicyReader" class="method"><h4 class="code-header">fn <a href="#tymethod.DeletePolicyReader" class="fn">DeletePolicyReader</a>(
     &amp;self,
     bstrreader: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ApplicationGroups" class="method"><h4 class="code-header">fn <a href="#tymethod.ApplicationGroups" class="fn">ApplicationGroups</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.IAzApplicationGroups.html" title="struct windows::Win32::Security::Authorization::IAzApplicationGroups">IAzApplicationGroups</a>&gt;</h4></section><section id="tymethod.OpenApplicationGroup" class="method"><h4 class="code-header">fn <a href="#tymethod.OpenApplicationGroup" class="fn">OpenApplicationGroup</a>(
     &amp;self,
     bstrgroupname: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="struct" href="struct.IAzApplicationGroup.html" title="struct windows::Win32::Security::Authorization::IAzApplicationGroup">IAzApplicationGroup</a>&gt;</h4></section><section id="tymethod.CreateApplicationGroup" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateApplicationGroup" class="fn">CreateApplicationGroup</a>(
     &amp;self,
     bstrgroupname: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="struct" href="struct.IAzApplicationGroup.html" title="struct windows::Win32::Security::Authorization::IAzApplicationGroup">IAzApplicationGroup</a>&gt;</h4></section><section id="tymethod.DeleteApplicationGroup" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteApplicationGroup" class="fn">DeleteApplicationGroup</a>(
     &amp;self,
     bstrgroupname: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Roles" class="method"><h4 class="code-header">fn <a href="#tymethod.Roles" class="fn">Roles</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.IAzRoles.html" title="struct windows::Win32::Security::Authorization::IAzRoles">IAzRoles</a>&gt;</h4></section><section id="tymethod.OpenRole" class="method"><h4 class="code-header">fn <a href="#tymethod.OpenRole" class="fn">OpenRole</a>(
     &amp;self,
     bstrrolename: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="struct" href="struct.IAzRole.html" title="struct windows::Win32::Security::Authorization::IAzRole">IAzRole</a>&gt;</h4></section><section id="tymethod.CreateRole" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateRole" class="fn">CreateRole</a>(
     &amp;self,
     bstrrolename: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="struct" href="struct.IAzRole.html" title="struct windows::Win32::Security::Authorization::IAzRole">IAzRole</a>&gt;</h4></section><section id="tymethod.DeleteRole" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteRole" class="fn">DeleteRole</a>(&amp;self, bstrrolename: &amp;BSTR, varreserved: &amp;VARIANT) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Tasks" class="method"><h4 class="code-header">fn <a href="#tymethod.Tasks" class="fn">Tasks</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.IAzTasks.html" title="struct windows::Win32::Security::Authorization::IAzTasks">IAzTasks</a>&gt;</h4></section><section id="tymethod.OpenTask" class="method"><h4 class="code-header">fn <a href="#tymethod.OpenTask" class="fn">OpenTask</a>(
     &amp;self,
     bstrtaskname: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="struct" href="struct.IAzTask.html" title="struct windows::Win32::Security::Authorization::IAzTask">IAzTask</a>&gt;</h4></section><section id="tymethod.CreateTask" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateTask" class="fn">CreateTask</a>(
     &amp;self,
     bstrtaskname: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="struct" href="struct.IAzTask.html" title="struct windows::Win32::Security::Authorization::IAzTask">IAzTask</a>&gt;</h4></section><section id="tymethod.DeleteTask" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteTask" class="fn">DeleteTask</a>(&amp;self, bstrtaskname: &amp;BSTR, varreserved: &amp;VARIANT) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Submit" class="method"><h4 class="code-header">fn <a href="#tymethod.Submit" class="fn">Submit</a>(&amp;self, lflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>, varreserved: &amp;VARIANT) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CanBeDelegated" class="method"><h4 class="code-header">fn <a href="#tymethod.CanBeDelegated" class="fn">CanBeDelegated</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;</h4></section><section id="tymethod.BizrulesWritable" class="method"><h4 class="code-header">fn <a href="#tymethod.BizrulesWritable" class="fn">BizrulesWritable</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;</h4></section><section id="tymethod.PolicyAdministratorsName" class="method"><h4 class="code-header">fn <a href="#tymethod.PolicyAdministratorsName" class="fn">PolicyAdministratorsName</a>(&amp;self) -&gt; Result&lt;VARIANT&gt;</h4></section><section id="tymethod.PolicyReadersName" class="method"><h4 class="code-header">fn <a href="#tymethod.PolicyReadersName" class="fn">PolicyReadersName</a>(&amp;self) -&gt; Result&lt;VARIANT&gt;</h4></section><section id="tymethod.AddPolicyAdministratorName" class="method"><h4 class="code-header">fn <a href="#tymethod.AddPolicyAdministratorName" class="fn">AddPolicyAdministratorName</a>(
     &amp;self,
     bstradmin: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeletePolicyAdministratorName" class="method"><h4 class="code-header">fn <a href="#tymethod.DeletePolicyAdministratorName" class="fn">DeletePolicyAdministratorName</a>(
     &amp;self,
     bstradmin: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddPolicyReaderName" class="method"><h4 class="code-header">fn <a href="#tymethod.AddPolicyReaderName" class="fn">AddPolicyReaderName</a>(
     &amp;self,
     bstrreader: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeletePolicyReaderName" class="method"><h4 class="code-header">fn <a href="#tymethod.DeletePolicyReaderName" class="fn">DeletePolicyReaderName</a>(
     &amp;self,
     bstrreader: &amp;BSTR,
-    varreserved: &amp;VARIANT
+    varreserved: &amp;VARIANT,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="object-safety" class="section-header">Object Safety<a href="#object-safety" class="anchor">§</a></h2><div class="object-safety-info">This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">object safe</a>.</div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/Security/Authorization/trait.IAzScope_Impl.js" async></script></section></div></main></body></html>

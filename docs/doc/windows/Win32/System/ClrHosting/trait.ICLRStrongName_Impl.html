@@ -1,11 +1,11 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `ICLRStrongName_Impl` trait in crate `windows`."><title>ICLRStrongName_Impl in windows::Win32::System::ClrHosting - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-b21aa549bf6d91ff.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.80.0-nightly (79734f1db 2024-05-02)" data-channel="nightly" data-search-js="search-bf21c90c8c1d92b1.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-e32f0c247825364d.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-09095024cf37855e.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="generator" content="rustdoc"><meta name="description" content="API documentation for the Rust `ICLRStrongName_Impl` trait in crate `windows`."><title>ICLRStrongName_Impl in windows::Win32::System::ClrHosting - Rust</title><script>if(window.location.protocol!=="file:")document.head.insertAdjacentHTML("beforeend","SourceSerif4-Regular-46f98efaafac5295.ttf.woff2,FiraSans-Regular-018c141bf0843ffd.woff2,FiraSans-Medium-8f9a781e4970d388.woff2,SourceCodePro-Regular-562dcc5011b6de7d.ttf.woff2,SourceCodePro-Semibold-d899c5a5c4aeb14a.ttf.woff2".split(",").map(f=>`<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../static.files/${f}">`).join(""))</script><link rel="stylesheet" href="../../../../static.files/normalize-76eba96aa4d2e634.css"><link rel="stylesheet" href="../../../../static.files/rustdoc-dd39b87e5fcfba68.css"><meta name="rustdoc-vars" data-root-path="../../../../" data-static-root-path="../../../../static.files/" data-current-crate="windows" data-themes="" data-resource-suffix="" data-rustdoc-version="1.81.0-nightly (20ae37c18 2024-07-07)" data-channel="nightly" data-search-js="search-d234aafac6c221dd.js" data-settings-js="settings-4313503d2e1961c2.js" ><script src="../../../../static.files/storage-118b08c4c78b968e.js"></script><script defer src="sidebar-items.js"></script><script defer src="../../../../static.files/main-20a3ad099b048cf2.js"></script><noscript><link rel="stylesheet" href="../../../../static.files/noscript-df360f571f6edeae.css"></noscript><link rel="alternate icon" type="image/png" href="../../../../static.files/favicon-32x32-422f7d1d52889060.png"><link rel="icon" type="image/svg+xml" href="../../../../static.files/favicon-2c020d218678b618.svg"><link
   rel="search"
   type="application/opensearchdescription+xml"
   title="Rust for Windows"
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.56.0</span></h2></div><h2 class="location"><a href="#">ICLRStrongName_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.GetHashFromAssemblyFile">GetHashFromAssemblyFile</a></li><li><a href="#tymethod.GetHashFromAssemblyFileW">GetHashFromAssemblyFileW</a></li><li><a href="#tymethod.GetHashFromBlob">GetHashFromBlob</a></li><li><a href="#tymethod.GetHashFromFile">GetHashFromFile</a></li><li><a href="#tymethod.GetHashFromFileW">GetHashFromFileW</a></li><li><a href="#tymethod.GetHashFromHandle">GetHashFromHandle</a></li><li><a href="#tymethod.StrongNameCompareAssemblies">StrongNameCompareAssemblies</a></li><li><a href="#tymethod.StrongNameFreeBuffer">StrongNameFreeBuffer</a></li><li><a href="#tymethod.StrongNameGetBlob">StrongNameGetBlob</a></li><li><a href="#tymethod.StrongNameGetBlobFromImage">StrongNameGetBlobFromImage</a></li><li><a href="#tymethod.StrongNameGetPublicKey">StrongNameGetPublicKey</a></li><li><a href="#tymethod.StrongNameHashSize">StrongNameHashSize</a></li><li><a href="#tymethod.StrongNameKeyDelete">StrongNameKeyDelete</a></li><li><a href="#tymethod.StrongNameKeyGen">StrongNameKeyGen</a></li><li><a href="#tymethod.StrongNameKeyGenEx">StrongNameKeyGenEx</a></li><li><a href="#tymethod.StrongNameKeyInstall">StrongNameKeyInstall</a></li><li><a href="#tymethod.StrongNameSignatureGeneration">StrongNameSignatureGeneration</a></li><li><a href="#tymethod.StrongNameSignatureGenerationEx">StrongNameSignatureGenerationEx</a></li><li><a href="#tymethod.StrongNameSignatureSize">StrongNameSignatureSize</a></li><li><a href="#tymethod.StrongNameSignatureVerification">StrongNameSignatureVerification</a></li><li><a href="#tymethod.StrongNameSignatureVerificationEx">StrongNameSignatureVerificationEx</a></li><li><a href="#tymethod.StrongNameSignatureVerificationFromImage">StrongNameSignatureVerificationFromImage</a></li><li><a href="#tymethod.StrongNameTokenFromAssembly">StrongNameTokenFromAssembly</a></li><li><a href="#tymethod.StrongNameTokenFromAssemblyEx">StrongNameTokenFromAssemblyEx</a></li><li><a href="#tymethod.StrongNameTokenFromPublicKey">StrongNameTokenFromPublicKey</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::System::ClrHosting</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><nav class="sub"><form class="search-form"><span></span><div id="sidebar-button" tabindex="-1"><a href="../../../../windows/all.html" title="show sidebar"></a></div><input class="search-input" name="search" aria-label="Run search in the documentation" autocomplete="off" spellcheck="false" placeholder="Type ‘S’ or ‘/’ to search, ‘?’ for more options…" type="search"><div id="help-button" tabindex="-1"><a href="../../../../help.html" title="help">?</a></div><div id="settings-menu" tabindex="-1"><a href="../../../../settings.html" title="settings">Settings</a></div></form></nav><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">ClrHosting</a>::<wbr><a class="trait" href="#">ICLRStrongName_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait ICLRStrongName_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><h2 class="location"><a href="#">ICLRStrongName_Impl</a></h2><div class="sidebar-elems"><section><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.GetHashFromAssemblyFile">GetHashFromAssemblyFile</a></li><li><a href="#tymethod.GetHashFromAssemblyFileW">GetHashFromAssemblyFileW</a></li><li><a href="#tymethod.GetHashFromBlob">GetHashFromBlob</a></li><li><a href="#tymethod.GetHashFromFile">GetHashFromFile</a></li><li><a href="#tymethod.GetHashFromFileW">GetHashFromFileW</a></li><li><a href="#tymethod.GetHashFromHandle">GetHashFromHandle</a></li><li><a href="#tymethod.StrongNameCompareAssemblies">StrongNameCompareAssemblies</a></li><li><a href="#tymethod.StrongNameFreeBuffer">StrongNameFreeBuffer</a></li><li><a href="#tymethod.StrongNameGetBlob">StrongNameGetBlob</a></li><li><a href="#tymethod.StrongNameGetBlobFromImage">StrongNameGetBlobFromImage</a></li><li><a href="#tymethod.StrongNameGetPublicKey">StrongNameGetPublicKey</a></li><li><a href="#tymethod.StrongNameHashSize">StrongNameHashSize</a></li><li><a href="#tymethod.StrongNameKeyDelete">StrongNameKeyDelete</a></li><li><a href="#tymethod.StrongNameKeyGen">StrongNameKeyGen</a></li><li><a href="#tymethod.StrongNameKeyGenEx">StrongNameKeyGenEx</a></li><li><a href="#tymethod.StrongNameKeyInstall">StrongNameKeyInstall</a></li><li><a href="#tymethod.StrongNameSignatureGeneration">StrongNameSignatureGeneration</a></li><li><a href="#tymethod.StrongNameSignatureGenerationEx">StrongNameSignatureGenerationEx</a></li><li><a href="#tymethod.StrongNameSignatureSize">StrongNameSignatureSize</a></li><li><a href="#tymethod.StrongNameSignatureVerification">StrongNameSignatureVerification</a></li><li><a href="#tymethod.StrongNameSignatureVerificationEx">StrongNameSignatureVerificationEx</a></li><li><a href="#tymethod.StrongNameSignatureVerificationFromImage">StrongNameSignatureVerificationFromImage</a></li><li><a href="#tymethod.StrongNameTokenFromAssembly">StrongNameTokenFromAssembly</a></li><li><a href="#tymethod.StrongNameTokenFromAssemblyEx">StrongNameTokenFromAssemblyEx</a></li><li><a href="#tymethod.StrongNameTokenFromPublicKey">StrongNameTokenFromPublicKey</a></li></ul><h3><a href="#object-safety">Object Safety</a></h3><h3><a href="#implementors">Implementors</a></h3></section><h2><a href="index.html">In windows::Win32::System::ClrHosting</a></h2></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><h1>Trait <a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">ClrHosting</a>::<wbr><a class="trait" href="#">ICLRStrongName_Impl</a><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><span class="out-of-band"><button id="toggle-all-docs" title="collapse all docs">[<span>&#x2212;</span>]</button></span></div><pre class="rust item-decl"><code>pub trait ICLRStrongName_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
 <details class="toggle type-contents-toggle"><summary class="hideme"><span>Show 25 methods</span></summary>    // Required methods
     fn <a href="#tymethod.GetHashFromAssemblyFile" class="fn">GetHashFromAssemblyFile</a>(
         &amp;self,
@@ -13,7 +13,7 @@
         pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetHashFromAssemblyFileW" class="fn">GetHashFromAssemblyFileW</a>(
         &amp;self,
@@ -21,7 +21,7 @@
         pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetHashFromBlob" class="fn">GetHashFromBlob</a>(
         &amp;self,
@@ -30,7 +30,7 @@
         pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetHashFromFile" class="fn">GetHashFromFile</a>(
         &amp;self,
@@ -38,7 +38,7 @@
         pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetHashFromFileW" class="fn">GetHashFromFileW</a>(
         &amp;self,
@@ -46,7 +46,7 @@
         pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetHashFromHandle" class="fn">GetHashFromHandle</a>(
         &amp;self,
@@ -54,26 +54,26 @@
         pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameCompareAssemblies" class="fn">StrongNameCompareAssemblies</a>(
         &amp;self,
         pwzassembly1: &amp;PCWSTR,
-        pwzassembly2: &amp;PCWSTR
+        pwzassembly2: &amp;PCWSTR,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameFreeBuffer" class="fn">StrongNameFreeBuffer</a>(&amp;self, pbmemory: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameGetBlob" class="fn">StrongNameGetBlob</a>(
         &amp;self,
         pwzfilepath: &amp;PCWSTR,
         pbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameGetBlobFromImage" class="fn">StrongNameGetBlobFromImage</a>(
         &amp;self,
         pbbase: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         dwlength: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         pbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameGetPublicKey" class="fn">StrongNameGetPublicKey</a>(
         &amp;self,
@@ -81,7 +81,7 @@
         pbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameHashSize" class="fn">StrongNameHashSize</a>(&amp;self, ulhashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameKeyDelete" class="fn">StrongNameKeyDelete</a>(&amp;self, pwzkeycontainer: &amp;PCWSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
@@ -90,7 +90,7 @@
         pwzkeycontainer: &amp;PCWSTR,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameKeyGenEx" class="fn">StrongNameKeyGenEx</a>(
         &amp;self,
@@ -98,13 +98,13 @@
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         dwkeysize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameKeyInstall" class="fn">StrongNameKeyInstall</a>(
         &amp;self,
         pwzkeycontainer: &amp;PCWSTR,
         pbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameSignatureGeneration" class="fn">StrongNameSignatureGeneration</a>(
         &amp;self,
@@ -113,7 +113,7 @@
         pbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameSignatureGenerationEx" class="fn">StrongNameSignatureGenerationEx</a>(
         &amp;self,
@@ -123,35 +123,35 @@
         cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         pcbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameSignatureSize" class="fn">StrongNameSignatureSize</a>(
         &amp;self,
         pbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        pcbsize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbsize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameSignatureVerification" class="fn">StrongNameSignatureVerification</a>(
         &amp;self,
         pwzfilepath: &amp;PCWSTR,
-        dwinflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        dwinflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameSignatureVerificationEx" class="fn">StrongNameSignatureVerificationEx</a>(
         &amp;self,
         pwzfilepath: &amp;PCWSTR,
-        fforceverification: <a class="struct" href="../../Foundation/struct.BOOLEAN.html" title="struct windows::Win32::Foundation::BOOLEAN">BOOLEAN</a>
+        fforceverification: <a class="struct" href="../../Foundation/struct.BOOLEAN.html" title="struct windows::Win32::Foundation::BOOLEAN">BOOLEAN</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameSignatureVerificationFromImage" class="fn">StrongNameSignatureVerificationFromImage</a>(
         &amp;self,
         pbbase: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         dwlength: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        dwinflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        dwinflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameTokenFromAssembly" class="fn">StrongNameTokenFromAssembly</a>(
         &amp;self,
         pwzfilepath: &amp;PCWSTR,
         ppbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameTokenFromAssemblyEx" class="fn">StrongNameTokenFromAssemblyEx</a>(
         &amp;self,
@@ -159,14 +159,14 @@
         ppbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrongNameTokenFromPublicKey" class="fn">StrongNameTokenFromPublicKey</a>(
         &amp;self,
         pbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         ppbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-        pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+        pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 </details>}</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.GetHashFromAssemblyFile" class="method"><h4 class="code-header">fn <a href="#tymethod.GetHashFromAssemblyFile" class="fn">GetHashFromAssemblyFile</a>(
     &amp;self,
@@ -174,14 +174,14 @@
     pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetHashFromAssemblyFileW" class="method"><h4 class="code-header">fn <a href="#tymethod.GetHashFromAssemblyFileW" class="fn">GetHashFromAssemblyFileW</a>(
     &amp;self,
     pwzfilepath: &amp;PCWSTR,
     pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetHashFromBlob" class="method"><h4 class="code-header">fn <a href="#tymethod.GetHashFromBlob" class="fn">GetHashFromBlob</a>(
     &amp;self,
     pbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
@@ -189,68 +189,68 @@
     pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetHashFromFile" class="method"><h4 class="code-header">fn <a href="#tymethod.GetHashFromFile" class="fn">GetHashFromFile</a>(
     &amp;self,
     pszfilepath: &amp;PCSTR,
     pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetHashFromFileW" class="method"><h4 class="code-header">fn <a href="#tymethod.GetHashFromFileW" class="fn">GetHashFromFileW</a>(
     &amp;self,
     pwzfilepath: &amp;PCWSTR,
     pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetHashFromHandle" class="method"><h4 class="code-header">fn <a href="#tymethod.GetHashFromHandle" class="fn">GetHashFromHandle</a>(
     &amp;self,
     hfile: <a class="struct" href="../../Foundation/struct.HANDLE.html" title="struct windows::Win32::Foundation::HANDLE">HANDLE</a>,
     pihashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pbhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pchhash: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameCompareAssemblies" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameCompareAssemblies" class="fn">StrongNameCompareAssemblies</a>(
     &amp;self,
     pwzassembly1: &amp;PCWSTR,
-    pwzassembly2: &amp;PCWSTR
+    pwzassembly2: &amp;PCWSTR,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;</h4></section><section id="tymethod.StrongNameFreeBuffer" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameFreeBuffer" class="fn">StrongNameFreeBuffer</a>(&amp;self, pbmemory: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameGetBlob" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameGetBlob" class="fn">StrongNameGetBlob</a>(
     &amp;self,
     pwzfilepath: &amp;PCWSTR,
     pbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameGetBlobFromImage" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameGetBlobFromImage" class="fn">StrongNameGetBlobFromImage</a>(
     &amp;self,
     pbbase: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     dwlength: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     pbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameGetPublicKey" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameGetPublicKey" class="fn">StrongNameGetPublicKey</a>(
     &amp;self,
     pwzkeycontainer: &amp;PCWSTR,
     pbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameHashSize" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameHashSize" class="fn">StrongNameHashSize</a>(&amp;self, ulhashalg: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;</h4></section><section id="tymethod.StrongNameKeyDelete" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameKeyDelete" class="fn">StrongNameKeyDelete</a>(&amp;self, pwzkeycontainer: &amp;PCWSTR) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameKeyGen" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameKeyGen" class="fn">StrongNameKeyGen</a>(
     &amp;self,
     pwzkeycontainer: &amp;PCWSTR,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameKeyGenEx" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameKeyGenEx" class="fn">StrongNameKeyGenEx</a>(
     &amp;self,
     pwzkeycontainer: &amp;PCWSTR,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     dwkeysize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameKeyInstall" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameKeyInstall" class="fn">StrongNameKeyInstall</a>(
     &amp;self,
     pwzkeycontainer: &amp;PCWSTR,
     pbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameSignatureGeneration" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameSignatureGeneration" class="fn">StrongNameSignatureGeneration</a>(
     &amp;self,
     pwzfilepath: &amp;PCWSTR,
@@ -258,7 +258,7 @@
     pbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameSignatureGenerationEx" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameSignatureGenerationEx" class="fn">StrongNameSignatureGenerationEx</a>(
     &amp;self,
     wszfilepath: &amp;PCWSTR,
@@ -267,41 +267,41 @@
     cbkeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     pcbsignatureblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameSignatureSize" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameSignatureSize" class="fn">StrongNameSignatureSize</a>(
     &amp;self,
     pbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    pcbsize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbsize: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameSignatureVerification" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameSignatureVerification" class="fn">StrongNameSignatureVerification</a>(
     &amp;self,
     pwzfilepath: &amp;PCWSTR,
-    dwinflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    dwinflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;</h4></section><section id="tymethod.StrongNameSignatureVerificationEx" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameSignatureVerificationEx" class="fn">StrongNameSignatureVerificationEx</a>(
     &amp;self,
     pwzfilepath: &amp;PCWSTR,
-    fforceverification: <a class="struct" href="../../Foundation/struct.BOOLEAN.html" title="struct windows::Win32::Foundation::BOOLEAN">BOOLEAN</a>
+    fforceverification: <a class="struct" href="../../Foundation/struct.BOOLEAN.html" title="struct windows::Win32::Foundation::BOOLEAN">BOOLEAN</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>&gt;</h4></section><section id="tymethod.StrongNameSignatureVerificationFromImage" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameSignatureVerificationFromImage" class="fn">StrongNameSignatureVerificationFromImage</a>(
     &amp;self,
     pbbase: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     dwlength: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    dwinflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    dwinflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;</h4></section><section id="tymethod.StrongNameTokenFromAssembly" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameTokenFromAssembly" class="fn">StrongNameTokenFromAssembly</a>(
     &amp;self,
     pwzfilepath: &amp;PCWSTR,
     ppbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameTokenFromAssemblyEx" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameTokenFromAssemblyEx" class="fn">StrongNameTokenFromAssemblyEx</a>(
     &amp;self,
     pwzfilepath: &amp;PCWSTR,
     ppbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.StrongNameTokenFromPublicKey" class="method"><h4 class="code-header">fn <a href="#tymethod.StrongNameTokenFromPublicKey" class="fn">StrongNameTokenFromPublicKey</a>(
     &amp;self,
     pbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbpublickeyblob: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ppbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
-    pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>
+    pcbstrongnametoken: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="object-safety" class="section-header">Object Safety<a href="#object-safety" class="anchor">§</a></h2><div class="object-safety-info">This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">object safe</a>.</div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/System/ClrHosting/trait.ICLRStrongName_Impl.js" async></script></section></div></main></body></html>

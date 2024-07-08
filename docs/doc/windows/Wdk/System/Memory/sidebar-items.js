@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"constant":["ViewShare","ViewUnmap"],"fn":["NtMapViewOfSection","NtOpenSection","NtUnmapViewOfSection","ZwMapViewOfSection","ZwOpenSection","ZwUnmapViewOfSection"],"struct":["SECTION_INHERIT"]};

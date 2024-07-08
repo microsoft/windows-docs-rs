@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"struct":["Battery","BatteryReport","IBattery","IBatteryReport","IBatteryReport_Vtbl","IBatteryStatics","IBatteryStatics_Vtbl","IBattery_Vtbl"]};
+window.SIDEBAR_ITEMS = {"struct":["Battery","BatteryReport","IBattery","IBatteryReport","IBatteryReport_Vtbl","IBatteryStatics","IBatteryStatics_Vtbl","IBattery_Vtbl","IPowerGridData","IPowerGridData_Vtbl","IPowerGridForecast","IPowerGridForecastStatics","IPowerGridForecastStatics_Vtbl","IPowerGridForecast_Vtbl","PowerGridData","PowerGridForecast"]};

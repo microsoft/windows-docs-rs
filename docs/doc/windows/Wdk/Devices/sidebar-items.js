@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"mod":["HumanInterfaceDevice"]};
+window.SIDEBAR_ITEMS = {"mod":["Bluetooth","HumanInterfaceDevice"]};
