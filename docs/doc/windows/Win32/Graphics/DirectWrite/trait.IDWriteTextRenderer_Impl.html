@@ -5,7 +5,7 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IDWrite<wbr>Text<wbr>Renderer_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.DrawGlyphRun" title="DrawGlyphRun">DrawGlyphRun</a></li><li><a href="#tymethod.DrawInlineObject" title="DrawInlineObject">DrawInlineObject</a></li><li><a href="#tymethod.DrawStrikethrough" title="DrawStrikethrough">DrawStrikethrough</a></li><li><a href="#tymethod.DrawUnderline" title="DrawUnderline">DrawUnderline</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Graphics::<wbr>Direct<wbr>Write</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Graphics</a>::<wbr><a href="index.html">DirectWrite</a></span><h1>Trait <span class="trait">IDWriteTextRenderer_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IDWriteTextRenderer_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> + <a class="trait" href="trait.IDWritePixelSnapping_Impl.html" title="trait windows::Win32::Graphics::DirectWrite::IDWritePixelSnapping_Impl">IDWritePixelSnapping_Impl</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IDWrite<wbr>Text<wbr>Renderer_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.DrawGlyphRun" title="DrawGlyphRun">DrawGlyphRun</a></li><li><a href="#tymethod.DrawInlineObject" title="DrawInlineObject">DrawInlineObject</a></li><li><a href="#tymethod.DrawStrikethrough" title="DrawStrikethrough">DrawStrikethrough</a></li><li><a href="#tymethod.DrawUnderline" title="DrawUnderline">DrawUnderline</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Graphics::<wbr>Direct<wbr>Write</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Graphics</a>::<wbr><a href="index.html">DirectWrite</a></span><h1>Trait <span class="trait">IDWriteTextRenderer_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IDWriteTextRenderer_Impl: <a class="trait" href="trait.IDWritePixelSnapping_Impl.html" title="trait windows::Win32::Graphics::DirectWrite::IDWritePixelSnapping_Impl">IDWritePixelSnapping_Impl</a> {
     // Required methods
     fn <a href="#tymethod.DrawGlyphRun" class="fn">DrawGlyphRun</a>(
         &amp;self,
@@ -15,7 +15,7 @@
         measuringmode: <a class="struct" href="struct.DWRITE_MEASURING_MODE.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_MEASURING_MODE">DWRITE_MEASURING_MODE</a>,
         glyphrun: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.DWRITE_GLYPH_RUN.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_GLYPH_RUN">DWRITE_GLYPH_RUN</a>,
         glyphrundescription: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.DWRITE_GLYPH_RUN_DESCRIPTION.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_GLYPH_RUN_DESCRIPTION">DWRITE_GLYPH_RUN_DESCRIPTION</a>,
-        clientdrawingeffect: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        clientdrawingeffect: Ref&lt;'_, IUnknown&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DrawUnderline" class="fn">DrawUnderline</a>(
         &amp;self,
@@ -23,7 +23,7 @@
         baselineoriginx: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         baselineoriginy: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         underline: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.DWRITE_UNDERLINE.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_UNDERLINE">DWRITE_UNDERLINE</a>,
-        clientdrawingeffect: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        clientdrawingeffect: Ref&lt;'_, IUnknown&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DrawStrikethrough" class="fn">DrawStrikethrough</a>(
         &amp;self,
@@ -31,17 +31,17 @@
         baselineoriginx: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         baselineoriginy: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         strikethrough: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.DWRITE_STRIKETHROUGH.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_STRIKETHROUGH">DWRITE_STRIKETHROUGH</a>,
-        clientdrawingeffect: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        clientdrawingeffect: Ref&lt;'_, IUnknown&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DrawInlineObject" class="fn">DrawInlineObject</a>(
         &amp;self,
         clientdrawingcontext: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
         originx: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         originy: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
-        inlineobject: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IDWriteInlineObject.html" title="struct windows::Win32::Graphics::DirectWrite::IDWriteInlineObject">IDWriteInlineObject</a>&gt;,
+        inlineobject: Ref&lt;'_, <a class="struct" href="struct.IDWriteInlineObject.html" title="struct windows::Win32::Graphics::DirectWrite::IDWriteInlineObject">IDWriteInlineObject</a>&gt;,
         issideways: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
         isrighttoleft: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-        clientdrawingeffect: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        clientdrawingeffect: Ref&lt;'_, IUnknown&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 }</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.DrawGlyphRun" class="method"><h4 class="code-header">fn <a href="#tymethod.DrawGlyphRun" class="fn">DrawGlyphRun</a>(
     &amp;self,
@@ -51,28 +51,28 @@
     measuringmode: <a class="struct" href="struct.DWRITE_MEASURING_MODE.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_MEASURING_MODE">DWRITE_MEASURING_MODE</a>,
     glyphrun: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.DWRITE_GLYPH_RUN.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_GLYPH_RUN">DWRITE_GLYPH_RUN</a>,
     glyphrundescription: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.DWRITE_GLYPH_RUN_DESCRIPTION.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_GLYPH_RUN_DESCRIPTION">DWRITE_GLYPH_RUN_DESCRIPTION</a>,
-    clientdrawingeffect: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    clientdrawingeffect: Ref&lt;'_, IUnknown&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DrawUnderline" class="method"><h4 class="code-header">fn <a href="#tymethod.DrawUnderline" class="fn">DrawUnderline</a>(
     &amp;self,
     clientdrawingcontext: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     baselineoriginx: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     baselineoriginy: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     underline: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.DWRITE_UNDERLINE.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_UNDERLINE">DWRITE_UNDERLINE</a>,
-    clientdrawingeffect: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    clientdrawingeffect: Ref&lt;'_, IUnknown&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DrawStrikethrough" class="method"><h4 class="code-header">fn <a href="#tymethod.DrawStrikethrough" class="fn">DrawStrikethrough</a>(
     &amp;self,
     clientdrawingcontext: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     baselineoriginx: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     baselineoriginy: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     strikethrough: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.DWRITE_STRIKETHROUGH.html" title="struct windows::Win32::Graphics::DirectWrite::DWRITE_STRIKETHROUGH">DWRITE_STRIKETHROUGH</a>,
-    clientdrawingeffect: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    clientdrawingeffect: Ref&lt;'_, IUnknown&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DrawInlineObject" class="method"><h4 class="code-header">fn <a href="#tymethod.DrawInlineObject" class="fn">DrawInlineObject</a>(
     &amp;self,
     clientdrawingcontext: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     originx: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     originy: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
-    inlineobject: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IDWriteInlineObject.html" title="struct windows::Win32::Graphics::DirectWrite::IDWriteInlineObject">IDWriteInlineObject</a>&gt;,
+    inlineobject: Ref&lt;'_, <a class="struct" href="struct.IDWriteInlineObject.html" title="struct windows::Win32::Graphics::DirectWrite::IDWriteInlineObject">IDWriteInlineObject</a>&gt;,
     issideways: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
     isrighttoleft: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-    clientdrawingeffect: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    clientdrawingeffect: Ref&lt;'_, IUnknown&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="dyn-compatibility" class="section-header">Dyn Compatibility<a href="#dyn-compatibility" class="anchor">§</a></h2><div class="dyn-compatibility-info"><p>This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">dyn compatible</a>.</p><p><i>In older versions of Rust, dyn compatibility was called "object safety", so this trait is not object safe.</i></p></div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/Graphics/DirectWrite/trait.IDWriteTextRenderer_Impl.js" async></script></section></div></main></body></html>

@@ -5,23 +5,21 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc fn"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Data::<wbr>Rights<wbr>Management</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Data</a>::<wbr><a href="index.html">RightsManagement</a></span><h1>Function <span class="fn">DRMSetUsagePolicy</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub unsafe fn DRMSetUsagePolicy&lt;P0, P1, P2, P3, P4, P5, P6&gt;(
+</head><body class="rustdoc fn"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Data::<wbr>Rights<wbr>Management</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Data</a>::<wbr><a href="index.html">RightsManagement</a></span><h1>Function <span class="fn">DRMSetUsagePolicy</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub unsafe fn DRMSetUsagePolicy&lt;P4, P5, P6, P7, P8&gt;(
     hissuancelicense: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     eusagepolicytype: <a class="struct" href="struct.DRM_USAGEPOLICY_TYPE.html" title="struct windows::Win32::Data::RightsManagement::DRM_USAGEPOLICY_TYPE">DRM_USAGEPOLICY_TYPE</a>,
-    fdelete: P0,
-    fexclusion: P1,
-    wszname: P2,
-    wszminversion: P3,
-    wszmaxversion: P4,
-    wszpublickey: P5,
-    wszdigestalgorithm: P6,
+    fdelete: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a>,
+    fexclusion: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.bool.html">bool</a>,
+    wszname: P4,
+    wszminversion: P5,
+    wszmaxversion: P6,
+    wszpublickey: P7,
+    wszdigestalgorithm: P8,
     pbdigest: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cbdigest: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;<div class="where">where
-    P0: Param&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;,
-    P1: Param&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;,
-    P2: Param&lt;PCWSTR&gt;,
-    P3: Param&lt;PCWSTR&gt;,
     P4: Param&lt;PCWSTR&gt;,
     P5: Param&lt;PCWSTR&gt;,
-    P6: Param&lt;PCWSTR&gt;,</div></code></pre></section></div></main></body></html>
+    P6: Param&lt;PCWSTR&gt;,
+    P7: Param&lt;PCWSTR&gt;,
+    P8: Param&lt;PCWSTR&gt;,</div></code></pre></section></div></main></body></html>

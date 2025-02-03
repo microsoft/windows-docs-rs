@@ -5,21 +5,21 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc fn"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Threading</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Threading</a></span><h1>Function <span class="fn">CreateProcessWithLogonW</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub unsafe fn CreateProcessWithLogonW&lt;P0, P1, P2, P3, P4&gt;(
+</head><body class="rustdoc fn"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Threading</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Threading</a></span><h1>Function <span class="fn">CreateProcessWithLogonW</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub unsafe fn CreateProcessWithLogonW&lt;P0, P1, P2, P4, P8&gt;(
     lpusername: P0,
     lpdomain: P1,
     lppassword: P2,
     dwlogonflags: <a class="struct" href="struct.CREATE_PROCESS_LOGON_FLAGS.html" title="struct windows::Win32::System::Threading::CREATE_PROCESS_LOGON_FLAGS">CREATE_PROCESS_LOGON_FLAGS</a>,
-    lpapplicationname: P3,
-    lpcommandline: PWSTR,
+    lpapplicationname: P4,
+    lpcommandline: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;PWSTR&gt;,
     dwcreationflags: <a class="struct" href="struct.PROCESS_CREATION_FLAGS.html" title="struct windows::Win32::System::Threading::PROCESS_CREATION_FLAGS">PROCESS_CREATION_FLAGS</a>,
     lpenvironment: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>&gt;,
-    lpcurrentdirectory: P4,
+    lpcurrentdirectory: P8,
     lpstartupinfo: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.STARTUPINFOW.html" title="struct windows::Win32::System::Threading::STARTUPINFOW">STARTUPINFOW</a>,
     lpprocessinformation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="struct.PROCESS_INFORMATION.html" title="struct windows::Win32::System::Threading::PROCESS_INFORMATION">PROCESS_INFORMATION</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;<div class="where">where
     P0: Param&lt;PCWSTR&gt;,
     P1: Param&lt;PCWSTR&gt;,
     P2: Param&lt;PCWSTR&gt;,
-    P3: Param&lt;PCWSTR&gt;,
-    P4: Param&lt;PCWSTR&gt;,</div></code></pre></section></div></main></body></html>
+    P4: Param&lt;PCWSTR&gt;,
+    P8: Param&lt;PCWSTR&gt;,</div></code></pre></section></div></main></body></html>

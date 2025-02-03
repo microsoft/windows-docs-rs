@@ -5,7 +5,7 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IProtection<wbr>Policy<wbr>Manager<wbr>Interop2_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.RequestAccessForAppWithAuditingInfoForWindowAsync" title="RequestAccessForAppWithAuditingInfoForWindowAsync">RequestAccessForAppWithAuditingInfoForWindowAsync</a></li><li><a href="#tymethod.RequestAccessForAppWithMessageForWindowAsync" title="RequestAccessForAppWithMessageForWindowAsync">RequestAccessForAppWithMessageForWindowAsync</a></li><li><a href="#tymethod.RequestAccessForAppWithWindowAsync" title="RequestAccessForAppWithWindowAsync">RequestAccessForAppWithWindowAsync</a></li><li><a href="#tymethod.RequestAccessWithAuditingInfoForWindowAsync" title="RequestAccessWithAuditingInfoForWindowAsync">RequestAccessWithAuditingInfoForWindowAsync</a></li><li><a href="#tymethod.RequestAccessWithMessageForWindowAsync" title="RequestAccessWithMessageForWindowAsync">RequestAccessWithMessageForWindowAsync</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Security::<wbr>Enterprise<wbr>Data</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Security</a>::<wbr><a href="index.html">EnterpriseData</a></span><h1>Trait <span class="trait">IProtectionPolicyManagerInterop2_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IProtectionPolicyManagerInterop2_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IProtection<wbr>Policy<wbr>Manager<wbr>Interop2_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.RequestAccessForAppWithAuditingInfoForWindowAsync" title="RequestAccessForAppWithAuditingInfoForWindowAsync">RequestAccessForAppWithAuditingInfoForWindowAsync</a></li><li><a href="#tymethod.RequestAccessForAppWithMessageForWindowAsync" title="RequestAccessForAppWithMessageForWindowAsync">RequestAccessForAppWithMessageForWindowAsync</a></li><li><a href="#tymethod.RequestAccessForAppWithWindowAsync" title="RequestAccessForAppWithWindowAsync">RequestAccessForAppWithWindowAsync</a></li><li><a href="#tymethod.RequestAccessWithAuditingInfoForWindowAsync" title="RequestAccessWithAuditingInfoForWindowAsync">RequestAccessWithAuditingInfoForWindowAsync</a></li><li><a href="#tymethod.RequestAccessWithMessageForWindowAsync" title="RequestAccessWithMessageForWindowAsync">RequestAccessWithMessageForWindowAsync</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Security::<wbr>Enterprise<wbr>Data</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Security</a>::<wbr><a href="index.html">EnterpriseData</a></span><h1>Trait <span class="trait">IProtectionPolicyManagerInterop2_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IProtectionPolicyManagerInterop2_Impl: IUnknownImpl {
     // Required methods
     fn <a href="#tymethod.RequestAccessForAppWithWindowAsync" class="fn">RequestAccessForAppWithWindowAsync</a>(
         &amp;self,
@@ -20,7 +20,7 @@
         appwindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         sourceidentity: &amp;HSTRING,
         targetidentity: &amp;HSTRING,
-        auditinfounk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        auditinfounk: Ref&lt;'_, IUnknown&gt;,
         riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         asyncoperation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
@@ -29,7 +29,7 @@
         appwindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         sourceidentity: &amp;HSTRING,
         targetidentity: &amp;HSTRING,
-        auditinfounk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        auditinfounk: Ref&lt;'_, IUnknown&gt;,
         messagefromapp: &amp;HSTRING,
         riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         asyncoperation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
@@ -39,7 +39,7 @@
         appwindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         sourceidentity: &amp;HSTRING,
         apppackagefamilyname: &amp;HSTRING,
-        auditinfounk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        auditinfounk: Ref&lt;'_, IUnknown&gt;,
         riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         asyncoperation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
@@ -48,7 +48,7 @@
         appwindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         sourceidentity: &amp;HSTRING,
         apppackagefamilyname: &amp;HSTRING,
-        auditinfounk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        auditinfounk: Ref&lt;'_, IUnknown&gt;,
         messagefromapp: &amp;HSTRING,
         riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         asyncoperation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
@@ -65,7 +65,7 @@
     appwindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     sourceidentity: &amp;HSTRING,
     targetidentity: &amp;HSTRING,
-    auditinfounk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    auditinfounk: Ref&lt;'_, IUnknown&gt;,
     riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     asyncoperation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.RequestAccessWithMessageForWindowAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.RequestAccessWithMessageForWindowAsync" class="fn">RequestAccessWithMessageForWindowAsync</a>(
@@ -73,7 +73,7 @@
     appwindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     sourceidentity: &amp;HSTRING,
     targetidentity: &amp;HSTRING,
-    auditinfounk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    auditinfounk: Ref&lt;'_, IUnknown&gt;,
     messagefromapp: &amp;HSTRING,
     riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     asyncoperation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
@@ -82,7 +82,7 @@
     appwindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     sourceidentity: &amp;HSTRING,
     apppackagefamilyname: &amp;HSTRING,
-    auditinfounk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    auditinfounk: Ref&lt;'_, IUnknown&gt;,
     riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     asyncoperation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.RequestAccessForAppWithMessageForWindowAsync" class="method"><h4 class="code-header">fn <a href="#tymethod.RequestAccessForAppWithMessageForWindowAsync" class="fn">RequestAccessForAppWithMessageForWindowAsync</a>(
@@ -90,7 +90,7 @@
     appwindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     sourceidentity: &amp;HSTRING,
     apppackagefamilyname: &amp;HSTRING,
-    auditinfounk: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    auditinfounk: Ref&lt;'_, IUnknown&gt;,
     messagefromapp: &amp;HSTRING,
     riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     asyncoperation: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,

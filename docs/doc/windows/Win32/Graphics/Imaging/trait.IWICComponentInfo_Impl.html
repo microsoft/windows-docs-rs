@@ -5,7 +5,7 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IWIC<wbr>Component<wbr>Info_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.GetAuthor" title="GetAuthor">GetAuthor</a></li><li><a href="#tymethod.GetCLSID" title="GetCLSID">GetCLSID</a></li><li><a href="#tymethod.GetComponentType" title="GetComponentType">GetComponentType</a></li><li><a href="#tymethod.GetFriendlyName" title="GetFriendlyName">GetFriendlyName</a></li><li><a href="#tymethod.GetSigningStatus" title="GetSigningStatus">GetSigningStatus</a></li><li><a href="#tymethod.GetSpecVersion" title="GetSpecVersion">GetSpecVersion</a></li><li><a href="#tymethod.GetVendorGUID" title="GetVendorGUID">GetVendorGUID</a></li><li><a href="#tymethod.GetVersion" title="GetVersion">GetVersion</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Graphics::<wbr>Imaging</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Graphics</a>::<wbr><a href="index.html">Imaging</a></span><h1>Trait <span class="trait">IWICComponentInfo_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IWICComponentInfo_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IWIC<wbr>Component<wbr>Info_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.GetAuthor" title="GetAuthor">GetAuthor</a></li><li><a href="#tymethod.GetCLSID" title="GetCLSID">GetCLSID</a></li><li><a href="#tymethod.GetComponentType" title="GetComponentType">GetComponentType</a></li><li><a href="#tymethod.GetFriendlyName" title="GetFriendlyName">GetFriendlyName</a></li><li><a href="#tymethod.GetSigningStatus" title="GetSigningStatus">GetSigningStatus</a></li><li><a href="#tymethod.GetSpecVersion" title="GetSpecVersion">GetSpecVersion</a></li><li><a href="#tymethod.GetVendorGUID" title="GetVendorGUID">GetVendorGUID</a></li><li><a href="#tymethod.GetVersion" title="GetVersion">GetVersion</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Graphics::<wbr>Imaging</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Graphics</a>::<wbr><a href="index.html">Imaging</a></span><h1>Trait <span class="trait">IWICComponentInfo_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IWICComponentInfo_Impl: IUnknownImpl {
     // Required methods
     fn <a href="#tymethod.GetComponentType" class="fn">GetComponentType</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.WICComponentType.html" title="struct windows::Win32::Graphics::Imaging::WICComponentType">WICComponentType</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetCLSID" class="fn">GetCLSID</a>(&amp;self) -&gt; Result&lt;GUID&gt;;
@@ -13,46 +13,46 @@
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetAuthor" class="fn">GetAuthor</a>(
         &amp;self,
         cchauthor: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        wzauthor: &amp;PWSTR,
+        wzauthor: PWSTR,
         pcchactual: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetVendorGUID" class="fn">GetVendorGUID</a>(&amp;self) -&gt; Result&lt;GUID&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetVersion" class="fn">GetVersion</a>(
         &amp;self,
         cchversion: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        wzversion: &amp;PWSTR,
+        wzversion: PWSTR,
         pcchactual: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetSpecVersion" class="fn">GetSpecVersion</a>(
         &amp;self,
         cchspecversion: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        wzspecversion: &amp;PWSTR,
+        wzspecversion: PWSTR,
         pcchactual: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetFriendlyName" class="fn">GetFriendlyName</a>(
         &amp;self,
         cchfriendlyname: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        wzfriendlyname: &amp;PWSTR,
+        wzfriendlyname: PWSTR,
         pcchactual: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 }</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.GetComponentType" class="method"><h4 class="code-header">fn <a href="#tymethod.GetComponentType" class="fn">GetComponentType</a>(&amp;self) -&gt; Result&lt;<a class="struct" href="struct.WICComponentType.html" title="struct windows::Win32::Graphics::Imaging::WICComponentType">WICComponentType</a>&gt;</h4></section><section id="tymethod.GetCLSID" class="method"><h4 class="code-header">fn <a href="#tymethod.GetCLSID" class="fn">GetCLSID</a>(&amp;self) -&gt; Result&lt;GUID&gt;</h4></section><section id="tymethod.GetSigningStatus" class="method"><h4 class="code-header">fn <a href="#tymethod.GetSigningStatus" class="fn">GetSigningStatus</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>&gt;</h4></section><section id="tymethod.GetAuthor" class="method"><h4 class="code-header">fn <a href="#tymethod.GetAuthor" class="fn">GetAuthor</a>(
     &amp;self,
     cchauthor: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    wzauthor: &amp;PWSTR,
+    wzauthor: PWSTR,
     pcchactual: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetVendorGUID" class="method"><h4 class="code-header">fn <a href="#tymethod.GetVendorGUID" class="fn">GetVendorGUID</a>(&amp;self) -&gt; Result&lt;GUID&gt;</h4></section><section id="tymethod.GetVersion" class="method"><h4 class="code-header">fn <a href="#tymethod.GetVersion" class="fn">GetVersion</a>(
     &amp;self,
     cchversion: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    wzversion: &amp;PWSTR,
+    wzversion: PWSTR,
     pcchactual: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetSpecVersion" class="method"><h4 class="code-header">fn <a href="#tymethod.GetSpecVersion" class="fn">GetSpecVersion</a>(
     &amp;self,
     cchspecversion: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    wzspecversion: &amp;PWSTR,
+    wzspecversion: PWSTR,
     pcchactual: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetFriendlyName" class="method"><h4 class="code-header">fn <a href="#tymethod.GetFriendlyName" class="fn">GetFriendlyName</a>(
     &amp;self,
     cchfriendlyname: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    wzfriendlyname: &amp;PWSTR,
+    wzfriendlyname: PWSTR,
     pcchactual: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="dyn-compatibility" class="section-header">Dyn Compatibility<a href="#dyn-compatibility" class="anchor">§</a></h2><div class="dyn-compatibility-info"><p>This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">dyn compatible</a>.</p><p><i>In older versions of Rust, dyn compatibility was called "object safety", so this trait is not object safe.</i></p></div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/Graphics/Imaging/trait.IWICComponentInfo_Impl.js" async></script></section></div></main></body></html>

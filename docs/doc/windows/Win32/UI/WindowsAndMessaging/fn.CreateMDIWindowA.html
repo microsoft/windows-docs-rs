@@ -5,7 +5,7 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc fn"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>UI::<wbr>Windows<wbr>AndMessaging</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">UI</a>::<wbr><a href="index.html">WindowsAndMessaging</a></span><h1>Function <span class="fn">CreateMDIWindowA</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub unsafe fn CreateMDIWindowA&lt;P0, P1, P2, P3, P4&gt;(
+</head><body class="rustdoc fn"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>UI::<wbr>Windows<wbr>AndMessaging</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">UI</a>::<wbr><a href="index.html">WindowsAndMessaging</a></span><h1>Function <span class="fn">CreateMDIWindowA</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub unsafe fn CreateMDIWindowA&lt;P0, P1&gt;(
     lpclassname: P0,
     lpwindowname: P1,
     dwstyle: <a class="struct" href="struct.WINDOW_STYLE.html" title="struct windows::Win32::UI::WindowsAndMessaging::WINDOW_STYLE">WINDOW_STYLE</a>,
@@ -13,12 +13,9 @@
     y: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     nwidth: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     nheight: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
-    hwndparent: P2,
-    hinstance: P3,
-    lparam: P4,
+    hwndparent: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>&gt;,
+    hinstance: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="../../Foundation/struct.HINSTANCE.html" title="struct windows::Win32::Foundation::HINSTANCE">HINSTANCE</a>&gt;,
+    lparam: <a class="struct" href="../../Foundation/struct.LPARAM.html" title="struct windows::Win32::Foundation::LPARAM">LPARAM</a>,
 ) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>&gt;<div class="where">where
     P0: Param&lt;PCSTR&gt;,
-    P1: Param&lt;PCSTR&gt;,
-    P2: Param&lt;<a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>&gt;,
-    P3: Param&lt;<a class="struct" href="../../Foundation/struct.HINSTANCE.html" title="struct windows::Win32::Foundation::HINSTANCE">HINSTANCE</a>&gt;,
-    P4: Param&lt;<a class="struct" href="../../Foundation/struct.LPARAM.html" title="struct windows::Win32::Foundation::LPARAM">LPARAM</a>&gt;,</div></code></pre></section></div></main></body></html>
+    P1: Param&lt;PCSTR&gt;,</div></code></pre></section></div></main></body></html>

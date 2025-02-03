@@ -5,41 +5,41 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IContact<wbr>Location<wbr>Field<wbr>Factory_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CreateLocation_All" title="CreateLocation_All">CreateLocation_All</a></li><li><a href="#tymethod.CreateLocation_Category" title="CreateLocation_Category">CreateLocation_Category</a></li><li><a href="#tymethod.CreateLocation_Default" title="CreateLocation_Default">CreateLocation_Default</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Application<wbr>Model::<wbr>Contacts</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../index.html">windows</a>::<wbr><a href="../index.html">ApplicationModel</a>::<wbr><a href="index.html">Contacts</a></span><h1>Trait <span class="trait">IContactLocationFieldFactory_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IContactLocationFieldFactory_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IContact<wbr>Location<wbr>Field<wbr>Factory_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CreateLocation_All" title="CreateLocation_All">CreateLocation_All</a></li><li><a href="#tymethod.CreateLocation_Category" title="CreateLocation_Category">CreateLocation_Category</a></li><li><a href="#tymethod.CreateLocation_Default" title="CreateLocation_Default">CreateLocation_Default</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Application<wbr>Model::<wbr>Contacts</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../index.html">windows</a>::<wbr><a href="../index.html">ApplicationModel</a>::<wbr><a href="index.html">Contacts</a></span><h1>Trait <span class="trait">IContactLocationFieldFactory_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IContactLocationFieldFactory_Impl: IUnknownImpl {
     // Required methods
     fn <a href="#tymethod.CreateLocation_Default" class="fn">CreateLocation_Default</a>(
         &amp;self,
-        unstructuredaddress: &amp;HSTRING,
+        unstructuredAddress: &amp;HSTRING,
     ) -&gt; Result&lt;<a class="struct" href="struct.ContactLocationField.html" title="struct windows::ApplicationModel::Contacts::ContactLocationField">ContactLocationField</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateLocation_Category" class="fn">CreateLocation_Category</a>(
         &amp;self,
-        unstructuredaddress: &amp;HSTRING,
+        unstructuredAddress: &amp;HSTRING,
         category: <a class="struct" href="struct.ContactFieldCategory.html" title="struct windows::ApplicationModel::Contacts::ContactFieldCategory">ContactFieldCategory</a>,
     ) -&gt; Result&lt;<a class="struct" href="struct.ContactLocationField.html" title="struct windows::ApplicationModel::Contacts::ContactLocationField">ContactLocationField</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateLocation_All" class="fn">CreateLocation_All</a>(
         &amp;self,
-        unstructuredaddress: &amp;HSTRING,
+        unstructuredAddress: &amp;HSTRING,
         category: <a class="struct" href="struct.ContactFieldCategory.html" title="struct windows::ApplicationModel::Contacts::ContactFieldCategory">ContactFieldCategory</a>,
         street: &amp;HSTRING,
         city: &amp;HSTRING,
         region: &amp;HSTRING,
         country: &amp;HSTRING,
-        postalcode: &amp;HSTRING,
+        postalCode: &amp;HSTRING,
     ) -&gt; Result&lt;<a class="struct" href="struct.ContactLocationField.html" title="struct windows::ApplicationModel::Contacts::ContactLocationField">ContactLocationField</a>&gt;;
 }</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.CreateLocation_Default" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateLocation_Default" class="fn">CreateLocation_Default</a>(
     &amp;self,
-    unstructuredaddress: &amp;HSTRING,
+    unstructuredAddress: &amp;HSTRING,
 ) -&gt; Result&lt;<a class="struct" href="struct.ContactLocationField.html" title="struct windows::ApplicationModel::Contacts::ContactLocationField">ContactLocationField</a>&gt;</h4></section><section id="tymethod.CreateLocation_Category" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateLocation_Category" class="fn">CreateLocation_Category</a>(
     &amp;self,
-    unstructuredaddress: &amp;HSTRING,
+    unstructuredAddress: &amp;HSTRING,
     category: <a class="struct" href="struct.ContactFieldCategory.html" title="struct windows::ApplicationModel::Contacts::ContactFieldCategory">ContactFieldCategory</a>,
 ) -&gt; Result&lt;<a class="struct" href="struct.ContactLocationField.html" title="struct windows::ApplicationModel::Contacts::ContactLocationField">ContactLocationField</a>&gt;</h4></section><section id="tymethod.CreateLocation_All" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateLocation_All" class="fn">CreateLocation_All</a>(
     &amp;self,
-    unstructuredaddress: &amp;HSTRING,
+    unstructuredAddress: &amp;HSTRING,
     category: <a class="struct" href="struct.ContactFieldCategory.html" title="struct windows::ApplicationModel::Contacts::ContactFieldCategory">ContactFieldCategory</a>,
     street: &amp;HSTRING,
     city: &amp;HSTRING,
     region: &amp;HSTRING,
     country: &amp;HSTRING,
-    postalcode: &amp;HSTRING,
+    postalCode: &amp;HSTRING,
 ) -&gt; Result&lt;<a class="struct" href="struct.ContactLocationField.html" title="struct windows::ApplicationModel::Contacts::ContactLocationField">ContactLocationField</a>&gt;</h4></section></div><h2 id="dyn-compatibility" class="section-header">Dyn Compatibility<a href="#dyn-compatibility" class="anchor">§</a></h2><div class="dyn-compatibility-info"><p>This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">dyn compatible</a>.</p><p><i>In older versions of Rust, dyn compatibility was called "object safety", so this trait is not object safe.</i></p></div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../trait.impl/windows/ApplicationModel/Contacts/trait.IContactLocationFieldFactory_Impl.js" async></script></section></div></main></body></html>

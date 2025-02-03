@@ -5,7 +5,7 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">ICondition<wbr>Factory2_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CreateBooleanLeaf" title="CreateBooleanLeaf">CreateBooleanLeaf</a></li><li><a href="#tymethod.CreateCompoundFromArray" title="CreateCompoundFromArray">CreateCompoundFromArray</a></li><li><a href="#tymethod.CreateCompoundFromObjectArray" title="CreateCompoundFromObjectArray">CreateCompoundFromObjectArray</a></li><li><a href="#tymethod.CreateIntegerLeaf" title="CreateIntegerLeaf">CreateIntegerLeaf</a></li><li><a href="#tymethod.CreateLeaf" title="CreateLeaf">CreateLeaf</a></li><li><a href="#tymethod.CreateNegation" title="CreateNegation">CreateNegation</a></li><li><a href="#tymethod.CreateStringLeaf" title="CreateStringLeaf">CreateStringLeaf</a></li><li><a href="#tymethod.CreateTrueFalse" title="CreateTrueFalse">CreateTrueFalse</a></li><li><a href="#tymethod.ResolveCondition" title="ResolveCondition">ResolveCondition</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Search</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Search</a></span><h1>Trait <span class="trait">IConditionFactory2_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IConditionFactory2_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> + <a class="trait" href="trait.IConditionFactory_Impl.html" title="trait windows::Win32::System::Search::IConditionFactory_Impl">IConditionFactory_Impl</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">ICondition<wbr>Factory2_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CreateBooleanLeaf" title="CreateBooleanLeaf">CreateBooleanLeaf</a></li><li><a href="#tymethod.CreateCompoundFromArray" title="CreateCompoundFromArray">CreateCompoundFromArray</a></li><li><a href="#tymethod.CreateCompoundFromObjectArray" title="CreateCompoundFromObjectArray">CreateCompoundFromObjectArray</a></li><li><a href="#tymethod.CreateIntegerLeaf" title="CreateIntegerLeaf">CreateIntegerLeaf</a></li><li><a href="#tymethod.CreateLeaf" title="CreateLeaf">CreateLeaf</a></li><li><a href="#tymethod.CreateNegation" title="CreateNegation">CreateNegation</a></li><li><a href="#tymethod.CreateStringLeaf" title="CreateStringLeaf">CreateStringLeaf</a></li><li><a href="#tymethod.CreateTrueFalse" title="CreateTrueFalse">CreateTrueFalse</a></li><li><a href="#tymethod.ResolveCondition" title="ResolveCondition">ResolveCondition</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Search</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Search</a></span><h1>Trait <span class="trait">IConditionFactory2_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IConditionFactory2_Impl: <a class="trait" href="trait.IConditionFactory_Impl.html" title="trait windows::Win32::System::Search::IConditionFactory_Impl">IConditionFactory_Impl</a> {
     // Required methods
     fn <a href="#tymethod.CreateTrueFalse" class="fn">CreateTrueFalse</a>(
         &amp;self,
@@ -16,7 +16,7 @@
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateNegation" class="fn">CreateNegation</a>(
         &amp;self,
-        pcsub: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
+        pcsub: Ref&lt;'_, <a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
         cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
         riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
@@ -24,7 +24,7 @@
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateCompoundFromObjectArray" class="fn">CreateCompoundFromObjectArray</a>(
         &amp;self,
         ct: <a class="struct" href="Common/struct.CONDITION_TYPE.html" title="struct windows::Win32::System::Search::Common::CONDITION_TYPE">CONDITION_TYPE</a>,
-        poasubs: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../../UI/Shell/Common/struct.IObjectArray.html" title="struct windows::Win32::UI::Shell::Common::IObjectArray">IObjectArray</a>&gt;,
+        poasubs: Ref&lt;'_, <a class="struct" href="../../UI/Shell/Common/struct.IObjectArray.html" title="struct windows::Win32::UI::Shell::Common::IObjectArray">IObjectArray</a>&gt;,
         cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
         riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
@@ -40,7 +40,7 @@
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateStringLeaf" class="fn">CreateStringLeaf</a>(
         &amp;self,
-        propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../UI/Shell/PropertiesSystem/struct.PROPERTYKEY.html" title="struct windows::Win32::UI::Shell::PropertiesSystem::PROPERTYKEY">PROPERTYKEY</a>,
+        propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.PROPERTYKEY.html" title="struct windows::Win32::Foundation::PROPERTYKEY">PROPERTYKEY</a>,
         cop: <a class="struct" href="Common/struct.CONDITION_OPERATION.html" title="struct windows::Win32::System::Search::Common::CONDITION_OPERATION">CONDITION_OPERATION</a>,
         pszvalue: &amp;PCWSTR,
         pszlocalename: &amp;PCWSTR,
@@ -50,7 +50,7 @@
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateIntegerLeaf" class="fn">CreateIntegerLeaf</a>(
         &amp;self,
-        propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../UI/Shell/PropertiesSystem/struct.PROPERTYKEY.html" title="struct windows::Win32::UI::Shell::PropertiesSystem::PROPERTYKEY">PROPERTYKEY</a>,
+        propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.PROPERTYKEY.html" title="struct windows::Win32::Foundation::PROPERTYKEY">PROPERTYKEY</a>,
         cop: <a class="struct" href="Common/struct.CONDITION_OPERATION.html" title="struct windows::Win32::System::Search::Common::CONDITION_OPERATION">CONDITION_OPERATION</a>,
         lvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
         cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
@@ -59,7 +59,7 @@
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateBooleanLeaf" class="fn">CreateBooleanLeaf</a>(
         &amp;self,
-        propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../UI/Shell/PropertiesSystem/struct.PROPERTYKEY.html" title="struct windows::Win32::UI::Shell::PropertiesSystem::PROPERTYKEY">PROPERTYKEY</a>,
+        propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.PROPERTYKEY.html" title="struct windows::Win32::Foundation::PROPERTYKEY">PROPERTYKEY</a>,
         cop: <a class="struct" href="Common/struct.CONDITION_OPERATION.html" title="struct windows::Win32::System::Search::Common::CONDITION_OPERATION">CONDITION_OPERATION</a>,
         fvalue: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
         cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
@@ -68,21 +68,21 @@
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateLeaf" class="fn">CreateLeaf</a>(
         &amp;self,
-        propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../UI/Shell/PropertiesSystem/struct.PROPERTYKEY.html" title="struct windows::Win32::UI::Shell::PropertiesSystem::PROPERTYKEY">PROPERTYKEY</a>,
+        propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.PROPERTYKEY.html" title="struct windows::Win32::Foundation::PROPERTYKEY">PROPERTYKEY</a>,
         cop: <a class="struct" href="Common/struct.CONDITION_OPERATION.html" title="struct windows::Win32::System::Search::Common::CONDITION_OPERATION">CONDITION_OPERATION</a>,
-        propvar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>PROPVARIANT,
+        propvar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../Com/StructuredStorage/struct.PROPVARIANT.html" title="struct windows::Win32::System::Com::StructuredStorage::PROPVARIANT">PROPVARIANT</a>,
         pszsemantictype: &amp;PCWSTR,
         pszlocalename: &amp;PCWSTR,
-        ppropertynameterm: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
-        poperationterm: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
-        pvalueterm: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
+        ppropertynameterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
+        poperationterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
+        pvalueterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
         cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
         riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ResolveCondition" class="fn">ResolveCondition</a>(
         &amp;self,
-        pc: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
+        pc: Ref&lt;'_, <a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
         sqro: <a class="struct" href="struct.STRUCTURED_QUERY_RESOLVE_OPTION.html" title="struct windows::Win32::System::Search::STRUCTURED_QUERY_RESOLVE_OPTION">STRUCTURED_QUERY_RESOLVE_OPTION</a>,
         pstreferencetime: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.SYSTEMTIME.html" title="struct windows::Win32::Foundation::SYSTEMTIME">SYSTEMTIME</a>,
         riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
@@ -96,14 +96,14 @@
     ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CreateNegation" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateNegation" class="fn">CreateNegation</a>(
     &amp;self,
-    pcsub: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
+    pcsub: Ref&lt;'_, <a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
     cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
     riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CreateCompoundFromObjectArray" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateCompoundFromObjectArray" class="fn">CreateCompoundFromObjectArray</a>(
     &amp;self,
     ct: <a class="struct" href="Common/struct.CONDITION_TYPE.html" title="struct windows::Win32::System::Search::Common::CONDITION_TYPE">CONDITION_TYPE</a>,
-    poasubs: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../../UI/Shell/Common/struct.IObjectArray.html" title="struct windows::Win32::UI::Shell::Common::IObjectArray">IObjectArray</a>&gt;,
+    poasubs: Ref&lt;'_, <a class="struct" href="../../UI/Shell/Common/struct.IObjectArray.html" title="struct windows::Win32::UI::Shell::Common::IObjectArray">IObjectArray</a>&gt;,
     cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
     riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
@@ -117,7 +117,7 @@
     ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CreateStringLeaf" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateStringLeaf" class="fn">CreateStringLeaf</a>(
     &amp;self,
-    propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../UI/Shell/PropertiesSystem/struct.PROPERTYKEY.html" title="struct windows::Win32::UI::Shell::PropertiesSystem::PROPERTYKEY">PROPERTYKEY</a>,
+    propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.PROPERTYKEY.html" title="struct windows::Win32::Foundation::PROPERTYKEY">PROPERTYKEY</a>,
     cop: <a class="struct" href="Common/struct.CONDITION_OPERATION.html" title="struct windows::Win32::System::Search::Common::CONDITION_OPERATION">CONDITION_OPERATION</a>,
     pszvalue: &amp;PCWSTR,
     pszlocalename: &amp;PCWSTR,
@@ -126,7 +126,7 @@
     ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CreateIntegerLeaf" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateIntegerLeaf" class="fn">CreateIntegerLeaf</a>(
     &amp;self,
-    propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../UI/Shell/PropertiesSystem/struct.PROPERTYKEY.html" title="struct windows::Win32::UI::Shell::PropertiesSystem::PROPERTYKEY">PROPERTYKEY</a>,
+    propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.PROPERTYKEY.html" title="struct windows::Win32::Foundation::PROPERTYKEY">PROPERTYKEY</a>,
     cop: <a class="struct" href="Common/struct.CONDITION_OPERATION.html" title="struct windows::Win32::System::Search::Common::CONDITION_OPERATION">CONDITION_OPERATION</a>,
     lvalue: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i32.html">i32</a>,
     cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
@@ -134,7 +134,7 @@
     ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CreateBooleanLeaf" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateBooleanLeaf" class="fn">CreateBooleanLeaf</a>(
     &amp;self,
-    propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../UI/Shell/PropertiesSystem/struct.PROPERTYKEY.html" title="struct windows::Win32::UI::Shell::PropertiesSystem::PROPERTYKEY">PROPERTYKEY</a>,
+    propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.PROPERTYKEY.html" title="struct windows::Win32::Foundation::PROPERTYKEY">PROPERTYKEY</a>,
     cop: <a class="struct" href="Common/struct.CONDITION_OPERATION.html" title="struct windows::Win32::System::Search::Common::CONDITION_OPERATION">CONDITION_OPERATION</a>,
     fvalue: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
     cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
@@ -142,20 +142,20 @@
     ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CreateLeaf" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateLeaf" class="fn">CreateLeaf</a>(
     &amp;self,
-    propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../UI/Shell/PropertiesSystem/struct.PROPERTYKEY.html" title="struct windows::Win32::UI::Shell::PropertiesSystem::PROPERTYKEY">PROPERTYKEY</a>,
+    propkey: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.PROPERTYKEY.html" title="struct windows::Win32::Foundation::PROPERTYKEY">PROPERTYKEY</a>,
     cop: <a class="struct" href="Common/struct.CONDITION_OPERATION.html" title="struct windows::Win32::System::Search::Common::CONDITION_OPERATION">CONDITION_OPERATION</a>,
-    propvar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>PROPVARIANT,
+    propvar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../Com/StructuredStorage/struct.PROPVARIANT.html" title="struct windows::Win32::System::Com::StructuredStorage::PROPVARIANT">PROPVARIANT</a>,
     pszsemantictype: &amp;PCWSTR,
     pszlocalename: &amp;PCWSTR,
-    ppropertynameterm: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
-    poperationterm: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
-    pvalueterm: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
+    ppropertynameterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
+    poperationterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
+    pvalueterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
     cco: <a class="struct" href="struct.CONDITION_CREATION_OPTIONS.html" title="struct windows::Win32::System::Search::CONDITION_CREATION_OPTIONS">CONDITION_CREATION_OPTIONS</a>,
     riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     ppv: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ResolveCondition" class="method"><h4 class="code-header">fn <a href="#tymethod.ResolveCondition" class="fn">ResolveCondition</a>(
     &amp;self,
-    pc: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
+    pc: Ref&lt;'_, <a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
     sqro: <a class="struct" href="struct.STRUCTURED_QUERY_RESOLVE_OPTION.html" title="struct windows::Win32::System::Search::STRUCTURED_QUERY_RESOLVE_OPTION">STRUCTURED_QUERY_RESOLVE_OPTION</a>,
     pstreferencetime: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../Foundation/struct.SYSTEMTIME.html" title="struct windows::Win32::Foundation::SYSTEMTIME">SYSTEMTIME</a>,
     riid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,

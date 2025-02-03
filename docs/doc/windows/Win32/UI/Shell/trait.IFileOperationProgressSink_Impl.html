@@ -5,83 +5,83 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IFile<wbr>Operation<wbr>Progress<wbr>Sink_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.FinishOperations" title="FinishOperations">FinishOperations</a></li><li><a href="#tymethod.PauseTimer" title="PauseTimer">PauseTimer</a></li><li><a href="#tymethod.PostCopyItem" title="PostCopyItem">PostCopyItem</a></li><li><a href="#tymethod.PostDeleteItem" title="PostDeleteItem">PostDeleteItem</a></li><li><a href="#tymethod.PostMoveItem" title="PostMoveItem">PostMoveItem</a></li><li><a href="#tymethod.PostNewItem" title="PostNewItem">PostNewItem</a></li><li><a href="#tymethod.PostRenameItem" title="PostRenameItem">PostRenameItem</a></li><li><a href="#tymethod.PreCopyItem" title="PreCopyItem">PreCopyItem</a></li><li><a href="#tymethod.PreDeleteItem" title="PreDeleteItem">PreDeleteItem</a></li><li><a href="#tymethod.PreMoveItem" title="PreMoveItem">PreMoveItem</a></li><li><a href="#tymethod.PreNewItem" title="PreNewItem">PreNewItem</a></li><li><a href="#tymethod.PreRenameItem" title="PreRenameItem">PreRenameItem</a></li><li><a href="#tymethod.ResetTimer" title="ResetTimer">ResetTimer</a></li><li><a href="#tymethod.ResumeTimer" title="ResumeTimer">ResumeTimer</a></li><li><a href="#tymethod.StartOperations" title="StartOperations">StartOperations</a></li><li><a href="#tymethod.UpdateProgress" title="UpdateProgress">UpdateProgress</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>UI::<wbr>Shell</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">UI</a>::<wbr><a href="index.html">Shell</a></span><h1>Trait <span class="trait">IFileOperationProgressSink_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IFileOperationProgressSink_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IFile<wbr>Operation<wbr>Progress<wbr>Sink_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.FinishOperations" title="FinishOperations">FinishOperations</a></li><li><a href="#tymethod.PauseTimer" title="PauseTimer">PauseTimer</a></li><li><a href="#tymethod.PostCopyItem" title="PostCopyItem">PostCopyItem</a></li><li><a href="#tymethod.PostDeleteItem" title="PostDeleteItem">PostDeleteItem</a></li><li><a href="#tymethod.PostMoveItem" title="PostMoveItem">PostMoveItem</a></li><li><a href="#tymethod.PostNewItem" title="PostNewItem">PostNewItem</a></li><li><a href="#tymethod.PostRenameItem" title="PostRenameItem">PostRenameItem</a></li><li><a href="#tymethod.PreCopyItem" title="PreCopyItem">PreCopyItem</a></li><li><a href="#tymethod.PreDeleteItem" title="PreDeleteItem">PreDeleteItem</a></li><li><a href="#tymethod.PreMoveItem" title="PreMoveItem">PreMoveItem</a></li><li><a href="#tymethod.PreNewItem" title="PreNewItem">PreNewItem</a></li><li><a href="#tymethod.PreRenameItem" title="PreRenameItem">PreRenameItem</a></li><li><a href="#tymethod.ResetTimer" title="ResetTimer">ResetTimer</a></li><li><a href="#tymethod.ResumeTimer" title="ResumeTimer">ResumeTimer</a></li><li><a href="#tymethod.StartOperations" title="StartOperations">StartOperations</a></li><li><a href="#tymethod.UpdateProgress" title="UpdateProgress">UpdateProgress</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>UI::<wbr>Shell</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">UI</a>::<wbr><a href="index.html">Shell</a></span><h1>Trait <span class="trait">IFileOperationProgressSink_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IFileOperationProgressSink_Impl: IUnknownImpl {
 <details class="toggle type-contents-toggle"><summary class="hideme"><span>Show 16 methods</span></summary>    // Required methods
     fn <a href="#tymethod.StartOperations" class="fn">StartOperations</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.FinishOperations" class="fn">FinishOperations</a>(&amp;self, hrresult: HRESULT) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PreRenameItem" class="fn">PreRenameItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         psznewname: &amp;PCWSTR,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PostRenameItem" class="fn">PostRenameItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         psznewname: &amp;PCWSTR,
         hrrename: HRESULT,
-        psinewlycreated: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psinewlycreated: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PreMoveItem" class="fn">PreMoveItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
-        psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         psznewname: &amp;PCWSTR,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PostMoveItem" class="fn">PostMoveItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
-        psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         psznewname: &amp;PCWSTR,
         hrmove: HRESULT,
-        psinewlycreated: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psinewlycreated: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PreCopyItem" class="fn">PreCopyItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
-        psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         psznewname: &amp;PCWSTR,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PostCopyItem" class="fn">PostCopyItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
-        psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         psznewname: &amp;PCWSTR,
         hrcopy: HRESULT,
-        psinewlycreated: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psinewlycreated: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PreDeleteItem" class="fn">PreDeleteItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PostDeleteItem" class="fn">PostDeleteItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         hrdelete: HRESULT,
-        psinewlycreated: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psinewlycreated: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PreNewItem" class="fn">PreNewItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         psznewname: &amp;PCWSTR,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.PostNewItem" class="fn">PostNewItem</a>(
         &amp;self,
         dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
         psznewname: &amp;PCWSTR,
         psztemplatename: &amp;PCWSTR,
         dwfileattributes: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         hrnew: HRESULT,
-        psinewitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+        psinewitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.UpdateProgress" class="fn">UpdateProgress</a>(&amp;self, iworktotal: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, iworksofar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ResetTimer" class="fn">ResetTimer</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
@@ -90,65 +90,65 @@
 </details>}</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.StartOperations" class="method"><h4 class="code-header">fn <a href="#tymethod.StartOperations" class="fn">StartOperations</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.FinishOperations" class="method"><h4 class="code-header">fn <a href="#tymethod.FinishOperations" class="fn">FinishOperations</a>(&amp;self, hrresult: HRESULT) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PreRenameItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PreRenameItem" class="fn">PreRenameItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     psznewname: &amp;PCWSTR,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PostRenameItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PostRenameItem" class="fn">PostRenameItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     psznewname: &amp;PCWSTR,
     hrrename: HRESULT,
-    psinewlycreated: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psinewlycreated: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PreMoveItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PreMoveItem" class="fn">PreMoveItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
-    psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     psznewname: &amp;PCWSTR,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PostMoveItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PostMoveItem" class="fn">PostMoveItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
-    psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     psznewname: &amp;PCWSTR,
     hrmove: HRESULT,
-    psinewlycreated: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psinewlycreated: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PreCopyItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PreCopyItem" class="fn">PreCopyItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
-    psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     psznewname: &amp;PCWSTR,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PostCopyItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PostCopyItem" class="fn">PostCopyItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
-    psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     psznewname: &amp;PCWSTR,
     hrcopy: HRESULT,
-    psinewlycreated: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psinewlycreated: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PreDeleteItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PreDeleteItem" class="fn">PreDeleteItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PostDeleteItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PostDeleteItem" class="fn">PostDeleteItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psiitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psiitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     hrdelete: HRESULT,
-    psinewlycreated: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psinewlycreated: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PreNewItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PreNewItem" class="fn">PreNewItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     psznewname: &amp;PCWSTR,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PostNewItem" class="method"><h4 class="code-header">fn <a href="#tymethod.PostNewItem" class="fn">PostNewItem</a>(
     &amp;self,
     dwflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    psidestinationfolder: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psidestinationfolder: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
     psznewname: &amp;PCWSTR,
     psztemplatename: &amp;PCWSTR,
     dwfileattributes: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     hrnew: HRESULT,
-    psinewitem: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
+    psinewitem: Ref&lt;'_, <a class="struct" href="struct.IShellItem.html" title="struct windows::Win32::UI::Shell::IShellItem">IShellItem</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.UpdateProgress" class="method"><h4 class="code-header">fn <a href="#tymethod.UpdateProgress" class="fn">UpdateProgress</a>(&amp;self, iworktotal: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>, iworksofar: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ResetTimer" class="method"><h4 class="code-header">fn <a href="#tymethod.ResetTimer" class="fn">ResetTimer</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.PauseTimer" class="method"><h4 class="code-header">fn <a href="#tymethod.PauseTimer" class="fn">PauseTimer</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ResumeTimer" class="method"><h4 class="code-header">fn <a href="#tymethod.ResumeTimer" class="fn">ResumeTimer</a>(&amp;self) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="dyn-compatibility" class="section-header">Dyn Compatibility<a href="#dyn-compatibility" class="anchor">§</a></h2><div class="dyn-compatibility-info"><p>This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">dyn compatible</a>.</p><p><i>In older versions of Rust, dyn compatibility was called "object safety", so this trait is not object safe.</i></p></div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/UI/Shell/trait.IFileOperationProgressSink_Impl.js" async></script></section></div></main></body></html>

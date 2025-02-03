@@ -5,13 +5,13 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IMAPI<wbr>Folder_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CopyFolder" title="CopyFolder">CopyFolder</a></li><li><a href="#tymethod.CopyMessages" title="CopyMessages">CopyMessages</a></li><li><a href="#tymethod.CreateFolder" title="CreateFolder">CreateFolder</a></li><li><a href="#tymethod.CreateMessage" title="CreateMessage">CreateMessage</a></li><li><a href="#tymethod.DeleteFolder" title="DeleteFolder">DeleteFolder</a></li><li><a href="#tymethod.DeleteMessages" title="DeleteMessages">DeleteMessages</a></li><li><a href="#tymethod.EmptyFolder" title="EmptyFolder">EmptyFolder</a></li><li><a href="#tymethod.GetMessageStatus" title="GetMessageStatus">GetMessageStatus</a></li><li><a href="#tymethod.SaveContentsSort" title="SaveContentsSort">SaveContentsSort</a></li><li><a href="#tymethod.SetMessageStatus" title="SetMessageStatus">SetMessageStatus</a></li><li><a href="#tymethod.SetReadFlags" title="SetReadFlags">SetReadFlags</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Address<wbr>Book</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">AddressBook</a></span><h1>Trait <span class="trait">IMAPIFolder_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IMAPIFolder_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> + <a class="trait" href="trait.IMAPIContainer_Impl.html" title="trait windows::Win32::System::AddressBook::IMAPIContainer_Impl">IMAPIContainer_Impl</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IMAPI<wbr>Folder_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CopyFolder" title="CopyFolder">CopyFolder</a></li><li><a href="#tymethod.CopyMessages" title="CopyMessages">CopyMessages</a></li><li><a href="#tymethod.CreateFolder" title="CreateFolder">CreateFolder</a></li><li><a href="#tymethod.CreateMessage" title="CreateMessage">CreateMessage</a></li><li><a href="#tymethod.DeleteFolder" title="DeleteFolder">DeleteFolder</a></li><li><a href="#tymethod.DeleteMessages" title="DeleteMessages">DeleteMessages</a></li><li><a href="#tymethod.EmptyFolder" title="EmptyFolder">EmptyFolder</a></li><li><a href="#tymethod.GetMessageStatus" title="GetMessageStatus">GetMessageStatus</a></li><li><a href="#tymethod.SaveContentsSort" title="SaveContentsSort">SaveContentsSort</a></li><li><a href="#tymethod.SetMessageStatus" title="SetMessageStatus">SetMessageStatus</a></li><li><a href="#tymethod.SetReadFlags" title="SetReadFlags">SetReadFlags</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Address<wbr>Book</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">AddressBook</a></span><h1>Trait <span class="trait">IMAPIFolder_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IMAPIFolder_Impl: <a class="trait" href="trait.IMAPIContainer_Impl.html" title="trait windows::Win32::System::AddressBook::IMAPIContainer_Impl">IMAPIContainer_Impl</a> {
     // Required methods
     fn <a href="#tymethod.CreateMessage" class="fn">CreateMessage</a>(
         &amp;self,
         lpinterface: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>GUID,
         ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        lppmessage: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="struct.IMessage.html" title="struct windows::Win32::System::AddressBook::IMessage">IMessage</a>&gt;,
+        lppmessage: OutRef&lt;'_, <a class="struct" href="struct.IMessage.html" title="struct windows::Win32::System::AddressBook::IMessage">IMessage</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CopyMessages" class="fn">CopyMessages</a>(
         &amp;self,
@@ -19,14 +19,14 @@
         lpinterface: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
         lpdestfolder: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
         uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-        lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+        lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
         ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteMessages" class="fn">DeleteMessages</a>(
         &amp;self,
         lpmsglist: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.SBinaryArray.html" title="struct windows::Win32::System::AddressBook::SBinaryArray">SBinaryArray</a>,
         uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-        lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+        lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
         ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CreateFolder" class="fn">CreateFolder</a>(
@@ -45,7 +45,7 @@
         lpdestfolder: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
         lpsznewfoldername: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i8.html">i8</a>,
         uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-        lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+        lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
         ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.DeleteFolder" class="fn">DeleteFolder</a>(
@@ -53,14 +53,14 @@
         cbentryid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
         lpentryid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ENTRYID.html" title="struct windows::Win32::System::AddressBook::ENTRYID">ENTRYID</a>,
         uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-        lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+        lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
         ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.SetReadFlags" class="fn">SetReadFlags</a>(
         &amp;self,
         lpmsglist: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.SBinaryArray.html" title="struct windows::Win32::System::AddressBook::SBinaryArray">SBinaryArray</a>,
         uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-        lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+        lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
         ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetMessageStatus" class="fn">GetMessageStatus</a>(
@@ -84,27 +84,27 @@
 <span class="item-spacer"></span>    fn <a href="#tymethod.EmptyFolder" class="fn">EmptyFolder</a>(
         &amp;self,
         uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-        lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+        lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
         ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 }</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.CreateMessage" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateMessage" class="fn">CreateMessage</a>(
     &amp;self,
     lpinterface: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>GUID,
     ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    lppmessage: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;<a class="struct" href="struct.IMessage.html" title="struct windows::Win32::System::AddressBook::IMessage">IMessage</a>&gt;,
+    lppmessage: OutRef&lt;'_, <a class="struct" href="struct.IMessage.html" title="struct windows::Win32::System::AddressBook::IMessage">IMessage</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CopyMessages" class="method"><h4 class="code-header">fn <a href="#tymethod.CopyMessages" class="fn">CopyMessages</a>(
     &amp;self,
     lpmsglist: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.SBinaryArray.html" title="struct windows::Win32::System::AddressBook::SBinaryArray">SBinaryArray</a>,
     lpinterface: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>GUID,
     lpdestfolder: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-    lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+    lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
     ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeleteMessages" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteMessages" class="fn">DeleteMessages</a>(
     &amp;self,
     lpmsglist: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.SBinaryArray.html" title="struct windows::Win32::System::AddressBook::SBinaryArray">SBinaryArray</a>,
     uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-    lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+    lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
     ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CreateFolder" class="method"><h4 class="code-header">fn <a href="#tymethod.CreateFolder" class="fn">CreateFolder</a>(
     &amp;self,
@@ -121,20 +121,20 @@
     lpdestfolder: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="enum" href="https://doc.rust-lang.org/nightly/core/ffi/enum.c_void.html" title="enum core::ffi::c_void">c_void</a>,
     lpsznewfoldername: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.i8.html">i8</a>,
     uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-    lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+    lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
     ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.DeleteFolder" class="method"><h4 class="code-header">fn <a href="#tymethod.DeleteFolder" class="fn">DeleteFolder</a>(
     &amp;self,
     cbentryid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     lpentryid: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.ENTRYID.html" title="struct windows::Win32::System::AddressBook::ENTRYID">ENTRYID</a>,
     uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-    lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+    lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
     ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.SetReadFlags" class="method"><h4 class="code-header">fn <a href="#tymethod.SetReadFlags" class="fn">SetReadFlags</a>(
     &amp;self,
     lpmsglist: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="struct.SBinaryArray.html" title="struct windows::Win32::System::AddressBook::SBinaryArray">SBinaryArray</a>,
     uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-    lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+    lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
     ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.GetMessageStatus" class="method"><h4 class="code-header">fn <a href="#tymethod.GetMessageStatus" class="fn">GetMessageStatus</a>(
     &amp;self,
@@ -154,6 +154,6 @@
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.EmptyFolder" class="method"><h4 class="code-header">fn <a href="#tymethod.EmptyFolder" class="fn">EmptyFolder</a>(
     &amp;self,
     uluiparam: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.usize.html">usize</a>,
-    lpprogress: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
+    lpprogress: Ref&lt;'_, <a class="struct" href="struct.IMAPIProgress.html" title="struct windows::Win32::System::AddressBook::IMAPIProgress">IMAPIProgress</a>&gt;,
     ulflags: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="dyn-compatibility" class="section-header">Dyn Compatibility<a href="#dyn-compatibility" class="anchor">§</a></h2><div class="dyn-compatibility-info"><p>This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">dyn compatible</a>.</p><p><i>In older versions of Rust, dyn compatibility was called "object safety", so this trait is not object safe.</i></p></div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/System/AddressBook/trait.IMAPIFolder_Impl.js" async></script></section></div></main></body></html>

@@ -5,25 +5,25 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.58.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IProperty<wbr>Sheet<wbr>Provider_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.AddExtensionPages" title="AddExtensionPages">AddExtensionPages</a></li><li><a href="#tymethod.AddPrimaryPages" title="AddPrimaryPages">AddPrimaryPages</a></li><li><a href="#tymethod.CreatePropertySheet" title="CreatePropertySheet">CreatePropertySheet</a></li><li><a href="#tymethod.FindPropertySheet" title="FindPropertySheet">FindPropertySheet</a></li><li><a href="#tymethod.Show" title="Show">Show</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Mmc</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Mmc</a></span><h1>Trait <span class="trait">IPropertySheetProvider_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IPropertySheetProvider_Impl: <a class="trait" href="https://doc.rust-lang.org/nightly/core/marker/trait.Sized.html" title="trait core::marker::Sized">Sized</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">IProperty<wbr>Sheet<wbr>Provider_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.AddExtensionPages" title="AddExtensionPages">AddExtensionPages</a></li><li><a href="#tymethod.AddPrimaryPages" title="AddPrimaryPages">AddPrimaryPages</a></li><li><a href="#tymethod.CreatePropertySheet" title="CreatePropertySheet">CreatePropertySheet</a></li><li><a href="#tymethod.FindPropertySheet" title="FindPropertySheet">FindPropertySheet</a></li><li><a href="#tymethod.Show" title="Show">Show</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Mmc</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Mmc</a></span><h1>Trait <span class="trait">IPropertySheetProvider_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IPropertySheetProvider_Impl: IUnknownImpl {
     // Required methods
     fn <a href="#tymethod.CreatePropertySheet" class="fn">CreatePropertySheet</a>(
         &amp;self,
         title: &amp;PCWSTR,
         type: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
         cookie: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.isize.html">isize</a>,
-        pidataobjectm: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDataObject.html" title="struct windows::Win32::System::Com::IDataObject">IDataObject</a>&gt;,
+        pidataobjectm: Ref&lt;'_, <a class="struct" href="../Com/struct.IDataObject.html" title="struct windows::Win32::System::Com::IDataObject">IDataObject</a>&gt;,
         dwoptions: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.FindPropertySheet" class="fn">FindPropertySheet</a>(
         &amp;self,
         hitem: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.isize.html">isize</a>,
-        lpcomponent: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IComponent.html" title="struct windows::Win32::System::Mmc::IComponent">IComponent</a>&gt;,
-        lpdataobject: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDataObject.html" title="struct windows::Win32::System::Com::IDataObject">IDataObject</a>&gt;,
+        lpcomponent: Ref&lt;'_, <a class="struct" href="struct.IComponent.html" title="struct windows::Win32::System::Mmc::IComponent">IComponent</a>&gt;,
+        lpdataobject: Ref&lt;'_, <a class="struct" href="../Com/struct.IDataObject.html" title="struct windows::Win32::System::Com::IDataObject">IDataObject</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.AddPrimaryPages" class="fn">AddPrimaryPages</a>(
         &amp;self,
-        lpunknown: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+        lpunknown: Ref&lt;'_, IUnknown&gt;,
         bcreatehandle: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
         hnotifywindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
         bscopepane: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
@@ -35,16 +35,16 @@
     title: &amp;PCWSTR,
     type: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u8.html">u8</a>,
     cookie: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.isize.html">isize</a>,
-    pidataobjectm: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDataObject.html" title="struct windows::Win32::System::Com::IDataObject">IDataObject</a>&gt;,
+    pidataobjectm: Ref&lt;'_, <a class="struct" href="../Com/struct.IDataObject.html" title="struct windows::Win32::System::Com::IDataObject">IDataObject</a>&gt;,
     dwoptions: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.FindPropertySheet" class="method"><h4 class="code-header">fn <a href="#tymethod.FindPropertySheet" class="fn">FindPropertySheet</a>(
     &amp;self,
     hitem: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.isize.html">isize</a>,
-    lpcomponent: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="struct.IComponent.html" title="struct windows::Win32::System::Mmc::IComponent">IComponent</a>&gt;,
-    lpdataobject: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;<a class="struct" href="../Com/struct.IDataObject.html" title="struct windows::Win32::System::Com::IDataObject">IDataObject</a>&gt;,
+    lpcomponent: Ref&lt;'_, <a class="struct" href="struct.IComponent.html" title="struct windows::Win32::System::Mmc::IComponent">IComponent</a>&gt;,
+    lpdataobject: Ref&lt;'_, <a class="struct" href="../Com/struct.IDataObject.html" title="struct windows::Win32::System::Com::IDataObject">IDataObject</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.AddPrimaryPages" class="method"><h4 class="code-header">fn <a href="#tymethod.AddPrimaryPages" class="fn">AddPrimaryPages</a>(
     &amp;self,
-    lpunknown: <a class="enum" href="https://doc.rust-lang.org/nightly/core/option/enum.Option.html" title="enum core::option::Option">Option</a>&lt;&amp;IUnknown&gt;,
+    lpunknown: Ref&lt;'_, IUnknown&gt;,
     bcreatehandle: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
     hnotifywindow: <a class="struct" href="../../Foundation/struct.HWND.html" title="struct windows::Win32::Foundation::HWND">HWND</a>,
     bscopepane: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
