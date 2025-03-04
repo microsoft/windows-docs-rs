@@ -5,7 +5,7 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">ID3D11<wbr>Video<wbr>Context1_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CheckCryptoSessionStatus" title="CheckCryptoSessionStatus">CheckCryptoSessionStatus</a></li><li><a href="#tymethod.DecoderEnableDownsampling" title="DecoderEnableDownsampling">DecoderEnableDownsampling</a></li><li><a href="#tymethod.DecoderUpdateDownsampling" title="DecoderUpdateDownsampling">DecoderUpdateDownsampling</a></li><li><a href="#tymethod.GetDataForNewHardwareKey" title="GetDataForNewHardwareKey">GetDataForNewHardwareKey</a></li><li><a href="#tymethod.SubmitDecoderBuffers1" title="SubmitDecoderBuffers1">SubmitDecoderBuffers1</a></li><li><a href="#tymethod.VideoProcessorGetBehaviorHints" title="VideoProcessorGetBehaviorHints">VideoProcessorGetBehaviorHints</a></li><li><a href="#tymethod.VideoProcessorGetOutputColorSpace1" title="VideoProcessorGetOutputColorSpace1">VideoProcessorGetOutputColorSpace1</a></li><li><a href="#tymethod.VideoProcessorGetOutputShaderUsage" title="VideoProcessorGetOutputShaderUsage">VideoProcessorGetOutputShaderUsage</a></li><li><a href="#tymethod.VideoProcessorGetStreamColorSpace1" title="VideoProcessorGetStreamColorSpace1">VideoProcessorGetStreamColorSpace1</a></li><li><a href="#tymethod.VideoProcessorGetStreamMirror" title="VideoProcessorGetStreamMirror">VideoProcessorGetStreamMirror</a></li><li><a href="#tymethod.VideoProcessorSetOutputColorSpace1" title="VideoProcessorSetOutputColorSpace1">VideoProcessorSetOutputColorSpace1</a></li><li><a href="#tymethod.VideoProcessorSetOutputShaderUsage" title="VideoProcessorSetOutputShaderUsage">VideoProcessorSetOutputShaderUsage</a></li><li><a href="#tymethod.VideoProcessorSetStreamColorSpace1" title="VideoProcessorSetStreamColorSpace1">VideoProcessorSetStreamColorSpace1</a></li><li><a href="#tymethod.VideoProcessorSetStreamMirror" title="VideoProcessorSetStreamMirror">VideoProcessorSetStreamMirror</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Graphics::<wbr>Direct3<wbr>D11</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Graphics</a>::<wbr><a href="index.html">Direct3D11</a></span><h1>Trait <span class="trait">ID3D11VideoContext1_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait ID3D11VideoContext1_Impl: <a class="trait" href="trait.ID3D11VideoContext_Impl.html" title="trait windows::Win32::Graphics::Direct3D11::ID3D11VideoContext_Impl">ID3D11VideoContext_Impl</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.60.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">ID3D11<wbr>Video<wbr>Context1_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CheckCryptoSessionStatus" title="CheckCryptoSessionStatus">CheckCryptoSessionStatus</a></li><li><a href="#tymethod.DecoderEnableDownsampling" title="DecoderEnableDownsampling">DecoderEnableDownsampling</a></li><li><a href="#tymethod.DecoderUpdateDownsampling" title="DecoderUpdateDownsampling">DecoderUpdateDownsampling</a></li><li><a href="#tymethod.GetDataForNewHardwareKey" title="GetDataForNewHardwareKey">GetDataForNewHardwareKey</a></li><li><a href="#tymethod.SubmitDecoderBuffers1" title="SubmitDecoderBuffers1">SubmitDecoderBuffers1</a></li><li><a href="#tymethod.VideoProcessorGetBehaviorHints" title="VideoProcessorGetBehaviorHints">VideoProcessorGetBehaviorHints</a></li><li><a href="#tymethod.VideoProcessorGetOutputColorSpace1" title="VideoProcessorGetOutputColorSpace1">VideoProcessorGetOutputColorSpace1</a></li><li><a href="#tymethod.VideoProcessorGetOutputShaderUsage" title="VideoProcessorGetOutputShaderUsage">VideoProcessorGetOutputShaderUsage</a></li><li><a href="#tymethod.VideoProcessorGetStreamColorSpace1" title="VideoProcessorGetStreamColorSpace1">VideoProcessorGetStreamColorSpace1</a></li><li><a href="#tymethod.VideoProcessorGetStreamMirror" title="VideoProcessorGetStreamMirror">VideoProcessorGetStreamMirror</a></li><li><a href="#tymethod.VideoProcessorSetOutputColorSpace1" title="VideoProcessorSetOutputColorSpace1">VideoProcessorSetOutputColorSpace1</a></li><li><a href="#tymethod.VideoProcessorSetOutputShaderUsage" title="VideoProcessorSetOutputShaderUsage">VideoProcessorSetOutputShaderUsage</a></li><li><a href="#tymethod.VideoProcessorSetStreamColorSpace1" title="VideoProcessorSetStreamColorSpace1">VideoProcessorSetStreamColorSpace1</a></li><li><a href="#tymethod.VideoProcessorSetStreamMirror" title="VideoProcessorSetStreamMirror">VideoProcessorSetStreamMirror</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Graphics::<wbr>Direct3<wbr>D11</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Graphics</a>::<wbr><a href="index.html">Direct3D11</a></span><h1>Trait <span class="trait">ID3D11VideoContext1_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait ID3D11VideoContext1_Impl: <a class="trait" href="trait.ID3D11VideoContext_Impl.html" title="trait windows::Win32::Graphics::Direct3D11::ID3D11VideoContext_Impl">ID3D11VideoContext_Impl</a> {
 <details class="toggle type-contents-toggle"><summary class="hideme"><span>Show 14 methods</span></summary>    // Required methods
     fn <a href="#tymethod.SubmitDecoderBuffers1" class="fn">SubmitDecoderBuffers1</a>(
         &amp;self,
@@ -43,7 +43,7 @@
 <span class="item-spacer"></span>    fn <a href="#tymethod.VideoProcessorSetOutputShaderUsage" class="fn">VideoProcessorSetOutputShaderUsage</a>(
         &amp;self,
         pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
-        shaderusage: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+        shaderusage: BOOL,
     );
 <span class="item-spacer"></span>    fn <a href="#tymethod.VideoProcessorGetOutputColorSpace1" class="fn">VideoProcessorGetOutputColorSpace1</a>(
         &amp;self,
@@ -53,7 +53,7 @@
 <span class="item-spacer"></span>    fn <a href="#tymethod.VideoProcessorGetOutputShaderUsage" class="fn">VideoProcessorGetOutputShaderUsage</a>(
         &amp;self,
         pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
-        pshaderusage: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+        pshaderusage: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BOOL,
     );
 <span class="item-spacer"></span>    fn <a href="#tymethod.VideoProcessorSetStreamColorSpace1" class="fn">VideoProcessorSetStreamColorSpace1</a>(
         &amp;self,
@@ -65,9 +65,9 @@
         &amp;self,
         pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
         streamindex: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        enable: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-        fliphorizontal: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-        flipvertical: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+        enable: BOOL,
+        fliphorizontal: BOOL,
+        flipvertical: BOOL,
     );
 <span class="item-spacer"></span>    fn <a href="#tymethod.VideoProcessorGetStreamColorSpace1" class="fn">VideoProcessorGetStreamColorSpace1</a>(
         &amp;self,
@@ -79,9 +79,9 @@
         &amp;self,
         pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
         streamindex: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-        penable: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-        pfliphorizontal: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-        pflipvertical: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+        penable: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BOOL,
+        pfliphorizontal: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BOOL,
+        pflipvertical: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BOOL,
     );
 <span class="item-spacer"></span>    fn <a href="#tymethod.VideoProcessorGetBehaviorHints" class="fn">VideoProcessorGetBehaviorHints</a>(
         &amp;self,
@@ -122,7 +122,7 @@
 )</h4></section><section id="tymethod.VideoProcessorSetOutputShaderUsage" class="method"><h4 class="code-header">fn <a href="#tymethod.VideoProcessorSetOutputShaderUsage" class="fn">VideoProcessorSetOutputShaderUsage</a>(
     &amp;self,
     pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
-    shaderusage: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+    shaderusage: BOOL,
 )</h4></section><section id="tymethod.VideoProcessorGetOutputColorSpace1" class="method"><h4 class="code-header">fn <a href="#tymethod.VideoProcessorGetOutputColorSpace1" class="fn">VideoProcessorGetOutputColorSpace1</a>(
     &amp;self,
     pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
@@ -130,7 +130,7 @@
 )</h4></section><section id="tymethod.VideoProcessorGetOutputShaderUsage" class="method"><h4 class="code-header">fn <a href="#tymethod.VideoProcessorGetOutputShaderUsage" class="fn">VideoProcessorGetOutputShaderUsage</a>(
     &amp;self,
     pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
-    pshaderusage: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+    pshaderusage: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BOOL,
 )</h4></section><section id="tymethod.VideoProcessorSetStreamColorSpace1" class="method"><h4 class="code-header">fn <a href="#tymethod.VideoProcessorSetStreamColorSpace1" class="fn">VideoProcessorSetStreamColorSpace1</a>(
     &amp;self,
     pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
@@ -140,9 +140,9 @@
     &amp;self,
     pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
     streamindex: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    enable: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-    fliphorizontal: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-    flipvertical: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+    enable: BOOL,
+    fliphorizontal: BOOL,
+    flipvertical: BOOL,
 )</h4></section><section id="tymethod.VideoProcessorGetStreamColorSpace1" class="method"><h4 class="code-header">fn <a href="#tymethod.VideoProcessorGetStreamColorSpace1" class="fn">VideoProcessorGetStreamColorSpace1</a>(
     &amp;self,
     pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
@@ -152,9 +152,9 @@
     &amp;self,
     pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,
     streamindex: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.u32.html">u32</a>,
-    penable: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-    pfliphorizontal: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
-    pflipvertical: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+    penable: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BOOL,
+    pfliphorizontal: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BOOL,
+    pflipvertical: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a>BOOL,
 )</h4></section><section id="tymethod.VideoProcessorGetBehaviorHints" class="method"><h4 class="code-header">fn <a href="#tymethod.VideoProcessorGetBehaviorHints" class="fn">VideoProcessorGetBehaviorHints</a>(
     &amp;self,
     pvideoprocessor: Ref&lt;'_, <a class="struct" href="struct.ID3D11VideoProcessor.html" title="struct windows::Win32::Graphics::Direct3D11::ID3D11VideoProcessor">ID3D11VideoProcessor</a>&gt;,

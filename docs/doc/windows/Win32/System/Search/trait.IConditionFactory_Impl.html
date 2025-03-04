@@ -5,18 +5,18 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">ICondition<wbr>Factory_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.MakeAndOr" title="MakeAndOr">MakeAndOr</a></li><li><a href="#tymethod.MakeLeaf" title="MakeLeaf">MakeLeaf</a></li><li><a href="#tymethod.MakeNot" title="MakeNot">MakeNot</a></li><li><a href="#tymethod.Resolve" title="Resolve">Resolve</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Search</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Search</a></span><h1>Trait <span class="trait">IConditionFactory_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IConditionFactory_Impl: IUnknownImpl {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.60.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">ICondition<wbr>Factory_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.MakeAndOr" title="MakeAndOr">MakeAndOr</a></li><li><a href="#tymethod.MakeLeaf" title="MakeLeaf">MakeLeaf</a></li><li><a href="#tymethod.MakeNot" title="MakeNot">MakeNot</a></li><li><a href="#tymethod.Resolve" title="Resolve">Resolve</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>System::<wbr>Search</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">System</a>::<wbr><a href="index.html">Search</a></span><h1>Trait <span class="trait">IConditionFactory_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait IConditionFactory_Impl: IUnknownImpl {
     // Required methods
     fn <a href="#tymethod.MakeNot" class="fn">MakeNot</a>(
         &amp;self,
         pcsub: Ref&lt;'_, <a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
-        fsimplify: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+        fsimplify: BOOL,
     ) -&gt; Result&lt;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.MakeAndOr" class="fn">MakeAndOr</a>(
         &amp;self,
         ct: <a class="struct" href="Common/struct.CONDITION_TYPE.html" title="struct windows::Win32::System::Search::Common::CONDITION_TYPE">CONDITION_TYPE</a>,
         peusubs: Ref&lt;'_, <a class="struct" href="../Com/struct.IEnumUnknown.html" title="struct windows::Win32::System::Com::IEnumUnknown">IEnumUnknown</a>&gt;,
-        fsimplify: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+        fsimplify: BOOL,
     ) -&gt; Result&lt;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.MakeLeaf" class="fn">MakeLeaf</a>(
         &amp;self,
@@ -27,7 +27,7 @@
         ppropertynameterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
         poperationterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
         pvalueterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
-        fexpand: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+        fexpand: BOOL,
     ) -&gt; Result&lt;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Resolve" class="fn">Resolve</a>(
         &amp;self,
@@ -38,12 +38,12 @@
 }</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.MakeNot" class="method"><h4 class="code-header">fn <a href="#tymethod.MakeNot" class="fn">MakeNot</a>(
     &amp;self,
     pcsub: Ref&lt;'_, <a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,
-    fsimplify: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+    fsimplify: BOOL,
 ) -&gt; Result&lt;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;</h4></section><section id="tymethod.MakeAndOr" class="method"><h4 class="code-header">fn <a href="#tymethod.MakeAndOr" class="fn">MakeAndOr</a>(
     &amp;self,
     ct: <a class="struct" href="Common/struct.CONDITION_TYPE.html" title="struct windows::Win32::System::Search::Common::CONDITION_TYPE">CONDITION_TYPE</a>,
     peusubs: Ref&lt;'_, <a class="struct" href="../Com/struct.IEnumUnknown.html" title="struct windows::Win32::System::Com::IEnumUnknown">IEnumUnknown</a>&gt;,
-    fsimplify: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+    fsimplify: BOOL,
 ) -&gt; Result&lt;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;</h4></section><section id="tymethod.MakeLeaf" class="method"><h4 class="code-header">fn <a href="#tymethod.MakeLeaf" class="fn">MakeLeaf</a>(
     &amp;self,
     pszpropertyname: &amp;PCWSTR,
@@ -53,7 +53,7 @@
     ppropertynameterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
     poperationterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
     pvalueterm: Ref&lt;'_, <a class="struct" href="struct.IRichChunk.html" title="struct windows::Win32::System::Search::IRichChunk">IRichChunk</a>&gt;,
-    fexpand: <a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>,
+    fexpand: BOOL,
 ) -&gt; Result&lt;<a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;</h4></section><section id="tymethod.Resolve" class="method"><h4 class="code-header">fn <a href="#tymethod.Resolve" class="fn">Resolve</a>(
     &amp;self,
     pc: Ref&lt;'_, <a class="struct" href="struct.ICondition.html" title="struct windows::Win32::System::Search::ICondition">ICondition</a>&gt;,

@@ -5,14 +5,14 @@
   href="https://microsoft.github.io/windows-docs-rs/opensearch.xml"
 />
 
-</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.59.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">ID2D1<wbr>Geometry_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CombineWithGeometry" title="CombineWithGeometry">CombineWithGeometry</a></li><li><a href="#tymethod.CompareWithGeometry" title="CompareWithGeometry">CompareWithGeometry</a></li><li><a href="#tymethod.ComputeArea" title="ComputeArea">ComputeArea</a></li><li><a href="#tymethod.ComputeLength" title="ComputeLength">ComputeLength</a></li><li><a href="#tymethod.ComputePointAtLength" title="ComputePointAtLength">ComputePointAtLength</a></li><li><a href="#tymethod.FillContainsPoint" title="FillContainsPoint">FillContainsPoint</a></li><li><a href="#tymethod.GetBounds" title="GetBounds">GetBounds</a></li><li><a href="#tymethod.GetWidenedBounds" title="GetWidenedBounds">GetWidenedBounds</a></li><li><a href="#tymethod.Outline" title="Outline">Outline</a></li><li><a href="#tymethod.Simplify" title="Simplify">Simplify</a></li><li><a href="#tymethod.StrokeContainsPoint" title="StrokeContainsPoint">StrokeContainsPoint</a></li><li><a href="#tymethod.Tessellate" title="Tessellate">Tessellate</a></li><li><a href="#tymethod.Widen" title="Widen">Widen</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Graphics::<wbr>Direct2D</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Graphics</a>::<wbr><a href="index.html">Direct2D</a></span><h1>Trait <span class="trait">ID2D1Geometry_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait ID2D1Geometry_Impl: <a class="trait" href="trait.ID2D1Resource_Impl.html" title="trait windows::Win32::Graphics::Direct2D::ID2D1Resource_Impl">ID2D1Resource_Impl</a> {
+</head><body class="rustdoc trait"><!--[if lte IE 11]><div class="warning">This old browser is unsupported and will most likely display funky things.</div><![endif]--><nav class="mobile-topbar"><button class="sidebar-menu-toggle" title="show sidebar"></button></nav><nav class="sidebar"><div class="sidebar-crate"><h2><a href="../../../../windows/index.html">windows</a><span class="version">0.60.0</span></h2></div><div class="sidebar-elems"><section id="rustdoc-toc"><h2 class="location"><a href="#">ID2D1<wbr>Geometry_<wbr>Impl</a></h2><h3><a href="#required-methods">Required Methods</a></h3><ul class="block"><li><a href="#tymethod.CombineWithGeometry" title="CombineWithGeometry">CombineWithGeometry</a></li><li><a href="#tymethod.CompareWithGeometry" title="CompareWithGeometry">CompareWithGeometry</a></li><li><a href="#tymethod.ComputeArea" title="ComputeArea">ComputeArea</a></li><li><a href="#tymethod.ComputeLength" title="ComputeLength">ComputeLength</a></li><li><a href="#tymethod.ComputePointAtLength" title="ComputePointAtLength">ComputePointAtLength</a></li><li><a href="#tymethod.FillContainsPoint" title="FillContainsPoint">FillContainsPoint</a></li><li><a href="#tymethod.GetBounds" title="GetBounds">GetBounds</a></li><li><a href="#tymethod.GetWidenedBounds" title="GetWidenedBounds">GetWidenedBounds</a></li><li><a href="#tymethod.Outline" title="Outline">Outline</a></li><li><a href="#tymethod.Simplify" title="Simplify">Simplify</a></li><li><a href="#tymethod.StrokeContainsPoint" title="StrokeContainsPoint">StrokeContainsPoint</a></li><li><a href="#tymethod.Tessellate" title="Tessellate">Tessellate</a></li><li><a href="#tymethod.Widen" title="Widen">Widen</a></li></ul><h3><a href="#dyn-compatibility">Dyn Compatibility</a></h3><h3><a href="#implementors">Implementors</a></h3></section><div id="rustdoc-modnav"><h2><a href="index.html">In windows::<wbr>Win32::<wbr>Graphics::<wbr>Direct2D</a></h2></div></div></nav><div class="sidebar-resizer"></div><main><div class="width-limiter"><rustdoc-search></rustdoc-search><section id="main-content" class="content"><div class="main-heading"><span class="rustdoc-breadcrumbs"><a href="../../../index.html">windows</a>::<wbr><a href="../../index.html">Win32</a>::<wbr><a href="../index.html">Graphics</a>::<wbr><a href="index.html">Direct2D</a></span><h1>Trait <span class="trait">ID2D1Geometry_Impl</span><button id="copy-path" title="Copy item path to clipboard">Copy item path</button></h1><rustdoc-toolbar></rustdoc-toolbar><span class="sub-heading"></span></div><pre class="rust item-decl"><code>pub trait ID2D1Geometry_Impl: <a class="trait" href="trait.ID2D1Resource_Impl.html" title="trait windows::Win32::Graphics::Direct2D::ID2D1Resource_Impl">ID2D1Resource_Impl</a> {
 <details class="toggle type-contents-toggle"><summary class="hideme"><span>Show 13 methods</span></summary>    // Required methods
-    fn <a href="#tymethod.GetBounds" class="fn">GetBounds</a>(&amp;self, worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>) -&gt; Result&lt;<a class="struct" href="Common/struct.D2D_RECT_F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_RECT_F">D2D_RECT_F</a>&gt;;
+    fn <a href="#tymethod.GetBounds" class="fn">GetBounds</a>(&amp;self, worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2) -&gt; Result&lt;<a class="struct" href="Common/struct.D2D_RECT_F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_RECT_F">D2D_RECT_F</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.GetWidenedBounds" class="fn">GetWidenedBounds</a>(
         &amp;self,
         strokewidth: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         strokestyle: Ref&lt;'_, <a class="struct" href="struct.ID2D1StrokeStyle.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1StrokeStyle">ID2D1StrokeStyle</a>&gt;,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     ) -&gt; Result&lt;<a class="struct" href="Common/struct.D2D_RECT_F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_RECT_F">D2D_RECT_F</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.StrokeContainsPoint" class="fn">StrokeContainsPoint</a>(
@@ -20,31 +20,31 @@
         point: &amp;<a class="struct" href="Common/struct.D2D_POINT_2F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_POINT_2F">D2D_POINT_2F</a>,
         strokewidth: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         strokestyle: Ref&lt;'_, <a class="struct" href="struct.ID2D1StrokeStyle.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1StrokeStyle">ID2D1StrokeStyle</a>&gt;,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
-    ) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;;
+    ) -&gt; Result&lt;BOOL&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.FillContainsPoint" class="fn">FillContainsPoint</a>(
         &amp;self,
         point: &amp;<a class="struct" href="Common/struct.D2D_POINT_2F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_POINT_2F">D2D_POINT_2F</a>,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
-    ) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;;
+    ) -&gt; Result&lt;BOOL&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.CompareWithGeometry" class="fn">CompareWithGeometry</a>(
         &amp;self,
         inputgeometry: Ref&lt;'_, <a class="struct" href="struct.ID2D1Geometry.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1Geometry">ID2D1Geometry</a>&gt;,
-        inputgeometrytransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        inputgeometrytransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     ) -&gt; Result&lt;<a class="struct" href="struct.D2D1_GEOMETRY_RELATION.html" title="struct windows::Win32::Graphics::Direct2D::D2D1_GEOMETRY_RELATION">D2D1_GEOMETRY_RELATION</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Simplify" class="fn">Simplify</a>(
         &amp;self,
         simplificationoption: <a class="struct" href="struct.D2D1_GEOMETRY_SIMPLIFICATION_OPTION.html" title="struct windows::Win32::Graphics::Direct2D::D2D1_GEOMETRY_SIMPLIFICATION_OPTION">D2D1_GEOMETRY_SIMPLIFICATION_OPTION</a>,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         geometrysink: Ref&lt;'_, <a class="struct" href="Common/struct.ID2D1SimplifiedGeometrySink.html" title="struct windows::Win32::Graphics::Direct2D::Common::ID2D1SimplifiedGeometrySink">ID2D1SimplifiedGeometrySink</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Tessellate" class="fn">Tessellate</a>(
         &amp;self,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         tessellationsink: Ref&lt;'_, <a class="struct" href="struct.ID2D1TessellationSink.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1TessellationSink">ID2D1TessellationSink</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
@@ -52,30 +52,30 @@
         &amp;self,
         inputgeometry: Ref&lt;'_, <a class="struct" href="struct.ID2D1Geometry.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1Geometry">ID2D1Geometry</a>&gt;,
         combinemode: <a class="struct" href="struct.D2D1_COMBINE_MODE.html" title="struct windows::Win32::Graphics::Direct2D::D2D1_COMBINE_MODE">D2D1_COMBINE_MODE</a>,
-        inputgeometrytransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        inputgeometrytransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         geometrysink: Ref&lt;'_, <a class="struct" href="Common/struct.ID2D1SimplifiedGeometrySink.html" title="struct windows::Win32::Graphics::Direct2D::Common::ID2D1SimplifiedGeometrySink">ID2D1SimplifiedGeometrySink</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.Outline" class="fn">Outline</a>(
         &amp;self,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         geometrysink: Ref&lt;'_, <a class="struct" href="Common/struct.ID2D1SimplifiedGeometrySink.html" title="struct windows::Win32::Graphics::Direct2D::Common::ID2D1SimplifiedGeometrySink">ID2D1SimplifiedGeometrySink</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ComputeArea" class="fn">ComputeArea</a>(
         &amp;self,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ComputeLength" class="fn">ComputeLength</a>(
         &amp;self,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>&gt;;
 <span class="item-spacer"></span>    fn <a href="#tymethod.ComputePointAtLength" class="fn">ComputePointAtLength</a>(
         &amp;self,
         length: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         point: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="Common/struct.D2D_POINT_2F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_POINT_2F">D2D_POINT_2F</a>,
         unittangentvector: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="Common/struct.D2D_POINT_2F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_POINT_2F">D2D_POINT_2F</a>,
@@ -84,68 +84,68 @@
         &amp;self,
         strokewidth: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         strokestyle: Ref&lt;'_, <a class="struct" href="struct.ID2D1StrokeStyle.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1StrokeStyle">ID2D1StrokeStyle</a>&gt;,
-        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+        worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
         flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
         geometrysink: Ref&lt;'_, <a class="struct" href="Common/struct.ID2D1SimplifiedGeometrySink.html" title="struct windows::Win32::Graphics::Direct2D::Common::ID2D1SimplifiedGeometrySink">ID2D1SimplifiedGeometrySink</a>&gt;,
     ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;;
-</details>}</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.GetBounds" class="method"><h4 class="code-header">fn <a href="#tymethod.GetBounds" class="fn">GetBounds</a>(&amp;self, worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>) -&gt; Result&lt;<a class="struct" href="Common/struct.D2D_RECT_F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_RECT_F">D2D_RECT_F</a>&gt;</h4></section><section id="tymethod.GetWidenedBounds" class="method"><h4 class="code-header">fn <a href="#tymethod.GetWidenedBounds" class="fn">GetWidenedBounds</a>(
+</details>}</code></pre><h2 id="required-methods" class="section-header">Required Methods<a href="#required-methods" class="anchor">§</a></h2><div class="methods"><section id="tymethod.GetBounds" class="method"><h4 class="code-header">fn <a href="#tymethod.GetBounds" class="fn">GetBounds</a>(&amp;self, worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2) -&gt; Result&lt;<a class="struct" href="Common/struct.D2D_RECT_F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_RECT_F">D2D_RECT_F</a>&gt;</h4></section><section id="tymethod.GetWidenedBounds" class="method"><h4 class="code-header">fn <a href="#tymethod.GetWidenedBounds" class="fn">GetWidenedBounds</a>(
     &amp;self,
     strokewidth: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     strokestyle: Ref&lt;'_, <a class="struct" href="struct.ID2D1StrokeStyle.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1StrokeStyle">ID2D1StrokeStyle</a>&gt;,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
 ) -&gt; Result&lt;<a class="struct" href="Common/struct.D2D_RECT_F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_RECT_F">D2D_RECT_F</a>&gt;</h4></section><section id="tymethod.StrokeContainsPoint" class="method"><h4 class="code-header">fn <a href="#tymethod.StrokeContainsPoint" class="fn">StrokeContainsPoint</a>(
     &amp;self,
     point: &amp;<a class="struct" href="Common/struct.D2D_POINT_2F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_POINT_2F">D2D_POINT_2F</a>,
     strokewidth: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     strokestyle: Ref&lt;'_, <a class="struct" href="struct.ID2D1StrokeStyle.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1StrokeStyle">ID2D1StrokeStyle</a>&gt;,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
-) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;</h4></section><section id="tymethod.FillContainsPoint" class="method"><h4 class="code-header">fn <a href="#tymethod.FillContainsPoint" class="fn">FillContainsPoint</a>(
+) -&gt; Result&lt;BOOL&gt;</h4></section><section id="tymethod.FillContainsPoint" class="method"><h4 class="code-header">fn <a href="#tymethod.FillContainsPoint" class="fn">FillContainsPoint</a>(
     &amp;self,
     point: &amp;<a class="struct" href="Common/struct.D2D_POINT_2F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_POINT_2F">D2D_POINT_2F</a>,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
-) -&gt; Result&lt;<a class="struct" href="../../Foundation/struct.BOOL.html" title="struct windows::Win32::Foundation::BOOL">BOOL</a>&gt;</h4></section><section id="tymethod.CompareWithGeometry" class="method"><h4 class="code-header">fn <a href="#tymethod.CompareWithGeometry" class="fn">CompareWithGeometry</a>(
+) -&gt; Result&lt;BOOL&gt;</h4></section><section id="tymethod.CompareWithGeometry" class="method"><h4 class="code-header">fn <a href="#tymethod.CompareWithGeometry" class="fn">CompareWithGeometry</a>(
     &amp;self,
     inputgeometry: Ref&lt;'_, <a class="struct" href="struct.ID2D1Geometry.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1Geometry">ID2D1Geometry</a>&gt;,
-    inputgeometrytransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    inputgeometrytransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
 ) -&gt; Result&lt;<a class="struct" href="struct.D2D1_GEOMETRY_RELATION.html" title="struct windows::Win32::Graphics::Direct2D::D2D1_GEOMETRY_RELATION">D2D1_GEOMETRY_RELATION</a>&gt;</h4></section><section id="tymethod.Simplify" class="method"><h4 class="code-header">fn <a href="#tymethod.Simplify" class="fn">Simplify</a>(
     &amp;self,
     simplificationoption: <a class="struct" href="struct.D2D1_GEOMETRY_SIMPLIFICATION_OPTION.html" title="struct windows::Win32::Graphics::Direct2D::D2D1_GEOMETRY_SIMPLIFICATION_OPTION">D2D1_GEOMETRY_SIMPLIFICATION_OPTION</a>,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     geometrysink: Ref&lt;'_, <a class="struct" href="Common/struct.ID2D1SimplifiedGeometrySink.html" title="struct windows::Win32::Graphics::Direct2D::Common::ID2D1SimplifiedGeometrySink">ID2D1SimplifiedGeometrySink</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Tessellate" class="method"><h4 class="code-header">fn <a href="#tymethod.Tessellate" class="fn">Tessellate</a>(
     &amp;self,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     tessellationsink: Ref&lt;'_, <a class="struct" href="struct.ID2D1TessellationSink.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1TessellationSink">ID2D1TessellationSink</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.CombineWithGeometry" class="method"><h4 class="code-header">fn <a href="#tymethod.CombineWithGeometry" class="fn">CombineWithGeometry</a>(
     &amp;self,
     inputgeometry: Ref&lt;'_, <a class="struct" href="struct.ID2D1Geometry.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1Geometry">ID2D1Geometry</a>&gt;,
     combinemode: <a class="struct" href="struct.D2D1_COMBINE_MODE.html" title="struct windows::Win32::Graphics::Direct2D::D2D1_COMBINE_MODE">D2D1_COMBINE_MODE</a>,
-    inputgeometrytransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    inputgeometrytransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     geometrysink: Ref&lt;'_, <a class="struct" href="Common/struct.ID2D1SimplifiedGeometrySink.html" title="struct windows::Win32::Graphics::Direct2D::Common::ID2D1SimplifiedGeometrySink">ID2D1SimplifiedGeometrySink</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.Outline" class="method"><h4 class="code-header">fn <a href="#tymethod.Outline" class="fn">Outline</a>(
     &amp;self,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     geometrysink: Ref&lt;'_, <a class="struct" href="Common/struct.ID2D1SimplifiedGeometrySink.html" title="struct windows::Win32::Graphics::Direct2D::Common::ID2D1SimplifiedGeometrySink">ID2D1SimplifiedGeometrySink</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section><section id="tymethod.ComputeArea" class="method"><h4 class="code-header">fn <a href="#tymethod.ComputeArea" class="fn">ComputeArea</a>(
     &amp;self,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>&gt;</h4></section><section id="tymethod.ComputeLength" class="method"><h4 class="code-header">fn <a href="#tymethod.ComputeLength" class="fn">ComputeLength</a>(
     &amp;self,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>&gt;</h4></section><section id="tymethod.ComputePointAtLength" class="method"><h4 class="code-header">fn <a href="#tymethod.ComputePointAtLength" class="fn">ComputePointAtLength</a>(
     &amp;self,
     length: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     point: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="Common/struct.D2D_POINT_2F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_POINT_2F">D2D_POINT_2F</a>,
     unittangentvector: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*mut </a><a class="struct" href="Common/struct.D2D_POINT_2F.html" title="struct windows::Win32::Graphics::Direct2D::Common::D2D_POINT_2F">D2D_POINT_2F</a>,
@@ -153,7 +153,7 @@
     &amp;self,
     strokewidth: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     strokestyle: Ref&lt;'_, <a class="struct" href="struct.ID2D1StrokeStyle.html" title="struct windows::Win32::Graphics::Direct2D::ID2D1StrokeStyle">ID2D1StrokeStyle</a>&gt;,
-    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a><a class="struct" href="../../../Foundation/Numerics/struct.Matrix3x2.html" title="struct windows::Foundation::Numerics::Matrix3x2">Matrix3x2</a>,
+    worldtransform: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.pointer.html">*const </a>Matrix3x2,
     flatteningtolerance: <a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.f32.html">f32</a>,
     geometrysink: Ref&lt;'_, <a class="struct" href="Common/struct.ID2D1SimplifiedGeometrySink.html" title="struct windows::Win32::Graphics::Direct2D::Common::ID2D1SimplifiedGeometrySink">ID2D1SimplifiedGeometrySink</a>&gt;,
 ) -&gt; Result&lt;<a class="primitive" href="https://doc.rust-lang.org/nightly/std/primitive.unit.html">()</a>&gt;</h4></section></div><h2 id="dyn-compatibility" class="section-header">Dyn Compatibility<a href="#dyn-compatibility" class="anchor">§</a></h2><div class="dyn-compatibility-info"><p>This trait is <b>not</b> <a href="https://doc.rust-lang.org/nightly/reference/items/traits.html#object-safety">dyn compatible</a>.</p><p><i>In older versions of Rust, dyn compatibility was called "object safety", so this trait is not object safe.</i></p></div><h2 id="implementors" class="section-header">Implementors<a href="#implementors" class="anchor">§</a></h2><div id="implementors-list"></div><script src="../../../../trait.impl/windows/Win32/Graphics/Direct2D/trait.ID2D1Geometry_Impl.js" async></script></section></div></main></body></html>
